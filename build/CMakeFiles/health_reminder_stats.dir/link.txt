@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_reminder_stats.a CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o
+/usr/bin/ranlib libhealth_reminder_stats.a

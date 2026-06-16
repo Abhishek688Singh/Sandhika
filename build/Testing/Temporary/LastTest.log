@@ -1,0 +1,51 @@
+Start testing: Jun 16 12:21 IST
+----------------------------------------------------------
+1/3 Testing: config_manager_test
+1/3 Test: config_manager_test
+Command: "/home/abhishek/game/hrm/build/config_manager_test"
+Directory: /home/abhishek/game/hrm/build
+"config_manager_test" start time: Jun 16 12:21 IST
+Output:
+----------------------------------------------------------
+All ConfigManager tests passed
+<end of output>
+Test time =   0.60 sec
+----------------------------------------------------------
+Test Passed.
+"config_manager_test" end time: Jun 16 12:21 IST
+"config_manager_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: reminder_scheduler_test
+2/3 Test: reminder_scheduler_test
+Command: "/home/abhishek/game/hrm/build/reminder_scheduler_test"
+Directory: /home/abhishek/game/hrm/build
+"reminder_scheduler_test" start time: Jun 16 12:21 IST
+Output:
+----------------------------------------------------------
+All ReminderScheduler tests passed
+<end of output>
+Test time =   6.01 sec
+----------------------------------------------------------
+Test Passed.
+"reminder_scheduler_test" end time: Jun 16 12:21 IST
+"reminder_scheduler_test" time elapsed: 00:00:06
+----------------------------------------------------------
+
+3/3 Testing: stats_manager_test
+3/3 Test: stats_manager_test
+Command: "/home/abhishek/game/hrm/build/stats_manager_test"
+Directory: /home/abhishek/game/hrm/build
+"stats_manager_test" start time: Jun 16 12:21 IST
+Output:
+----------------------------------------------------------
+All StatsManager tests passed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"stats_manager_test" end time: Jun 16 12:21 IST
+"stats_manager_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 12:21 IST

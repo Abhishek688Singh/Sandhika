@@ -1,0 +1,48 @@
+eye_break:
+  enabled: true
+  interval: 20m
+  duration: 20s
+  strict_mode: false
+  skip_unlock: 60s
+  sound: true
+
+water:
+  enabled: true
+  interval: 1h
+  sound: true
+
+custom:
+  - name: "Check Posture"
+    interval: 30m
+    message: "Sit straight"
+    sound: true
+    icon: posture
+    command: "playerctl pause"
+
+  - name: "Lunch"
+    at: "13:00"
+    message: "Take lunch"
+
+  - name: "Weekly Review"
+    weekday: Sunday
+    at: "18:00"
+    message: "Review goals"
+
+  - name: "Pay Electricity Bill"
+    day: 1
+    at: "10:00"
+    message: "Pay bill"
+
+quiet_hours:
+  enabled: true
+  start: "23:00"
+  end: "07:00"
+
+weekend:
+  eye_break:
+    enabled: false
+  water:
+    enabled: true
+
+battery:
+  low_threshold: 15
