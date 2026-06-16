@@ -13,6 +13,8 @@ void processCommand(const QString& cmd, app::ApplicationController& controller) 
     else if (cmd == "pause 1h") controller.pause(std::chrono::hours(1));
     else if (cmd == "resume") controller.resume();
     else if (cmd == "reload") controller.reloadConfig();
+    else if (cmd == "media on") controller.setMediaMode(true);
+    else if (cmd == "media off") controller.setMediaMode(false);
     else if (cmd == "status") std::cout << "Daemon is running.\n";
     else if (cmd == "stats") std::cout << "Check dashboard.\n";
     // For export/import/profile we'd implement it here.

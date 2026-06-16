@@ -1,18 +1,18 @@
-Start testing: Jun 16 13:22 IST
+Start testing: Jun 16 13:28 IST
 ----------------------------------------------------------
 1/7 Testing: config_manager_test
 1/7 Test: config_manager_test
 Command: "/home/abhishek/game/hrm/build/config_manager_test"
 Directory: /home/abhishek/game/hrm/build
-"config_manager_test" start time: Jun 16 13:22 IST
+"config_manager_test" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 All ConfigManager tests passed
 <end of output>
-Test time =   0.14 sec
+Test time =   0.42 sec
 ----------------------------------------------------------
 Test Passed.
-"config_manager_test" end time: Jun 16 13:22 IST
+"config_manager_test" end time: Jun 16 13:28 IST
 "config_manager_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -20,15 +20,15 @@ Test Passed.
 2/7 Test: reminder_scheduler_test
 Command: "/home/abhishek/game/hrm/build/reminder_scheduler_test"
 Directory: /home/abhishek/game/hrm/build
-"reminder_scheduler_test" start time: Jun 16 13:22 IST
+"reminder_scheduler_test" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 All ReminderScheduler tests passed
 <end of output>
-Test time =   6.01 sec
+Test time =   6.00 sec
 ----------------------------------------------------------
 Test Passed.
-"reminder_scheduler_test" end time: Jun 16 13:22 IST
+"reminder_scheduler_test" end time: Jun 16 13:28 IST
 "reminder_scheduler_test" time elapsed: 00:00:06
 ----------------------------------------------------------
 
@@ -36,15 +36,15 @@ Test Passed.
 3/7 Test: stats_manager_test
 Command: "/home/abhishek/game/hrm/build/stats_manager_test"
 Directory: /home/abhishek/game/hrm/build
-"stats_manager_test" start time: Jun 16 13:22 IST
+"stats_manager_test" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 All StatsManager tests passed
 <end of output>
-Test time =   0.03 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"stats_manager_test" end time: Jun 16 13:22 IST
+"stats_manager_test" end time: Jun 16 13:28 IST
 "stats_manager_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -52,15 +52,15 @@ Test Passed.
 4/7 Test: command_executor_test
 Command: "/home/abhishek/game/hrm/build/command_executor_test"
 Directory: /home/abhishek/game/hrm/build
-"command_executor_test" start time: Jun 16 13:22 IST
+"command_executor_test" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 CommandExecutor tests passed
 <end of output>
-Test time =   0.18 sec
+Test time =   0.16 sec
 ----------------------------------------------------------
 Test Passed.
-"command_executor_test" end time: Jun 16 13:22 IST
+"command_executor_test" end time: Jun 16 13:28 IST
 "command_executor_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,7 +68,7 @@ Test Passed.
 5/7 Test: idle_detector_test
 Command: "/home/abhishek/game/hrm/build/idle_detector_test"
 Directory: /home/abhishek/game/hrm/build
-"idle_detector_test" start time: Jun 16 13:22 IST
+"idle_detector_test" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 IdleDetector tests passed
@@ -76,7 +76,7 @@ IdleDetector tests passed
 Test time =   1.10 sec
 ----------------------------------------------------------
 Test Passed.
-"idle_detector_test" end time: Jun 16 13:22 IST
+"idle_detector_test" end time: Jun 16 13:28 IST
 "idle_detector_test" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -84,7 +84,7 @@ Test Passed.
 6/7 Test: health_score_test
 Command: "/home/abhishek/game/hrm/build/health_score_test"
 Directory: /home/abhishek/game/hrm/build
-"health_score_test" start time: Jun 16 13:22 IST
+"health_score_test" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 HealthScoreCalculator tests passed
@@ -92,7 +92,7 @@ HealthScoreCalculator tests passed
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"health_score_test" end time: Jun 16 13:22 IST
+"health_score_test" end time: Jun 16 13:28 IST
 "health_score_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -100,16 +100,16 @@ Test Passed.
 7/7 Test: gui_tests
 Command: "/home/abhishek/game/hrm/build/gui_tests"
 Directory: /home/abhishek/game/hrm/build
-"gui_tests" start time: Jun 16 13:22 IST
+"gui_tests" start time: Jun 16 13:28 IST
 Output:
 ----------------------------------------------------------
 GUI tests passed
 <end of output>
-Test time =   0.08 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"gui_tests" end time: Jun 16 13:22 IST
+"gui_tests" end time: Jun 16 13:28 IST
 "gui_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 16 13:22 IST
+End testing: Jun 16 13:28 IST

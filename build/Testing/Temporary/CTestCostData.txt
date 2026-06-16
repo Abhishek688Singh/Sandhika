@@ -1,8 +1,8 @@
-config_manager_test 1 0.136914
-reminder_scheduler_test 1 6.00627
-stats_manager_test 1 0.03354
-command_executor_test 1 0.184261
-idle_detector_test 1 1.10379
-health_score_test 1 0.00299681
-gui_tests 1 0.0826209
+config_manager_test 2 0.208445
+reminder_scheduler_test 2 3.00134
+stats_manager_test 2 0.00569844
+command_executor_test 2 0.0805143
+idle_detector_test 2 0.551128
+health_score_test 2 0.000999029
+gui_tests 2 0.0251161
 ---

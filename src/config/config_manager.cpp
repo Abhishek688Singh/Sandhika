@@ -225,6 +225,22 @@ template <typename T>
     return config;
 }
 
+[[nodiscard]] FullscreenConfig parse_fullscreen(const YAML::Node& root) {
+    FullscreenConfig config;
+    const YAML::Node fs = root["fullscreen"];
+    if (!fs) {
+        return config;
+    }
+    const YAML::Node apps = fs["suppress_apps"];
+    if (apps && apps.IsSequence()) {
+        config.suppress_apps.clear();
+        for (std::size_t i = 0; i < apps.size(); ++i) {
+            config.suppress_apps.push_back(parse_scalar_string(apps[i], "fullscreen.suppress_apps"));
+        }
+    }
+    return config;
+}
+
 [[nodiscard]] CustomReminderConfig parse_custom_reminder(const YAML::Node& node, std::size_t index) {
     if (!node || !node.IsMap()) {
         throw ConfigError("custom[" + std::to_string(index) + "] must be a map");
@@ -377,6 +393,7 @@ void ConfigManager::reload() {
     QuietHoursConfig quiet_hours;
     WeekendConfig weekend;
     BatteryConfig battery;
+    FullscreenConfig fullscreen;
     try {
         eye_break = parse_eye_break(root);
         water = parse_water(root);
@@ -384,6 +401,7 @@ void ConfigManager::reload() {
         quiet_hours = parse_quiet_hours(root);
         weekend = parse_weekend(root);
         battery = parse_battery(root);
+        fullscreen = parse_fullscreen(root);
     } catch (const YAML::Exception& ex) {
         throw ConfigError("Invalid YAML value in config file '" + absolute_path.string() + "': " + ex.what());
     }
@@ -395,6 +413,7 @@ void ConfigManager::reload() {
     quiet_hours_ = quiet_hours;
     weekend_config_ = weekend;
     battery_config_ = battery;
+    fullscreen_config_ = fullscreen;
 }
 
 EyeBreakConfig ConfigManager::getEyeBreakConfig() const {
@@ -425,6 +444,11 @@ WeekendConfig ConfigManager::getWeekendConfig() const {
 BatteryConfig ConfigManager::getBatteryConfig() const {
     std::shared_lock lock(mutex_);
     return battery_config_;
+}
+
+FullscreenConfig ConfigManager::getFullscreenConfig() const {
+    std::shared_lock lock(mutex_);
+    return fullscreen_config_;
 }
 
 }  // namespace health_reminder::config

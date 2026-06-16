@@ -36,6 +36,7 @@ public:
     [[nodiscard]] QuietHoursConfig getQuietHours() const;
     [[nodiscard]] WeekendConfig getWeekendConfig() const;
     [[nodiscard]] BatteryConfig getBatteryConfig() const;
+    [[nodiscard]] FullscreenConfig getFullscreenConfig() const;
 
 private:
     std::filesystem::path config_path_;
@@ -46,6 +47,7 @@ private:
     QuietHoursConfig quiet_hours_;
     WeekendConfig weekend_config_;
     BatteryConfig battery_config_;
+    FullscreenConfig fullscreen_config_;
 
     mutable std::shared_mutex mutex_;
 };

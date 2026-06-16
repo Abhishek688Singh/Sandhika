@@ -32,6 +32,7 @@ public:
     void resume();
     void reloadConfig();
     void showDashboard();
+    void setMediaMode(bool active);
 
 private slots:
     void handleReminders();

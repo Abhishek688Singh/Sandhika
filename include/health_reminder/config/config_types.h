@@ -63,6 +63,12 @@ struct BatteryConfig {
     int low_threshold {15};
 };
 
+struct FullscreenConfig {
+    std::vector<std::string> suppress_apps {
+        "chrome", "chromium", "firefox", "vlc", "mpv", "steam"
+    };
+};
+
 struct CustomReminderConfig {
     ReminderScheduleType schedule_type {ReminderScheduleType::Interval};
     std::string name;
