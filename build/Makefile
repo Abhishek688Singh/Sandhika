@@ -401,6 +401,19 @@ gui_tests/fast:
 .PHONY : gui_tests/fast
 
 #=============================================================================
+# Target rules for targets named fullscreen_detector_test
+
+# Build rule for target.
+fullscreen_detector_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fullscreen_detector_test
+.PHONY : fullscreen_detector_test
+
+# fast build rule for target.
+fullscreen_detector_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/build
+.PHONY : fullscreen_detector_test/fast
+
+#=============================================================================
 # Target rules for targets named health_reminder_config_autogen_timestamp_deps
 
 # Build rule for target.
@@ -945,6 +958,32 @@ gui_tests_autogen: cmake_check_build_system
 gui_tests_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests_autogen.dir/build.make CMakeFiles/gui_tests_autogen.dir/build
 .PHONY : gui_tests_autogen/fast
+
+#=============================================================================
+# Target rules for targets named fullscreen_detector_test_autogen_timestamp_deps
+
+# Build rule for target.
+fullscreen_detector_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fullscreen_detector_test_autogen_timestamp_deps
+.PHONY : fullscreen_detector_test_autogen_timestamp_deps
+
+# fast build rule for target.
+fullscreen_detector_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build
+.PHONY : fullscreen_detector_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named fullscreen_detector_test_autogen
+
+# Build rule for target.
+fullscreen_detector_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fullscreen_detector_test_autogen
+.PHONY : fullscreen_detector_test_autogen
+
+# fast build rule for target.
+fullscreen_detector_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen.dir/build.make CMakeFiles/fullscreen_detector_test_autogen.dir/build
+.PHONY : fullscreen_detector_test_autogen/fast
 
 #=============================================================================
 # Target rules for targets named Experimental
@@ -1513,6 +1552,30 @@ config_manager_test_autogen/mocs_compilation.s: config_manager_test_autogen/mocs
 config_manager_test_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.s
 .PHONY : config_manager_test_autogen/mocs_compilation.cpp.s
+
+fullscreen_detector_test_autogen/mocs_compilation.o: fullscreen_detector_test_autogen/mocs_compilation.cpp.o
+.PHONY : fullscreen_detector_test_autogen/mocs_compilation.o
+
+# target to build an object file
+fullscreen_detector_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/fullscreen_detector_test_autogen/mocs_compilation.cpp.o
+.PHONY : fullscreen_detector_test_autogen/mocs_compilation.cpp.o
+
+fullscreen_detector_test_autogen/mocs_compilation.i: fullscreen_detector_test_autogen/mocs_compilation.cpp.i
+.PHONY : fullscreen_detector_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+fullscreen_detector_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/fullscreen_detector_test_autogen/mocs_compilation.cpp.i
+.PHONY : fullscreen_detector_test_autogen/mocs_compilation.cpp.i
+
+fullscreen_detector_test_autogen/mocs_compilation.s: fullscreen_detector_test_autogen/mocs_compilation.cpp.s
+.PHONY : fullscreen_detector_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+fullscreen_detector_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/fullscreen_detector_test_autogen/mocs_compilation.cpp.s
+.PHONY : fullscreen_detector_test_autogen/mocs_compilation.cpp.s
 
 gui_tests_autogen/mocs_compilation.o: gui_tests_autogen/mocs_compilation.cpp.o
 .PHONY : gui_tests_autogen/mocs_compilation.o
@@ -2378,6 +2441,30 @@ tests/config_manager_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.s
 .PHONY : tests/config_manager_test.cpp.s
 
+tests/fullscreen_detector_test.o: tests/fullscreen_detector_test.cpp.o
+.PHONY : tests/fullscreen_detector_test.o
+
+# target to build an object file
+tests/fullscreen_detector_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/tests/fullscreen_detector_test.cpp.o
+.PHONY : tests/fullscreen_detector_test.cpp.o
+
+tests/fullscreen_detector_test.i: tests/fullscreen_detector_test.cpp.i
+.PHONY : tests/fullscreen_detector_test.i
+
+# target to preprocess a source file
+tests/fullscreen_detector_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/tests/fullscreen_detector_test.cpp.i
+.PHONY : tests/fullscreen_detector_test.cpp.i
+
+tests/fullscreen_detector_test.s: tests/fullscreen_detector_test.cpp.s
+.PHONY : tests/fullscreen_detector_test.s
+
+# target to generate assembly for a file
+tests/fullscreen_detector_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/tests/fullscreen_detector_test.cpp.s
+.PHONY : tests/fullscreen_detector_test.cpp.s
+
 tests/gui_tests.o: tests/gui_tests.cpp.o
 .PHONY : tests/gui_tests.o
 
@@ -2539,6 +2626,8 @@ help:
 	@echo "... command_executor_test_autogen_timestamp_deps"
 	@echo "... config_manager_test_autogen"
 	@echo "... config_manager_test_autogen_timestamp_deps"
+	@echo "... fullscreen_detector_test_autogen"
+	@echo "... fullscreen_detector_test_autogen_timestamp_deps"
 	@echo "... gui_tests_autogen"
 	@echo "... gui_tests_autogen_timestamp_deps"
 	@echo "... health-reminder_autogen"
@@ -2587,6 +2676,7 @@ help:
 	@echo "... yaml-cpp_autogen_timestamp_deps"
 	@echo "... command_executor_test"
 	@echo "... config_manager_test"
+	@echo "... fullscreen_detector_test"
 	@echo "... gui_tests"
 	@echo "... health-reminder"
 	@echo "... health_reminder_app"
@@ -2616,6 +2706,9 @@ help:
 	@echo "... config_manager_test_autogen/mocs_compilation.o"
 	@echo "... config_manager_test_autogen/mocs_compilation.i"
 	@echo "... config_manager_test_autogen/mocs_compilation.s"
+	@echo "... fullscreen_detector_test_autogen/mocs_compilation.o"
+	@echo "... fullscreen_detector_test_autogen/mocs_compilation.i"
+	@echo "... fullscreen_detector_test_autogen/mocs_compilation.s"
 	@echo "... gui_tests_autogen/mocs_compilation.o"
 	@echo "... gui_tests_autogen/mocs_compilation.i"
 	@echo "... gui_tests_autogen/mocs_compilation.s"
@@ -2724,6 +2817,9 @@ help:
 	@echo "... tests/config_manager_test.o"
 	@echo "... tests/config_manager_test.i"
 	@echo "... tests/config_manager_test.s"
+	@echo "... tests/fullscreen_detector_test.o"
+	@echo "... tests/fullscreen_detector_test.i"
+	@echo "... tests/fullscreen_detector_test.s"
 	@echo "... tests/gui_tests.o"
 	@echo "... tests/gui_tests.i"
 	@echo "... tests/gui_tests.s"

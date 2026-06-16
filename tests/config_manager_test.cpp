@@ -138,6 +138,11 @@ weekend:
 
 battery:
   low_threshold: 15
+
+fullscreen:
+  suppress_apps:
+    - firefox
+    - code
 )YAML";
 
     TempFile file(yaml);
@@ -171,6 +176,11 @@ battery:
 
     const auto battery = manager.getBatteryConfig();
     assert_true(battery.low_threshold == 15, "battery.low_threshold mismatch");
+
+    const auto fullscreen = manager.getFullscreenConfig();
+    assert_true(fullscreen.suppress_apps.size() == 2, "fullscreen.suppress_apps count mismatch");
+    assert_true(fullscreen.suppress_apps[0] == "firefox", "fullscreen.suppress_apps[0] mismatch");
+    assert_true(fullscreen.suppress_apps[1] == "code", "fullscreen.suppress_apps[1] mismatch");
 }
 
 void test_rejects_invalid_duration() {

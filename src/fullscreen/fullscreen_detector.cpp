@@ -1,5 +1,5 @@
 #include "health_reminder/fullscreen/fullscreen_detector.h"
-
+#include <iostream>
 #include <array>
 #include <cstdio>
 #include <string>
@@ -133,6 +133,13 @@ void FullscreenDetector::run(std::stop_token stop_token) {
     std::unique_lock lock(mutex_);
     while (!stop_token.stop_requested()) {
         FullscreenSnapshot next = queryProvider();
+        std::cout
+    << "Fullscreen="
+    << next.fullscreen
+    << " class="
+    << next.window_class
+    << std::endl;
+
         Callback callback;
         bool changed = false;
         if (next.fullscreen != snapshot_.fullscreen || next.window_class != snapshot_.window_class) {
@@ -150,6 +157,53 @@ void FullscreenDetector::run(std::stop_token stop_token) {
     }
 }
 
+class GnomeWaylandProvider : public FullscreenProvider {
+public:
+    std::optional<FullscreenSnapshot> query() override {
+        auto fs_output = run_command("gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval \"global.display.get_focus_window() ? global.display.get_focus_window().is_fullscreen() : false\" 2>/dev/null");
+        if (!fs_output || (fs_output->find("true") == std::string::npos && fs_output->find("false") == std::string::npos)) {
+            return std::nullopt;
+        }
+
+        FullscreenSnapshot snapshot;
+        snapshot.fullscreen = (fs_output->find("true") != std::string::npos);
+
+        auto class_output = run_command("gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval \"global.display.get_focus_window() ? global.display.get_focus_window().get_wm_class() : ''\" 2>/dev/null");
+        if (class_output) {
+            auto start = class_output->find('"');
+            if (start != std::string::npos) {
+                auto end = class_output->rfind('"');
+                if (end != std::string::npos && end > start) {
+                    snapshot.window_class = class_output->substr(start + 1, end - start - 1);
+                }
+            }
+        }
+        return snapshot;
+    }
+};
+
+class ForegroundApplicationDetector {
+public:
+    ForegroundApplicationDetector() {
+        const char* type = std::getenv("XDG_SESSION_TYPE");
+        is_wayland_ = (type && std::string(type) == "wayland");
+    }
+
+    std::optional<FullscreenSnapshot> detect() {
+        if (is_wayland_) {
+            GnomeWaylandProvider gnome;
+            if (auto snap = gnome.query()) {
+                return snap;
+            }
+        }
+        XPropFullscreenProvider xprop;
+        return xprop.query();
+    }
+
+private:
+    bool is_wayland_ {false};
+};
+
 FullscreenSnapshot FullscreenDetector::queryProvider() {
     if (provider_) {
         const auto snapshot = provider_->query();
@@ -158,7 +212,8 @@ FullscreenSnapshot FullscreenDetector::queryProvider() {
         }
     }
 
-    auto snapshot = XPropFullscreenProvider {}.query();
+    ForegroundApplicationDetector detector;
+    auto snapshot = detector.detect();
     return snapshot.value_or(FullscreenSnapshot {});
 }
 

@@ -66,20 +66,20 @@ include CMakeFiles/health-reminder_autogen_timestamp_deps.dir/compiler_depend.ma
 # Include the progress variables for this target.
 include CMakeFiles/health-reminder_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/health-reminder_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_fullscreen.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_health.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_idle.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_strict.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_commands.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_stats.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_config.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_brightness.a
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_notifications.a
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_tray.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_dashboard.a
-CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_config.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_stats.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_idle.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_strict.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_commands.a
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_scheduler.a
+CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_dashboard.a
 CMakeFiles/health-reminder_autogen_timestamp_deps: libhealth_reminder_app.a
 
 health-reminder_autogen_timestamp_deps: CMakeFiles/health-reminder_autogen_timestamp_deps

@@ -66,9 +66,9 @@ include CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/compiler_depend
 # Include the progress variables for this target.
 include CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/progress.make
 
+CMakeFiles/stats_manager_test_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/stats_manager_test_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/stats_manager_test_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/stats_manager_test_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/stats_manager_test_autogen_timestamp_deps: libhealth_reminder_stats.a
 
 stats_manager_test_autogen_timestamp_deps: CMakeFiles/stats_manager_test_autogen_timestamp_deps

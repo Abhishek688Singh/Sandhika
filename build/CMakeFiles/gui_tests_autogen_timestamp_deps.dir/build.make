@@ -66,16 +66,16 @@ include CMakeFiles/gui_tests_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/gui_tests_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
-CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_strict.a
+CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
-CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_stats.a
 CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_brightness.a
 CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_notifications.a
+CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_stats.a
+CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_strict.a
 CMakeFiles/gui_tests_autogen_timestamp_deps: libhealth_reminder_dashboard.a
 
 gui_tests_autogen_timestamp_deps: CMakeFiles/gui_tests_autogen_timestamp_deps

@@ -1,26 +1,26 @@
-Start testing: Jun 16 13:28 IST
+Start testing: Jun 16 13:55 IST
 ----------------------------------------------------------
-1/7 Testing: config_manager_test
-1/7 Test: config_manager_test
+1/8 Testing: config_manager_test
+1/8 Test: config_manager_test
 Command: "/home/abhishek/game/hrm/build/config_manager_test"
 Directory: /home/abhishek/game/hrm/build
-"config_manager_test" start time: Jun 16 13:28 IST
+"config_manager_test" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 All ConfigManager tests passed
 <end of output>
-Test time =   0.42 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"config_manager_test" end time: Jun 16 13:28 IST
+"config_manager_test" end time: Jun 16 13:55 IST
 "config_manager_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/7 Testing: reminder_scheduler_test
-2/7 Test: reminder_scheduler_test
+2/8 Testing: reminder_scheduler_test
+2/8 Test: reminder_scheduler_test
 Command: "/home/abhishek/game/hrm/build/reminder_scheduler_test"
 Directory: /home/abhishek/game/hrm/build
-"reminder_scheduler_test" start time: Jun 16 13:28 IST
+"reminder_scheduler_test" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 All ReminderScheduler tests passed
@@ -28,15 +28,15 @@ All ReminderScheduler tests passed
 Test time =   6.00 sec
 ----------------------------------------------------------
 Test Passed.
-"reminder_scheduler_test" end time: Jun 16 13:28 IST
+"reminder_scheduler_test" end time: Jun 16 13:55 IST
 "reminder_scheduler_test" time elapsed: 00:00:06
 ----------------------------------------------------------
 
-3/7 Testing: stats_manager_test
-3/7 Test: stats_manager_test
+3/8 Testing: stats_manager_test
+3/8 Test: stats_manager_test
 Command: "/home/abhishek/game/hrm/build/stats_manager_test"
 Directory: /home/abhishek/game/hrm/build
-"stats_manager_test" start time: Jun 16 13:28 IST
+"stats_manager_test" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 All StatsManager tests passed
@@ -44,15 +44,15 @@ All StatsManager tests passed
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"stats_manager_test" end time: Jun 16 13:28 IST
+"stats_manager_test" end time: Jun 16 13:55 IST
 "stats_manager_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/7 Testing: command_executor_test
-4/7 Test: command_executor_test
+4/8 Testing: command_executor_test
+4/8 Test: command_executor_test
 Command: "/home/abhishek/game/hrm/build/command_executor_test"
 Directory: /home/abhishek/game/hrm/build
-"command_executor_test" start time: Jun 16 13:28 IST
+"command_executor_test" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 CommandExecutor tests passed
@@ -60,15 +60,15 @@ CommandExecutor tests passed
 Test time =   0.16 sec
 ----------------------------------------------------------
 Test Passed.
-"command_executor_test" end time: Jun 16 13:28 IST
+"command_executor_test" end time: Jun 16 13:55 IST
 "command_executor_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/7 Testing: idle_detector_test
-5/7 Test: idle_detector_test
+5/8 Testing: idle_detector_test
+5/8 Test: idle_detector_test
 Command: "/home/abhishek/game/hrm/build/idle_detector_test"
 Directory: /home/abhishek/game/hrm/build
-"idle_detector_test" start time: Jun 16 13:28 IST
+"idle_detector_test" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 IdleDetector tests passed
@@ -76,15 +76,15 @@ IdleDetector tests passed
 Test time =   1.10 sec
 ----------------------------------------------------------
 Test Passed.
-"idle_detector_test" end time: Jun 16 13:28 IST
+"idle_detector_test" end time: Jun 16 13:55 IST
 "idle_detector_test" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-6/7 Testing: health_score_test
-6/7 Test: health_score_test
+6/8 Testing: health_score_test
+6/8 Test: health_score_test
 Command: "/home/abhishek/game/hrm/build/health_score_test"
 Directory: /home/abhishek/game/hrm/build
-"health_score_test" start time: Jun 16 13:28 IST
+"health_score_test" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 HealthScoreCalculator tests passed
@@ -92,24 +92,40 @@ HealthScoreCalculator tests passed
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"health_score_test" end time: Jun 16 13:28 IST
+"health_score_test" end time: Jun 16 13:55 IST
 "health_score_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/7 Testing: gui_tests
-7/7 Test: gui_tests
+7/8 Testing: gui_tests
+7/8 Test: gui_tests
 Command: "/home/abhishek/game/hrm/build/gui_tests"
 Directory: /home/abhishek/game/hrm/build
-"gui_tests" start time: Jun 16 13:28 IST
+"gui_tests" start time: Jun 16 13:55 IST
 Output:
 ----------------------------------------------------------
 GUI tests passed
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"gui_tests" end time: Jun 16 13:28 IST
+"gui_tests" end time: Jun 16 13:55 IST
 "gui_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 16 13:28 IST
+8/8 Testing: fullscreen_detector_test
+8/8 Test: fullscreen_detector_test
+Command: "/home/abhishek/game/hrm/build/fullscreen_detector_test"
+Directory: /home/abhishek/game/hrm/build
+"fullscreen_detector_test" start time: Jun 16 13:55 IST
+Output:
+----------------------------------------------------------
+All fullscreen tests passed.
+<end of output>
+Test time =   1.50 sec
+----------------------------------------------------------
+Test Passed.
+"fullscreen_detector_test" end time: Jun 16 13:55 IST
+"fullscreen_detector_test" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Jun 16 13:55 IST

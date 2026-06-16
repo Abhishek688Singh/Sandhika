@@ -65,6 +65,11 @@ void ApplicationController::reloadConfig() {
     }
 }
 
+void ApplicationController::setMediaMode(bool active) {
+    media_mode_ = active;
+    tray_->showMessage("Media Mode", active ? "Media mode enabled. Reminders suppressed." : "Media mode disabled.");
+}
+
 void ApplicationController::showDashboard() {
     dashboard_->refreshData();
     dashboard_->show();
@@ -153,13 +158,33 @@ void ApplicationController::synchronizeReminders() {
 }
 
 void ApplicationController::onReminderTriggered(const scheduler::ReminderEvent& event) {
+    if (media_mode_) {
+        (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
+        return;
+    }
     if (idle_detector_->isIdle()) {
         (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
         return;
     }
-    if (fullscreen_detector_->isFullscreen()) {
-        (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
-        return;
+    
+    auto fs_snap = fullscreen_detector_->snapshot();
+    if (fs_snap.fullscreen) {
+        auto conf = config_->getFullscreenConfig();
+        bool suppress = false;
+        std::string lower_class = fs_snap.window_class;
+        std::transform(lower_class.begin(), lower_class.end(), lower_class.begin(), ::tolower);
+        
+        for (const auto& app : conf.suppress_apps) {
+            if (lower_class.find(app) != std::string::npos) {
+                suppress = true;
+                break;
+            }
+        }
+        
+        if (suppress) {
+            (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
+            return;
+        }
     }
 
     if (event.id == "eye_break") {

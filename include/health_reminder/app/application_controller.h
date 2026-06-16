@@ -59,6 +59,7 @@ private:
     std::unique_ptr<tray::SystemTrayManager> tray_;
     
     QTimer* update_timer_;
+    bool media_mode_ {false};
 };
 
 }  // namespace health_reminder::app
