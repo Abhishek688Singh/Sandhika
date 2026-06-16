@@ -71,15 +71,15 @@ CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_idle.a
 CMakeFiles/sandhika_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_config.a
 CMakeFiles/sandhika_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
+CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_health.a
 CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_commands.a
-CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_strict.a
-CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_brightness.a
-CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_suppression.a
 CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_notifications.a
 CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_tray.a
-CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_health.a
-CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_scheduler.a
 CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_dashboard.a
+CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_brightness.a
+CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_suppression.a
+CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_strict.a
+CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_scheduler.a
 CMakeFiles/sandhika_autogen_timestamp_deps: libsandhika_app.a
 
 sandhika_autogen_timestamp_deps: CMakeFiles/sandhika_autogen_timestamp_deps

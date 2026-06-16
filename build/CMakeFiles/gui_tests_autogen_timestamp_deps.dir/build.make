@@ -67,18 +67,18 @@ include CMakeFiles/gui_tests_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/gui_tests_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_stats.a
-CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
+CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_config.a
 CMakeFiles/gui_tests_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
-CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_strict.a
-CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_brightness.a
-CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_suppression.a
 CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_notifications.a
 CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_dashboard.a
+CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_brightness.a
+CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_suppression.a
+CMakeFiles/gui_tests_autogen_timestamp_deps: libsandhika_strict.a
 
 gui_tests_autogen_timestamp_deps: CMakeFiles/gui_tests_autogen_timestamp_deps
 gui_tests_autogen_timestamp_deps: CMakeFiles/gui_tests_autogen_timestamp_deps.dir/build.make

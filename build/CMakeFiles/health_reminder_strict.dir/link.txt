@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhealth_reminder_strict.a CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.o
-/usr/bin/ranlib libhealth_reminder_strict.a

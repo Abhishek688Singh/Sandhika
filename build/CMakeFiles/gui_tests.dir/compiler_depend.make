@@ -5,14 +5,14 @@ CMakeFiles/gui_tests.dir/gui_tests_autogen/mocs_compilation.cpp.o: gui_tests_aut
   /usr/include/stdc-predef.h
 
 CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gui_tests.cpp \
-  /home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h \
-  /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
-  /home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
-  /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
-  /home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h \
-  /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
-  /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h \
-  /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
+  /home/abhishek/game/hrm/include/sandhika/brightness/brightness_controller.h \
+  /home/abhishek/game/hrm/include/sandhika/config/config_manager.h \
+  /home/abhishek/game/hrm/include/sandhika/config/config_types.h \
+  /home/abhishek/game/hrm/include/sandhika/dashboard/dashboard_window.h \
+  /home/abhishek/game/hrm/include/sandhika/notifications/notification_manager.h \
+  /home/abhishek/game/hrm/include/sandhika/stats/stats_manager.h \
+  /home/abhishek/game/hrm/include/sandhika/strict/strict_break_window.h \
+  /home/abhishek/game/hrm/include/sandhika/suppression/suppression_manager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -514,6 +514,8 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h:
@@ -620,9 +622,9 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
 
@@ -726,6 +728,8 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -737,8 +741,6 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -834,15 +836,19 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/bits/stl_numeric.h:
 
-/usr/include/c++/13/bits/functexcept.h:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/syscall.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/std_mutex.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
@@ -868,25 +874,17 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
+/usr/include/c++/13/bits/shared_ptr.h:
+
 /usr/include/c++/13/bits/semaphore_base.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h:
 
 /usr/include/c++/13/tr1/poly_hermite.tcc:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
 /usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/c++/13/bits/ranges_algobase.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -950,9 +948,15 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
-/usr/include/c++/13/bits/stl_heap.h:
+/usr/include/c++/13/bits/locale_facets.tcc:
 
-/usr/include/c++/13/utility:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -976,31 +980,7 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
-/home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:
-
-/usr/include/c++/13/bits/ranges_algo.h:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/13/bits/node_handle.h:
+/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
@@ -1036,6 +1016,10 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
+
 /usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
@@ -1062,15 +1046,75 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/algorithm:
 
-/usr/include/c++/13/bits/ranges_algobase.h:
+/usr/include/c++/13/bits/atomic_timed_wait.h:
 
-/home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h:
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/home/abhishek/game/hrm/include/sandhika/brightness/brightness_controller.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/assert.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/home/abhishek/game/hrm/include/sandhika/dashboard/dashboard_window.h:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/usr/include/c++/13/bits/codecvt.h:
 
 gui_tests_autogen/mocs_compilation.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/13/bits/alloc_traits.h:
 
-/home/abhishek/game/hrm/include/health_reminder/config/config_manager.h:
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/home/abhishek/game/hrm/include/sandhika/notifications/notification_manager.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/home/abhishek/game/hrm/include/sandhika/config/config_manager.h:
+
+/usr/include/c++/13/filesystem:
+
+/usr/include/c++/13/compare:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/home/abhishek/game/hrm/include/sandhika/stats/stats_manager.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -1082,74 +1126,6 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /home/abhishek/game/hrm/tests/gui_tests.cpp:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/c++/13/bits/ranges_util.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/syscall.h:
-
-/usr/include/c++/13/array:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/bit:
-
-/home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h:
-
-/home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h:
-
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/13/bits/atomic_timed_wait.h:
-
-/usr/include/c++/13/tr1/exp_integral.tcc:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/c++/13/bits/stl_tree.h:
-
-/usr/include/c++/13/bits/codecvt.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
-
-/home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
@@ -1158,17 +1134,21 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/math.h:
 
-/usr/include/c++/13/bits/basic_ios.h:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h:
+
+/home/abhishek/game/hrm/include/sandhika/strict/strict_break_window.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
 /usr/include/c++/13/bits/specfun.h:
 
 /usr/include/c++/13/atomic:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/13/tr1/special_function_util.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication:
 
@@ -1178,23 +1158,45 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/libintl.h:
 
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/utility:
+
+/home/abhishek/game/hrm/include/sandhika/config/config_types.h:
+
 /usr/include/c++/13/bits/chrono_io.h:
 
 /usr/include/c++/13/bits/this_thread_sleep.h:
 
-/usr/include/c++/13/bits/shared_ptr_base.h:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:
+
+/usr/include/c++/13/bits/ranges_algo.h:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/include/c++/13/array:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/c++/13/bits/ranges_util.h:
 
 /usr/include/wchar.h:
 
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
 /usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h:
 
@@ -1209,6 +1211,8 @@ gui_tests_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/cassert:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -1239,10 +1243,6 @@ gui_tests_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h:
-
-/home/abhishek/game/hrm/include/health_reminder/config/config_types.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
@@ -1298,12 +1298,6 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/ctime:
 
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/compare:
-
-/usr/include/c++/13/filesystem:
-
 /usr/include/c++/13/concepts:
 
 /usr/include/c++/13/memory:
@@ -1314,11 +1308,21 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/cwchar:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
 /usr/include/c++/13/ext/aligned_buffer.h:
 
 /usr/include/locale.h:
 
 /usr/include/c++/13/new:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h:
 
@@ -1474,15 +1478,11 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/endian.h:
 
+/home/abhishek/game/hrm/include/sandhika/suppression/suppression_manager.h:
+
 /usr/include/stdint.h:
 
 /usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 

@@ -7,7 +7,7 @@ CMakeFiles/command_executor_test.dir/command_executor_test_autogen/mocs_compilat
 
 CMakeFiles/command_executor_test.dir/tests/command_executor_test.cpp.o
  /home/abhishek/game/hrm/tests/command_executor_test.cpp
- /home/abhishek/game/hrm/include/health_reminder/commands/command_executor.h
+ /home/abhishek/game/hrm/include/sandhika/commands/command_executor.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

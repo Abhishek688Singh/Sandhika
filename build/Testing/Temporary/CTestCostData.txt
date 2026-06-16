@@ -1,10 +1,9 @@
-config_manager_test 5 0.0223727
-reminder_scheduler_test 5 1.20057
-stats_manager_test 5 0.00184218
-command_executor_test 5 0.0330808
-idle_detector_test 5 0.22046
-health_score_test 5 0.000384281
-gui_tests 5 0.00918291
-fullscreen_detector_test 1 1.50257
-suppression_manager_test 2 0.00389244
+config_manager_test 1 0.135434
+reminder_scheduler_test 1 6.00389
+stats_manager_test 1 0.0113972
+command_executor_test 1 0.160418
+idle_detector_test 1 1.10249
+health_score_test 1 0.00195315
+gui_tests 1 0.0348249
+suppression_manager_test 1 0.00813292
 ---

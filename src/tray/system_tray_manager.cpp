@@ -9,12 +9,24 @@ SystemTrayManager::SystemTrayManager(QObject* parent)
     : QObject(parent),
       tray_icon_(new QSystemTrayIcon(this)),
       tray_menu_(new QMenu()) {
-    
-    tray_icon_->setIcon(QIcon::fromTheme("sandhika", QIcon(":/resources/icons/sandhika.png")));
+
+    // tray_icon_->setIcon(
+    //     QIcon(":/resources/icons/sandhika-tray.png")
+    // );
+    tray_icon_->setIcon(
+        QIcon::fromTheme("system-run")
+    );
+
     tray_icon_->setToolTip("Sandhika");
-    
+
+    QApplication::setWindowIcon(
+        QIcon(":/resources/icons/sandhika.png")
+    );
+
     setupMenu();
+
     tray_icon_->setContextMenu(tray_menu_);
+
     tray_icon_->show();
 }
 

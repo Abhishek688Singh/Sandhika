@@ -5,7 +5,7 @@ CMakeFiles/idle_detector_test.dir/idle_detector_test_autogen/mocs_compilation.cp
   /usr/include/stdc-predef.h
 
 CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.o: /home/abhishek/game/hrm/tests/idle_detector_test.cpp \
-  /home/abhishek/game/hrm/include/health_reminder/idle/idle_detector.h \
+  /home/abhishek/game/hrm/include/sandhika/idle/idle_detector.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -450,6 +450,8 @@ CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.o: /home/abhishek
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
+/home/abhishek/game/hrm/include/sandhika/idle/idle_detector.h:
+
 /usr/include/c++/13/bits/locale_facets.tcc:
 
 /usr/include/c++/13/bits/refwrap.h:
@@ -524,15 +526,15 @@ CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.o: /home/abhishek
 
 /usr/include/c++/13/bits/exception_defines.h:
 
+/usr/include/c++/13/charconv:
+
+/usr/include/c++/13/backward/binders.h:
+
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/c++/13/charconv:
-
-/usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
@@ -584,9 +586,13 @@ idle_detector_test_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
-/home/abhishek/game/hrm/include/health_reminder/idle/idle_detector.h:
+/usr/include/c++/13/bits/basic_ios.tcc:
 
-/usr/include/assert.h:
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/c++/13/bits/unique_lock.h:
+
+/usr/include/c++/13/mutex:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -598,15 +604,13 @@ idle_detector_test_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/atomic_timed_wait.h:
 
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/assert.h:
+
 /usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/c++/13/bits/codecvt.h:
-
-/usr/include/c++/13/bits/unique_lock.h:
-
-/usr/include/c++/13/mutex:
-
-/usr/include/c++/13/backward/auto_ptr.h:
 
 /usr/include/c++/13/bits/stringfwd.h:
 
@@ -645,10 +649,6 @@ idle_detector_test_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/condition_variable:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 

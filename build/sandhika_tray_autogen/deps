@@ -555,6 +555,8 @@ sandhika_tray_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
 	/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
 	/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
+	/usr/share/cmake-3.28/Modules/CPack.cmake \
+	/usr/share/cmake-3.28/Modules/CPackComponent.cmake \
 	/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake \
 	/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake \
 	/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake \
@@ -583,4 +585,5 @@ sandhika_tray_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
+	/usr/share/cmake-3.28/Templates/CPackConfig.cmake.in \
 	/usr/bin/cmake

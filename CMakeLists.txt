@@ -98,3 +98,12 @@ if(BUILD_TESTING)
 
     set_tests_properties(gui_tests PROPERTIES ENVIRONMENT "QT_QPA_PLATFORM=offscreen")
 endif()
+
+include(GNUInstallDirs)
+install(TARGETS sandhika DESTINATION ${CMAKE_INSTALL_BINDIR})
+
+set(CPACK_PACKAGE_NAME "sandhika")
+set(CPACK_PACKAGE_VENDOR "Sandhika")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Sandhika Health Companion")
+set(CPACK_PACKAGE_VERSION "0.1.0")
+include(CPack)

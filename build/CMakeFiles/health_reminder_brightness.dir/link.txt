@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhealth_reminder_brightness.a CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.o
-/usr/bin/ranlib libhealth_reminder_brightness.a

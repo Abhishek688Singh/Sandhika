@@ -30,6 +30,8 @@ The application runs as a background daemon and exposes a CLI for interacting wi
 sandhika pause 1h
 sandhika resume
 sandhika reload
+sandhika media on
+sandhika status
 ```
 
 ## Configuration

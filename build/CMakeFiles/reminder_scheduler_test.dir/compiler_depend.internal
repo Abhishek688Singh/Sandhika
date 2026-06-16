@@ -7,7 +7,7 @@ CMakeFiles/reminder_scheduler_test.dir/reminder_scheduler_test_autogen/mocs_comp
 
 CMakeFiles/reminder_scheduler_test.dir/tests/reminder_scheduler_test.cpp.o
  /home/abhishek/game/hrm/tests/reminder_scheduler_test.cpp
- /home/abhishek/game/hrm/include/health_reminder/scheduler/reminder_scheduler.h
+ /home/abhishek/game/hrm/include/sandhika/scheduler/reminder_scheduler.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

@@ -7,9 +7,9 @@ CMakeFiles/suppression_manager_test.dir/suppression_manager_test_autogen/mocs_co
 
 CMakeFiles/suppression_manager_test.dir/tests/suppression_manager_test.cpp.o
  /home/abhishek/game/hrm/tests/suppression_manager_test.cpp
- /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h
- /home/abhishek/game/hrm/include/health_reminder/config/config_types.h
- /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h
+ /home/abhishek/game/hrm/include/sandhika/config/config_manager.h
+ /home/abhishek/game/hrm/include/sandhika/config/config_types.h
+ /home/abhishek/game/hrm/include/sandhika/suppression/suppression_manager.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

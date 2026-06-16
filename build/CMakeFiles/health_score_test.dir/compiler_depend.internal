@@ -7,7 +7,7 @@ CMakeFiles/health_score_test.dir/health_score_test_autogen/mocs_compilation.cpp.
 
 CMakeFiles/health_score_test.dir/tests/health_score_test.cpp.o
  /home/abhishek/game/hrm/tests/health_score_test.cpp
- /home/abhishek/game/hrm/include/health_reminder/health/health_score_calculator.h
+ /home/abhishek/game/hrm/include/sandhika/health/health_score_calculator.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

@@ -7,7 +7,7 @@ CMakeFiles/idle_detector_test.dir/idle_detector_test_autogen/mocs_compilation.cp
 
 CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.o
  /home/abhishek/game/hrm/tests/idle_detector_test.cpp
- /home/abhishek/game/hrm/include/health_reminder/idle/idle_detector.h
+ /home/abhishek/game/hrm/include/sandhika/idle/idle_detector.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

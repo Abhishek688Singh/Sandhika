@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhealth_reminder_idle.a CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.o
-/usr/bin/ranlib libhealth_reminder_idle.a

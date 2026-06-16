@@ -11,9 +11,16 @@ systemctl --user daemon-reload
 
 echo "Removing desktop entry..."
 rm -f ~/.local/share/applications/sandhika.desktop
-update-desktop-database ~/.local/share/applications/
+update-desktop-database ~/.local/share/applications/ || true
 
 echo "Removing binary..."
-sudo rm -f /usr/local/bin/sandhika
+rm -f ~/.local/bin/sandhika
+
+echo "Removing cache..."
+rm -rf ~/.cache/sandhika
+
+echo "Optional: remove config and stats by running:"
+echo "rm -rf ~/.config/sandhika"
+echo "rm -rf ~/.local/share/sandhika"
 
 echo "Done!"
