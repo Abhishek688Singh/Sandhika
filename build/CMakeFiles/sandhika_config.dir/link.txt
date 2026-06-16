@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsandhika_config.a CMakeFiles/sandhika_config.dir/sandhika_config_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_config.dir/src/config/config_manager.cpp.o
-/usr/bin/ranlib libsandhika_config.a

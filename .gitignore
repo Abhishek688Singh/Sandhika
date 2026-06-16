@@ -1,0 +1,44 @@
+# Build
+build/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# IDE
+.vscode/
+.idea/
+
+# Qt
+*.user
+*.autosave
+
+# AppImage
+AppDir/
+*.AppImage
+squashfs-root/
+
+# Logs
+*.log
+
+# Generated config
+.config/
+
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+AppDir/
+*.AppImage
+squashfs-root/
+
+.vscode/
+.idea/

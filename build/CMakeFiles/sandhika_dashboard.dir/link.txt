@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsandhika_dashboard.a CMakeFiles/sandhika_dashboard.dir/sandhika_dashboard_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_dashboard.dir/src/dashboard/dashboard_window.cpp.o
-/usr/bin/ranlib libsandhika_dashboard.a

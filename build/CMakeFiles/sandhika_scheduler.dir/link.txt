@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsandhika_scheduler.a CMakeFiles/sandhika_scheduler.dir/sandhika_scheduler_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_scheduler.dir/src/scheduler/reminder_scheduler.cpp.o
-/usr/bin/ranlib libsandhika_scheduler.a

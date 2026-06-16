@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsandhika_tray.a CMakeFiles/sandhika_tray.dir/sandhika_tray_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_tray.dir/src/tray/system_tray_manager.cpp.o
-/usr/bin/ranlib libsandhika_tray.a

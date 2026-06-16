@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsandhika_health.a CMakeFiles/sandhika_health.dir/sandhika_health_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_health.dir/src/health/health_score_calculator.cpp.o
-/usr/bin/ranlib libsandhika_health.a

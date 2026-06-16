@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsandhika_stats.a CMakeFiles/sandhika_stats.dir/sandhika_stats_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_stats.dir/src/stats/stats_manager.cpp.o
-/usr/bin/ranlib libsandhika_stats.a

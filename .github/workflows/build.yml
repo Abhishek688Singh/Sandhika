@@ -1,28 +1,59 @@
+
 name: Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-24.04
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y qt6-base-dev qt6-svg-dev libqt6charts6-dev xprintidle brightnessctl cmake ninja-build
+      - name: Remove old build cache
+        run: |
+          rm -rf build
 
-    - name: Configure CMake
-      run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DHRM_FETCH_YAML_CPP=ON
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
 
-    - name: Build
-      run: cmake --build build
+          sudo apt-get install -y \
+            qt6-base-dev \
+            qt6-svg-dev \
+            libqt6charts6-dev \
+            libyaml-cpp-dev \
+            xprintidle \
+            brightnessctl \
+            cmake \
+            ninja-build
 
-    - name: Run Tests
-      run: ctest --test-dir build --output-on-failure
+      - name: Configure CMake
+        run: |
+          cmake \
+            -S . \
+            -B build \
+            -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DHRM_FETCH_YAML_CPP=ON
+
+      - name: Build
+        run: |
+          cmake --build build --parallel
+
+      - name: Run Tests
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: |
+          ctest \
+            --test-dir build \
+            --output-on-failure \
+            --parallel
