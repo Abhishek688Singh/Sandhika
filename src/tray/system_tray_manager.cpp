@@ -13,8 +13,10 @@ SystemTrayManager::SystemTrayManager(QObject* parent)
     // tray_icon_->setIcon(
     //     QIcon(":/resources/icons/sandhika-tray.png")
     // );
+    QIcon icon(":/resources/icons/sandhika-tray.png");
+
     tray_icon_->setIcon(
-        QIcon::fromTheme("system-run")
+        QIcon(icon.pixmap(22,22))
     );
 
     tray_icon_->setToolTip("Sandhika");

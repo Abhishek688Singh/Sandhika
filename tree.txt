@@ -1,0 +1,2008 @@
+.
+├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.28.3
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeRuleHashes.txt
+│   │   ├── cmake.verify_globs
+│   │   ├── command_executor_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── command_executor_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── command_executor_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── command_executor_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── tests
+│   │   │       ├── command_executor_test.cpp.o
+│   │   │       └── command_executor_test.cpp.o.d
+│   │   ├── config_manager_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── config_manager_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── config_manager_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── config_manager_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── tests
+│   │   │       ├── config_manager_test.cpp.o
+│   │   │       └── config_manager_test.cpp.o.d
+│   │   ├── gui_tests_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── gui_tests_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── gui_tests.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── gui_tests_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── tests
+│   │   │       ├── gui_tests.cpp.o
+│   │   │       └── gui_tests.cpp.o.d
+│   │   ├── health_score_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── health_score_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── health_score_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── health_score_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── tests
+│   │   │       ├── health_score_test.cpp.o
+│   │   │       └── health_score_test.cpp.o.d
+│   │   ├── idle_detector_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── idle_detector_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── idle_detector_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── idle_detector_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── tests
+│   │   │       ├── idle_detector_test.cpp.o
+│   │   │       └── idle_detector_test.cpp.o.d
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── pkgRedirects
+│   │   ├── progress.marks
+│   │   ├── reminder_scheduler_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── reminder_scheduler_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── reminder_scheduler_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── reminder_scheduler_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── tests
+│   │   │       ├── reminder_scheduler_test.cpp.o
+│   │   │       └── reminder_scheduler_test.cpp.o.d
+│   │   ├── sandhika_app_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_app_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_app.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_app_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── app
+│   │   │           ├── application_controller.cpp.o
+│   │   │           └── application_controller.cpp.o.d
+│   │   ├── sandhika_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_brightness_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_brightness_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_brightness.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_brightness_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── brightness
+│   │   │           ├── brightness_controller.cpp.o
+│   │   │           └── brightness_controller.cpp.o.d
+│   │   ├── sandhika_commands_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_commands_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_commands.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_commands_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── commands
+│   │   │           ├── command_executor.cpp.o
+│   │   │           └── command_executor.cpp.o.d
+│   │   ├── sandhika_config_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_config_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_config.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_config_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── config
+│   │   │           ├── config_manager.cpp.o
+│   │   │           └── config_manager.cpp.o.d
+│   │   ├── sandhika_dashboard_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_dashboard_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_dashboard.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_dashboard_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── dashboard
+│   │   │           ├── dashboard_window.cpp.o
+│   │   │           └── dashboard_window.cpp.o.d
+│   │   ├── sandhika.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       ├── main.cpp.o
+│   │   │       └── main.cpp.o.d
+│   │   ├── sandhika_health_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_health_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_health.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_health_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── health
+│   │   │           ├── health_score_calculator.cpp.o
+│   │   │           └── health_score_calculator.cpp.o.d
+│   │   ├── sandhika_idle_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_idle_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_idle.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_idle_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── idle
+│   │   │           ├── idle_detector.cpp.o
+│   │   │           └── idle_detector.cpp.o.d
+│   │   ├── sandhika_notifications_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_notifications_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_notifications.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_notifications_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── notifications
+│   │   │           ├── notification_manager.cpp.o
+│   │   │           ├── notification_manager.cpp.o.d
+│   │   │           ├── notification_window.cpp.o
+│   │   │           └── notification_window.cpp.o.d
+│   │   ├── sandhika_scheduler_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_scheduler_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_scheduler.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_scheduler_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── scheduler
+│   │   │           ├── reminder_scheduler.cpp.o
+│   │   │           └── reminder_scheduler.cpp.o.d
+│   │   ├── sandhika_stats_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_stats_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_stats.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_stats_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── stats
+│   │   │           ├── stats_manager.cpp.o
+│   │   │           └── stats_manager.cpp.o.d
+│   │   ├── sandhika_strict_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_strict_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_strict.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_strict_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── strict
+│   │   │           ├── strict_break_window.cpp.o
+│   │   │           └── strict_break_window.cpp.o.d
+│   │   ├── sandhika_suppression_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_suppression_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_suppression.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_suppression_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── suppression
+│   │   │           ├── suppression_manager.cpp.o
+│   │   │           └── suppression_manager.cpp.o.d
+│   │   ├── sandhika_tray_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── sandhika_tray_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── sandhika_tray.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── cmake_clean_target.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── sandhika_tray_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── src
+│   │   │       └── tray
+│   │   │           ├── system_tray_manager.cpp.o
+│   │   │           └── system_tray_manager.cpp.o.d
+│   │   ├── stats_manager_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── stats_manager_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── stats_manager_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── stats_manager_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── tests
+│   │   │       ├── stats_manager_test.cpp.o
+│   │   │       └── stats_manager_test.cpp.o.d
+│   │   ├── suppression_manager_test_autogen.dir
+│   │   │   ├── AutogenInfo.json
+│   │   │   ├── AutogenUsed.txt
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── ParseCache.txt
+│   │   │   └── progress.make
+│   │   ├── suppression_manager_test_autogen_timestamp_deps.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   └── progress.make
+│   │   ├── suppression_manager_test.dir
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.internal
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   ├── suppression_manager_test_autogen
+│   │   │   │   ├── mocs_compilation.cpp.o
+│   │   │   │   └── mocs_compilation.cpp.o.d
+│   │   │   └── tests
+│   │   │       ├── suppression_manager_test.cpp.o
+│   │   │       └── suppression_manager_test.cpp.o.d
+│   │   ├── TargetDirectories.txt
+│   │   └── VerifyGlobs.cmake
+│   ├── cmake_install.cmake
+│   ├── command_executor_test
+│   ├── command_executor_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── config_manager_test
+│   ├── config_manager_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── CPackConfig.cmake
+│   ├── CPackSourceConfig.cmake
+│   ├── CTestTestfile.cmake
+│   ├── _deps
+│   │   ├── yaml-cpp-build
+│   │   │   ├── CMakeFiles
+│   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   ├── ContinuousBuild.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousConfigure.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousCoverage.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── Continuous.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousMemCheck.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousStart.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousSubmit.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousTest.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ContinuousUpdate.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalBuild.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalConfigure.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalCoverage.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── Experimental.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalMemCheck.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalStart.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalSubmit.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalTest.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── ExperimentalUpdate.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyBuild.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyConfigure.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyCoverage.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── Nightly.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyMemCheck.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyMemoryCheck.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyStart.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlySubmit.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyTest.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── NightlyUpdate.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── progress.marks
+│   │   │   │   ├── yaml-cpp_autogen.dir
+│   │   │   │   │   ├── AutogenInfo.json
+│   │   │   │   │   ├── AutogenUsed.txt
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   ├── ParseCache.txt
+│   │   │   │   │   └── progress.make
+│   │   │   │   ├── yaml-cpp_autogen_timestamp_deps.dir
+│   │   │   │   │   ├── build.make
+│   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   └── progress.make
+│   │   │   │   └── yaml-cpp.dir
+│   │   │   │       ├── build.make
+│   │   │   │       ├── cmake_clean.cmake
+│   │   │   │       ├── cmake_clean_target.cmake
+│   │   │   │       ├── compiler_depend.internal
+│   │   │   │       ├── compiler_depend.make
+│   │   │   │       ├── compiler_depend.ts
+│   │   │   │       ├── DependInfo.cmake
+│   │   │   │       ├── depend.make
+│   │   │   │       ├── flags.make
+│   │   │   │       ├── link.txt
+│   │   │   │       ├── progress.make
+│   │   │   │       ├── src
+│   │   │   │       │   ├── binary.cpp.o
+│   │   │   │       │   ├── binary.cpp.o.d
+│   │   │   │       │   ├── contrib
+│   │   │   │       │   │   ├── graphbuilderadapter.cpp.o
+│   │   │   │       │   │   ├── graphbuilderadapter.cpp.o.d
+│   │   │   │       │   │   ├── graphbuilder.cpp.o
+│   │   │   │       │   │   └── graphbuilder.cpp.o.d
+│   │   │   │       │   ├── convert.cpp.o
+│   │   │   │       │   ├── convert.cpp.o.d
+│   │   │   │       │   ├── depthguard.cpp.o
+│   │   │   │       │   ├── depthguard.cpp.o.d
+│   │   │   │       │   ├── directives.cpp.o
+│   │   │   │       │   ├── directives.cpp.o.d
+│   │   │   │       │   ├── emit.cpp.o
+│   │   │   │       │   ├── emit.cpp.o.d
+│   │   │   │       │   ├── emitfromevents.cpp.o
+│   │   │   │       │   ├── emitfromevents.cpp.o.d
+│   │   │   │       │   ├── emitter.cpp.o
+│   │   │   │       │   ├── emitter.cpp.o.d
+│   │   │   │       │   ├── emitterstate.cpp.o
+│   │   │   │       │   ├── emitterstate.cpp.o.d
+│   │   │   │       │   ├── emitterutils.cpp.o
+│   │   │   │       │   ├── emitterutils.cpp.o.d
+│   │   │   │       │   ├── exceptions.cpp.o
+│   │   │   │       │   ├── exceptions.cpp.o.d
+│   │   │   │       │   ├── exp.cpp.o
+│   │   │   │       │   ├── exp.cpp.o.d
+│   │   │   │       │   ├── fptostring.cpp.o
+│   │   │   │       │   ├── fptostring.cpp.o.d
+│   │   │   │       │   ├── memory.cpp.o
+│   │   │   │       │   ├── memory.cpp.o.d
+│   │   │   │       │   ├── nodebuilder.cpp.o
+│   │   │   │       │   ├── nodebuilder.cpp.o.d
+│   │   │   │       │   ├── node.cpp.o
+│   │   │   │       │   ├── node.cpp.o.d
+│   │   │   │       │   ├── node_data.cpp.o
+│   │   │   │       │   ├── node_data.cpp.o.d
+│   │   │   │       │   ├── nodeevents.cpp.o
+│   │   │   │       │   ├── nodeevents.cpp.o.d
+│   │   │   │       │   ├── null.cpp.o
+│   │   │   │       │   ├── null.cpp.o.d
+│   │   │   │       │   ├── ostream_wrapper.cpp.o
+│   │   │   │       │   ├── ostream_wrapper.cpp.o.d
+│   │   │   │       │   ├── parse.cpp.o
+│   │   │   │       │   ├── parse.cpp.o.d
+│   │   │   │       │   ├── parser.cpp.o
+│   │   │   │       │   ├── parser.cpp.o.d
+│   │   │   │       │   ├── regex_yaml.cpp.o
+│   │   │   │       │   ├── regex_yaml.cpp.o.d
+│   │   │   │       │   ├── scanner.cpp.o
+│   │   │   │       │   ├── scanner.cpp.o.d
+│   │   │   │       │   ├── scanscalar.cpp.o
+│   │   │   │       │   ├── scanscalar.cpp.o.d
+│   │   │   │       │   ├── scantag.cpp.o
+│   │   │   │       │   ├── scantag.cpp.o.d
+│   │   │   │       │   ├── scantoken.cpp.o
+│   │   │   │       │   ├── scantoken.cpp.o.d
+│   │   │   │       │   ├── simplekey.cpp.o
+│   │   │   │       │   ├── simplekey.cpp.o.d
+│   │   │   │       │   ├── singledocparser.cpp.o
+│   │   │   │       │   ├── singledocparser.cpp.o.d
+│   │   │   │       │   ├── stream.cpp.o
+│   │   │   │       │   ├── stream.cpp.o.d
+│   │   │   │       │   ├── tag.cpp.o
+│   │   │   │       │   └── tag.cpp.o.d
+│   │   │   │       └── yaml-cpp_autogen
+│   │   │   │           ├── mocs_compilation.cpp.o
+│   │   │   │           └── mocs_compilation.cpp.o.d
+│   │   │   ├── cmake_install.cmake
+│   │   │   ├── CTestTestfile.cmake
+│   │   │   ├── DartConfiguration.tcl
+│   │   │   ├── libyaml-cpp.a
+│   │   │   ├── Makefile
+│   │   │   ├── Testing
+│   │   │   │   └── Temporary
+│   │   │   ├── util
+│   │   │   │   ├── CMakeFiles
+│   │   │   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   │   │   ├── progress.marks
+│   │   │   │   │   ├── yaml-cpp-parse_autogen.dir
+│   │   │   │   │   │   ├── AutogenInfo.json
+│   │   │   │   │   │   ├── AutogenUsed.txt
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   ├── ParseCache.txt
+│   │   │   │   │   │   └── progress.make
+│   │   │   │   │   ├── yaml-cpp-parse_autogen_timestamp_deps.dir
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   └── progress.make
+│   │   │   │   │   ├── yaml-cpp-parse.dir
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   ├── depend.make
+│   │   │   │   │   │   ├── flags.make
+│   │   │   │   │   │   ├── link.txt
+│   │   │   │   │   │   ├── parse.cpp.o
+│   │   │   │   │   │   ├── parse.cpp.o.d
+│   │   │   │   │   │   ├── progress.make
+│   │   │   │   │   │   └── yaml-cpp-parse_autogen
+│   │   │   │   │   │       ├── mocs_compilation.cpp.o
+│   │   │   │   │   │       └── mocs_compilation.cpp.o.d
+│   │   │   │   │   ├── yaml-cpp-read_autogen.dir
+│   │   │   │   │   │   ├── AutogenInfo.json
+│   │   │   │   │   │   ├── AutogenUsed.txt
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   ├── ParseCache.txt
+│   │   │   │   │   │   └── progress.make
+│   │   │   │   │   ├── yaml-cpp-read_autogen_timestamp_deps.dir
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   └── progress.make
+│   │   │   │   │   ├── yaml-cpp-read.dir
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   ├── depend.make
+│   │   │   │   │   │   ├── flags.make
+│   │   │   │   │   │   ├── link.txt
+│   │   │   │   │   │   ├── progress.make
+│   │   │   │   │   │   ├── read.cpp.o
+│   │   │   │   │   │   ├── read.cpp.o.d
+│   │   │   │   │   │   └── yaml-cpp-read_autogen
+│   │   │   │   │   │       ├── mocs_compilation.cpp.o
+│   │   │   │   │   │       └── mocs_compilation.cpp.o.d
+│   │   │   │   │   ├── yaml-cpp-sandbox_autogen.dir
+│   │   │   │   │   │   ├── AutogenInfo.json
+│   │   │   │   │   │   ├── AutogenUsed.txt
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.internal
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   ├── ParseCache.txt
+│   │   │   │   │   │   └── progress.make
+│   │   │   │   │   ├── yaml-cpp-sandbox_autogen_timestamp_deps.dir
+│   │   │   │   │   │   ├── build.make
+│   │   │   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   │   │   ├── compiler_depend.make
+│   │   │   │   │   │   ├── compiler_depend.ts
+│   │   │   │   │   │   ├── DependInfo.cmake
+│   │   │   │   │   │   └── progress.make
+│   │   │   │   │   └── yaml-cpp-sandbox.dir
+│   │   │   │   │       ├── build.make
+│   │   │   │   │       ├── cmake_clean.cmake
+│   │   │   │   │       ├── compiler_depend.internal
+│   │   │   │   │       ├── compiler_depend.make
+│   │   │   │   │       ├── compiler_depend.ts
+│   │   │   │   │       ├── DependInfo.cmake
+│   │   │   │   │       ├── depend.make
+│   │   │   │   │       ├── flags.make
+│   │   │   │   │       ├── link.txt
+│   │   │   │   │       ├── progress.make
+│   │   │   │   │       ├── sandbox.cpp.o
+│   │   │   │   │       ├── sandbox.cpp.o.d
+│   │   │   │   │       └── yaml-cpp-sandbox_autogen
+│   │   │   │   │           ├── mocs_compilation.cpp.o
+│   │   │   │   │           └── mocs_compilation.cpp.o.d
+│   │   │   │   ├── cmake_install.cmake
+│   │   │   │   ├── CTestTestfile.cmake
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── parse
+│   │   │   │   ├── read
+│   │   │   │   ├── sandbox
+│   │   │   │   ├── yaml-cpp-parse_autogen
+│   │   │   │   │   ├── deps
+│   │   │   │   │   ├── include
+│   │   │   │   │   ├── moc_predefs.h
+│   │   │   │   │   ├── mocs_compilation.cpp
+│   │   │   │   │   └── timestamp
+│   │   │   │   ├── yaml-cpp-read_autogen
+│   │   │   │   │   ├── deps
+│   │   │   │   │   ├── include
+│   │   │   │   │   ├── moc_predefs.h
+│   │   │   │   │   ├── mocs_compilation.cpp
+│   │   │   │   │   └── timestamp
+│   │   │   │   └── yaml-cpp-sandbox_autogen
+│   │   │   │       ├── deps
+│   │   │   │       ├── include
+│   │   │   │       ├── moc_predefs.h
+│   │   │   │       ├── mocs_compilation.cpp
+│   │   │   │       └── timestamp
+│   │   │   ├── yaml-cpp_autogen
+│   │   │   │   ├── deps
+│   │   │   │   ├── include
+│   │   │   │   ├── moc_predefs.h
+│   │   │   │   ├── mocs_compilation.cpp
+│   │   │   │   └── timestamp
+│   │   │   ├── yaml-cpp-config.cmake
+│   │   │   ├── yaml-cpp-config-version.cmake
+│   │   │   └── yaml-cpp.pc
+│   │   ├── yaml-cpp-src
+│   │   │   ├── BUILD.bazel
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── cmake_uninstall.cmake.in
+│   │   │   ├── CONTRIBUTING.md
+│   │   │   ├── docs
+│   │   │   │   ├── Breaking-Changes.md
+│   │   │   │   ├── _config.yml
+│   │   │   │   ├── How-To-Emit-YAML.md
+│   │   │   │   ├── How-To-Parse-A-Document-(Old-API).md
+│   │   │   │   ├── index.md
+│   │   │   │   ├── Strings.md
+│   │   │   │   └── Tutorial.md
+│   │   │   ├── include
+│   │   │   │   └── yaml-cpp
+│   │   │   │       ├── anchor.h
+│   │   │   │       ├── binary.h
+│   │   │   │       ├── contrib
+│   │   │   │       │   ├── anchordict.h
+│   │   │   │       │   └── graphbuilder.h
+│   │   │   │       ├── depthguard.h
+│   │   │   │       ├── dll.h
+│   │   │   │       ├── emitfromevents.h
+│   │   │   │       ├── emitterdef.h
+│   │   │   │       ├── emitter.h
+│   │   │   │       ├── emittermanip.h
+│   │   │   │       ├── emitterstyle.h
+│   │   │   │       ├── eventhandler.h
+│   │   │   │       ├── exceptions.h
+│   │   │   │       ├── fptostring.h
+│   │   │   │       ├── mark.h
+│   │   │   │       ├── node
+│   │   │   │       │   ├── convert.h
+│   │   │   │       │   ├── detail
+│   │   │   │       │   │   ├── impl.h
+│   │   │   │       │   │   ├── iterator_fwd.h
+│   │   │   │       │   │   ├── iterator.h
+│   │   │   │       │   │   ├── memory.h
+│   │   │   │       │   │   ├── node_data.h
+│   │   │   │       │   │   ├── node.h
+│   │   │   │       │   │   ├── node_iterator.h
+│   │   │   │       │   │   └── node_ref.h
+│   │   │   │       │   ├── emit.h
+│   │   │   │       │   ├── impl.h
+│   │   │   │       │   ├── iterator.h
+│   │   │   │       │   ├── node.h
+│   │   │   │       │   ├── parse.h
+│   │   │   │       │   ├── ptr.h
+│   │   │   │       │   └── type.h
+│   │   │   │       ├── noexcept.h
+│   │   │   │       ├── null.h
+│   │   │   │       ├── ostream_wrapper.h
+│   │   │   │       ├── parser.h
+│   │   │   │       ├── stlemitter.h
+│   │   │   │       ├── traits.h
+│   │   │   │       └── yaml.h
+│   │   │   ├── install.txt
+│   │   │   ├── LICENSE
+│   │   │   ├── MODULE.bazel
+│   │   │   ├── MODULE.bazel.lock
+│   │   │   ├── README.md
+│   │   │   ├── SECURITY.md
+│   │   │   ├── src
+│   │   │   │   ├── binary.cpp
+│   │   │   │   ├── collectionstack.h
+│   │   │   │   ├── contrib
+│   │   │   │   │   ├── dragonbox.h
+│   │   │   │   │   ├── graphbuilderadapter.cpp
+│   │   │   │   │   ├── graphbuilderadapter.h
+│   │   │   │   │   ├── graphbuilder.cpp
+│   │   │   │   │   ├── yaml-cpp.natvis
+│   │   │   │   │   └── yaml-cpp.natvis.md
+│   │   │   │   ├── convert.cpp
+│   │   │   │   ├── depthguard.cpp
+│   │   │   │   ├── directives.cpp
+│   │   │   │   ├── directives.h
+│   │   │   │   ├── emit.cpp
+│   │   │   │   ├── emitfromevents.cpp
+│   │   │   │   ├── emitter.cpp
+│   │   │   │   ├── emitterstate.cpp
+│   │   │   │   ├── emitterstate.h
+│   │   │   │   ├── emitterutils.cpp
+│   │   │   │   ├── emitterutils.h
+│   │   │   │   ├── exceptions.cpp
+│   │   │   │   ├── exp.cpp
+│   │   │   │   ├── exp.h
+│   │   │   │   ├── fptostring.cpp
+│   │   │   │   ├── indentation.h
+│   │   │   │   ├── memory.cpp
+│   │   │   │   ├── nodebuilder.cpp
+│   │   │   │   ├── nodebuilder.h
+│   │   │   │   ├── node.cpp
+│   │   │   │   ├── node_data.cpp
+│   │   │   │   ├── nodeevents.cpp
+│   │   │   │   ├── nodeevents.h
+│   │   │   │   ├── null.cpp
+│   │   │   │   ├── ostream_wrapper.cpp
+│   │   │   │   ├── parse.cpp
+│   │   │   │   ├── parser.cpp
+│   │   │   │   ├── ptr_vector.h
+│   │   │   │   ├── regeximpl.h
+│   │   │   │   ├── regex_yaml.cpp
+│   │   │   │   ├── regex_yaml.h
+│   │   │   │   ├── scanner.cpp
+│   │   │   │   ├── scanner.h
+│   │   │   │   ├── scanscalar.cpp
+│   │   │   │   ├── scanscalar.h
+│   │   │   │   ├── scantag.cpp
+│   │   │   │   ├── scantag.h
+│   │   │   │   ├── scantoken.cpp
+│   │   │   │   ├── setting.h
+│   │   │   │   ├── simplekey.cpp
+│   │   │   │   ├── singledocparser.cpp
+│   │   │   │   ├── singledocparser.h
+│   │   │   │   ├── streamcharsource.h
+│   │   │   │   ├── stream.cpp
+│   │   │   │   ├── stream.h
+│   │   │   │   ├── stringsource.h
+│   │   │   │   ├── tag.cpp
+│   │   │   │   ├── tag.h
+│   │   │   │   └── token.h
+│   │   │   ├── test
+│   │   │   │   ├── binary_test.cpp
+│   │   │   │   ├── BUILD.bazel
+│   │   │   │   ├── cmake
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   └── main.cpp
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── create-emitter-tests.py
+│   │   │   │   ├── fptostring_test.cpp
+│   │   │   │   ├── googletest-1.13.0
+│   │   │   │   │   ├── BUILD.bazel
+│   │   │   │   │   ├── ci
+│   │   │   │   │   │   ├── linux-presubmit.sh
+│   │   │   │   │   │   ├── macos-presubmit.sh
+│   │   │   │   │   │   └── windows-presubmit.bat
+│   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   ├── CONTRIBUTING.md
+│   │   │   │   │   ├── CONTRIBUTORS
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── advanced.md
+│   │   │   │   │   │   ├── assets
+│   │   │   │   │   │   │   └── css
+│   │   │   │   │   │   │       └── style.scss
+│   │   │   │   │   │   ├── community_created_documentation.md
+│   │   │   │   │   │   ├── _config.yml
+│   │   │   │   │   │   ├── _data
+│   │   │   │   │   │   │   └── navigation.yml
+│   │   │   │   │   │   ├── faq.md
+│   │   │   │   │   │   ├── gmock_cheat_sheet.md
+│   │   │   │   │   │   ├── gmock_cook_book.md
+│   │   │   │   │   │   ├── gmock_faq.md
+│   │   │   │   │   │   ├── gmock_for_dummies.md
+│   │   │   │   │   │   ├── index.md
+│   │   │   │   │   │   ├── _layouts
+│   │   │   │   │   │   │   └── default.html
+│   │   │   │   │   │   ├── pkgconfig.md
+│   │   │   │   │   │   ├── platforms.md
+│   │   │   │   │   │   ├── primer.md
+│   │   │   │   │   │   ├── quickstart-bazel.md
+│   │   │   │   │   │   ├── quickstart-cmake.md
+│   │   │   │   │   │   ├── reference
+│   │   │   │   │   │   │   ├── actions.md
+│   │   │   │   │   │   │   ├── assertions.md
+│   │   │   │   │   │   │   ├── matchers.md
+│   │   │   │   │   │   │   ├── mocking.md
+│   │   │   │   │   │   │   └── testing.md
+│   │   │   │   │   │   ├── samples.md
+│   │   │   │   │   │   └── _sass
+│   │   │   │   │   │       └── main.scss
+│   │   │   │   │   ├── googlemock
+│   │   │   │   │   │   ├── cmake
+│   │   │   │   │   │   │   ├── gmock_main.pc.in
+│   │   │   │   │   │   │   └── gmock.pc.in
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── docs
+│   │   │   │   │   │   │   └── README.md
+│   │   │   │   │   │   ├── include
+│   │   │   │   │   │   │   └── gmock
+│   │   │   │   │   │   │       ├── gmock-actions.h
+│   │   │   │   │   │   │       ├── gmock-cardinalities.h
+│   │   │   │   │   │   │       ├── gmock-function-mocker.h
+│   │   │   │   │   │   │       ├── gmock.h
+│   │   │   │   │   │   │       ├── gmock-matchers.h
+│   │   │   │   │   │   │       ├── gmock-more-actions.h
+│   │   │   │   │   │   │       ├── gmock-more-matchers.h
+│   │   │   │   │   │   │       ├── gmock-nice-strict.h
+│   │   │   │   │   │   │       ├── gmock-spec-builders.h
+│   │   │   │   │   │   │       └── internal
+│   │   │   │   │   │   │           ├── custom
+│   │   │   │   │   │   │           │   ├── gmock-generated-actions.h
+│   │   │   │   │   │   │           │   ├── gmock-matchers.h
+│   │   │   │   │   │   │           │   ├── gmock-port.h
+│   │   │   │   │   │   │           │   └── README.md
+│   │   │   │   │   │   │           ├── gmock-internal-utils.h
+│   │   │   │   │   │   │           ├── gmock-port.h
+│   │   │   │   │   │   │           └── gmock-pp.h
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── src
+│   │   │   │   │   │   │   ├── gmock-all.cc
+│   │   │   │   │   │   │   ├── gmock-cardinalities.cc
+│   │   │   │   │   │   │   ├── gmock.cc
+│   │   │   │   │   │   │   ├── gmock-internal-utils.cc
+│   │   │   │   │   │   │   ├── gmock_main.cc
+│   │   │   │   │   │   │   ├── gmock-matchers.cc
+│   │   │   │   │   │   │   └── gmock-spec-builders.cc
+│   │   │   │   │   │   └── test
+│   │   │   │   │   │       ├── BUILD.bazel
+│   │   │   │   │   │       ├── gmock-actions_test.cc
+│   │   │   │   │   │       ├── gmock_all_test.cc
+│   │   │   │   │   │       ├── gmock-cardinalities_test.cc
+│   │   │   │   │   │       ├── gmock_ex_test.cc
+│   │   │   │   │   │       ├── gmock-function-mocker_test.cc
+│   │   │   │   │   │       ├── gmock-internal-utils_test.cc
+│   │   │   │   │   │       ├── gmock_leak_test_.cc
+│   │   │   │   │   │       ├── gmock_leak_test.py
+│   │   │   │   │   │       ├── gmock_link2_test.cc
+│   │   │   │   │   │       ├── gmock_link_test.cc
+│   │   │   │   │   │       ├── gmock_link_test.h
+│   │   │   │   │   │       ├── gmock-matchers-arithmetic_test.cc
+│   │   │   │   │   │       ├── gmock-matchers-comparisons_test.cc
+│   │   │   │   │   │       ├── gmock-matchers-containers_test.cc
+│   │   │   │   │   │       ├── gmock-matchers-misc_test.cc
+│   │   │   │   │   │       ├── gmock-matchers_test.h
+│   │   │   │   │   │       ├── gmock-more-actions_test.cc
+│   │   │   │   │   │       ├── gmock-nice-strict_test.cc
+│   │   │   │   │   │       ├── gmock_output_test_.cc
+│   │   │   │   │   │       ├── gmock_output_test_golden.txt
+│   │   │   │   │   │       ├── gmock_output_test.py
+│   │   │   │   │   │       ├── gmock-port_test.cc
+│   │   │   │   │   │       ├── gmock-pp-string_test.cc
+│   │   │   │   │   │       ├── gmock-pp_test.cc
+│   │   │   │   │   │       ├── gmock-spec-builders_test.cc
+│   │   │   │   │   │       ├── gmock_stress_test.cc
+│   │   │   │   │   │       ├── gmock_test.cc
+│   │   │   │   │   │       └── gmock_test_utils.py
+│   │   │   │   │   ├── googletest
+│   │   │   │   │   │   ├── cmake
+│   │   │   │   │   │   │   ├── Config.cmake.in
+│   │   │   │   │   │   │   ├── gtest_main.pc.in
+│   │   │   │   │   │   │   ├── gtest.pc.in
+│   │   │   │   │   │   │   ├── internal_utils.cmake
+│   │   │   │   │   │   │   └── libgtest.la.in
+│   │   │   │   │   │   ├── CMakeLists.txt
+│   │   │   │   │   │   ├── docs
+│   │   │   │   │   │   │   └── README.md
+│   │   │   │   │   │   ├── include
+│   │   │   │   │   │   │   └── gtest
+│   │   │   │   │   │   │       ├── gtest-assertion-result.h
+│   │   │   │   │   │   │       ├── gtest-death-test.h
+│   │   │   │   │   │   │       ├── gtest.h
+│   │   │   │   │   │   │       ├── gtest-matchers.h
+│   │   │   │   │   │   │       ├── gtest-message.h
+│   │   │   │   │   │   │       ├── gtest-param-test.h
+│   │   │   │   │   │   │       ├── gtest_pred_impl.h
+│   │   │   │   │   │   │       ├── gtest-printers.h
+│   │   │   │   │   │   │       ├── gtest_prod.h
+│   │   │   │   │   │   │       ├── gtest-spi.h
+│   │   │   │   │   │   │       ├── gtest-test-part.h
+│   │   │   │   │   │   │       ├── gtest-typed-test.h
+│   │   │   │   │   │   │       └── internal
+│   │   │   │   │   │   │           ├── custom
+│   │   │   │   │   │   │           │   ├── gtest.h
+│   │   │   │   │   │   │           │   ├── gtest-port.h
+│   │   │   │   │   │   │           │   ├── gtest-printers.h
+│   │   │   │   │   │   │           │   └── README.md
+│   │   │   │   │   │   │           ├── gtest-death-test-internal.h
+│   │   │   │   │   │   │           ├── gtest-filepath.h
+│   │   │   │   │   │   │           ├── gtest-internal.h
+│   │   │   │   │   │   │           ├── gtest-param-util.h
+│   │   │   │   │   │   │           ├── gtest-port-arch.h
+│   │   │   │   │   │   │           ├── gtest-port.h
+│   │   │   │   │   │   │           ├── gtest-string.h
+│   │   │   │   │   │   │           └── gtest-type-util.h
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── samples
+│   │   │   │   │   │   │   ├── prime_tables.h
+│   │   │   │   │   │   │   ├── sample10_unittest.cc
+│   │   │   │   │   │   │   ├── sample1.cc
+│   │   │   │   │   │   │   ├── sample1.h
+│   │   │   │   │   │   │   ├── sample1_unittest.cc
+│   │   │   │   │   │   │   ├── sample2.cc
+│   │   │   │   │   │   │   ├── sample2.h
+│   │   │   │   │   │   │   ├── sample2_unittest.cc
+│   │   │   │   │   │   │   ├── sample3-inl.h
+│   │   │   │   │   │   │   ├── sample3_unittest.cc
+│   │   │   │   │   │   │   ├── sample4.cc
+│   │   │   │   │   │   │   ├── sample4.h
+│   │   │   │   │   │   │   ├── sample4_unittest.cc
+│   │   │   │   │   │   │   ├── sample5_unittest.cc
+│   │   │   │   │   │   │   ├── sample6_unittest.cc
+│   │   │   │   │   │   │   ├── sample7_unittest.cc
+│   │   │   │   │   │   │   ├── sample8_unittest.cc
+│   │   │   │   │   │   │   └── sample9_unittest.cc
+│   │   │   │   │   │   ├── src
+│   │   │   │   │   │   │   ├── gtest-all.cc
+│   │   │   │   │   │   │   ├── gtest-assertion-result.cc
+│   │   │   │   │   │   │   ├── gtest.cc
+│   │   │   │   │   │   │   ├── gtest-death-test.cc
+│   │   │   │   │   │   │   ├── gtest-filepath.cc
+│   │   │   │   │   │   │   ├── gtest-internal-inl.h
+│   │   │   │   │   │   │   ├── gtest_main.cc
+│   │   │   │   │   │   │   ├── gtest-matchers.cc
+│   │   │   │   │   │   │   ├── gtest-port.cc
+│   │   │   │   │   │   │   ├── gtest-printers.cc
+│   │   │   │   │   │   │   ├── gtest-test-part.cc
+│   │   │   │   │   │   │   └── gtest-typed-test.cc
+│   │   │   │   │   │   └── test
+│   │   │   │   │   │       ├── BUILD.bazel
+│   │   │   │   │   │       ├── googletest-break-on-failure-unittest_.cc
+│   │   │   │   │   │       ├── googletest-break-on-failure-unittest.py
+│   │   │   │   │   │       ├── googletest-catch-exceptions-test_.cc
+│   │   │   │   │   │       ├── googletest-catch-exceptions-test.py
+│   │   │   │   │   │       ├── googletest-color-test_.cc
+│   │   │   │   │   │       ├── googletest-color-test.py
+│   │   │   │   │   │       ├── googletest-death-test_ex_test.cc
+│   │   │   │   │   │       ├── googletest-death-test-test.cc
+│   │   │   │   │   │       ├── googletest-env-var-test_.cc
+│   │   │   │   │   │       ├── googletest-env-var-test.py
+│   │   │   │   │   │       ├── googletest-failfast-unittest_.cc
+│   │   │   │   │   │       ├── googletest-failfast-unittest.py
+│   │   │   │   │   │       ├── googletest-filepath-test.cc
+│   │   │   │   │   │       ├── googletest-filter-unittest_.cc
+│   │   │   │   │   │       ├── googletest-filter-unittest.py
+│   │   │   │   │   │       ├── googletest-global-environment-unittest_.cc
+│   │   │   │   │   │       ├── googletest-global-environment-unittest.py
+│   │   │   │   │   │       ├── googletest-json-outfiles-test.py
+│   │   │   │   │   │       ├── googletest-json-output-unittest.py
+│   │   │   │   │   │       ├── googletest-listener-test.cc
+│   │   │   │   │   │       ├── googletest-list-tests-unittest_.cc
+│   │   │   │   │   │       ├── googletest-list-tests-unittest.py
+│   │   │   │   │   │       ├── googletest-message-test.cc
+│   │   │   │   │   │       ├── googletest-options-test.cc
+│   │   │   │   │   │       ├── googletest-output-test_.cc
+│   │   │   │   │   │       ├── googletest-output-test-golden-lin.txt
+│   │   │   │   │   │       ├── googletest-output-test.py
+│   │   │   │   │   │       ├── googletest-param-test2-test.cc
+│   │   │   │   │   │       ├── googletest-param-test-invalid-name1-test_.cc
+│   │   │   │   │   │       ├── googletest-param-test-invalid-name1-test.py
+│   │   │   │   │   │       ├── googletest-param-test-invalid-name2-test_.cc
+│   │   │   │   │   │       ├── googletest-param-test-invalid-name2-test.py
+│   │   │   │   │   │       ├── googletest-param-test-test.cc
+│   │   │   │   │   │       ├── googletest-param-test-test.h
+│   │   │   │   │   │       ├── googletest-port-test.cc
+│   │   │   │   │   │       ├── googletest-printers-test.cc
+│   │   │   │   │   │       ├── googletest-setuptestsuite-test_.cc
+│   │   │   │   │   │       ├── googletest-setuptestsuite-test.py
+│   │   │   │   │   │       ├── googletest-shuffle-test_.cc
+│   │   │   │   │   │       ├── googletest-shuffle-test.py
+│   │   │   │   │   │       ├── googletest-test-part-test.cc
+│   │   │   │   │   │       ├── googletest-throw-on-failure-test_.cc
+│   │   │   │   │   │       ├── googletest-throw-on-failure-test.py
+│   │   │   │   │   │       ├── googletest-uninitialized-test_.cc
+│   │   │   │   │   │       ├── googletest-uninitialized-test.py
+│   │   │   │   │   │       ├── gtest_all_test.cc
+│   │   │   │   │   │       ├── gtest_assert_by_exception_test.cc
+│   │   │   │   │   │       ├── gtest_dirs_test.cc
+│   │   │   │   │   │       ├── gtest_environment_test.cc
+│   │   │   │   │   │       ├── gtest_help_test_.cc
+│   │   │   │   │   │       ├── gtest_help_test.py
+│   │   │   │   │   │       ├── gtest_json_test_utils.py
+│   │   │   │   │   │       ├── gtest_list_output_unittest_.cc
+│   │   │   │   │   │       ├── gtest_list_output_unittest.py
+│   │   │   │   │   │       ├── gtest_main_unittest.cc
+│   │   │   │   │   │       ├── gtest_no_test_unittest.cc
+│   │   │   │   │   │       ├── gtest_pred_impl_unittest.cc
+│   │   │   │   │   │       ├── gtest_premature_exit_test.cc
+│   │   │   │   │   │       ├── gtest_prod_test.cc
+│   │   │   │   │   │       ├── gtest_repeat_test.cc
+│   │   │   │   │   │       ├── gtest_skip_check_output_test.py
+│   │   │   │   │   │       ├── gtest_skip_environment_check_output_test.py
+│   │   │   │   │   │       ├── gtest_skip_in_environment_setup_test.cc
+│   │   │   │   │   │       ├── gtest_skip_test.cc
+│   │   │   │   │   │       ├── gtest_sole_header_test.cc
+│   │   │   │   │   │       ├── gtest_stress_test.cc
+│   │   │   │   │   │       ├── gtest_testbridge_test_.cc
+│   │   │   │   │   │       ├── gtest_testbridge_test.py
+│   │   │   │   │   │       ├── gtest_test_macro_stack_footprint_test.cc
+│   │   │   │   │   │       ├── gtest_test_utils.py
+│   │   │   │   │   │       ├── gtest_throw_on_failure_ex_test.cc
+│   │   │   │   │   │       ├── gtest-typed-test2_test.cc
+│   │   │   │   │   │       ├── gtest-typed-test_test.cc
+│   │   │   │   │   │       ├── gtest-typed-test_test.h
+│   │   │   │   │   │       ├── gtest-unittest-api_test.cc
+│   │   │   │   │   │       ├── gtest_unittest.cc
+│   │   │   │   │   │       ├── gtest_xml_outfile1_test_.cc
+│   │   │   │   │   │       ├── gtest_xml_outfile2_test_.cc
+│   │   │   │   │   │       ├── gtest_xml_outfiles_test.py
+│   │   │   │   │   │       ├── gtest_xml_output_unittest_.cc
+│   │   │   │   │   │       ├── gtest_xml_output_unittest.py
+│   │   │   │   │   │       ├── gtest_xml_test_utils.py
+│   │   │   │   │   │       ├── production.cc
+│   │   │   │   │   │       └── production.h
+│   │   │   │   │   ├── LICENSE
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   └── WORKSPACE
+│   │   │   │   ├── integration
+│   │   │   │   │   ├── BUILD.bazel
+│   │   │   │   │   ├── emitter_test.cpp
+│   │   │   │   │   ├── encoding_test.cpp
+│   │   │   │   │   ├── error_messages_test.cpp
+│   │   │   │   │   ├── gen_emitter_test.cpp
+│   │   │   │   │   ├── handler_spec_test.cpp
+│   │   │   │   │   ├── handler_test.cpp
+│   │   │   │   │   ├── handler_test.h
+│   │   │   │   │   ├── load_node_test.cpp
+│   │   │   │   │   └── node_spec_test.cpp
+│   │   │   │   ├── main.cpp
+│   │   │   │   ├── mock_event_handler.h
+│   │   │   │   ├── node
+│   │   │   │   │   └── node_test.cpp
+│   │   │   │   ├── ostream_wrapper_test.cpp
+│   │   │   │   ├── parser_test.cpp
+│   │   │   │   ├── regex_test.cpp
+│   │   │   │   └── specexamples.h
+│   │   │   ├── util
+│   │   │   │   ├── api.cpp
+│   │   │   │   ├── CMakeLists.txt
+│   │   │   │   ├── parse.cpp
+│   │   │   │   ├── read.cpp
+│   │   │   │   └── sandbox.cpp
+│   │   │   ├── yaml-cpp-config.cmake.in
+│   │   │   └── yaml-cpp.pc.in
+│   │   └── yaml-cpp-subbuild
+│   │       ├── CMakeCache.txt
+│   │       ├── CMakeFiles
+│   │       │   ├── 3.28.3
+│   │       │   │   └── CMakeSystem.cmake
+│   │       │   ├── cmake.check_cache
+│   │       │   ├── CMakeConfigureLog.yaml
+│   │       │   ├── CMakeDirectoryInformation.cmake
+│   │       │   ├── CMakeRuleHashes.txt
+│   │       │   ├── Makefile2
+│   │       │   ├── Makefile.cmake
+│   │       │   ├── pkgRedirects
+│   │       │   ├── progress.marks
+│   │       │   ├── TargetDirectories.txt
+│   │       │   ├── yaml-cpp-populate-complete
+│   │       │   └── yaml-cpp-populate.dir
+│   │       │       ├── build.make
+│   │       │       ├── cmake_clean.cmake
+│   │       │       ├── compiler_depend.make
+│   │       │       ├── compiler_depend.ts
+│   │       │       ├── DependInfo.cmake
+│   │       │       ├── Labels.json
+│   │       │       ├── Labels.txt
+│   │       │       └── progress.make
+│   │       ├── cmake_install.cmake
+│   │       ├── CMakeLists.txt
+│   │       ├── Makefile
+│   │       └── yaml-cpp-populate-prefix
+│   │           ├── src
+│   │           │   └── yaml-cpp-populate-stamp
+│   │           │       ├── yaml-cpp-populate-build
+│   │           │       ├── yaml-cpp-populate-configure
+│   │           │       ├── yaml-cpp-populate-done
+│   │           │       ├── yaml-cpp-populate-download
+│   │           │       ├── yaml-cpp-populate-gitclone-lastrun.txt
+│   │           │       ├── yaml-cpp-populate-gitinfo.txt
+│   │           │       ├── yaml-cpp-populate-install
+│   │           │       ├── yaml-cpp-populate-mkdir
+│   │           │       ├── yaml-cpp-populate-patch
+│   │           │       ├── yaml-cpp-populate-patch-info.txt
+│   │           │       ├── yaml-cpp-populate-test
+│   │           │       └── yaml-cpp-populate-update-info.txt
+│   │           └── tmp
+│   │               ├── yaml-cpp-populate-cfgcmd.txt
+│   │               ├── yaml-cpp-populate-gitclone.cmake
+│   │               ├── yaml-cpp-populate-gitupdate.cmake
+│   │               └── yaml-cpp-populate-mkdirs.cmake
+│   ├── gui_tests
+│   ├── gui_tests_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── health_score_test
+│   ├── health_score_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── idle_detector_test
+│   ├── idle_detector_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── libsandhika_app.a
+│   ├── libsandhika_brightness.a
+│   ├── libsandhika_commands.a
+│   ├── libsandhika_config.a
+│   ├── libsandhika_dashboard.a
+│   ├── libsandhika_health.a
+│   ├── libsandhika_idle.a
+│   ├── libsandhika_notifications.a
+│   ├── libsandhika_scheduler.a
+│   ├── libsandhika_stats.a
+│   ├── libsandhika_strict.a
+│   ├── libsandhika_suppression.a
+│   ├── libsandhika_tray.a
+│   ├── Makefile
+│   ├── reminder_scheduler_test
+│   ├── reminder_scheduler_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika
+│   ├── sandhika_app_autogen
+│   │   ├── 7ISUKW3MII
+│   │   │   ├── moc_application_controller.cpp
+│   │   │   └── moc_application_controller.cpp.d
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_brightness_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_commands_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_config_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_dashboard_autogen
+│   │   ├── deps
+│   │   ├── GV5PAZXVLU
+│   │   │   ├── moc_dashboard_window.cpp
+│   │   │   └── moc_dashboard_window.cpp.d
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_health_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_idle_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_notifications_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   ├── timestamp
+│   │   └── YXW6X7CAKT
+│   │       ├── moc_notification_window.cpp
+│   │       └── moc_notification_window.cpp.d
+│   ├── sandhika_scheduler_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_stats_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_strict_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── KOUYHHEZQM
+│   │   │   ├── moc_strict_break_window.cpp
+│   │   │   └── moc_strict_break_window.cpp.d
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   ├── timestamp
+│   │   └── WW3DV4L6CT
+│   │       ├── moc_strict_break_dialog.cpp
+│   │       └── moc_strict_break_dialog.cpp.d
+│   ├── sandhika_suppression_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── sandhika_tray_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   ├── O3LYBZ4VJK
+│   │   │   ├── moc_system_tray_manager.cpp
+│   │   │   └── moc_system_tray_manager.cpp.d
+│   │   └── timestamp
+│   ├── stats_manager_test
+│   ├── stats_manager_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   ├── suppression_manager_test
+│   ├── suppression_manager_test_autogen
+│   │   ├── deps
+│   │   ├── include
+│   │   ├── moc_predefs.h
+│   │   ├── mocs_compilation.cpp
+│   │   └── timestamp
+│   └── Testing
+│       └── Temporary
+│           ├── CTestCostData.txt
+│           └── LastTest.log
+├── CMakeFiles
+│   └── CMakeSystem.cmake
+├── CMakeLists.txt
+├── config
+│   └── config.example.yaml
+├── include
+│   └── sandhika
+│       ├── app
+│       │   └── application_controller.h
+│       ├── brightness
+│       │   └── brightness_controller.h
+│       ├── commands
+│       │   └── command_executor.h
+│       ├── config
+│       │   ├── config_manager.h
+│       │   └── config_types.h
+│       ├── dashboard
+│       │   └── dashboard_window.h
+│       ├── health
+│       │   └── health_score_calculator.h
+│       ├── idle
+│       │   └── idle_detector.h
+│       ├── notifications
+│       │   ├── notification_manager.h
+│       │   └── notification_window.h
+│       ├── scheduler
+│       │   └── reminder_scheduler.h
+│       ├── stats
+│       │   └── stats_manager.h
+│       ├── strict
+│       │   └── strict_break_window.h
+│       ├── suppression
+│       │   └── suppression_manager.h
+│       └── tray
+│           └── system_tray_manager.h
+├── install.sh
+├── packaging
+├── README.md
+├── resources
+│   └── icons
+│       ├── sandhika.png
+│       └── sandhika-tray.svg
+├── sandhika.desktop
+├── sandhika.service
+├── scripts
+├── SPEC.md
+├── src
+│   ├── app
+│   │   └── application_controller.cpp
+│   ├── brightness
+│   │   └── brightness_controller.cpp
+│   ├── commands
+│   │   └── command_executor.cpp
+│   ├── config
+│   │   └── config_manager.cpp
+│   ├── dashboard
+│   │   └── dashboard_window.cpp
+│   ├── health
+│   │   └── health_score_calculator.cpp
+│   ├── idle
+│   │   └── idle_detector.cpp
+│   ├── main.cpp
+│   ├── notifications
+│   │   ├── notification_manager.cpp
+│   │   └── notification_window.cpp
+│   ├── scheduler
+│   │   └── reminder_scheduler.cpp
+│   ├── stats
+│   │   └── stats_manager.cpp
+│   ├── strict
+│   │   ├── strict_break_dialog.h
+│   │   └── strict_break_window.cpp
+│   ├── suppression
+│   │   └── suppression_manager.cpp
+│   └── tray
+│       └── system_tray_manager.cpp
+├── systemd
+├── tests
+│   ├── command_executor_test.cpp
+│   ├── config_manager_test.cpp
+│   ├── gui_tests.cpp
+│   ├── health_score_test.cpp
+│   ├── idle_detector_test.cpp
+│   ├── reminder_scheduler_test.cpp
+│   ├── stats_manager_test.cpp
+│   └── suppression_manager_test.cpp
+├── tree.txt
+└── uninstall.sh
+
+331 directories, 1675 files
