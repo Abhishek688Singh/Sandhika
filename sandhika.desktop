@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Sandhika
-Exec=sandhika
-Comment=Mindful health reminder for healthier screen habits
-Icon=sandhika
 Type=Application
-Categories=Utility;Health;
+Name=Sandhika
+Comment=Mindful health reminder for healthier screen habits
+Exec=sandhika
+Icon=sandhika
+Categories=Utility;Office;
 Terminal=false
 StartupWMClass=Sandhika
