@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sandhika
+Comment=Sandhika Desktop Application
+Exec=sandhika start
+Icon=sandhika
+Type=Application
+Categories=Utility;Health;
+Terminal=false

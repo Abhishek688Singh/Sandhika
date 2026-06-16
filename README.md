@@ -1,4 +1,4 @@
-# Health Reminder
+# Sandhika
 
 A Qt6-based desktop application for Linux to remind you to take breaks, drink water, and maintain healthy habits.
 
@@ -23,17 +23,17 @@ Run the install script:
 
 ## Running
 ```bash
-health-reminder start
+sandhika start
 ```
 The application runs as a background daemon and exposes a CLI for interacting with it:
 ```bash
-health-reminder pause 1h
-health-reminder resume
-health-reminder reload
+sandhika pause 1h
+sandhika resume
+sandhika reload
 ```
 
 ## Configuration
-Configuration is automatically created at `~/.config/health-reminder/config.yaml` if it is missing, by copying the default `config.example.yaml` or falling back to default values. The application will never abort due to a missing configuration file.
+Configuration is automatically created at `~/.config/sandhika/config.yaml` if it is missing, by copying the default `config.example.yaml` or falling back to default values. The application will never abort due to a missing configuration file.
 
 ## License
 MIT

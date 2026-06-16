@@ -1,6 +1,6 @@
 CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: \
  /home/abhishek/game/hrm/tests/gui_tests.cpp /usr/include/stdc-predef.h \
- /home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h \
+ /home/abhishek/game/hrm/include/sandhika/notifications/notification_manager.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -202,8 +202,8 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: \
  /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/mutex \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h \
- /home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h \
+ /home/abhishek/game/hrm/include/sandhika/strict/strict_break_window.h \
+ /home/abhishek/game/hrm/include/sandhika/brightness/brightness_controller.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
@@ -343,7 +343,7 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/13/thread \
- /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
+ /home/abhishek/game/hrm/include/sandhika/dashboard/dashboard_window.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -396,10 +396,21 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
- /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /home/abhishek/game/hrm/include/sandhika/stats/stats_manager.h \
  /usr/include/c++/13/filesystem /usr/include/c++/13/bits/fs_fwd.h \
  /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/codecvt \
  /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
+ /home/abhishek/game/hrm/include/sandhika/suppression/suppression_manager.h \
+ /home/abhishek/game/hrm/include/sandhika/config/config_manager.h \
+ /home/abhishek/game/hrm/include/sandhika/config/config_types.h \
+ /usr/include/c++/13/shared_mutex \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \

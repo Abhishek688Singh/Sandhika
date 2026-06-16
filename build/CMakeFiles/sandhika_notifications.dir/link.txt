@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_notifications.a CMakeFiles/sandhika_notifications.dir/sandhika_notifications_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_notifications.dir/src/notifications/notification_manager.cpp.o CMakeFiles/sandhika_notifications.dir/src/notifications/notification_window.cpp.o
+/usr/bin/ranlib libsandhika_notifications.a

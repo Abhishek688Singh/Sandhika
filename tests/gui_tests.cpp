@@ -1,14 +1,16 @@
-#include "health_reminder/notifications/notification_manager.h"
-#include "health_reminder/strict/strict_break_window.h"
-#include "health_reminder/dashboard/dashboard_window.h"
-#include "health_reminder/stats/stats_manager.h"
+#include "sandhika/notifications/notification_manager.h"
+#include "sandhika/strict/strict_break_window.h"
+#include "sandhika/dashboard/dashboard_window.h"
+#include "sandhika/stats/stats_manager.h"
+#include "sandhika/config/config_manager.h"
+#include "sandhika/suppression/suppression_manager.h"
 
 #include <QApplication>
 #include <QTimer>
 #include <cassert>
 #include <iostream>
 
-using namespace health_reminder;
+using namespace sandhika;
 
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
@@ -21,15 +23,17 @@ int main(int argc, char* argv[]) {
     assert(nm.activeNotifications().empty());
 
     // Test Dashboard (Instantiate and delete)
+    config::ConfigManager cm(config::ConfigManager::defaultConfigPath());
+    suppression::SuppressionManager supp(&cm);
     stats::StatsManager sm("/tmp/stats");
-    dashboard::DashboardWindow dw(&sm);
+    dashboard::DashboardWindow dw(&sm, &supp);
     dw.refreshData();
     dw.hide();
 
     // Test StrictBreakWindow
     strict::StrictBreakWindow sw(nullptr);
     sw.showBreak(std::chrono::seconds(1), std::chrono::seconds(0), 0);
-    sw.requestSkip();
+    (void)sw.requestSkip();
     sw.close();
 
     std::cout << "GUI tests passed\n";

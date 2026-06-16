@@ -1,7 +1,7 @@
 CMakeFiles/health_score_test.dir/tests/health_score_test.cpp.o: \
  /home/abhishek/game/hrm/tests/health_score_test.cpp \
  /usr/include/stdc-predef.h \
- /home/abhishek/game/hrm/include/health_reminder/health/health_score_calculator.h \
+ /home/abhishek/game/hrm/include/sandhika/health/health_score_calculator.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

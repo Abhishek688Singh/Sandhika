@@ -1,8 +1,8 @@
-#include "health_reminder/idle/idle_detector.h"
+#include "sandhika/idle/idle_detector.h"
 #include <cassert>
 #include <iostream>
 
-using namespace health_reminder::idle;
+using namespace sandhika::idle;
 
 class MockIdleProvider : public IdleProvider {
 public:

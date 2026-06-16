@@ -1,4 +1,4 @@
-#include "health_reminder/commands/command_executor.h"
+#include "sandhika/commands/command_executor.h"
 
 #include <fcntl.h>
 #include <signal.h>
@@ -11,7 +11,7 @@
 #include <stdexcept>
 #include <thread>
 
-namespace health_reminder::commands {
+namespace sandhika::commands {
 namespace {
 
 struct FdHelper {
@@ -149,4 +149,4 @@ CommandExecutionResult CommandExecutor::execute(const std::string& command, std:
     return result;
 }
 
-}  // namespace health_reminder::commands
+}  // namespace sandhika::commands

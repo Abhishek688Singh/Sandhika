@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_suppression.a CMakeFiles/sandhika_suppression.dir/sandhika_suppression_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_suppression.dir/src/suppression/suppression_manager.cpp.o
+/usr/bin/ranlib libsandhika_suppression.a

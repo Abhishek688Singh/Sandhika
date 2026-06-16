@@ -1,4 +1,4 @@
-#include "health_reminder/scheduler/reminder_scheduler.h"
+#include "sandhika/scheduler/reminder_scheduler.h"
 
 #include <chrono>
 #include <condition_variable>
@@ -8,13 +8,13 @@
 #include <stdexcept>
 #include <string>
 
-using health_reminder::scheduler::ReminderCallbacks;
-using health_reminder::scheduler::ReminderDefinition;
-using health_reminder::scheduler::ReminderEvent;
-using health_reminder::scheduler::ReminderSchedule;
-using health_reminder::scheduler::ReminderScheduler;
-using health_reminder::scheduler::TimeOfDay;
-using health_reminder::scheduler::Weekday;
+using sandhika::scheduler::ReminderCallbacks;
+using sandhika::scheduler::ReminderDefinition;
+using sandhika::scheduler::ReminderEvent;
+using sandhika::scheduler::ReminderSchedule;
+using sandhika::scheduler::ReminderScheduler;
+using sandhika::scheduler::TimeOfDay;
+using sandhika::scheduler::Weekday;
 
 namespace {
 

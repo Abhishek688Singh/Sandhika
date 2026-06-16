@@ -1,7 +1,7 @@
 CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o: \
  /home/abhishek/game/hrm/tests/stats_manager_test.cpp \
  /usr/include/stdc-predef.h \
- /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
+ /home/abhishek/game/hrm/include/sandhika/stats/stats_manager.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

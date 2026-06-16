@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_reminder_suppression.a CMakeFiles/health_reminder_suppression.dir/health_reminder_suppression_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_suppression.dir/src/suppression/suppression_manager.cpp.o
+/usr/bin/ranlib libhealth_reminder_suppression.a

@@ -1,8 +1,8 @@
-#include "health_reminder/commands/command_executor.h"
+#include "sandhika/commands/command_executor.h"
 #include <cassert>
 #include <iostream>
 
-using namespace health_reminder::commands;
+using namespace sandhika::commands;
 
 int main() {
     CommandExecutor executor;

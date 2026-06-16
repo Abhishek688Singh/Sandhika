@@ -1,7 +1,7 @@
 CMakeFiles/reminder_scheduler_test.dir/tests/reminder_scheduler_test.cpp.o: \
  /home/abhishek/game/hrm/tests/reminder_scheduler_test.cpp \
  /usr/include/stdc-predef.h \
- /home/abhishek/game/hrm/include/health_reminder/scheduler/reminder_scheduler.h \
+ /home/abhishek/game/hrm/include/sandhika/scheduler/reminder_scheduler.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

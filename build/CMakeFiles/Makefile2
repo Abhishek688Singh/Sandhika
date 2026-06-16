@@ -63,20 +63,20 @@ CMAKE_BINARY_DIR = /home/abhishek/game/hrm/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/health_reminder_config.dir/all
-all: CMakeFiles/health_reminder_scheduler.dir/all
-all: CMakeFiles/health_reminder_stats.dir/all
-all: CMakeFiles/health_reminder_brightness.dir/all
-all: CMakeFiles/health_reminder_commands.dir/all
-all: CMakeFiles/health_reminder_fullscreen.dir/all
-all: CMakeFiles/health_reminder_health.dir/all
-all: CMakeFiles/health_reminder_idle.dir/all
-all: CMakeFiles/health_reminder_notifications.dir/all
-all: CMakeFiles/health_reminder_strict.dir/all
-all: CMakeFiles/health_reminder_tray.dir/all
-all: CMakeFiles/health_reminder_dashboard.dir/all
-all: CMakeFiles/health_reminder_app.dir/all
-all: CMakeFiles/health-reminder.dir/all
+all: CMakeFiles/sandhika_config.dir/all
+all: CMakeFiles/sandhika_scheduler.dir/all
+all: CMakeFiles/sandhika_stats.dir/all
+all: CMakeFiles/sandhika_brightness.dir/all
+all: CMakeFiles/sandhika_commands.dir/all
+all: CMakeFiles/sandhika_suppression.dir/all
+all: CMakeFiles/sandhika_health.dir/all
+all: CMakeFiles/sandhika_idle.dir/all
+all: CMakeFiles/sandhika_notifications.dir/all
+all: CMakeFiles/sandhika_strict.dir/all
+all: CMakeFiles/sandhika_tray.dir/all
+all: CMakeFiles/sandhika_dashboard.dir/all
+all: CMakeFiles/sandhika_app.dir/all
+all: CMakeFiles/sandhika.dir/all
 all: CMakeFiles/config_manager_test.dir/all
 all: CMakeFiles/reminder_scheduler_test.dir/all
 all: CMakeFiles/stats_manager_test.dir/all
@@ -84,7 +84,7 @@ all: CMakeFiles/command_executor_test.dir/all
 all: CMakeFiles/idle_detector_test.dir/all
 all: CMakeFiles/health_score_test.dir/all
 all: CMakeFiles/gui_tests.dir/all
-all: CMakeFiles/fullscreen_detector_test.dir/all
+all: CMakeFiles/suppression_manager_test.dir/all
 all: _deps/yaml-cpp-build/all
 .PHONY : all
 
@@ -93,20 +93,20 @@ preinstall: _deps/yaml-cpp-build/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/health_reminder_config.dir/clean
-clean: CMakeFiles/health_reminder_scheduler.dir/clean
-clean: CMakeFiles/health_reminder_stats.dir/clean
-clean: CMakeFiles/health_reminder_brightness.dir/clean
-clean: CMakeFiles/health_reminder_commands.dir/clean
-clean: CMakeFiles/health_reminder_fullscreen.dir/clean
-clean: CMakeFiles/health_reminder_health.dir/clean
-clean: CMakeFiles/health_reminder_idle.dir/clean
-clean: CMakeFiles/health_reminder_notifications.dir/clean
-clean: CMakeFiles/health_reminder_strict.dir/clean
-clean: CMakeFiles/health_reminder_tray.dir/clean
-clean: CMakeFiles/health_reminder_dashboard.dir/clean
-clean: CMakeFiles/health_reminder_app.dir/clean
-clean: CMakeFiles/health-reminder.dir/clean
+clean: CMakeFiles/sandhika_config.dir/clean
+clean: CMakeFiles/sandhika_scheduler.dir/clean
+clean: CMakeFiles/sandhika_stats.dir/clean
+clean: CMakeFiles/sandhika_brightness.dir/clean
+clean: CMakeFiles/sandhika_commands.dir/clean
+clean: CMakeFiles/sandhika_suppression.dir/clean
+clean: CMakeFiles/sandhika_health.dir/clean
+clean: CMakeFiles/sandhika_idle.dir/clean
+clean: CMakeFiles/sandhika_notifications.dir/clean
+clean: CMakeFiles/sandhika_strict.dir/clean
+clean: CMakeFiles/sandhika_tray.dir/clean
+clean: CMakeFiles/sandhika_dashboard.dir/clean
+clean: CMakeFiles/sandhika_app.dir/clean
+clean: CMakeFiles/sandhika.dir/clean
 clean: CMakeFiles/config_manager_test.dir/clean
 clean: CMakeFiles/reminder_scheduler_test.dir/clean
 clean: CMakeFiles/stats_manager_test.dir/clean
@@ -114,35 +114,35 @@ clean: CMakeFiles/command_executor_test.dir/clean
 clean: CMakeFiles/idle_detector_test.dir/clean
 clean: CMakeFiles/health_score_test.dir/clean
 clean: CMakeFiles/gui_tests.dir/clean
-clean: CMakeFiles/fullscreen_detector_test.dir/clean
-clean: CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_config_autogen.dir/clean
-clean: CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_scheduler_autogen.dir/clean
-clean: CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_stats_autogen.dir/clean
-clean: CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_brightness_autogen.dir/clean
-clean: CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_commands_autogen.dir/clean
-clean: CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_fullscreen_autogen.dir/clean
-clean: CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_health_autogen.dir/clean
-clean: CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_idle_autogen.dir/clean
-clean: CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_notifications_autogen.dir/clean
-clean: CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_strict_autogen.dir/clean
-clean: CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_tray_autogen.dir/clean
-clean: CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_dashboard_autogen.dir/clean
-clean: CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health_reminder_app_autogen.dir/clean
-clean: CMakeFiles/health-reminder_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/health-reminder_autogen.dir/clean
+clean: CMakeFiles/suppression_manager_test.dir/clean
+clean: CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_config_autogen.dir/clean
+clean: CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_scheduler_autogen.dir/clean
+clean: CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_stats_autogen.dir/clean
+clean: CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_brightness_autogen.dir/clean
+clean: CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_commands_autogen.dir/clean
+clean: CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_suppression_autogen.dir/clean
+clean: CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_health_autogen.dir/clean
+clean: CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_idle_autogen.dir/clean
+clean: CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_notifications_autogen.dir/clean
+clean: CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_strict_autogen.dir/clean
+clean: CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_tray_autogen.dir/clean
+clean: CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_dashboard_autogen.dir/clean
+clean: CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_app_autogen.dir/clean
+clean: CMakeFiles/sandhika_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/sandhika_autogen.dir/clean
 clean: CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/clean
 clean: CMakeFiles/config_manager_test_autogen.dir/clean
 clean: CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/clean
@@ -157,8 +157,8 @@ clean: CMakeFiles/health_score_test_autogen_timestamp_deps.dir/clean
 clean: CMakeFiles/health_score_test_autogen.dir/clean
 clean: CMakeFiles/gui_tests_autogen_timestamp_deps.dir/clean
 clean: CMakeFiles/gui_tests_autogen.dir/clean
-clean: CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/fullscreen_detector_test_autogen.dir/clean
+clean: CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/suppression_manager_test_autogen.dir/clean
 clean: _deps/yaml-cpp-build/clean
 .PHONY : clean
 
@@ -235,415 +235,415 @@ _deps/yaml-cpp-build/util/clean: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-r
 .PHONY : _deps/yaml-cpp-build/util/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_config.dir
+# Target rules for target CMakeFiles/sandhika_config.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_config.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_config.dir/all: CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_config.dir/all: CMakeFiles/health_reminder_config_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=24,25 "Built target health_reminder_config"
-.PHONY : CMakeFiles/health_reminder_config.dir/all
+CMakeFiles/sandhika_config.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_config.dir/all: CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_config.dir/all: CMakeFiles/sandhika_config_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=30,31 "Built target sandhika_config"
+.PHONY : CMakeFiles/sandhika_config.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_config.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_config.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_config.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_config.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_config.dir/rule
+.PHONY : CMakeFiles/sandhika_config.dir/rule
 
 # Convenience name for target.
-health_reminder_config: CMakeFiles/health_reminder_config.dir/rule
-.PHONY : health_reminder_config
+sandhika_config: CMakeFiles/sandhika_config.dir/rule
+.PHONY : sandhika_config
 
 # clean rule for target.
-CMakeFiles/health_reminder_config.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/clean
-.PHONY : CMakeFiles/health_reminder_config.dir/clean
+CMakeFiles/sandhika_config.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/clean
+.PHONY : CMakeFiles/sandhika_config.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_scheduler.dir
+# Target rules for target CMakeFiles/sandhika_scheduler.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_scheduler.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_scheduler.dir/all: CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_scheduler.dir/all: CMakeFiles/health_reminder_scheduler_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=42,43,44 "Built target health_reminder_scheduler"
-.PHONY : CMakeFiles/health_reminder_scheduler.dir/all
+CMakeFiles/sandhika_scheduler.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_scheduler.dir/all: CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_scheduler.dir/all: CMakeFiles/sandhika_scheduler_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=45,46,47 "Built target sandhika_scheduler"
+.PHONY : CMakeFiles/sandhika_scheduler.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_scheduler.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_scheduler.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_scheduler.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_scheduler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_scheduler.dir/rule
+.PHONY : CMakeFiles/sandhika_scheduler.dir/rule
 
 # Convenience name for target.
-health_reminder_scheduler: CMakeFiles/health_reminder_scheduler.dir/rule
-.PHONY : health_reminder_scheduler
+sandhika_scheduler: CMakeFiles/sandhika_scheduler.dir/rule
+.PHONY : sandhika_scheduler
 
 # clean rule for target.
-CMakeFiles/health_reminder_scheduler.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/clean
-.PHONY : CMakeFiles/health_reminder_scheduler.dir/clean
+CMakeFiles/sandhika_scheduler.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/clean
+.PHONY : CMakeFiles/sandhika_scheduler.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_stats.dir
+# Target rules for target CMakeFiles/sandhika_stats.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_stats.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_stats.dir/all: CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_stats.dir/all: CMakeFiles/health_reminder_stats_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=45,46,47 "Built target health_reminder_stats"
-.PHONY : CMakeFiles/health_reminder_stats.dir/all
+CMakeFiles/sandhika_stats.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_stats.dir/all: CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_stats.dir/all: CMakeFiles/sandhika_stats_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=48,49,50 "Built target sandhika_stats"
+.PHONY : CMakeFiles/sandhika_stats.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_stats.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_stats.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_stats.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_stats.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_stats.dir/rule
+.PHONY : CMakeFiles/sandhika_stats.dir/rule
 
 # Convenience name for target.
-health_reminder_stats: CMakeFiles/health_reminder_stats.dir/rule
-.PHONY : health_reminder_stats
+sandhika_stats: CMakeFiles/sandhika_stats.dir/rule
+.PHONY : sandhika_stats
 
 # clean rule for target.
-CMakeFiles/health_reminder_stats.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/clean
-.PHONY : CMakeFiles/health_reminder_stats.dir/clean
+CMakeFiles/sandhika_stats.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/clean
+.PHONY : CMakeFiles/sandhika_stats.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_brightness.dir
+# Target rules for target CMakeFiles/sandhika_brightness.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_brightness.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_brightness.dir/all: CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_brightness.dir/all: CMakeFiles/health_reminder_brightness_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=18,19 "Built target health_reminder_brightness"
-.PHONY : CMakeFiles/health_reminder_brightness.dir/all
+CMakeFiles/sandhika_brightness.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_brightness.dir/all: CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_brightness.dir/all: CMakeFiles/sandhika_brightness_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=24,25 "Built target sandhika_brightness"
+.PHONY : CMakeFiles/sandhika_brightness.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_brightness.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_brightness.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_brightness.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_brightness.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_brightness.dir/rule
+.PHONY : CMakeFiles/sandhika_brightness.dir/rule
 
 # Convenience name for target.
-health_reminder_brightness: CMakeFiles/health_reminder_brightness.dir/rule
-.PHONY : health_reminder_brightness
+sandhika_brightness: CMakeFiles/sandhika_brightness.dir/rule
+.PHONY : sandhika_brightness
 
 # clean rule for target.
-CMakeFiles/health_reminder_brightness.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/clean
-.PHONY : CMakeFiles/health_reminder_brightness.dir/clean
+CMakeFiles/sandhika_brightness.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/clean
+.PHONY : CMakeFiles/sandhika_brightness.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_commands.dir
+# Target rules for target CMakeFiles/sandhika_commands.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_commands.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_commands.dir/all: CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_commands.dir/all: CMakeFiles/health_reminder_commands_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=21,22 "Built target health_reminder_commands"
-.PHONY : CMakeFiles/health_reminder_commands.dir/all
+CMakeFiles/sandhika_commands.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_commands.dir/all: CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_commands.dir/all: CMakeFiles/sandhika_commands_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=27,28 "Built target sandhika_commands"
+.PHONY : CMakeFiles/sandhika_commands.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_commands.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_commands.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_commands.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_commands.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_commands.dir/rule
+.PHONY : CMakeFiles/sandhika_commands.dir/rule
 
 # Convenience name for target.
-health_reminder_commands: CMakeFiles/health_reminder_commands.dir/rule
-.PHONY : health_reminder_commands
+sandhika_commands: CMakeFiles/sandhika_commands.dir/rule
+.PHONY : sandhika_commands
 
 # clean rule for target.
-CMakeFiles/health_reminder_commands.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/clean
-.PHONY : CMakeFiles/health_reminder_commands.dir/clean
+CMakeFiles/sandhika_commands.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/clean
+.PHONY : CMakeFiles/sandhika_commands.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_fullscreen.dir
+# Target rules for target CMakeFiles/sandhika_suppression.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_fullscreen.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_fullscreen.dir/all: CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_fullscreen.dir/all: CMakeFiles/health_reminder_fullscreen_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=30,31 "Built target health_reminder_fullscreen"
-.PHONY : CMakeFiles/health_reminder_fullscreen.dir/all
+CMakeFiles/sandhika_suppression.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_suppression.dir/all: CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_suppression.dir/all: CMakeFiles/sandhika_suppression_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=54,55 "Built target sandhika_suppression"
+.PHONY : CMakeFiles/sandhika_suppression.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_fullscreen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_suppression.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_fullscreen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_suppression.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_fullscreen.dir/rule
+.PHONY : CMakeFiles/sandhika_suppression.dir/rule
 
 # Convenience name for target.
-health_reminder_fullscreen: CMakeFiles/health_reminder_fullscreen.dir/rule
-.PHONY : health_reminder_fullscreen
+sandhika_suppression: CMakeFiles/sandhika_suppression.dir/rule
+.PHONY : sandhika_suppression
 
 # clean rule for target.
-CMakeFiles/health_reminder_fullscreen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/clean
-.PHONY : CMakeFiles/health_reminder_fullscreen.dir/clean
+CMakeFiles/sandhika_suppression.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/clean
+.PHONY : CMakeFiles/sandhika_suppression.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_health.dir
+# Target rules for target CMakeFiles/sandhika_health.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_health.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_health.dir/all: CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_health.dir/all: CMakeFiles/health_reminder_health_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=33,34 "Built target health_reminder_health"
-.PHONY : CMakeFiles/health_reminder_health.dir/all
+CMakeFiles/sandhika_health.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_health.dir/all: CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_health.dir/all: CMakeFiles/sandhika_health_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=36,37 "Built target sandhika_health"
+.PHONY : CMakeFiles/sandhika_health.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_health.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_health.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_health.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_health.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_health.dir/rule
+.PHONY : CMakeFiles/sandhika_health.dir/rule
 
 # Convenience name for target.
-health_reminder_health: CMakeFiles/health_reminder_health.dir/rule
-.PHONY : health_reminder_health
+sandhika_health: CMakeFiles/sandhika_health.dir/rule
+.PHONY : sandhika_health
 
 # clean rule for target.
-CMakeFiles/health_reminder_health.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/clean
-.PHONY : CMakeFiles/health_reminder_health.dir/clean
+CMakeFiles/sandhika_health.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/clean
+.PHONY : CMakeFiles/sandhika_health.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_idle.dir
+# Target rules for target CMakeFiles/sandhika_idle.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_idle.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_idle.dir/all: CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_idle.dir/all: CMakeFiles/health_reminder_idle_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=36,37 "Built target health_reminder_idle"
-.PHONY : CMakeFiles/health_reminder_idle.dir/all
+CMakeFiles/sandhika_idle.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_idle.dir/all: CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_idle.dir/all: CMakeFiles/sandhika_idle_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=39,40 "Built target sandhika_idle"
+.PHONY : CMakeFiles/sandhika_idle.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_idle.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_idle.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_idle.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_idle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_idle.dir/rule
+.PHONY : CMakeFiles/sandhika_idle.dir/rule
 
 # Convenience name for target.
-health_reminder_idle: CMakeFiles/health_reminder_idle.dir/rule
-.PHONY : health_reminder_idle
+sandhika_idle: CMakeFiles/sandhika_idle.dir/rule
+.PHONY : sandhika_idle
 
 # clean rule for target.
-CMakeFiles/health_reminder_idle.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/clean
-.PHONY : CMakeFiles/health_reminder_idle.dir/clean
+CMakeFiles/sandhika_idle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/clean
+.PHONY : CMakeFiles/sandhika_idle.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_notifications.dir
+# Target rules for target CMakeFiles/sandhika_notifications.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_notifications.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_notifications.dir/all: CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_notifications.dir/all: CMakeFiles/health_reminder_notifications_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=39,40,41 "Built target health_reminder_notifications"
-.PHONY : CMakeFiles/health_reminder_notifications.dir/all
+CMakeFiles/sandhika_notifications.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_notifications.dir/all: CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_notifications.dir/all: CMakeFiles/sandhika_notifications_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=42,43,44 "Built target sandhika_notifications"
+.PHONY : CMakeFiles/sandhika_notifications.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_notifications.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_notifications.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_notifications.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_notifications.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_notifications.dir/rule
+.PHONY : CMakeFiles/sandhika_notifications.dir/rule
 
 # Convenience name for target.
-health_reminder_notifications: CMakeFiles/health_reminder_notifications.dir/rule
-.PHONY : health_reminder_notifications
+sandhika_notifications: CMakeFiles/sandhika_notifications.dir/rule
+.PHONY : sandhika_notifications
 
 # clean rule for target.
-CMakeFiles/health_reminder_notifications.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/clean
-.PHONY : CMakeFiles/health_reminder_notifications.dir/clean
+CMakeFiles/sandhika_notifications.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/clean
+.PHONY : CMakeFiles/sandhika_notifications.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_strict.dir
+# Target rules for target CMakeFiles/sandhika_strict.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_strict.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_strict.dir/all: CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_strict.dir/all: CMakeFiles/health_reminder_strict_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=48,49,50 "Built target health_reminder_strict"
-.PHONY : CMakeFiles/health_reminder_strict.dir/all
+CMakeFiles/sandhika_strict.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_strict.dir/all: CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_strict.dir/all: CMakeFiles/sandhika_strict_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=51,52 "Built target sandhika_strict"
+.PHONY : CMakeFiles/sandhika_strict.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_strict.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_strict.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_strict.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_strict.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_strict.dir/rule
+.PHONY : CMakeFiles/sandhika_strict.dir/rule
 
 # Convenience name for target.
-health_reminder_strict: CMakeFiles/health_reminder_strict.dir/rule
-.PHONY : health_reminder_strict
+sandhika_strict: CMakeFiles/sandhika_strict.dir/rule
+.PHONY : sandhika_strict
 
 # clean rule for target.
-CMakeFiles/health_reminder_strict.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/clean
-.PHONY : CMakeFiles/health_reminder_strict.dir/clean
+CMakeFiles/sandhika_strict.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/clean
+.PHONY : CMakeFiles/sandhika_strict.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_tray.dir
+# Target rules for target CMakeFiles/sandhika_tray.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_tray.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_tray.dir/all: CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_tray.dir/all: CMakeFiles/health_reminder_tray_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=51,52 "Built target health_reminder_tray"
-.PHONY : CMakeFiles/health_reminder_tray.dir/all
+CMakeFiles/sandhika_tray.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_tray.dir/all: CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_tray.dir/all: CMakeFiles/sandhika_tray_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=57,58 "Built target sandhika_tray"
+.PHONY : CMakeFiles/sandhika_tray.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_tray.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_tray.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_tray.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_tray.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_tray.dir/rule
+.PHONY : CMakeFiles/sandhika_tray.dir/rule
 
 # Convenience name for target.
-health_reminder_tray: CMakeFiles/health_reminder_tray.dir/rule
-.PHONY : health_reminder_tray
+sandhika_tray: CMakeFiles/sandhika_tray.dir/rule
+.PHONY : sandhika_tray
 
 # clean rule for target.
-CMakeFiles/health_reminder_tray.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/clean
-.PHONY : CMakeFiles/health_reminder_tray.dir/clean
+CMakeFiles/sandhika_tray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/clean
+.PHONY : CMakeFiles/sandhika_tray.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_dashboard.dir
+# Target rules for target CMakeFiles/sandhika_dashboard.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_dashboard.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_dashboard.dir/all: CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_dashboard.dir/all: CMakeFiles/health_reminder_dashboard_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=27,28 "Built target health_reminder_dashboard"
-.PHONY : CMakeFiles/health_reminder_dashboard.dir/all
+CMakeFiles/sandhika_dashboard.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_dashboard.dir/all: CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_dashboard.dir/all: CMakeFiles/sandhika_dashboard_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=33,34 "Built target sandhika_dashboard"
+.PHONY : CMakeFiles/sandhika_dashboard.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_dashboard.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_dashboard.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_dashboard.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_dashboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_dashboard.dir/rule
+.PHONY : CMakeFiles/sandhika_dashboard.dir/rule
 
 # Convenience name for target.
-health_reminder_dashboard: CMakeFiles/health_reminder_dashboard.dir/rule
-.PHONY : health_reminder_dashboard
+sandhika_dashboard: CMakeFiles/sandhika_dashboard.dir/rule
+.PHONY : sandhika_dashboard
 
 # clean rule for target.
-CMakeFiles/health_reminder_dashboard.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/clean
-.PHONY : CMakeFiles/health_reminder_dashboard.dir/clean
+CMakeFiles/sandhika_dashboard.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/clean
+.PHONY : CMakeFiles/sandhika_dashboard.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_app.dir
+# Target rules for target CMakeFiles/sandhika_app.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_app.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health_reminder_app.dir/all: CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/all
-CMakeFiles/health_reminder_app.dir/all: CMakeFiles/health_reminder_app_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=15,16 "Built target health_reminder_app"
-.PHONY : CMakeFiles/health_reminder_app.dir/all
+CMakeFiles/sandhika_app.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika_app.dir/all: CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_app.dir/all: CMakeFiles/sandhika_app_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=20,21,22 "Built target sandhika_app"
+.PHONY : CMakeFiles/sandhika_app.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_app.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_app.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_app.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_app.dir/rule
+.PHONY : CMakeFiles/sandhika_app.dir/rule
 
 # Convenience name for target.
-health_reminder_app: CMakeFiles/health_reminder_app.dir/rule
-.PHONY : health_reminder_app
+sandhika_app: CMakeFiles/sandhika_app.dir/rule
+.PHONY : sandhika_app
 
 # clean rule for target.
-CMakeFiles/health_reminder_app.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/clean
-.PHONY : CMakeFiles/health_reminder_app.dir/clean
+CMakeFiles/sandhika_app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/clean
+.PHONY : CMakeFiles/sandhika_app.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health-reminder.dir
+# Target rules for target CMakeFiles/sandhika.dir
 
 # All Build rule for target.
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_config.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_scheduler.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_stats.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_brightness.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_commands.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_fullscreen.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_health.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_idle.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_notifications.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_strict.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_tray.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_dashboard.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health_reminder_app.dir/all
-CMakeFiles/health-reminder.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all
-CMakeFiles/health-reminder.dir/all: CMakeFiles/health-reminder_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=12,13 "Built target health-reminder"
-.PHONY : CMakeFiles/health-reminder.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_config.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_scheduler.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_stats.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_brightness.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_commands.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_suppression.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_health.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_idle.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_notifications.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_strict.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_tray.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_dashboard.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_app.dir/all
+CMakeFiles/sandhika.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika.dir/all: CMakeFiles/sandhika_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=18,19 "Built target sandhika"
+.PHONY : CMakeFiles/sandhika.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health-reminder.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 68
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health-reminder.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health-reminder.dir/rule
+.PHONY : CMakeFiles/sandhika.dir/rule
 
 # Convenience name for target.
-health-reminder: CMakeFiles/health-reminder.dir/rule
-.PHONY : health-reminder
+sandhika: CMakeFiles/sandhika.dir/rule
+.PHONY : sandhika
 
 # clean rule for target.
-CMakeFiles/health-reminder.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/clean
-.PHONY : CMakeFiles/health-reminder.dir/clean
+CMakeFiles/sandhika.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/clean
+.PHONY : CMakeFiles/sandhika.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/config_manager_test.dir
 
 # All Build rule for target.
-CMakeFiles/config_manager_test.dir/all: CMakeFiles/health_reminder_config.dir/all
+CMakeFiles/config_manager_test.dir/all: CMakeFiles/sandhika_config.dir/all
 CMakeFiles/config_manager_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/config_manager_test.dir/all: CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/all
 CMakeFiles/config_manager_test.dir/all: CMakeFiles/config_manager_test_autogen.dir/all
@@ -672,13 +672,13 @@ CMakeFiles/config_manager_test.dir/clean:
 # Target rules for target CMakeFiles/reminder_scheduler_test.dir
 
 # All Build rule for target.
-CMakeFiles/reminder_scheduler_test.dir/all: CMakeFiles/health_reminder_scheduler.dir/all
+CMakeFiles/reminder_scheduler_test.dir/all: CMakeFiles/sandhika_scheduler.dir/all
 CMakeFiles/reminder_scheduler_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/reminder_scheduler_test.dir/all: CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/all
 CMakeFiles/reminder_scheduler_test.dir/all: CMakeFiles/reminder_scheduler_test_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test.dir/build.make CMakeFiles/reminder_scheduler_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test.dir/build.make CMakeFiles/reminder_scheduler_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=60,61 "Built target reminder_scheduler_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=15,16 "Built target reminder_scheduler_test"
 .PHONY : CMakeFiles/reminder_scheduler_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -701,13 +701,13 @@ CMakeFiles/reminder_scheduler_test.dir/clean:
 # Target rules for target CMakeFiles/stats_manager_test.dir
 
 # All Build rule for target.
-CMakeFiles/stats_manager_test.dir/all: CMakeFiles/health_reminder_stats.dir/all
+CMakeFiles/stats_manager_test.dir/all: CMakeFiles/sandhika_stats.dir/all
 CMakeFiles/stats_manager_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/stats_manager_test.dir/all: CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/all
 CMakeFiles/stats_manager_test.dir/all: CMakeFiles/stats_manager_test_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=63,64 "Built target stats_manager_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=60,61 "Built target stats_manager_test"
 .PHONY : CMakeFiles/stats_manager_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -730,7 +730,7 @@ CMakeFiles/stats_manager_test.dir/clean:
 # Target rules for target CMakeFiles/command_executor_test.dir
 
 # All Build rule for target.
-CMakeFiles/command_executor_test.dir/all: CMakeFiles/health_reminder_commands.dir/all
+CMakeFiles/command_executor_test.dir/all: CMakeFiles/sandhika_commands.dir/all
 CMakeFiles/command_executor_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/command_executor_test.dir/all: CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/all
 CMakeFiles/command_executor_test.dir/all: CMakeFiles/command_executor_test_autogen.dir/all
@@ -759,13 +759,13 @@ CMakeFiles/command_executor_test.dir/clean:
 # Target rules for target CMakeFiles/idle_detector_test.dir
 
 # All Build rule for target.
-CMakeFiles/idle_detector_test.dir/all: CMakeFiles/health_reminder_idle.dir/all
+CMakeFiles/idle_detector_test.dir/all: CMakeFiles/sandhika_idle.dir/all
 CMakeFiles/idle_detector_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/idle_detector_test.dir/all: CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/all
 CMakeFiles/idle_detector_test.dir/all: CMakeFiles/idle_detector_test_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=57,58 "Built target idle_detector_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=12,13 "Built target idle_detector_test"
 .PHONY : CMakeFiles/idle_detector_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -788,13 +788,13 @@ CMakeFiles/idle_detector_test.dir/clean:
 # Target rules for target CMakeFiles/health_score_test.dir
 
 # All Build rule for target.
-CMakeFiles/health_score_test.dir/all: CMakeFiles/health_reminder_health.dir/all
+CMakeFiles/health_score_test.dir/all: CMakeFiles/sandhika_health.dir/all
 CMakeFiles/health_score_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/health_score_test.dir/all: CMakeFiles/health_score_test_autogen_timestamp_deps.dir/all
 CMakeFiles/health_score_test.dir/all: CMakeFiles/health_score_test_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=54,55 "Built target health_score_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=9,10,11 "Built target health_score_test"
 .PHONY : CMakeFiles/health_score_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -817,22 +817,24 @@ CMakeFiles/health_score_test.dir/clean:
 # Target rules for target CMakeFiles/gui_tests.dir
 
 # All Build rule for target.
-CMakeFiles/gui_tests.dir/all: CMakeFiles/health_reminder_stats.dir/all
-CMakeFiles/gui_tests.dir/all: CMakeFiles/health_reminder_brightness.dir/all
-CMakeFiles/gui_tests.dir/all: CMakeFiles/health_reminder_notifications.dir/all
-CMakeFiles/gui_tests.dir/all: CMakeFiles/health_reminder_strict.dir/all
-CMakeFiles/gui_tests.dir/all: CMakeFiles/health_reminder_dashboard.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_config.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_stats.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_brightness.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_suppression.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_notifications.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_strict.dir/all
+CMakeFiles/gui_tests.dir/all: CMakeFiles/sandhika_dashboard.dir/all
 CMakeFiles/gui_tests.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
 CMakeFiles/gui_tests.dir/all: CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all
 CMakeFiles/gui_tests.dir/all: CMakeFiles/gui_tests_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=9,10,11 "Built target gui_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=6,7,8 "Built target gui_tests"
 .PHONY : CMakeFiles/gui_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gui_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gui_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
 .PHONY : CMakeFiles/gui_tests.dir/rule
@@ -847,779 +849,780 @@ CMakeFiles/gui_tests.dir/clean:
 .PHONY : CMakeFiles/gui_tests.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fullscreen_detector_test.dir
+# Target rules for target CMakeFiles/suppression_manager_test.dir
 
 # All Build rule for target.
-CMakeFiles/fullscreen_detector_test.dir/all: CMakeFiles/health_reminder_fullscreen.dir/all
-CMakeFiles/fullscreen_detector_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-CMakeFiles/fullscreen_detector_test.dir/all: CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/all
-CMakeFiles/fullscreen_detector_test.dir/all: CMakeFiles/fullscreen_detector_test_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=6,7,8 "Built target fullscreen_detector_test"
-.PHONY : CMakeFiles/fullscreen_detector_test.dir/all
+CMakeFiles/suppression_manager_test.dir/all: CMakeFiles/sandhika_config.dir/all
+CMakeFiles/suppression_manager_test.dir/all: CMakeFiles/sandhika_suppression.dir/all
+CMakeFiles/suppression_manager_test.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/suppression_manager_test.dir/all: CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/all
+CMakeFiles/suppression_manager_test.dir/all: CMakeFiles/suppression_manager_test_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=63,64 "Built target suppression_manager_test"
+.PHONY : CMakeFiles/suppression_manager_test.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fullscreen_detector_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 32
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fullscreen_detector_test.dir/all
+CMakeFiles/suppression_manager_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 35
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/suppression_manager_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/fullscreen_detector_test.dir/rule
+.PHONY : CMakeFiles/suppression_manager_test.dir/rule
 
 # Convenience name for target.
-fullscreen_detector_test: CMakeFiles/fullscreen_detector_test.dir/rule
-.PHONY : fullscreen_detector_test
+suppression_manager_test: CMakeFiles/suppression_manager_test.dir/rule
+.PHONY : suppression_manager_test
 
 # clean rule for target.
-CMakeFiles/fullscreen_detector_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/clean
-.PHONY : CMakeFiles/fullscreen_detector_test.dir/clean
+CMakeFiles/suppression_manager_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/clean
+.PHONY : CMakeFiles/suppression_manager_test.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_config_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_config_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_config_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_config_autogen_timestamp_deps: CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_config_autogen_timestamp_deps
+sandhika_config_autogen_timestamp_deps: CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_config_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_config_autogen.dir
+# Target rules for target CMakeFiles/sandhika_config_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_config_autogen.dir/all: CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen.dir/build.make CMakeFiles/health_reminder_config_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen.dir/build.make CMakeFiles/health_reminder_config_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=26 "Built target health_reminder_config_autogen"
-.PHONY : CMakeFiles/health_reminder_config_autogen.dir/all
+CMakeFiles/sandhika_config_autogen.dir/all: CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen.dir/build.make CMakeFiles/sandhika_config_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen.dir/build.make CMakeFiles/sandhika_config_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=32 "Built target sandhika_config_autogen"
+.PHONY : CMakeFiles/sandhika_config_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_config_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_config_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_config_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_config_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_config_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_config_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_config_autogen: CMakeFiles/health_reminder_config_autogen.dir/rule
-.PHONY : health_reminder_config_autogen
+sandhika_config_autogen: CMakeFiles/sandhika_config_autogen.dir/rule
+.PHONY : sandhika_config_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_config_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen.dir/build.make CMakeFiles/health_reminder_config_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_config_autogen.dir/clean
+CMakeFiles/sandhika_config_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen.dir/build.make CMakeFiles/sandhika_config_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_config_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_scheduler_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_scheduler_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_scheduler_autogen_timestamp_deps: CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_scheduler_autogen_timestamp_deps
+sandhika_scheduler_autogen_timestamp_deps: CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_scheduler_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_scheduler_autogen.dir
+# Target rules for target CMakeFiles/sandhika_scheduler_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_scheduler_autogen.dir/all: CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen.dir/build.make CMakeFiles/health_reminder_scheduler_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen.dir/build.make CMakeFiles/health_reminder_scheduler_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_scheduler_autogen"
-.PHONY : CMakeFiles/health_reminder_scheduler_autogen.dir/all
+CMakeFiles/sandhika_scheduler_autogen.dir/all: CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen.dir/build.make CMakeFiles/sandhika_scheduler_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen.dir/build.make CMakeFiles/sandhika_scheduler_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_scheduler_autogen"
+.PHONY : CMakeFiles/sandhika_scheduler_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_scheduler_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_scheduler_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_scheduler_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_scheduler_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_scheduler_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_scheduler_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_scheduler_autogen: CMakeFiles/health_reminder_scheduler_autogen.dir/rule
-.PHONY : health_reminder_scheduler_autogen
+sandhika_scheduler_autogen: CMakeFiles/sandhika_scheduler_autogen.dir/rule
+.PHONY : sandhika_scheduler_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_scheduler_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen.dir/build.make CMakeFiles/health_reminder_scheduler_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_scheduler_autogen.dir/clean
+CMakeFiles/sandhika_scheduler_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen.dir/build.make CMakeFiles/sandhika_scheduler_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_scheduler_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_stats_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_stats_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_stats_autogen_timestamp_deps: CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_stats_autogen_timestamp_deps
+sandhika_stats_autogen_timestamp_deps: CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_stats_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_stats_autogen.dir
+# Target rules for target CMakeFiles/sandhika_stats_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_stats_autogen.dir/all: CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen.dir/build.make CMakeFiles/health_reminder_stats_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen.dir/build.make CMakeFiles/health_reminder_stats_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_stats_autogen"
-.PHONY : CMakeFiles/health_reminder_stats_autogen.dir/all
+CMakeFiles/sandhika_stats_autogen.dir/all: CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen.dir/build.make CMakeFiles/sandhika_stats_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen.dir/build.make CMakeFiles/sandhika_stats_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_stats_autogen"
+.PHONY : CMakeFiles/sandhika_stats_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_stats_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_stats_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_stats_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_stats_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_stats_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_stats_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_stats_autogen: CMakeFiles/health_reminder_stats_autogen.dir/rule
-.PHONY : health_reminder_stats_autogen
+sandhika_stats_autogen: CMakeFiles/sandhika_stats_autogen.dir/rule
+.PHONY : sandhika_stats_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_stats_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen.dir/build.make CMakeFiles/health_reminder_stats_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_stats_autogen.dir/clean
+CMakeFiles/sandhika_stats_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen.dir/build.make CMakeFiles/sandhika_stats_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_stats_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_brightness_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_brightness_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_brightness_autogen_timestamp_deps: CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_brightness_autogen_timestamp_deps
+sandhika_brightness_autogen_timestamp_deps: CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_brightness_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_brightness_autogen.dir
+# Target rules for target CMakeFiles/sandhika_brightness_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_brightness_autogen.dir/all: CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen.dir/build.make CMakeFiles/health_reminder_brightness_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen.dir/build.make CMakeFiles/health_reminder_brightness_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=20 "Built target health_reminder_brightness_autogen"
-.PHONY : CMakeFiles/health_reminder_brightness_autogen.dir/all
+CMakeFiles/sandhika_brightness_autogen.dir/all: CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen.dir/build.make CMakeFiles/sandhika_brightness_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen.dir/build.make CMakeFiles/sandhika_brightness_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=26 "Built target sandhika_brightness_autogen"
+.PHONY : CMakeFiles/sandhika_brightness_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_brightness_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_brightness_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_brightness_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_brightness_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_brightness_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_brightness_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_brightness_autogen: CMakeFiles/health_reminder_brightness_autogen.dir/rule
-.PHONY : health_reminder_brightness_autogen
+sandhika_brightness_autogen: CMakeFiles/sandhika_brightness_autogen.dir/rule
+.PHONY : sandhika_brightness_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_brightness_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen.dir/build.make CMakeFiles/health_reminder_brightness_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_brightness_autogen.dir/clean
+CMakeFiles/sandhika_brightness_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen.dir/build.make CMakeFiles/sandhika_brightness_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_brightness_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_commands_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_commands_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_commands_autogen_timestamp_deps: CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_commands_autogen_timestamp_deps
+sandhika_commands_autogen_timestamp_deps: CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_commands_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_commands_autogen.dir
+# Target rules for target CMakeFiles/sandhika_commands_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_commands_autogen.dir/all: CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen.dir/build.make CMakeFiles/health_reminder_commands_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen.dir/build.make CMakeFiles/health_reminder_commands_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=23 "Built target health_reminder_commands_autogen"
-.PHONY : CMakeFiles/health_reminder_commands_autogen.dir/all
+CMakeFiles/sandhika_commands_autogen.dir/all: CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen.dir/build.make CMakeFiles/sandhika_commands_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen.dir/build.make CMakeFiles/sandhika_commands_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=29 "Built target sandhika_commands_autogen"
+.PHONY : CMakeFiles/sandhika_commands_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_commands_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_commands_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_commands_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_commands_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_commands_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_commands_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_commands_autogen: CMakeFiles/health_reminder_commands_autogen.dir/rule
-.PHONY : health_reminder_commands_autogen
+sandhika_commands_autogen: CMakeFiles/sandhika_commands_autogen.dir/rule
+.PHONY : sandhika_commands_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_commands_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen.dir/build.make CMakeFiles/health_reminder_commands_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_commands_autogen.dir/clean
+CMakeFiles/sandhika_commands_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen.dir/build.make CMakeFiles/sandhika_commands_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_commands_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_fullscreen_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_suppression_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_fullscreen_autogen_timestamp_deps: CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_fullscreen_autogen_timestamp_deps
+sandhika_suppression_autogen_timestamp_deps: CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_suppression_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_fullscreen_autogen.dir
+# Target rules for target CMakeFiles/sandhika_suppression_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_fullscreen_autogen.dir/all: CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=32 "Built target health_reminder_fullscreen_autogen"
-.PHONY : CMakeFiles/health_reminder_fullscreen_autogen.dir/all
+CMakeFiles/sandhika_suppression_autogen.dir/all: CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen.dir/build.make CMakeFiles/sandhika_suppression_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen.dir/build.make CMakeFiles/sandhika_suppression_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=56 "Built target sandhika_suppression_autogen"
+.PHONY : CMakeFiles/sandhika_suppression_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_fullscreen_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_suppression_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_fullscreen_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_suppression_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_fullscreen_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_suppression_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_fullscreen_autogen: CMakeFiles/health_reminder_fullscreen_autogen.dir/rule
-.PHONY : health_reminder_fullscreen_autogen
+sandhika_suppression_autogen: CMakeFiles/sandhika_suppression_autogen.dir/rule
+.PHONY : sandhika_suppression_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_fullscreen_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_fullscreen_autogen.dir/clean
+CMakeFiles/sandhika_suppression_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen.dir/build.make CMakeFiles/sandhika_suppression_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_suppression_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_health_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_health_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_health_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_health_autogen_timestamp_deps: CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_health_autogen_timestamp_deps
+sandhika_health_autogen_timestamp_deps: CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_health_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_health_autogen.dir
+# Target rules for target CMakeFiles/sandhika_health_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_health_autogen.dir/all: CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen.dir/build.make CMakeFiles/health_reminder_health_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen.dir/build.make CMakeFiles/health_reminder_health_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=35 "Built target health_reminder_health_autogen"
-.PHONY : CMakeFiles/health_reminder_health_autogen.dir/all
+CMakeFiles/sandhika_health_autogen.dir/all: CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen.dir/build.make CMakeFiles/sandhika_health_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen.dir/build.make CMakeFiles/sandhika_health_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=38 "Built target sandhika_health_autogen"
+.PHONY : CMakeFiles/sandhika_health_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_health_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_health_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_health_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_health_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_health_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_health_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_health_autogen: CMakeFiles/health_reminder_health_autogen.dir/rule
-.PHONY : health_reminder_health_autogen
+sandhika_health_autogen: CMakeFiles/sandhika_health_autogen.dir/rule
+.PHONY : sandhika_health_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_health_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen.dir/build.make CMakeFiles/health_reminder_health_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_health_autogen.dir/clean
+CMakeFiles/sandhika_health_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen.dir/build.make CMakeFiles/sandhika_health_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_health_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_idle_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_idle_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_idle_autogen_timestamp_deps: CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_idle_autogen_timestamp_deps
+sandhika_idle_autogen_timestamp_deps: CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_idle_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_idle_autogen.dir
+# Target rules for target CMakeFiles/sandhika_idle_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_idle_autogen.dir/all: CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen.dir/build.make CMakeFiles/health_reminder_idle_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen.dir/build.make CMakeFiles/health_reminder_idle_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=38 "Built target health_reminder_idle_autogen"
-.PHONY : CMakeFiles/health_reminder_idle_autogen.dir/all
+CMakeFiles/sandhika_idle_autogen.dir/all: CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen.dir/build.make CMakeFiles/sandhika_idle_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen.dir/build.make CMakeFiles/sandhika_idle_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=41 "Built target sandhika_idle_autogen"
+.PHONY : CMakeFiles/sandhika_idle_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_idle_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_idle_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_idle_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_idle_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_idle_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_idle_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_idle_autogen: CMakeFiles/health_reminder_idle_autogen.dir/rule
-.PHONY : health_reminder_idle_autogen
+sandhika_idle_autogen: CMakeFiles/sandhika_idle_autogen.dir/rule
+.PHONY : sandhika_idle_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_idle_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen.dir/build.make CMakeFiles/health_reminder_idle_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_idle_autogen.dir/clean
+CMakeFiles/sandhika_idle_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen.dir/build.make CMakeFiles/sandhika_idle_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_idle_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_notifications_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_notifications_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_notifications_autogen_timestamp_deps: CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_notifications_autogen_timestamp_deps
+sandhika_notifications_autogen_timestamp_deps: CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_notifications_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_notifications_autogen.dir
+# Target rules for target CMakeFiles/sandhika_notifications_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_notifications_autogen.dir/all: CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen.dir/build.make CMakeFiles/health_reminder_notifications_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen.dir/build.make CMakeFiles/health_reminder_notifications_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_notifications_autogen"
-.PHONY : CMakeFiles/health_reminder_notifications_autogen.dir/all
+CMakeFiles/sandhika_notifications_autogen.dir/all: CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen.dir/build.make CMakeFiles/sandhika_notifications_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen.dir/build.make CMakeFiles/sandhika_notifications_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_notifications_autogen"
+.PHONY : CMakeFiles/sandhika_notifications_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_notifications_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_notifications_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_notifications_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_notifications_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_notifications_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_notifications_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_notifications_autogen: CMakeFiles/health_reminder_notifications_autogen.dir/rule
-.PHONY : health_reminder_notifications_autogen
+sandhika_notifications_autogen: CMakeFiles/sandhika_notifications_autogen.dir/rule
+.PHONY : sandhika_notifications_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_notifications_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen.dir/build.make CMakeFiles/health_reminder_notifications_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_notifications_autogen.dir/clean
+CMakeFiles/sandhika_notifications_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen.dir/build.make CMakeFiles/sandhika_notifications_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_notifications_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_strict_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_strict_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_strict_autogen_timestamp_deps: CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_strict_autogen_timestamp_deps
+sandhika_strict_autogen_timestamp_deps: CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_strict_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_strict_autogen.dir
+# Target rules for target CMakeFiles/sandhika_strict_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_strict_autogen.dir/all: CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen.dir/build.make CMakeFiles/health_reminder_strict_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen.dir/build.make CMakeFiles/health_reminder_strict_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_strict_autogen"
-.PHONY : CMakeFiles/health_reminder_strict_autogen.dir/all
+CMakeFiles/sandhika_strict_autogen.dir/all: CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen.dir/build.make CMakeFiles/sandhika_strict_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen.dir/build.make CMakeFiles/sandhika_strict_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=53 "Built target sandhika_strict_autogen"
+.PHONY : CMakeFiles/sandhika_strict_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_strict_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_strict_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_strict_autogen.dir/rule
-
-# Convenience name for target.
-health_reminder_strict_autogen: CMakeFiles/health_reminder_strict_autogen.dir/rule
-.PHONY : health_reminder_strict_autogen
-
-# clean rule for target.
-CMakeFiles/health_reminder_strict_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen.dir/build.make CMakeFiles/health_reminder_strict_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_strict_autogen.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir
-
-# All Build rule for target.
-CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_tray_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/rule
-
-# Convenience name for target.
-health_reminder_tray_autogen_timestamp_deps: CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_tray_autogen_timestamp_deps
-
-# clean rule for target.
-CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/health_reminder_tray_autogen.dir
-
-# All Build rule for target.
-CMakeFiles/health_reminder_tray_autogen.dir/all: CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen.dir/build.make CMakeFiles/health_reminder_tray_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen.dir/build.make CMakeFiles/health_reminder_tray_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=53 "Built target health_reminder_tray_autogen"
-.PHONY : CMakeFiles/health_reminder_tray_autogen.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_tray_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_strict_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_tray_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_strict_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_tray_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_strict_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_tray_autogen: CMakeFiles/health_reminder_tray_autogen.dir/rule
-.PHONY : health_reminder_tray_autogen
+sandhika_strict_autogen: CMakeFiles/sandhika_strict_autogen.dir/rule
+.PHONY : sandhika_strict_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_tray_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen.dir/build.make CMakeFiles/health_reminder_tray_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_tray_autogen.dir/clean
+CMakeFiles/sandhika_strict_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen.dir/build.make CMakeFiles/sandhika_strict_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_strict_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_dashboard_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_tray_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_dashboard_autogen_timestamp_deps: CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_dashboard_autogen_timestamp_deps
+sandhika_tray_autogen_timestamp_deps: CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_tray_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_dashboard_autogen.dir
+# Target rules for target CMakeFiles/sandhika_tray_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_dashboard_autogen.dir/all: CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen.dir/build.make CMakeFiles/health_reminder_dashboard_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen.dir/build.make CMakeFiles/health_reminder_dashboard_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=29 "Built target health_reminder_dashboard_autogen"
-.PHONY : CMakeFiles/health_reminder_dashboard_autogen.dir/all
+CMakeFiles/sandhika_tray_autogen.dir/all: CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen.dir/build.make CMakeFiles/sandhika_tray_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen.dir/build.make CMakeFiles/sandhika_tray_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=59 "Built target sandhika_tray_autogen"
+.PHONY : CMakeFiles/sandhika_tray_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_dashboard_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_tray_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_dashboard_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_tray_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_dashboard_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_tray_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_dashboard_autogen: CMakeFiles/health_reminder_dashboard_autogen.dir/rule
-.PHONY : health_reminder_dashboard_autogen
+sandhika_tray_autogen: CMakeFiles/sandhika_tray_autogen.dir/rule
+.PHONY : sandhika_tray_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_dashboard_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen.dir/build.make CMakeFiles/health_reminder_dashboard_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_dashboard_autogen.dir/clean
+CMakeFiles/sandhika_tray_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen.dir/build.make CMakeFiles/sandhika_tray_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_tray_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_reminder_app_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_dashboard_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health_reminder_app_autogen_timestamp_deps: CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/rule
-.PHONY : health_reminder_app_autogen_timestamp_deps
+sandhika_dashboard_autogen_timestamp_deps: CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_dashboard_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health_reminder_app_autogen.dir
+# Target rules for target CMakeFiles/sandhika_dashboard_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health_reminder_app_autogen.dir/all: CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen.dir/build.make CMakeFiles/health_reminder_app_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen.dir/build.make CMakeFiles/health_reminder_app_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=17 "Built target health_reminder_app_autogen"
-.PHONY : CMakeFiles/health_reminder_app_autogen.dir/all
+CMakeFiles/sandhika_dashboard_autogen.dir/all: CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen.dir/build.make CMakeFiles/sandhika_dashboard_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen.dir/build.make CMakeFiles/sandhika_dashboard_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=35 "Built target sandhika_dashboard_autogen"
+.PHONY : CMakeFiles/sandhika_dashboard_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health_reminder_app_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_dashboard_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_reminder_app_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_dashboard_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health_reminder_app_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_dashboard_autogen.dir/rule
 
 # Convenience name for target.
-health_reminder_app_autogen: CMakeFiles/health_reminder_app_autogen.dir/rule
-.PHONY : health_reminder_app_autogen
+sandhika_dashboard_autogen: CMakeFiles/sandhika_dashboard_autogen.dir/rule
+.PHONY : sandhika_dashboard_autogen
 
 # clean rule for target.
-CMakeFiles/health_reminder_app_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen.dir/build.make CMakeFiles/health_reminder_app_autogen.dir/clean
-.PHONY : CMakeFiles/health_reminder_app_autogen.dir/clean
+CMakeFiles/sandhika_dashboard_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen.dir/build.make CMakeFiles/sandhika_dashboard_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_dashboard_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health-reminder_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/sandhika_app_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_config.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_scheduler.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_stats.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_brightness.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_commands.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_fullscreen.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_health.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_idle.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_notifications.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_strict.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_tray.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_dashboard.dir/all
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_app.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build.make CMakeFiles/health-reminder_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build.make CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health-reminder_autogen_timestamp_deps"
-.PHONY : CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all
+CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_app_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
+.PHONY : CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+sandhika_app_autogen_timestamp_deps: CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_app_autogen_timestamp_deps
+
+# clean rule for target.
+CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sandhika_app_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/sandhika_app_autogen.dir/all: CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen.dir/build.make CMakeFiles/sandhika_app_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen.dir/build.make CMakeFiles/sandhika_app_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_app_autogen"
+.PHONY : CMakeFiles/sandhika_app_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sandhika_app_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 26
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_app_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
+.PHONY : CMakeFiles/sandhika_app_autogen.dir/rule
+
+# Convenience name for target.
+sandhika_app_autogen: CMakeFiles/sandhika_app_autogen.dir/rule
+.PHONY : sandhika_app_autogen
+
+# clean rule for target.
+CMakeFiles/sandhika_app_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen.dir/build.make CMakeFiles/sandhika_app_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_app_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sandhika_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_config.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_scheduler.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_stats.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_brightness.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_commands.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_suppression.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_health.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_idle.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_notifications.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_strict.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_tray.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_dashboard.dir/all
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_app.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target sandhika_autogen_timestamp_deps"
+.PHONY : CMakeFiles/sandhika_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 65
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health-reminder_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/sandhika_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-health-reminder_autogen_timestamp_deps: CMakeFiles/health-reminder_autogen_timestamp_deps.dir/rule
-.PHONY : health-reminder_autogen_timestamp_deps
+sandhika_autogen_timestamp_deps: CMakeFiles/sandhika_autogen_timestamp_deps.dir/rule
+.PHONY : sandhika_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/health-reminder_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build.make CMakeFiles/health-reminder_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/health-reminder_autogen_timestamp_deps.dir/clean
+CMakeFiles/sandhika_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/sandhika_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/health-reminder_autogen.dir
+# Target rules for target CMakeFiles/sandhika_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/health-reminder_autogen.dir/all: CMakeFiles/health-reminder_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen.dir/build.make CMakeFiles/health-reminder_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen.dir/build.make CMakeFiles/health-reminder_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=14 "Built target health-reminder_autogen"
-.PHONY : CMakeFiles/health-reminder_autogen.dir/all
+CMakeFiles/sandhika_autogen.dir/all: CMakeFiles/sandhika_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen.dir/build.make CMakeFiles/sandhika_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen.dir/build.make CMakeFiles/sandhika_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=23 "Built target sandhika_autogen"
+.PHONY : CMakeFiles/sandhika_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/health-reminder_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/sandhika_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 66
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health-reminder_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sandhika_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/health-reminder_autogen.dir/rule
+.PHONY : CMakeFiles/sandhika_autogen.dir/rule
 
 # Convenience name for target.
-health-reminder_autogen: CMakeFiles/health-reminder_autogen.dir/rule
-.PHONY : health-reminder_autogen
+sandhika_autogen: CMakeFiles/sandhika_autogen.dir/rule
+.PHONY : sandhika_autogen
 
 # clean rule for target.
-CMakeFiles/health-reminder_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen.dir/build.make CMakeFiles/health-reminder_autogen.dir/clean
-.PHONY : CMakeFiles/health-reminder_autogen.dir/clean
+CMakeFiles/sandhika_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen.dir/build.make CMakeFiles/sandhika_autogen.dir/clean
+.PHONY : CMakeFiles/sandhika_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/config_manager_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_config.dir/all
+CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_config.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target config_manager_test_autogen_timestamp_deps"
@@ -1671,7 +1674,7 @@ CMakeFiles/config_manager_test_autogen.dir/clean:
 # Target rules for target CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_scheduler.dir/all
+CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_scheduler.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/build.make CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/build.make CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target reminder_scheduler_test_autogen_timestamp_deps"
@@ -1700,7 +1703,7 @@ CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/clean:
 CMakeFiles/reminder_scheduler_test_autogen.dir/all: CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test_autogen.dir/build.make CMakeFiles/reminder_scheduler_test_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test_autogen.dir/build.make CMakeFiles/reminder_scheduler_test_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=62 "Built target reminder_scheduler_test_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=17 "Built target reminder_scheduler_test_autogen"
 .PHONY : CMakeFiles/reminder_scheduler_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1723,7 +1726,7 @@ CMakeFiles/reminder_scheduler_test_autogen.dir/clean:
 # Target rules for target CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_stats.dir/all
+CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_stats.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target stats_manager_test_autogen_timestamp_deps"
@@ -1752,7 +1755,7 @@ CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/clean:
 CMakeFiles/stats_manager_test_autogen.dir/all: CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test_autogen.dir/build.make CMakeFiles/stats_manager_test_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test_autogen.dir/build.make CMakeFiles/stats_manager_test_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=65 "Built target stats_manager_test_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=62 "Built target stats_manager_test_autogen"
 .PHONY : CMakeFiles/stats_manager_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1775,7 +1778,7 @@ CMakeFiles/stats_manager_test_autogen.dir/clean:
 # Target rules for target CMakeFiles/command_executor_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_commands.dir/all
+CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_commands.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/build.make CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/build.make CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target command_executor_test_autogen_timestamp_deps"
@@ -1827,7 +1830,7 @@ CMakeFiles/command_executor_test_autogen.dir/clean:
 # Target rules for target CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_idle.dir/all
+CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_idle.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target idle_detector_test_autogen_timestamp_deps"
@@ -1856,7 +1859,7 @@ CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/clean:
 CMakeFiles/idle_detector_test_autogen.dir/all: CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test_autogen.dir/build.make CMakeFiles/idle_detector_test_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test_autogen.dir/build.make CMakeFiles/idle_detector_test_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=59 "Built target idle_detector_test_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=14 "Built target idle_detector_test_autogen"
 .PHONY : CMakeFiles/idle_detector_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1879,7 +1882,7 @@ CMakeFiles/idle_detector_test_autogen.dir/clean:
 # Target rules for target CMakeFiles/health_score_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/health_score_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_health.dir/all
+CMakeFiles/health_score_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_health.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test_autogen_timestamp_deps.dir/build.make CMakeFiles/health_score_test_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test_autogen_timestamp_deps.dir/build.make CMakeFiles/health_score_test_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_score_test_autogen_timestamp_deps"
@@ -1908,12 +1911,12 @@ CMakeFiles/health_score_test_autogen_timestamp_deps.dir/clean:
 CMakeFiles/health_score_test_autogen.dir/all: CMakeFiles/health_score_test_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test_autogen.dir/build.make CMakeFiles/health_score_test_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test_autogen.dir/build.make CMakeFiles/health_score_test_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=56 "Built target health_score_test_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target health_score_test_autogen"
 .PHONY : CMakeFiles/health_score_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/health_score_test_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/health_score_test_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
 .PHONY : CMakeFiles/health_score_test_autogen.dir/rule
@@ -1931,11 +1934,13 @@ CMakeFiles/health_score_test_autogen.dir/clean:
 # Target rules for target CMakeFiles/gui_tests_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_stats.dir/all
-CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_brightness.dir/all
-CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_notifications.dir/all
-CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_strict.dir/all
-CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_dashboard.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_config.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_stats.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_brightness.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_suppression.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_notifications.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_strict.dir/all
+CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_dashboard.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/gui_tests_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/gui_tests_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target gui_tests_autogen_timestamp_deps"
@@ -1943,7 +1948,7 @@ CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gui_tests_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gui_tests_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
 .PHONY : CMakeFiles/gui_tests_autogen_timestamp_deps.dir/rule
@@ -1969,7 +1974,7 @@ CMakeFiles/gui_tests_autogen.dir/all: CMakeFiles/gui_tests_autogen_timestamp_dep
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gui_tests_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gui_tests_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
 .PHONY : CMakeFiles/gui_tests_autogen.dir/rule
@@ -1984,56 +1989,57 @@ CMakeFiles/gui_tests_autogen.dir/clean:
 .PHONY : CMakeFiles/gui_tests_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/all: CMakeFiles/health_reminder_fullscreen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target fullscreen_detector_test_autogen_timestamp_deps"
-.PHONY : CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/all
+CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_config.dir/all
+CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/all: CMakeFiles/sandhika_suppression.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target suppression_manager_test_autogen_timestamp_deps"
+.PHONY : CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/all
+CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 32
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/rule
+.PHONY : CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-fullscreen_detector_test_autogen_timestamp_deps: CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/rule
-.PHONY : fullscreen_detector_test_autogen_timestamp_deps
+suppression_manager_test_autogen_timestamp_deps: CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/rule
+.PHONY : suppression_manager_test_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/clean
+CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fullscreen_detector_test_autogen.dir
+# Target rules for target CMakeFiles/suppression_manager_test_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/fullscreen_detector_test_autogen.dir/all: CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen.dir/build.make CMakeFiles/fullscreen_detector_test_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen.dir/build.make CMakeFiles/fullscreen_detector_test_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num= "Built target fullscreen_detector_test_autogen"
-.PHONY : CMakeFiles/fullscreen_detector_test_autogen.dir/all
+CMakeFiles/suppression_manager_test_autogen.dir/all: CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen.dir/build.make CMakeFiles/suppression_manager_test_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen.dir/build.make CMakeFiles/suppression_manager_test_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=65 "Built target suppression_manager_test_autogen"
+.PHONY : CMakeFiles/suppression_manager_test_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fullscreen_detector_test_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 29
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fullscreen_detector_test_autogen.dir/all
+CMakeFiles/suppression_manager_test_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 33
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/suppression_manager_test_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/game/hrm/build/CMakeFiles 0
-.PHONY : CMakeFiles/fullscreen_detector_test_autogen.dir/rule
+.PHONY : CMakeFiles/suppression_manager_test_autogen.dir/rule
 
 # Convenience name for target.
-fullscreen_detector_test_autogen: CMakeFiles/fullscreen_detector_test_autogen.dir/rule
-.PHONY : fullscreen_detector_test_autogen
+suppression_manager_test_autogen: CMakeFiles/suppression_manager_test_autogen.dir/rule
+.PHONY : suppression_manager_test_autogen
 
 # clean rule for target.
-CMakeFiles/fullscreen_detector_test_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen.dir/build.make CMakeFiles/fullscreen_detector_test_autogen.dir/clean
-.PHONY : CMakeFiles/fullscreen_detector_test_autogen.dir/clean
+CMakeFiles/suppression_manager_test_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen.dir/build.make CMakeFiles/suppression_manager_test_autogen.dir/clean
+.PHONY : CMakeFiles/suppression_manager_test_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/yaml-cpp-build/CMakeFiles/Experimental.dir

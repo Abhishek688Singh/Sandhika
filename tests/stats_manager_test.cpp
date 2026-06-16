@@ -1,4 +1,4 @@
-#include "health_reminder/stats/stats_manager.h"
+#include "sandhika/stats/stats_manager.h"
 
 #include <atomic>
 #include <chrono>
@@ -10,9 +10,9 @@
 #include <stdexcept>
 #include <string>
 
-using health_reminder::stats::DailyStats;
-using health_reminder::stats::StatsError;
-using health_reminder::stats::StatsManager;
+using sandhika::stats::DailyStats;
+using sandhika::stats::StatsError;
+using sandhika::stats::StatsManager;
 
 namespace {
 
@@ -35,7 +35,7 @@ private:
         static std::atomic<unsigned int> counter {0};
         const auto now = std::chrono::steady_clock::now().time_since_epoch().count();
         return std::filesystem::temp_directory_path() /
-               ("health-reminder-stats-test-" + std::to_string(now) + "-" +
+               ("sandhika-stats-test-" + std::to_string(now) + "-" +
                 std::to_string(counter.fetch_add(1, std::memory_order_relaxed)));
     }
 

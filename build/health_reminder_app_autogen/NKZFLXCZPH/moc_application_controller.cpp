@@ -8,6 +8,7 @@
 
 #include <memory>
 #include "../../../include/health_reminder/app/application_controller.h"
+#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'application_controller.h' doesn't include <QObject>."

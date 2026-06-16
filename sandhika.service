@@ -1,0 +1,13 @@
+[Unit]
+Description=Sandhika Daemon
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/local/bin/sandhika start
+Restart=on-failure
+RestartSec=5
+Environment=QT_QPA_PLATFORM=xcb
+
+[Install]
+WantedBy=default.target

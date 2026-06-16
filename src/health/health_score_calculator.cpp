@@ -1,8 +1,8 @@
-#include "health_reminder/health/health_score_calculator.h"
+#include "sandhika/health/health_score_calculator.h"
 
 #include <algorithm>
 
-namespace health_reminder::health {
+namespace sandhika::health {
 namespace {
 
 [[nodiscard]] int compliance(int completed, int shown, int weight) {
@@ -45,4 +45,4 @@ HealthScore HealthScoreCalculator::calculate(const HealthScoreInput& input) cons
     return HealthScore {.value = score, .label = label_for(score)};
 }
 
-}  // namespace health_reminder::health
+}  // namespace sandhika::health

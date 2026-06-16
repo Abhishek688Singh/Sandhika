@@ -1,17 +1,17 @@
-#include "health_reminder/tray/system_tray_manager.h"
+#include "sandhika/tray/system_tray_manager.h"
 
 #include <QIcon>
 #include <QApplication>
 
-namespace health_reminder::tray {
+namespace sandhika::tray {
 
 SystemTrayManager::SystemTrayManager(QObject* parent)
     : QObject(parent),
       tray_icon_(new QSystemTrayIcon(this)),
       tray_menu_(new QMenu()) {
     
-    tray_icon_->setIcon(QIcon::fromTheme("health-reminder", QIcon(":/resources/icons/health-reminder.png")));
-    tray_icon_->setToolTip("Health Reminder");
+    tray_icon_->setIcon(QIcon::fromTheme("sandhika", QIcon(":/resources/icons/sandhika.png")));
+    tray_icon_->setToolTip("Sandhika");
     
     setupMenu();
     tray_icon_->setContextMenu(tray_menu_);
@@ -26,13 +26,14 @@ void SystemTrayManager::setPause30mCallback(std::function<void()> cb) { pause_30
 void SystemTrayManager::setPause1hCallback(std::function<void()> cb) { pause_1h_cb_ = std::move(cb); }
 void SystemTrayManager::setResumeCallback(std::function<void()> cb) { resume_cb_ = std::move(cb); }
 void SystemTrayManager::setOpenDashboardCallback(std::function<void()> cb) { open_dashboard_cb_ = std::move(cb); }
+void SystemTrayManager::setToggleMediaModeCallback(std::function<void()> cb) { toggle_media_mode_cb_ = std::move(cb); }
 void SystemTrayManager::setReloadConfigCallback(std::function<void()> cb) { reload_config_cb_ = std::move(cb); }
 void SystemTrayManager::setQuitCallback(std::function<void()> cb) { quit_cb_ = std::move(cb); }
 
 void SystemTrayManager::updateTimes(const QString& eye_break, const QString& water) {
     eye_break_action_->setText("Eye Break: " + eye_break);
     water_action_->setText("Water: " + water);
-    tray_icon_->setToolTip(QString("Health Reminder\nEye Break: %1\nWater: %2").arg(eye_break, water));
+    tray_icon_->setToolTip(QString("Sandhika\nEye Break: %1\nWater: %2").arg(eye_break, water));
 }
 
 void SystemTrayManager::showMessage(const QString& title, const QString& message) {
@@ -62,6 +63,9 @@ void SystemTrayManager::setupMenu() {
     auto* dashboard = tray_menu_->addAction("Open Dashboard");
     connect(dashboard, &QAction::triggered, this, [this]() { if (open_dashboard_cb_) open_dashboard_cb_(); });
     
+    auto* media_mode = tray_menu_->addAction("Toggle Media Mode");
+    connect(media_mode, &QAction::triggered, this, [this]() { if (toggle_media_mode_cb_) toggle_media_mode_cb_(); });
+    
     auto* reload = tray_menu_->addAction("Reload Config");
     connect(reload, &QAction::triggered, this, [this]() { if (reload_config_cb_) reload_config_cb_(); });
     
@@ -71,4 +75,4 @@ void SystemTrayManager::setupMenu() {
     connect(quit, &QAction::triggered, this, [this]() { if (quit_cb_) quit_cb_(); });
 }
 
-}  // namespace health_reminder::tray
+}  // namespace sandhika::tray

@@ -108,7 +108,7 @@ health_score_test_EXTERNAL_OBJECTS =
 health_score_test: CMakeFiles/health_score_test.dir/health_score_test_autogen/mocs_compilation.cpp.o
 health_score_test: CMakeFiles/health_score_test.dir/tests/health_score_test.cpp.o
 health_score_test: CMakeFiles/health_score_test.dir/build.make
-health_score_test: libhealth_reminder_health.a
+health_score_test: libsandhika_health.a
 health_score_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 health_score_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
 health_score_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2

@@ -1,8 +1,8 @@
-#include "health_reminder/health/health_score_calculator.h"
+#include "sandhika/health/health_score_calculator.h"
 #include <cassert>
 #include <iostream>
 
-using namespace health_reminder::health;
+using namespace sandhika::health;
 
 int main() {
     HealthScoreCalculator calc;

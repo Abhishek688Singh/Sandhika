@@ -1,4 +1,4 @@
-#include "health_reminder/stats/stats_manager.h"
+#include "sandhika/stats/stats_manager.h"
 
 #include <yaml-cpp/yaml.h>
 
@@ -11,7 +11,7 @@
 #include <string>
 #include <string_view>
 
-namespace health_reminder::stats {
+namespace sandhika::stats {
 namespace {
 
 template <typename T>
@@ -72,7 +72,7 @@ std::filesystem::path StatsManager::defaultStatsDirectory() {
         throw StatsError("HOME environment variable is not set");
     }
 
-    return std::filesystem::path(home) / ".local" / "share" / "health-reminder" / "stats";
+    return std::filesystem::path(home) / ".local" / "share" / "sandhika" / "stats";
 }
 
 void StatsManager::addActiveScreenTime(std::chrono::minutes duration) {
@@ -387,4 +387,4 @@ void StatsManager::updateToday(const std::function<void(DailyStats&)>& updater) 
     saveDay(stats);
 }
 
-}  // namespace health_reminder::stats
+}  // namespace sandhika::stats

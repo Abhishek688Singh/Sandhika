@@ -4,7 +4,10 @@
 CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.o: health_reminder_dashboard_autogen/mocs_compilation.cpp \
   /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
   health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp \
+  /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
+  /home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
   /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
+  /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -181,6 +184,7 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/span \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -365,6 +369,7 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
@@ -413,6 +418,7 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
@@ -430,19 +436,28 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
@@ -462,8 +477,11 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /home/abhishek/game/hrm/src/dashboard/dashboard_window.cpp \
+  /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
+  /home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
   /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
   /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
+  /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -640,6 +658,7 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
+  /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/span \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -1009,7 +1028,15 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayoutitem.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h:
 
 /usr/include/c++/13/string_view:
 
@@ -1113,10 +1140,6 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 
 /usr/include/c++/13/stdlib.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage:
 
 /usr/include/strings.h:
@@ -1134,14 +1157,6 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 /usr/include/c++/13/iterator:
 
 /usr/include/c++/13/bits/ios_base.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/c++/13/istream:
 
@@ -1162,10 +1177,6 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/13/ext/concurrence.h:
 
 /usr/include/locale.h:
 
@@ -1202,6 +1213,20 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 /usr/include/c++/13/chrono:
 
 /usr/include/c++/13/backward/binders.h:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h:
+
+/usr/include/c++/13/bits/vector.tcc:
+
+/usr/include/c++/13/optional:
 
 /usr/include/errno.h:
 
@@ -1243,9 +1268,19 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h:
+/usr/include/c++/13/bits/hashtable_policy.h:
 
-/usr/include/c++/13/bits/istream.tcc:
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/13/bits/fs_ops.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h:
+
+/usr/include/c++/13/new:
 
 /usr/include/c++/13/bits/codecvt.h:
 
@@ -1261,11 +1296,27 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCharts/qxyseries.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
 /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/c++/13/array:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/13/bits/ranges_util.h:
 
@@ -1273,17 +1324,21 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o: /
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/13/bits/chrono.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/c++/13/array:
+/home/abhishek/game/hrm/include/health_reminder/config/config_manager.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
 /usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h:
 
 health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
@@ -1291,23 +1346,21 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
-/usr/include/c++/13/new:
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
-/usr/include/c++/13/bits/chrono.h:
+/usr/include/c++/13/ext/concurrence.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h:
+/home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/include/c++/13/bits/stream_iterator.h:
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h:
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
 
@@ -1315,11 +1368,31 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h:
-
 /usr/include/c++/13/bits/unique_lock.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/stream_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCharts/qpieslice.h:
 
 /usr/include/c++/13/bits/iterator_concepts.h:
 
@@ -1337,6 +1410,10 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
 /usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h:
@@ -1349,27 +1426,11 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/syscall.h:
 
-/usr/include/c++/13/tr1/special_function_util.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h:
-
-/usr/include/c++/13/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h:
+/usr/include/c++/13/bits/exception_ptr.h:
 
-/usr/include/c++/13/bits/vector.tcc:
-
-/usr/include/c++/13/optional:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicslayoutitem.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
@@ -1383,35 +1444,9 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/c++/13/bits/ranges_algo.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:
 
 /usr/include/c++/13/bits/chrono_io.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/stl_multimap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCharts/QLineSeries:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/c++/13/bits/fs_ops.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qforeach.h:
 
 /usr/include/c++/13/utility:
 
@@ -1432,6 +1467,16 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 /usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/c++/13/bits/move.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSet:
+
+/usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsWidget:
 
@@ -1457,16 +1502,6 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/c++/13/bits/ranges_algobase.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSet:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h:
 
 /usr/include/c++/13/bits/refwrap.h:
@@ -1481,8 +1516,6 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h:
 
-/usr/include/c++/13/bits/shared_ptr.h:
-
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h:
@@ -1494,10 +1527,6 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 /usr/include/c++/13/cstdlib:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qinputdevice.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicswidget.h:
 
 /usr/include/c++/13/cstdint:
 
@@ -1567,8 +1596,6 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/c++/13/bits/quoted_string.h:
 
-/usr/include/c++/13/bits/unordered_map.h:
-
 /usr/include/c++/13/bits/max_size_type.h:
 
 /usr/include/c++/13/bits/unique_ptr.h:
@@ -1579,17 +1606,21 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/c++/13/bits/atomic_base.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsview.h:
-
 /usr/include/c++/13/bits/uses_allocator_args.h:
 
-/usr/include/c++/13/tr1/gamma.tcc:
+/usr/include/c++/13/ext/alloc_traits.h:
 
-/usr/include/c++/13/ext/atomicity.h:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/c++/13/tuple:
 
-/usr/include/c++/13/cctype:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -1663,8 +1694,6 @@ health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
 /usr/include/c++/13/ios:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/qtchartsexports.h:
@@ -1704,8 +1733,6 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -1815,11 +1842,19 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
 
@@ -1877,11 +1912,11 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtconfigmacros.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h:
-
 /usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h:
 
@@ -1941,9 +1976,21 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h:
+
 /usr/include/c++/13/bits/shared_ptr_base.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h:
+
+/usr/include/c++/13/bits/ranges_algo.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h:
+
+/usr/include/c++/13/bits/unordered_map.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h:
 
@@ -1952,6 +1999,8 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h:
+
+/home/abhishek/game/hrm/include/health_reminder/config/config_types.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
 
@@ -1985,6 +2034,8 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/QBarSeries:
 
+/usr/include/c++/13/shared_mutex:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/QChartGlobal:
 
 /usr/include/linux/limits.h:
@@ -2016,8 +2067,6 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/qabstractseries.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgridlayout.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -2059,27 +2108,11 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcalendar.h:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCharts/qbarcategoryaxis.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpointingdevice.h:
 
@@ -2090,5 +2123,3 @@ health_reminder_dashboard_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h:

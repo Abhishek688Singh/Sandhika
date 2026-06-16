@@ -4,7 +4,7 @@
 #include <QLabel>
 #include <QPushButton>
 
-namespace health_reminder::strict {
+namespace sandhika::strict {
 
 class StrictBreakDialog : public QDialog {
     Q_OBJECT
@@ -27,4 +27,4 @@ private:
     QPushButton* skip_button_;
 };
 
-}  // namespace health_reminder::strict
+}  // namespace sandhika::strict

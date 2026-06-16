@@ -248,7 +248,6 @@ CMakeFiles/health-reminder.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/ranges_uninitialized.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/abhishek/game/hrm/include/health_reminder/fullscreen/fullscreen_detector.h \
  /home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h \
  /home/abhishek/game/hrm/include/health_reminder/commands/command_executor.h \
  /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
@@ -409,6 +408,14 @@ CMakeFiles/health-reminder.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
  /home/abhishek/game/hrm/include/health_reminder/tray/system_tray_manager.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSystemTrayIcon \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsystemtrayicon.h \
@@ -441,7 +448,6 @@ CMakeFiles/health-reminder.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetwork-config.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qtnetworkexports.h \
  /usr/include/x86_64-linux-gnu/qt6/QtNetwork/qabstractsocket.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qproperty.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpropertyprivate.h \
  /usr/include/c++/13/source_location \

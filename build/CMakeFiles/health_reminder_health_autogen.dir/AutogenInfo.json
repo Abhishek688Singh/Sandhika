@@ -295,9 +295,9 @@
 		"/home/abhishek/game/hrm/build/health_reminder_brightness_autogen/mocs_compilation.cpp",
 		"/home/abhishek/game/hrm/build/health_reminder_commands_autogen/mocs_compilation.cpp",
 		"/home/abhishek/game/hrm/build/health_reminder_config_autogen/mocs_compilation.cpp",
-		"/home/abhishek/game/hrm/build/health_reminder_fullscreen_autogen/mocs_compilation.cpp",
 		"/home/abhishek/game/hrm/build/health_reminder_scheduler_autogen/mocs_compilation.cpp",
-		"/home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp"
+		"/home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp",
+		"/home/abhishek/game/hrm/build/health_reminder_suppression_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
@@ -322,9 +322,9 @@
 		"/home/abhishek/game/hrm/build/health_reminder_brightness_autogen/mocs_compilation.cpp",
 		"/home/abhishek/game/hrm/build/health_reminder_commands_autogen/mocs_compilation.cpp",
 		"/home/abhishek/game/hrm/build/health_reminder_config_autogen/mocs_compilation.cpp",
-		"/home/abhishek/game/hrm/build/health_reminder_fullscreen_autogen/mocs_compilation.cpp",
 		"/home/abhishek/game/hrm/build/health_reminder_scheduler_autogen/mocs_compilation.cpp",
-		"/home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp"
+		"/home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp",
+		"/home/abhishek/game/hrm/build/health_reminder_suppression_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

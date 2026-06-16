@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_idle.a CMakeFiles/sandhika_idle.dir/sandhika_idle_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_idle.dir/src/idle/idle_detector.cpp.o
+/usr/bin/ranlib libsandhika_idle.a

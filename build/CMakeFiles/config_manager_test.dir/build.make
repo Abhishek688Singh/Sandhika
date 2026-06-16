@@ -108,7 +108,7 @@ config_manager_test_EXTERNAL_OBJECTS =
 config_manager_test: CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o
 config_manager_test: CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o
 config_manager_test: CMakeFiles/config_manager_test.dir/build.make
-config_manager_test: libhealth_reminder_config.a
+config_manager_test: libsandhika_config.a
 config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
 config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2

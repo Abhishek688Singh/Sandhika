@@ -1,4 +1,4 @@
-#include "health_reminder/app/application_controller.h"
+#include "sandhika/app/application_controller.h"
 
 #include <QApplication>
 #include <QCommandLineParser>
@@ -6,7 +6,7 @@
 #include <QLocalSocket>
 #include <iostream>
 
-using namespace health_reminder;
+using namespace sandhika;
 
 void processCommand(const QString& cmd, app::ApplicationController& controller) {
     if (cmd == "pause 30m") controller.pause(std::chrono::minutes(30));
@@ -15,14 +15,18 @@ void processCommand(const QString& cmd, app::ApplicationController& controller) 
     else if (cmd == "reload") controller.reloadConfig();
     else if (cmd == "media on") controller.setMediaMode(true);
     else if (cmd == "media off") controller.setMediaMode(false);
-    else if (cmd == "status") std::cout << "Daemon is running.\n";
+    else if (cmd == "status") {
+        config::ConfigManager mgr(config::ConfigManager::defaultConfigPath());
+        std::cout << "Daemon is running.\n";
+        std::cout << "Media Mode: " << (mgr.getMediaModeConfig().enabled ? "ON" : "OFF") << "\n";
+    }
     else if (cmd == "stats") std::cout << "Check dashboard.\n";
     // For export/import/profile we'd implement it here.
 }
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-    app.setApplicationName("health-reminder");
+    app.setApplicationName("sandhika");
     app.setQuitOnLastWindowClosed(false);
 
     QCommandLineParser parser;
@@ -34,7 +38,7 @@ int main(int argc, char *argv[]) {
     QString cmd = args.isEmpty() ? "start" : args.join(" ");
 
     QLocalSocket socket;
-    socket.connectToServer("health-reminder-socket");
+    socket.connectToServer("sandhika-socket");
     if (socket.waitForConnected(500)) {
         if (cmd != "start") {
             socket.write(cmd.toUtf8());
@@ -46,13 +50,13 @@ int main(int argc, char *argv[]) {
     }
 
     if (cmd != "start") {
-        std::cerr << "Daemon is not running. Start it with 'health-reminder start'.\n";
+        std::cerr << "Daemon is not running. Start it with 'sandhika start'.\n";
         return 1;
     }
 
     QLocalServer server;
-    QLocalServer::removeServer("health-reminder-socket");
-    server.listen("health-reminder-socket");
+    QLocalServer::removeServer("sandhika-socket");
+    server.listen("sandhika-socket");
 
     app::ApplicationController controller;
     controller.startup();

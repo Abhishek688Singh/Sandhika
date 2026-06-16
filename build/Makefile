@@ -128,186 +128,186 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named health_reminder_config
+# Target rules for targets named sandhika_config
 
 # Build rule for target.
-health_reminder_config: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_config
-.PHONY : health_reminder_config
+sandhika_config: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_config
+.PHONY : sandhika_config
 
 # fast build rule for target.
-health_reminder_config/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/build
-.PHONY : health_reminder_config/fast
+sandhika_config/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/build
+.PHONY : sandhika_config/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_scheduler
+# Target rules for targets named sandhika_scheduler
 
 # Build rule for target.
-health_reminder_scheduler: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_scheduler
-.PHONY : health_reminder_scheduler
+sandhika_scheduler: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_scheduler
+.PHONY : sandhika_scheduler
 
 # fast build rule for target.
-health_reminder_scheduler/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/build
-.PHONY : health_reminder_scheduler/fast
+sandhika_scheduler/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/build
+.PHONY : sandhika_scheduler/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_stats
+# Target rules for targets named sandhika_stats
 
 # Build rule for target.
-health_reminder_stats: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_stats
-.PHONY : health_reminder_stats
+sandhika_stats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_stats
+.PHONY : sandhika_stats
 
 # fast build rule for target.
-health_reminder_stats/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/build
-.PHONY : health_reminder_stats/fast
+sandhika_stats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/build
+.PHONY : sandhika_stats/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_brightness
+# Target rules for targets named sandhika_brightness
 
 # Build rule for target.
-health_reminder_brightness: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_brightness
-.PHONY : health_reminder_brightness
+sandhika_brightness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_brightness
+.PHONY : sandhika_brightness
 
 # fast build rule for target.
-health_reminder_brightness/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/build
-.PHONY : health_reminder_brightness/fast
+sandhika_brightness/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/build
+.PHONY : sandhika_brightness/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_commands
+# Target rules for targets named sandhika_commands
 
 # Build rule for target.
-health_reminder_commands: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_commands
-.PHONY : health_reminder_commands
+sandhika_commands: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_commands
+.PHONY : sandhika_commands
 
 # fast build rule for target.
-health_reminder_commands/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/build
-.PHONY : health_reminder_commands/fast
+sandhika_commands/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/build
+.PHONY : sandhika_commands/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_fullscreen
+# Target rules for targets named sandhika_suppression
 
 # Build rule for target.
-health_reminder_fullscreen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_fullscreen
-.PHONY : health_reminder_fullscreen
+sandhika_suppression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_suppression
+.PHONY : sandhika_suppression
 
 # fast build rule for target.
-health_reminder_fullscreen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/build
-.PHONY : health_reminder_fullscreen/fast
+sandhika_suppression/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/build
+.PHONY : sandhika_suppression/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_health
+# Target rules for targets named sandhika_health
 
 # Build rule for target.
-health_reminder_health: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_health
-.PHONY : health_reminder_health
+sandhika_health: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_health
+.PHONY : sandhika_health
 
 # fast build rule for target.
-health_reminder_health/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/build
-.PHONY : health_reminder_health/fast
+sandhika_health/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/build
+.PHONY : sandhika_health/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_idle
+# Target rules for targets named sandhika_idle
 
 # Build rule for target.
-health_reminder_idle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_idle
-.PHONY : health_reminder_idle
+sandhika_idle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_idle
+.PHONY : sandhika_idle
 
 # fast build rule for target.
-health_reminder_idle/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/build
-.PHONY : health_reminder_idle/fast
+sandhika_idle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/build
+.PHONY : sandhika_idle/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_notifications
+# Target rules for targets named sandhika_notifications
 
 # Build rule for target.
-health_reminder_notifications: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_notifications
-.PHONY : health_reminder_notifications
+sandhika_notifications: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_notifications
+.PHONY : sandhika_notifications
 
 # fast build rule for target.
-health_reminder_notifications/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/build
-.PHONY : health_reminder_notifications/fast
+sandhika_notifications/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/build
+.PHONY : sandhika_notifications/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_strict
+# Target rules for targets named sandhika_strict
 
 # Build rule for target.
-health_reminder_strict: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_strict
-.PHONY : health_reminder_strict
+sandhika_strict: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_strict
+.PHONY : sandhika_strict
 
 # fast build rule for target.
-health_reminder_strict/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/build
-.PHONY : health_reminder_strict/fast
+sandhika_strict/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/build
+.PHONY : sandhika_strict/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_tray
+# Target rules for targets named sandhika_tray
 
 # Build rule for target.
-health_reminder_tray: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_tray
-.PHONY : health_reminder_tray
+sandhika_tray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_tray
+.PHONY : sandhika_tray
 
 # fast build rule for target.
-health_reminder_tray/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/build
-.PHONY : health_reminder_tray/fast
+sandhika_tray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/build
+.PHONY : sandhika_tray/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_dashboard
+# Target rules for targets named sandhika_dashboard
 
 # Build rule for target.
-health_reminder_dashboard: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_dashboard
-.PHONY : health_reminder_dashboard
+sandhika_dashboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_dashboard
+.PHONY : sandhika_dashboard
 
 # fast build rule for target.
-health_reminder_dashboard/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/build
-.PHONY : health_reminder_dashboard/fast
+sandhika_dashboard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/build
+.PHONY : sandhika_dashboard/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_app
+# Target rules for targets named sandhika_app
 
 # Build rule for target.
-health_reminder_app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_app
-.PHONY : health_reminder_app
+sandhika_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_app
+.PHONY : sandhika_app
 
 # fast build rule for target.
-health_reminder_app/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/build
-.PHONY : health_reminder_app/fast
+sandhika_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/build
+.PHONY : sandhika_app/fast
 
 #=============================================================================
-# Target rules for targets named health-reminder
+# Target rules for targets named sandhika
 
 # Build rule for target.
-health-reminder: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health-reminder
-.PHONY : health-reminder
+sandhika: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika
+.PHONY : sandhika
 
 # fast build rule for target.
-health-reminder/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/build
-.PHONY : health-reminder/fast
+sandhika/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/build
+.PHONY : sandhika/fast
 
 #=============================================================================
 # Target rules for targets named config_manager_test
@@ -401,381 +401,381 @@ gui_tests/fast:
 .PHONY : gui_tests/fast
 
 #=============================================================================
-# Target rules for targets named fullscreen_detector_test
+# Target rules for targets named suppression_manager_test
 
 # Build rule for target.
-fullscreen_detector_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fullscreen_detector_test
-.PHONY : fullscreen_detector_test
+suppression_manager_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 suppression_manager_test
+.PHONY : suppression_manager_test
 
 # fast build rule for target.
-fullscreen_detector_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/build
-.PHONY : fullscreen_detector_test/fast
+suppression_manager_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/build
+.PHONY : suppression_manager_test/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_config_autogen_timestamp_deps
+# Target rules for targets named sandhika_config_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_config_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_config_autogen_timestamp_deps
-.PHONY : health_reminder_config_autogen_timestamp_deps
+sandhika_config_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_config_autogen_timestamp_deps
+.PHONY : sandhika_config_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_config_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_config_autogen_timestamp_deps/fast
+sandhika_config_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_config_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_config_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_config_autogen
+# Target rules for targets named sandhika_config_autogen
 
 # Build rule for target.
-health_reminder_config_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_config_autogen
-.PHONY : health_reminder_config_autogen
+sandhika_config_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_config_autogen
+.PHONY : sandhika_config_autogen
 
 # fast build rule for target.
-health_reminder_config_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen.dir/build.make CMakeFiles/health_reminder_config_autogen.dir/build
-.PHONY : health_reminder_config_autogen/fast
+sandhika_config_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config_autogen.dir/build.make CMakeFiles/sandhika_config_autogen.dir/build
+.PHONY : sandhika_config_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_scheduler_autogen_timestamp_deps
+# Target rules for targets named sandhika_scheduler_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_scheduler_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_scheduler_autogen_timestamp_deps
-.PHONY : health_reminder_scheduler_autogen_timestamp_deps
+sandhika_scheduler_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_scheduler_autogen_timestamp_deps
+.PHONY : sandhika_scheduler_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_scheduler_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_scheduler_autogen_timestamp_deps/fast
+sandhika_scheduler_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_scheduler_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_scheduler_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_scheduler_autogen
+# Target rules for targets named sandhika_scheduler_autogen
 
 # Build rule for target.
-health_reminder_scheduler_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_scheduler_autogen
-.PHONY : health_reminder_scheduler_autogen
+sandhika_scheduler_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_scheduler_autogen
+.PHONY : sandhika_scheduler_autogen
 
 # fast build rule for target.
-health_reminder_scheduler_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen.dir/build.make CMakeFiles/health_reminder_scheduler_autogen.dir/build
-.PHONY : health_reminder_scheduler_autogen/fast
+sandhika_scheduler_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler_autogen.dir/build.make CMakeFiles/sandhika_scheduler_autogen.dir/build
+.PHONY : sandhika_scheduler_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_stats_autogen_timestamp_deps
+# Target rules for targets named sandhika_stats_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_stats_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_stats_autogen_timestamp_deps
-.PHONY : health_reminder_stats_autogen_timestamp_deps
+sandhika_stats_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_stats_autogen_timestamp_deps
+.PHONY : sandhika_stats_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_stats_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_stats_autogen_timestamp_deps/fast
+sandhika_stats_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_stats_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_stats_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_stats_autogen
+# Target rules for targets named sandhika_stats_autogen
 
 # Build rule for target.
-health_reminder_stats_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_stats_autogen
-.PHONY : health_reminder_stats_autogen
+sandhika_stats_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_stats_autogen
+.PHONY : sandhika_stats_autogen
 
 # fast build rule for target.
-health_reminder_stats_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen.dir/build.make CMakeFiles/health_reminder_stats_autogen.dir/build
-.PHONY : health_reminder_stats_autogen/fast
+sandhika_stats_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats_autogen.dir/build.make CMakeFiles/sandhika_stats_autogen.dir/build
+.PHONY : sandhika_stats_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_brightness_autogen_timestamp_deps
+# Target rules for targets named sandhika_brightness_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_brightness_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_brightness_autogen_timestamp_deps
-.PHONY : health_reminder_brightness_autogen_timestamp_deps
+sandhika_brightness_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_brightness_autogen_timestamp_deps
+.PHONY : sandhika_brightness_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_brightness_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_brightness_autogen_timestamp_deps/fast
+sandhika_brightness_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_brightness_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_brightness_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_brightness_autogen
+# Target rules for targets named sandhika_brightness_autogen
 
 # Build rule for target.
-health_reminder_brightness_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_brightness_autogen
-.PHONY : health_reminder_brightness_autogen
+sandhika_brightness_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_brightness_autogen
+.PHONY : sandhika_brightness_autogen
 
 # fast build rule for target.
-health_reminder_brightness_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen.dir/build.make CMakeFiles/health_reminder_brightness_autogen.dir/build
-.PHONY : health_reminder_brightness_autogen/fast
+sandhika_brightness_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness_autogen.dir/build.make CMakeFiles/sandhika_brightness_autogen.dir/build
+.PHONY : sandhika_brightness_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_commands_autogen_timestamp_deps
+# Target rules for targets named sandhika_commands_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_commands_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_commands_autogen_timestamp_deps
-.PHONY : health_reminder_commands_autogen_timestamp_deps
+sandhika_commands_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_commands_autogen_timestamp_deps
+.PHONY : sandhika_commands_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_commands_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_commands_autogen_timestamp_deps/fast
+sandhika_commands_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_commands_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_commands_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_commands_autogen
+# Target rules for targets named sandhika_commands_autogen
 
 # Build rule for target.
-health_reminder_commands_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_commands_autogen
-.PHONY : health_reminder_commands_autogen
+sandhika_commands_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_commands_autogen
+.PHONY : sandhika_commands_autogen
 
 # fast build rule for target.
-health_reminder_commands_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen.dir/build.make CMakeFiles/health_reminder_commands_autogen.dir/build
-.PHONY : health_reminder_commands_autogen/fast
+sandhika_commands_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands_autogen.dir/build.make CMakeFiles/sandhika_commands_autogen.dir/build
+.PHONY : sandhika_commands_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_fullscreen_autogen_timestamp_deps
+# Target rules for targets named sandhika_suppression_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_fullscreen_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_fullscreen_autogen_timestamp_deps
-.PHONY : health_reminder_fullscreen_autogen_timestamp_deps
+sandhika_suppression_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_suppression_autogen_timestamp_deps
+.PHONY : sandhika_suppression_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_fullscreen_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_fullscreen_autogen_timestamp_deps/fast
+sandhika_suppression_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_suppression_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_suppression_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_fullscreen_autogen
+# Target rules for targets named sandhika_suppression_autogen
 
 # Build rule for target.
-health_reminder_fullscreen_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_fullscreen_autogen
-.PHONY : health_reminder_fullscreen_autogen
+sandhika_suppression_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_suppression_autogen
+.PHONY : sandhika_suppression_autogen
 
 # fast build rule for target.
-health_reminder_fullscreen_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen.dir/build
-.PHONY : health_reminder_fullscreen_autogen/fast
+sandhika_suppression_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression_autogen.dir/build.make CMakeFiles/sandhika_suppression_autogen.dir/build
+.PHONY : sandhika_suppression_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_health_autogen_timestamp_deps
+# Target rules for targets named sandhika_health_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_health_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_health_autogen_timestamp_deps
-.PHONY : health_reminder_health_autogen_timestamp_deps
+sandhika_health_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_health_autogen_timestamp_deps
+.PHONY : sandhika_health_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_health_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_health_autogen_timestamp_deps/fast
+sandhika_health_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_health_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_health_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_health_autogen
+# Target rules for targets named sandhika_health_autogen
 
 # Build rule for target.
-health_reminder_health_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_health_autogen
-.PHONY : health_reminder_health_autogen
+sandhika_health_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_health_autogen
+.PHONY : sandhika_health_autogen
 
 # fast build rule for target.
-health_reminder_health_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen.dir/build.make CMakeFiles/health_reminder_health_autogen.dir/build
-.PHONY : health_reminder_health_autogen/fast
+sandhika_health_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health_autogen.dir/build.make CMakeFiles/sandhika_health_autogen.dir/build
+.PHONY : sandhika_health_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_idle_autogen_timestamp_deps
+# Target rules for targets named sandhika_idle_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_idle_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_idle_autogen_timestamp_deps
-.PHONY : health_reminder_idle_autogen_timestamp_deps
+sandhika_idle_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_idle_autogen_timestamp_deps
+.PHONY : sandhika_idle_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_idle_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_idle_autogen_timestamp_deps/fast
+sandhika_idle_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_idle_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_idle_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_idle_autogen
+# Target rules for targets named sandhika_idle_autogen
 
 # Build rule for target.
-health_reminder_idle_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_idle_autogen
-.PHONY : health_reminder_idle_autogen
+sandhika_idle_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_idle_autogen
+.PHONY : sandhika_idle_autogen
 
 # fast build rule for target.
-health_reminder_idle_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen.dir/build.make CMakeFiles/health_reminder_idle_autogen.dir/build
-.PHONY : health_reminder_idle_autogen/fast
+sandhika_idle_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle_autogen.dir/build.make CMakeFiles/sandhika_idle_autogen.dir/build
+.PHONY : sandhika_idle_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_notifications_autogen_timestamp_deps
+# Target rules for targets named sandhika_notifications_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_notifications_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_notifications_autogen_timestamp_deps
-.PHONY : health_reminder_notifications_autogen_timestamp_deps
+sandhika_notifications_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_notifications_autogen_timestamp_deps
+.PHONY : sandhika_notifications_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_notifications_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_notifications_autogen_timestamp_deps/fast
+sandhika_notifications_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_notifications_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_notifications_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_notifications_autogen
+# Target rules for targets named sandhika_notifications_autogen
 
 # Build rule for target.
-health_reminder_notifications_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_notifications_autogen
-.PHONY : health_reminder_notifications_autogen
+sandhika_notifications_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_notifications_autogen
+.PHONY : sandhika_notifications_autogen
 
 # fast build rule for target.
-health_reminder_notifications_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen.dir/build.make CMakeFiles/health_reminder_notifications_autogen.dir/build
-.PHONY : health_reminder_notifications_autogen/fast
+sandhika_notifications_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications_autogen.dir/build.make CMakeFiles/sandhika_notifications_autogen.dir/build
+.PHONY : sandhika_notifications_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_strict_autogen_timestamp_deps
+# Target rules for targets named sandhika_strict_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_strict_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_strict_autogen_timestamp_deps
-.PHONY : health_reminder_strict_autogen_timestamp_deps
+sandhika_strict_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_strict_autogen_timestamp_deps
+.PHONY : sandhika_strict_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_strict_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_strict_autogen_timestamp_deps/fast
+sandhika_strict_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_strict_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_strict_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_strict_autogen
+# Target rules for targets named sandhika_strict_autogen
 
 # Build rule for target.
-health_reminder_strict_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_strict_autogen
-.PHONY : health_reminder_strict_autogen
+sandhika_strict_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_strict_autogen
+.PHONY : sandhika_strict_autogen
 
 # fast build rule for target.
-health_reminder_strict_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen.dir/build.make CMakeFiles/health_reminder_strict_autogen.dir/build
-.PHONY : health_reminder_strict_autogen/fast
+sandhika_strict_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict_autogen.dir/build.make CMakeFiles/sandhika_strict_autogen.dir/build
+.PHONY : sandhika_strict_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_tray_autogen_timestamp_deps
+# Target rules for targets named sandhika_tray_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_tray_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_tray_autogen_timestamp_deps
-.PHONY : health_reminder_tray_autogen_timestamp_deps
+sandhika_tray_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_tray_autogen_timestamp_deps
+.PHONY : sandhika_tray_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_tray_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_tray_autogen_timestamp_deps/fast
+sandhika_tray_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_tray_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_tray_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_tray_autogen
+# Target rules for targets named sandhika_tray_autogen
 
 # Build rule for target.
-health_reminder_tray_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_tray_autogen
-.PHONY : health_reminder_tray_autogen
+sandhika_tray_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_tray_autogen
+.PHONY : sandhika_tray_autogen
 
 # fast build rule for target.
-health_reminder_tray_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen.dir/build.make CMakeFiles/health_reminder_tray_autogen.dir/build
-.PHONY : health_reminder_tray_autogen/fast
+sandhika_tray_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray_autogen.dir/build.make CMakeFiles/sandhika_tray_autogen.dir/build
+.PHONY : sandhika_tray_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_dashboard_autogen_timestamp_deps
+# Target rules for targets named sandhika_dashboard_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_dashboard_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_dashboard_autogen_timestamp_deps
-.PHONY : health_reminder_dashboard_autogen_timestamp_deps
+sandhika_dashboard_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_dashboard_autogen_timestamp_deps
+.PHONY : sandhika_dashboard_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_dashboard_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_dashboard_autogen_timestamp_deps/fast
+sandhika_dashboard_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_dashboard_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_dashboard_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_dashboard_autogen
+# Target rules for targets named sandhika_dashboard_autogen
 
 # Build rule for target.
-health_reminder_dashboard_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_dashboard_autogen
-.PHONY : health_reminder_dashboard_autogen
+sandhika_dashboard_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_dashboard_autogen
+.PHONY : sandhika_dashboard_autogen
 
 # fast build rule for target.
-health_reminder_dashboard_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen.dir/build.make CMakeFiles/health_reminder_dashboard_autogen.dir/build
-.PHONY : health_reminder_dashboard_autogen/fast
+sandhika_dashboard_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard_autogen.dir/build.make CMakeFiles/sandhika_dashboard_autogen.dir/build
+.PHONY : sandhika_dashboard_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_app_autogen_timestamp_deps
+# Target rules for targets named sandhika_app_autogen_timestamp_deps
 
 # Build rule for target.
-health_reminder_app_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_app_autogen_timestamp_deps
-.PHONY : health_reminder_app_autogen_timestamp_deps
+sandhika_app_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_app_autogen_timestamp_deps
+.PHONY : sandhika_app_autogen_timestamp_deps
 
 # fast build rule for target.
-health_reminder_app_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build
-.PHONY : health_reminder_app_autogen_timestamp_deps/fast
+sandhika_app_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_app_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_app_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health_reminder_app_autogen
+# Target rules for targets named sandhika_app_autogen
 
 # Build rule for target.
-health_reminder_app_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_app_autogen
-.PHONY : health_reminder_app_autogen
+sandhika_app_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_app_autogen
+.PHONY : sandhika_app_autogen
 
 # fast build rule for target.
-health_reminder_app_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen.dir/build.make CMakeFiles/health_reminder_app_autogen.dir/build
-.PHONY : health_reminder_app_autogen/fast
+sandhika_app_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app_autogen.dir/build.make CMakeFiles/sandhika_app_autogen.dir/build
+.PHONY : sandhika_app_autogen/fast
 
 #=============================================================================
-# Target rules for targets named health-reminder_autogen_timestamp_deps
+# Target rules for targets named sandhika_autogen_timestamp_deps
 
 # Build rule for target.
-health-reminder_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health-reminder_autogen_timestamp_deps
-.PHONY : health-reminder_autogen_timestamp_deps
+sandhika_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_autogen_timestamp_deps
+.PHONY : sandhika_autogen_timestamp_deps
 
 # fast build rule for target.
-health-reminder_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build.make CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build
-.PHONY : health-reminder_autogen_timestamp_deps/fast
+sandhika_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen_timestamp_deps.dir/build.make CMakeFiles/sandhika_autogen_timestamp_deps.dir/build
+.PHONY : sandhika_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named health-reminder_autogen
+# Target rules for targets named sandhika_autogen
 
 # Build rule for target.
-health-reminder_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health-reminder_autogen
-.PHONY : health-reminder_autogen
+sandhika_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sandhika_autogen
+.PHONY : sandhika_autogen
 
 # fast build rule for target.
-health-reminder_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen.dir/build.make CMakeFiles/health-reminder_autogen.dir/build
-.PHONY : health-reminder_autogen/fast
+sandhika_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_autogen.dir/build.make CMakeFiles/sandhika_autogen.dir/build
+.PHONY : sandhika_autogen/fast
 
 #=============================================================================
 # Target rules for targets named config_manager_test_autogen_timestamp_deps
@@ -960,30 +960,30 @@ gui_tests_autogen/fast:
 .PHONY : gui_tests_autogen/fast
 
 #=============================================================================
-# Target rules for targets named fullscreen_detector_test_autogen_timestamp_deps
+# Target rules for targets named suppression_manager_test_autogen_timestamp_deps
 
 # Build rule for target.
-fullscreen_detector_test_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fullscreen_detector_test_autogen_timestamp_deps
-.PHONY : fullscreen_detector_test_autogen_timestamp_deps
+suppression_manager_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 suppression_manager_test_autogen_timestamp_deps
+.PHONY : suppression_manager_test_autogen_timestamp_deps
 
 # fast build rule for target.
-fullscreen_detector_test_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/fullscreen_detector_test_autogen_timestamp_deps.dir/build
-.PHONY : fullscreen_detector_test_autogen_timestamp_deps/fast
+suppression_manager_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/suppression_manager_test_autogen_timestamp_deps.dir/build
+.PHONY : suppression_manager_test_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named fullscreen_detector_test_autogen
+# Target rules for targets named suppression_manager_test_autogen
 
 # Build rule for target.
-fullscreen_detector_test_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fullscreen_detector_test_autogen
-.PHONY : fullscreen_detector_test_autogen
+suppression_manager_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 suppression_manager_test_autogen
+.PHONY : suppression_manager_test_autogen
 
 # fast build rule for target.
-fullscreen_detector_test_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test_autogen.dir/build.make CMakeFiles/fullscreen_detector_test_autogen.dir/build
-.PHONY : fullscreen_detector_test_autogen/fast
+suppression_manager_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test_autogen.dir/build.make CMakeFiles/suppression_manager_test_autogen.dir/build
+.PHONY : suppression_manager_test_autogen/fast
 
 #=============================================================================
 # Target rules for targets named Experimental
@@ -1553,30 +1553,6 @@ config_manager_test_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.s
 .PHONY : config_manager_test_autogen/mocs_compilation.cpp.s
 
-fullscreen_detector_test_autogen/mocs_compilation.o: fullscreen_detector_test_autogen/mocs_compilation.cpp.o
-.PHONY : fullscreen_detector_test_autogen/mocs_compilation.o
-
-# target to build an object file
-fullscreen_detector_test_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/fullscreen_detector_test_autogen/mocs_compilation.cpp.o
-.PHONY : fullscreen_detector_test_autogen/mocs_compilation.cpp.o
-
-fullscreen_detector_test_autogen/mocs_compilation.i: fullscreen_detector_test_autogen/mocs_compilation.cpp.i
-.PHONY : fullscreen_detector_test_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-fullscreen_detector_test_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/fullscreen_detector_test_autogen/mocs_compilation.cpp.i
-.PHONY : fullscreen_detector_test_autogen/mocs_compilation.cpp.i
-
-fullscreen_detector_test_autogen/mocs_compilation.s: fullscreen_detector_test_autogen/mocs_compilation.cpp.s
-.PHONY : fullscreen_detector_test_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-fullscreen_detector_test_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/fullscreen_detector_test_autogen/mocs_compilation.cpp.s
-.PHONY : fullscreen_detector_test_autogen/mocs_compilation.cpp.s
-
 gui_tests_autogen/mocs_compilation.o: gui_tests_autogen/mocs_compilation.cpp.o
 .PHONY : gui_tests_autogen/mocs_compilation.o
 
@@ -1600,342 +1576,6 @@ gui_tests_autogen/mocs_compilation.s: gui_tests_autogen/mocs_compilation.cpp.s
 gui_tests_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/gui_tests_autogen/mocs_compilation.cpp.s
 .PHONY : gui_tests_autogen/mocs_compilation.cpp.s
-
-health-reminder_autogen/mocs_compilation.o: health-reminder_autogen/mocs_compilation.cpp.o
-.PHONY : health-reminder_autogen/mocs_compilation.o
-
-# target to build an object file
-health-reminder_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/health-reminder_autogen/mocs_compilation.cpp.o
-.PHONY : health-reminder_autogen/mocs_compilation.cpp.o
-
-health-reminder_autogen/mocs_compilation.i: health-reminder_autogen/mocs_compilation.cpp.i
-.PHONY : health-reminder_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health-reminder_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/health-reminder_autogen/mocs_compilation.cpp.i
-.PHONY : health-reminder_autogen/mocs_compilation.cpp.i
-
-health-reminder_autogen/mocs_compilation.s: health-reminder_autogen/mocs_compilation.cpp.s
-.PHONY : health-reminder_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health-reminder_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/health-reminder_autogen/mocs_compilation.cpp.s
-.PHONY : health-reminder_autogen/mocs_compilation.cpp.s
-
-health_reminder_app_autogen/mocs_compilation.o: health_reminder_app_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_app_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_app_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_app_autogen/mocs_compilation.cpp.o
-
-health_reminder_app_autogen/mocs_compilation.i: health_reminder_app_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_app_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_app_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_app_autogen/mocs_compilation.cpp.i
-
-health_reminder_app_autogen/mocs_compilation.s: health_reminder_app_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_app_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_app_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_app_autogen/mocs_compilation.cpp.s
-
-health_reminder_brightness_autogen/mocs_compilation.o: health_reminder_brightness_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_brightness_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_brightness_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_brightness_autogen/mocs_compilation.cpp.o
-
-health_reminder_brightness_autogen/mocs_compilation.i: health_reminder_brightness_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_brightness_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_brightness_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_brightness_autogen/mocs_compilation.cpp.i
-
-health_reminder_brightness_autogen/mocs_compilation.s: health_reminder_brightness_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_brightness_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_brightness_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_brightness_autogen/mocs_compilation.cpp.s
-
-health_reminder_commands_autogen/mocs_compilation.o: health_reminder_commands_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_commands_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_commands_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_commands_autogen/mocs_compilation.cpp.o
-
-health_reminder_commands_autogen/mocs_compilation.i: health_reminder_commands_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_commands_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_commands_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_commands_autogen/mocs_compilation.cpp.i
-
-health_reminder_commands_autogen/mocs_compilation.s: health_reminder_commands_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_commands_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_commands_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_commands_autogen/mocs_compilation.cpp.s
-
-health_reminder_config_autogen/mocs_compilation.o: health_reminder_config_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_config_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_config_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_config_autogen/mocs_compilation.cpp.o
-
-health_reminder_config_autogen/mocs_compilation.i: health_reminder_config_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_config_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_config_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_config_autogen/mocs_compilation.cpp.i
-
-health_reminder_config_autogen/mocs_compilation.s: health_reminder_config_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_config_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_config_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_config_autogen/mocs_compilation.cpp.s
-
-health_reminder_dashboard_autogen/mocs_compilation.o: health_reminder_dashboard_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_dashboard_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_dashboard_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_dashboard_autogen/mocs_compilation.cpp.o
-
-health_reminder_dashboard_autogen/mocs_compilation.i: health_reminder_dashboard_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_dashboard_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_dashboard_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_dashboard_autogen/mocs_compilation.cpp.i
-
-health_reminder_dashboard_autogen/mocs_compilation.s: health_reminder_dashboard_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_dashboard_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_dashboard_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_dashboard_autogen/mocs_compilation.cpp.s
-
-health_reminder_fullscreen_autogen/mocs_compilation.o: health_reminder_fullscreen_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_fullscreen_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.cpp.o
-
-health_reminder_fullscreen_autogen/mocs_compilation.i: health_reminder_fullscreen_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_fullscreen_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.cpp.i
-
-health_reminder_fullscreen_autogen/mocs_compilation.s: health_reminder_fullscreen_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_fullscreen_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.cpp.s
-
-health_reminder_health_autogen/mocs_compilation.o: health_reminder_health_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_health_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_health_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_health_autogen/mocs_compilation.cpp.o
-
-health_reminder_health_autogen/mocs_compilation.i: health_reminder_health_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_health_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_health_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_health_autogen/mocs_compilation.cpp.i
-
-health_reminder_health_autogen/mocs_compilation.s: health_reminder_health_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_health_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_health_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_health_autogen/mocs_compilation.cpp.s
-
-health_reminder_idle_autogen/mocs_compilation.o: health_reminder_idle_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_idle_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_idle_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_idle_autogen/mocs_compilation.cpp.o
-
-health_reminder_idle_autogen/mocs_compilation.i: health_reminder_idle_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_idle_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_idle_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_idle_autogen/mocs_compilation.cpp.i
-
-health_reminder_idle_autogen/mocs_compilation.s: health_reminder_idle_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_idle_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_idle_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_idle_autogen/mocs_compilation.cpp.s
-
-health_reminder_notifications_autogen/mocs_compilation.o: health_reminder_notifications_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_notifications_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_notifications_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/health_reminder_notifications_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_notifications_autogen/mocs_compilation.cpp.o
-
-health_reminder_notifications_autogen/mocs_compilation.i: health_reminder_notifications_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_notifications_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_notifications_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/health_reminder_notifications_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_notifications_autogen/mocs_compilation.cpp.i
-
-health_reminder_notifications_autogen/mocs_compilation.s: health_reminder_notifications_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_notifications_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_notifications_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/health_reminder_notifications_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_notifications_autogen/mocs_compilation.cpp.s
-
-health_reminder_scheduler_autogen/mocs_compilation.o: health_reminder_scheduler_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_scheduler_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_scheduler_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_scheduler_autogen/mocs_compilation.cpp.o
-
-health_reminder_scheduler_autogen/mocs_compilation.i: health_reminder_scheduler_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_scheduler_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_scheduler_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_scheduler_autogen/mocs_compilation.cpp.i
-
-health_reminder_scheduler_autogen/mocs_compilation.s: health_reminder_scheduler_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_scheduler_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_scheduler_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_scheduler_autogen/mocs_compilation.cpp.s
-
-health_reminder_stats_autogen/mocs_compilation.o: health_reminder_stats_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_stats_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_stats_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_stats_autogen/mocs_compilation.cpp.o
-
-health_reminder_stats_autogen/mocs_compilation.i: health_reminder_stats_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_stats_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_stats_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_stats_autogen/mocs_compilation.cpp.i
-
-health_reminder_stats_autogen/mocs_compilation.s: health_reminder_stats_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_stats_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_stats_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_stats_autogen/mocs_compilation.cpp.s
-
-health_reminder_strict_autogen/mocs_compilation.o: health_reminder_strict_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_strict_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_strict_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_strict_autogen/mocs_compilation.cpp.o
-
-health_reminder_strict_autogen/mocs_compilation.i: health_reminder_strict_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_strict_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_strict_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_strict_autogen/mocs_compilation.cpp.i
-
-health_reminder_strict_autogen/mocs_compilation.s: health_reminder_strict_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_strict_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_strict_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_strict_autogen/mocs_compilation.cpp.s
-
-health_reminder_tray_autogen/mocs_compilation.o: health_reminder_tray_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_tray_autogen/mocs_compilation.o
-
-# target to build an object file
-health_reminder_tray_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/health_reminder_tray_autogen/mocs_compilation.cpp.o
-.PHONY : health_reminder_tray_autogen/mocs_compilation.cpp.o
-
-health_reminder_tray_autogen/mocs_compilation.i: health_reminder_tray_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_tray_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-health_reminder_tray_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/health_reminder_tray_autogen/mocs_compilation.cpp.i
-.PHONY : health_reminder_tray_autogen/mocs_compilation.cpp.i
-
-health_reminder_tray_autogen/mocs_compilation.s: health_reminder_tray_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_tray_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-health_reminder_tray_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/health_reminder_tray_autogen/mocs_compilation.cpp.s
-.PHONY : health_reminder_tray_autogen/mocs_compilation.cpp.s
 
 health_score_test_autogen/mocs_compilation.o: health_score_test_autogen/mocs_compilation.cpp.o
 .PHONY : health_score_test_autogen/mocs_compilation.o
@@ -2009,12 +1649,348 @@ reminder_scheduler_test_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test.dir/build.make CMakeFiles/reminder_scheduler_test.dir/reminder_scheduler_test_autogen/mocs_compilation.cpp.s
 .PHONY : reminder_scheduler_test_autogen/mocs_compilation.cpp.s
 
+sandhika_app_autogen/mocs_compilation.o: sandhika_app_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_app_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_app_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/sandhika_app_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_app_autogen/mocs_compilation.cpp.o
+
+sandhika_app_autogen/mocs_compilation.i: sandhika_app_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_app_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_app_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/sandhika_app_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_app_autogen/mocs_compilation.cpp.i
+
+sandhika_app_autogen/mocs_compilation.s: sandhika_app_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_app_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_app_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/sandhika_app_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_app_autogen/mocs_compilation.cpp.s
+
+sandhika_autogen/mocs_compilation.o: sandhika_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/sandhika_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_autogen/mocs_compilation.cpp.o
+
+sandhika_autogen/mocs_compilation.i: sandhika_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/sandhika_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_autogen/mocs_compilation.cpp.i
+
+sandhika_autogen/mocs_compilation.s: sandhika_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/sandhika_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_autogen/mocs_compilation.cpp.s
+
+sandhika_brightness_autogen/mocs_compilation.o: sandhika_brightness_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_brightness_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_brightness_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/sandhika_brightness_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_brightness_autogen/mocs_compilation.cpp.o
+
+sandhika_brightness_autogen/mocs_compilation.i: sandhika_brightness_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_brightness_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_brightness_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/sandhika_brightness_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_brightness_autogen/mocs_compilation.cpp.i
+
+sandhika_brightness_autogen/mocs_compilation.s: sandhika_brightness_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_brightness_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_brightness_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/sandhika_brightness_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_brightness_autogen/mocs_compilation.cpp.s
+
+sandhika_commands_autogen/mocs_compilation.o: sandhika_commands_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_commands_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_commands_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/sandhika_commands_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_commands_autogen/mocs_compilation.cpp.o
+
+sandhika_commands_autogen/mocs_compilation.i: sandhika_commands_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_commands_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_commands_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/sandhika_commands_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_commands_autogen/mocs_compilation.cpp.i
+
+sandhika_commands_autogen/mocs_compilation.s: sandhika_commands_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_commands_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_commands_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/sandhika_commands_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_commands_autogen/mocs_compilation.cpp.s
+
+sandhika_config_autogen/mocs_compilation.o: sandhika_config_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_config_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_config_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/sandhika_config_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_config_autogen/mocs_compilation.cpp.o
+
+sandhika_config_autogen/mocs_compilation.i: sandhika_config_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_config_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_config_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/sandhika_config_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_config_autogen/mocs_compilation.cpp.i
+
+sandhika_config_autogen/mocs_compilation.s: sandhika_config_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_config_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_config_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/sandhika_config_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_config_autogen/mocs_compilation.cpp.s
+
+sandhika_dashboard_autogen/mocs_compilation.o: sandhika_dashboard_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_dashboard_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_dashboard_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/sandhika_dashboard_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_dashboard_autogen/mocs_compilation.cpp.o
+
+sandhika_dashboard_autogen/mocs_compilation.i: sandhika_dashboard_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_dashboard_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_dashboard_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/sandhika_dashboard_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_dashboard_autogen/mocs_compilation.cpp.i
+
+sandhika_dashboard_autogen/mocs_compilation.s: sandhika_dashboard_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_dashboard_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_dashboard_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/sandhika_dashboard_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_dashboard_autogen/mocs_compilation.cpp.s
+
+sandhika_health_autogen/mocs_compilation.o: sandhika_health_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_health_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_health_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/sandhika_health_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_health_autogen/mocs_compilation.cpp.o
+
+sandhika_health_autogen/mocs_compilation.i: sandhika_health_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_health_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_health_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/sandhika_health_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_health_autogen/mocs_compilation.cpp.i
+
+sandhika_health_autogen/mocs_compilation.s: sandhika_health_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_health_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_health_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/sandhika_health_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_health_autogen/mocs_compilation.cpp.s
+
+sandhika_idle_autogen/mocs_compilation.o: sandhika_idle_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_idle_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_idle_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/sandhika_idle_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_idle_autogen/mocs_compilation.cpp.o
+
+sandhika_idle_autogen/mocs_compilation.i: sandhika_idle_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_idle_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_idle_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/sandhika_idle_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_idle_autogen/mocs_compilation.cpp.i
+
+sandhika_idle_autogen/mocs_compilation.s: sandhika_idle_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_idle_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_idle_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/sandhika_idle_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_idle_autogen/mocs_compilation.cpp.s
+
+sandhika_notifications_autogen/mocs_compilation.o: sandhika_notifications_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_notifications_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_notifications_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/sandhika_notifications_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_notifications_autogen/mocs_compilation.cpp.o
+
+sandhika_notifications_autogen/mocs_compilation.i: sandhika_notifications_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_notifications_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_notifications_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/sandhika_notifications_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_notifications_autogen/mocs_compilation.cpp.i
+
+sandhika_notifications_autogen/mocs_compilation.s: sandhika_notifications_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_notifications_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_notifications_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/sandhika_notifications_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_notifications_autogen/mocs_compilation.cpp.s
+
+sandhika_scheduler_autogen/mocs_compilation.o: sandhika_scheduler_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_scheduler_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_scheduler_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/sandhika_scheduler_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_scheduler_autogen/mocs_compilation.cpp.o
+
+sandhika_scheduler_autogen/mocs_compilation.i: sandhika_scheduler_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_scheduler_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_scheduler_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/sandhika_scheduler_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_scheduler_autogen/mocs_compilation.cpp.i
+
+sandhika_scheduler_autogen/mocs_compilation.s: sandhika_scheduler_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_scheduler_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_scheduler_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/sandhika_scheduler_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_scheduler_autogen/mocs_compilation.cpp.s
+
+sandhika_stats_autogen/mocs_compilation.o: sandhika_stats_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_stats_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_stats_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/sandhika_stats_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_stats_autogen/mocs_compilation.cpp.o
+
+sandhika_stats_autogen/mocs_compilation.i: sandhika_stats_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_stats_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_stats_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/sandhika_stats_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_stats_autogen/mocs_compilation.cpp.i
+
+sandhika_stats_autogen/mocs_compilation.s: sandhika_stats_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_stats_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_stats_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/sandhika_stats_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_stats_autogen/mocs_compilation.cpp.s
+
+sandhika_strict_autogen/mocs_compilation.o: sandhika_strict_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_strict_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_strict_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/sandhika_strict_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_strict_autogen/mocs_compilation.cpp.o
+
+sandhika_strict_autogen/mocs_compilation.i: sandhika_strict_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_strict_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_strict_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/sandhika_strict_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_strict_autogen/mocs_compilation.cpp.i
+
+sandhika_strict_autogen/mocs_compilation.s: sandhika_strict_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_strict_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_strict_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/sandhika_strict_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_strict_autogen/mocs_compilation.cpp.s
+
+sandhika_suppression_autogen/mocs_compilation.o: sandhika_suppression_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_suppression_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_suppression_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/sandhika_suppression_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_suppression_autogen/mocs_compilation.cpp.o
+
+sandhika_suppression_autogen/mocs_compilation.i: sandhika_suppression_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_suppression_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_suppression_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/sandhika_suppression_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_suppression_autogen/mocs_compilation.cpp.i
+
+sandhika_suppression_autogen/mocs_compilation.s: sandhika_suppression_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_suppression_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_suppression_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/sandhika_suppression_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_suppression_autogen/mocs_compilation.cpp.s
+
+sandhika_tray_autogen/mocs_compilation.o: sandhika_tray_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_tray_autogen/mocs_compilation.o
+
+# target to build an object file
+sandhika_tray_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/sandhika_tray_autogen/mocs_compilation.cpp.o
+.PHONY : sandhika_tray_autogen/mocs_compilation.cpp.o
+
+sandhika_tray_autogen/mocs_compilation.i: sandhika_tray_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_tray_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sandhika_tray_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/sandhika_tray_autogen/mocs_compilation.cpp.i
+.PHONY : sandhika_tray_autogen/mocs_compilation.cpp.i
+
+sandhika_tray_autogen/mocs_compilation.s: sandhika_tray_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_tray_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sandhika_tray_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/sandhika_tray_autogen/mocs_compilation.cpp.s
+.PHONY : sandhika_tray_autogen/mocs_compilation.cpp.s
+
 src/app/application_controller.o: src/app/application_controller.cpp.o
 .PHONY : src/app/application_controller.o
 
 # target to build an object file
 src/app/application_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/src/app/application_controller.cpp.o
 .PHONY : src/app/application_controller.cpp.o
 
 src/app/application_controller.i: src/app/application_controller.cpp.i
@@ -2022,7 +1998,7 @@ src/app/application_controller.i: src/app/application_controller.cpp.i
 
 # target to preprocess a source file
 src/app/application_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/src/app/application_controller.cpp.i
 .PHONY : src/app/application_controller.cpp.i
 
 src/app/application_controller.s: src/app/application_controller.cpp.s
@@ -2030,7 +2006,7 @@ src/app/application_controller.s: src/app/application_controller.cpp.s
 
 # target to generate assembly for a file
 src/app/application_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_app.dir/build.make CMakeFiles/sandhika_app.dir/src/app/application_controller.cpp.s
 .PHONY : src/app/application_controller.cpp.s
 
 src/brightness/brightness_controller.o: src/brightness/brightness_controller.cpp.o
@@ -2038,7 +2014,7 @@ src/brightness/brightness_controller.o: src/brightness/brightness_controller.cpp
 
 # target to build an object file
 src/brightness/brightness_controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/src/brightness/brightness_controller.cpp.o
 .PHONY : src/brightness/brightness_controller.cpp.o
 
 src/brightness/brightness_controller.i: src/brightness/brightness_controller.cpp.i
@@ -2046,7 +2022,7 @@ src/brightness/brightness_controller.i: src/brightness/brightness_controller.cpp
 
 # target to preprocess a source file
 src/brightness/brightness_controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/src/brightness/brightness_controller.cpp.i
 .PHONY : src/brightness/brightness_controller.cpp.i
 
 src/brightness/brightness_controller.s: src/brightness/brightness_controller.cpp.s
@@ -2054,7 +2030,7 @@ src/brightness/brightness_controller.s: src/brightness/brightness_controller.cpp
 
 # target to generate assembly for a file
 src/brightness/brightness_controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_brightness.dir/build.make CMakeFiles/sandhika_brightness.dir/src/brightness/brightness_controller.cpp.s
 .PHONY : src/brightness/brightness_controller.cpp.s
 
 src/commands/command_executor.o: src/commands/command_executor.cpp.o
@@ -2062,7 +2038,7 @@ src/commands/command_executor.o: src/commands/command_executor.cpp.o
 
 # target to build an object file
 src/commands/command_executor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/src/commands/command_executor.cpp.o
 .PHONY : src/commands/command_executor.cpp.o
 
 src/commands/command_executor.i: src/commands/command_executor.cpp.i
@@ -2070,7 +2046,7 @@ src/commands/command_executor.i: src/commands/command_executor.cpp.i
 
 # target to preprocess a source file
 src/commands/command_executor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/src/commands/command_executor.cpp.i
 .PHONY : src/commands/command_executor.cpp.i
 
 src/commands/command_executor.s: src/commands/command_executor.cpp.s
@@ -2078,7 +2054,7 @@ src/commands/command_executor.s: src/commands/command_executor.cpp.s
 
 # target to generate assembly for a file
 src/commands/command_executor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_commands.dir/build.make CMakeFiles/sandhika_commands.dir/src/commands/command_executor.cpp.s
 .PHONY : src/commands/command_executor.cpp.s
 
 src/config/config_manager.o: src/config/config_manager.cpp.o
@@ -2086,7 +2062,7 @@ src/config/config_manager.o: src/config/config_manager.cpp.o
 
 # target to build an object file
 src/config/config_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/src/config/config_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/src/config/config_manager.cpp.o
 .PHONY : src/config/config_manager.cpp.o
 
 src/config/config_manager.i: src/config/config_manager.cpp.i
@@ -2094,7 +2070,7 @@ src/config/config_manager.i: src/config/config_manager.cpp.i
 
 # target to preprocess a source file
 src/config/config_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/src/config/config_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/src/config/config_manager.cpp.i
 .PHONY : src/config/config_manager.cpp.i
 
 src/config/config_manager.s: src/config/config_manager.cpp.s
@@ -2102,7 +2078,7 @@ src/config/config_manager.s: src/config/config_manager.cpp.s
 
 # target to generate assembly for a file
 src/config/config_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/src/config/config_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_config.dir/build.make CMakeFiles/sandhika_config.dir/src/config/config_manager.cpp.s
 .PHONY : src/config/config_manager.cpp.s
 
 src/dashboard/dashboard_window.o: src/dashboard/dashboard_window.cpp.o
@@ -2110,7 +2086,7 @@ src/dashboard/dashboard_window.o: src/dashboard/dashboard_window.cpp.o
 
 # target to build an object file
 src/dashboard/dashboard_window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/src/dashboard/dashboard_window.cpp.o
 .PHONY : src/dashboard/dashboard_window.cpp.o
 
 src/dashboard/dashboard_window.i: src/dashboard/dashboard_window.cpp.i
@@ -2118,7 +2094,7 @@ src/dashboard/dashboard_window.i: src/dashboard/dashboard_window.cpp.i
 
 # target to preprocess a source file
 src/dashboard/dashboard_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/src/dashboard/dashboard_window.cpp.i
 .PHONY : src/dashboard/dashboard_window.cpp.i
 
 src/dashboard/dashboard_window.s: src/dashboard/dashboard_window.cpp.s
@@ -2126,39 +2102,15 @@ src/dashboard/dashboard_window.s: src/dashboard/dashboard_window.cpp.s
 
 # target to generate assembly for a file
 src/dashboard/dashboard_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_dashboard.dir/build.make CMakeFiles/sandhika_dashboard.dir/src/dashboard/dashboard_window.cpp.s
 .PHONY : src/dashboard/dashboard_window.cpp.s
-
-src/fullscreen/fullscreen_detector.o: src/fullscreen/fullscreen_detector.cpp.o
-.PHONY : src/fullscreen/fullscreen_detector.o
-
-# target to build an object file
-src/fullscreen/fullscreen_detector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.o
-.PHONY : src/fullscreen/fullscreen_detector.cpp.o
-
-src/fullscreen/fullscreen_detector.i: src/fullscreen/fullscreen_detector.cpp.i
-.PHONY : src/fullscreen/fullscreen_detector.i
-
-# target to preprocess a source file
-src/fullscreen/fullscreen_detector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.i
-.PHONY : src/fullscreen/fullscreen_detector.cpp.i
-
-src/fullscreen/fullscreen_detector.s: src/fullscreen/fullscreen_detector.cpp.s
-.PHONY : src/fullscreen/fullscreen_detector.s
-
-# target to generate assembly for a file
-src/fullscreen/fullscreen_detector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.s
-.PHONY : src/fullscreen/fullscreen_detector.cpp.s
 
 src/health/health_score_calculator.o: src/health/health_score_calculator.cpp.o
 .PHONY : src/health/health_score_calculator.o
 
 # target to build an object file
 src/health/health_score_calculator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/src/health/health_score_calculator.cpp.o
 .PHONY : src/health/health_score_calculator.cpp.o
 
 src/health/health_score_calculator.i: src/health/health_score_calculator.cpp.i
@@ -2166,7 +2118,7 @@ src/health/health_score_calculator.i: src/health/health_score_calculator.cpp.i
 
 # target to preprocess a source file
 src/health/health_score_calculator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/src/health/health_score_calculator.cpp.i
 .PHONY : src/health/health_score_calculator.cpp.i
 
 src/health/health_score_calculator.s: src/health/health_score_calculator.cpp.s
@@ -2174,7 +2126,7 @@ src/health/health_score_calculator.s: src/health/health_score_calculator.cpp.s
 
 # target to generate assembly for a file
 src/health/health_score_calculator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_health.dir/build.make CMakeFiles/sandhika_health.dir/src/health/health_score_calculator.cpp.s
 .PHONY : src/health/health_score_calculator.cpp.s
 
 src/idle/idle_detector.o: src/idle/idle_detector.cpp.o
@@ -2182,7 +2134,7 @@ src/idle/idle_detector.o: src/idle/idle_detector.cpp.o
 
 # target to build an object file
 src/idle/idle_detector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/src/idle/idle_detector.cpp.o
 .PHONY : src/idle/idle_detector.cpp.o
 
 src/idle/idle_detector.i: src/idle/idle_detector.cpp.i
@@ -2190,7 +2142,7 @@ src/idle/idle_detector.i: src/idle/idle_detector.cpp.i
 
 # target to preprocess a source file
 src/idle/idle_detector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/src/idle/idle_detector.cpp.i
 .PHONY : src/idle/idle_detector.cpp.i
 
 src/idle/idle_detector.s: src/idle/idle_detector.cpp.s
@@ -2198,7 +2150,7 @@ src/idle/idle_detector.s: src/idle/idle_detector.cpp.s
 
 # target to generate assembly for a file
 src/idle/idle_detector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_idle.dir/build.make CMakeFiles/sandhika_idle.dir/src/idle/idle_detector.cpp.s
 .PHONY : src/idle/idle_detector.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -2206,7 +2158,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -2214,7 +2166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -2222,7 +2174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika.dir/build.make CMakeFiles/sandhika.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/notifications/notification_manager.o: src/notifications/notification_manager.cpp.o
@@ -2230,7 +2182,7 @@ src/notifications/notification_manager.o: src/notifications/notification_manager
 
 # target to build an object file
 src/notifications/notification_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/src/notifications/notification_manager.cpp.o
 .PHONY : src/notifications/notification_manager.cpp.o
 
 src/notifications/notification_manager.i: src/notifications/notification_manager.cpp.i
@@ -2238,7 +2190,7 @@ src/notifications/notification_manager.i: src/notifications/notification_manager
 
 # target to preprocess a source file
 src/notifications/notification_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/src/notifications/notification_manager.cpp.i
 .PHONY : src/notifications/notification_manager.cpp.i
 
 src/notifications/notification_manager.s: src/notifications/notification_manager.cpp.s
@@ -2246,7 +2198,7 @@ src/notifications/notification_manager.s: src/notifications/notification_manager
 
 # target to generate assembly for a file
 src/notifications/notification_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/src/notifications/notification_manager.cpp.s
 .PHONY : src/notifications/notification_manager.cpp.s
 
 src/notifications/notification_window.o: src/notifications/notification_window.cpp.o
@@ -2254,7 +2206,7 @@ src/notifications/notification_window.o: src/notifications/notification_window.c
 
 # target to build an object file
 src/notifications/notification_window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/src/notifications/notification_window.cpp.o
 .PHONY : src/notifications/notification_window.cpp.o
 
 src/notifications/notification_window.i: src/notifications/notification_window.cpp.i
@@ -2262,7 +2214,7 @@ src/notifications/notification_window.i: src/notifications/notification_window.c
 
 # target to preprocess a source file
 src/notifications/notification_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/src/notifications/notification_window.cpp.i
 .PHONY : src/notifications/notification_window.cpp.i
 
 src/notifications/notification_window.s: src/notifications/notification_window.cpp.s
@@ -2270,7 +2222,7 @@ src/notifications/notification_window.s: src/notifications/notification_window.c
 
 # target to generate assembly for a file
 src/notifications/notification_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_notifications.dir/build.make CMakeFiles/sandhika_notifications.dir/src/notifications/notification_window.cpp.s
 .PHONY : src/notifications/notification_window.cpp.s
 
 src/scheduler/reminder_scheduler.o: src/scheduler/reminder_scheduler.cpp.o
@@ -2278,7 +2230,7 @@ src/scheduler/reminder_scheduler.o: src/scheduler/reminder_scheduler.cpp.o
 
 # target to build an object file
 src/scheduler/reminder_scheduler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/src/scheduler/reminder_scheduler.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/src/scheduler/reminder_scheduler.cpp.o
 .PHONY : src/scheduler/reminder_scheduler.cpp.o
 
 src/scheduler/reminder_scheduler.i: src/scheduler/reminder_scheduler.cpp.i
@@ -2286,7 +2238,7 @@ src/scheduler/reminder_scheduler.i: src/scheduler/reminder_scheduler.cpp.i
 
 # target to preprocess a source file
 src/scheduler/reminder_scheduler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/src/scheduler/reminder_scheduler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/src/scheduler/reminder_scheduler.cpp.i
 .PHONY : src/scheduler/reminder_scheduler.cpp.i
 
 src/scheduler/reminder_scheduler.s: src/scheduler/reminder_scheduler.cpp.s
@@ -2294,7 +2246,7 @@ src/scheduler/reminder_scheduler.s: src/scheduler/reminder_scheduler.cpp.s
 
 # target to generate assembly for a file
 src/scheduler/reminder_scheduler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/src/scheduler/reminder_scheduler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_scheduler.dir/build.make CMakeFiles/sandhika_scheduler.dir/src/scheduler/reminder_scheduler.cpp.s
 .PHONY : src/scheduler/reminder_scheduler.cpp.s
 
 src/stats/stats_manager.o: src/stats/stats_manager.cpp.o
@@ -2302,7 +2254,7 @@ src/stats/stats_manager.o: src/stats/stats_manager.cpp.o
 
 # target to build an object file
 src/stats/stats_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/src/stats/stats_manager.cpp.o
 .PHONY : src/stats/stats_manager.cpp.o
 
 src/stats/stats_manager.i: src/stats/stats_manager.cpp.i
@@ -2310,7 +2262,7 @@ src/stats/stats_manager.i: src/stats/stats_manager.cpp.i
 
 # target to preprocess a source file
 src/stats/stats_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/src/stats/stats_manager.cpp.i
 .PHONY : src/stats/stats_manager.cpp.i
 
 src/stats/stats_manager.s: src/stats/stats_manager.cpp.s
@@ -2318,7 +2270,7 @@ src/stats/stats_manager.s: src/stats/stats_manager.cpp.s
 
 # target to generate assembly for a file
 src/stats/stats_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_stats.dir/build.make CMakeFiles/sandhika_stats.dir/src/stats/stats_manager.cpp.s
 .PHONY : src/stats/stats_manager.cpp.s
 
 src/strict/strict_break_window.o: src/strict/strict_break_window.cpp.o
@@ -2326,7 +2278,7 @@ src/strict/strict_break_window.o: src/strict/strict_break_window.cpp.o
 
 # target to build an object file
 src/strict/strict_break_window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/src/strict/strict_break_window.cpp.o
 .PHONY : src/strict/strict_break_window.cpp.o
 
 src/strict/strict_break_window.i: src/strict/strict_break_window.cpp.i
@@ -2334,7 +2286,7 @@ src/strict/strict_break_window.i: src/strict/strict_break_window.cpp.i
 
 # target to preprocess a source file
 src/strict/strict_break_window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/src/strict/strict_break_window.cpp.i
 .PHONY : src/strict/strict_break_window.cpp.i
 
 src/strict/strict_break_window.s: src/strict/strict_break_window.cpp.s
@@ -2342,15 +2294,39 @@ src/strict/strict_break_window.s: src/strict/strict_break_window.cpp.s
 
 # target to generate assembly for a file
 src/strict/strict_break_window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_strict.dir/build.make CMakeFiles/sandhika_strict.dir/src/strict/strict_break_window.cpp.s
 .PHONY : src/strict/strict_break_window.cpp.s
+
+src/suppression/suppression_manager.o: src/suppression/suppression_manager.cpp.o
+.PHONY : src/suppression/suppression_manager.o
+
+# target to build an object file
+src/suppression/suppression_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/src/suppression/suppression_manager.cpp.o
+.PHONY : src/suppression/suppression_manager.cpp.o
+
+src/suppression/suppression_manager.i: src/suppression/suppression_manager.cpp.i
+.PHONY : src/suppression/suppression_manager.i
+
+# target to preprocess a source file
+src/suppression/suppression_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/src/suppression/suppression_manager.cpp.i
+.PHONY : src/suppression/suppression_manager.cpp.i
+
+src/suppression/suppression_manager.s: src/suppression/suppression_manager.cpp.s
+.PHONY : src/suppression/suppression_manager.s
+
+# target to generate assembly for a file
+src/suppression/suppression_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_suppression.dir/build.make CMakeFiles/sandhika_suppression.dir/src/suppression/suppression_manager.cpp.s
+.PHONY : src/suppression/suppression_manager.cpp.s
 
 src/tray/system_tray_manager.o: src/tray/system_tray_manager.cpp.o
 .PHONY : src/tray/system_tray_manager.o
 
 # target to build an object file
 src/tray/system_tray_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/src/tray/system_tray_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/src/tray/system_tray_manager.cpp.o
 .PHONY : src/tray/system_tray_manager.cpp.o
 
 src/tray/system_tray_manager.i: src/tray/system_tray_manager.cpp.i
@@ -2358,7 +2334,7 @@ src/tray/system_tray_manager.i: src/tray/system_tray_manager.cpp.i
 
 # target to preprocess a source file
 src/tray/system_tray_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/src/tray/system_tray_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/src/tray/system_tray_manager.cpp.i
 .PHONY : src/tray/system_tray_manager.cpp.i
 
 src/tray/system_tray_manager.s: src/tray/system_tray_manager.cpp.s
@@ -2366,7 +2342,7 @@ src/tray/system_tray_manager.s: src/tray/system_tray_manager.cpp.s
 
 # target to generate assembly for a file
 src/tray/system_tray_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/src/tray/system_tray_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandhika_tray.dir/build.make CMakeFiles/sandhika_tray.dir/src/tray/system_tray_manager.cpp.s
 .PHONY : src/tray/system_tray_manager.cpp.s
 
 stats_manager_test_autogen/mocs_compilation.o: stats_manager_test_autogen/mocs_compilation.cpp.o
@@ -2392,6 +2368,30 @@ stats_manager_test_autogen/mocs_compilation.s: stats_manager_test_autogen/mocs_c
 stats_manager_test_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.s
 .PHONY : stats_manager_test_autogen/mocs_compilation.cpp.s
+
+suppression_manager_test_autogen/mocs_compilation.o: suppression_manager_test_autogen/mocs_compilation.cpp.o
+.PHONY : suppression_manager_test_autogen/mocs_compilation.o
+
+# target to build an object file
+suppression_manager_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/suppression_manager_test_autogen/mocs_compilation.cpp.o
+.PHONY : suppression_manager_test_autogen/mocs_compilation.cpp.o
+
+suppression_manager_test_autogen/mocs_compilation.i: suppression_manager_test_autogen/mocs_compilation.cpp.i
+.PHONY : suppression_manager_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+suppression_manager_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/suppression_manager_test_autogen/mocs_compilation.cpp.i
+.PHONY : suppression_manager_test_autogen/mocs_compilation.cpp.i
+
+suppression_manager_test_autogen/mocs_compilation.s: suppression_manager_test_autogen/mocs_compilation.cpp.s
+.PHONY : suppression_manager_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+suppression_manager_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/suppression_manager_test_autogen/mocs_compilation.cpp.s
+.PHONY : suppression_manager_test_autogen/mocs_compilation.cpp.s
 
 tests/command_executor_test.o: tests/command_executor_test.cpp.o
 .PHONY : tests/command_executor_test.o
@@ -2440,30 +2440,6 @@ tests/config_manager_test.s: tests/config_manager_test.cpp.s
 tests/config_manager_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.s
 .PHONY : tests/config_manager_test.cpp.s
-
-tests/fullscreen_detector_test.o: tests/fullscreen_detector_test.cpp.o
-.PHONY : tests/fullscreen_detector_test.o
-
-# target to build an object file
-tests/fullscreen_detector_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/tests/fullscreen_detector_test.cpp.o
-.PHONY : tests/fullscreen_detector_test.cpp.o
-
-tests/fullscreen_detector_test.i: tests/fullscreen_detector_test.cpp.i
-.PHONY : tests/fullscreen_detector_test.i
-
-# target to preprocess a source file
-tests/fullscreen_detector_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/tests/fullscreen_detector_test.cpp.i
-.PHONY : tests/fullscreen_detector_test.cpp.i
-
-tests/fullscreen_detector_test.s: tests/fullscreen_detector_test.cpp.s
-.PHONY : tests/fullscreen_detector_test.s
-
-# target to generate assembly for a file
-tests/fullscreen_detector_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fullscreen_detector_test.dir/build.make CMakeFiles/fullscreen_detector_test.dir/tests/fullscreen_detector_test.cpp.s
-.PHONY : tests/fullscreen_detector_test.cpp.s
 
 tests/gui_tests.o: tests/gui_tests.cpp.o
 .PHONY : tests/gui_tests.o
@@ -2585,6 +2561,30 @@ tests/stats_manager_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.s
 .PHONY : tests/stats_manager_test.cpp.s
 
+tests/suppression_manager_test.o: tests/suppression_manager_test.cpp.o
+.PHONY : tests/suppression_manager_test.o
+
+# target to build an object file
+tests/suppression_manager_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/tests/suppression_manager_test.cpp.o
+.PHONY : tests/suppression_manager_test.cpp.o
+
+tests/suppression_manager_test.i: tests/suppression_manager_test.cpp.i
+.PHONY : tests/suppression_manager_test.i
+
+# target to preprocess a source file
+tests/suppression_manager_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/tests/suppression_manager_test.cpp.i
+.PHONY : tests/suppression_manager_test.cpp.i
+
+tests/suppression_manager_test.s: tests/suppression_manager_test.cpp.s
+.PHONY : tests/suppression_manager_test.s
+
+# target to generate assembly for a file
+tests/suppression_manager_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suppression_manager_test.dir/build.make CMakeFiles/suppression_manager_test.dir/tests/suppression_manager_test.cpp.s
+.PHONY : tests/suppression_manager_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2626,46 +2626,46 @@ help:
 	@echo "... command_executor_test_autogen_timestamp_deps"
 	@echo "... config_manager_test_autogen"
 	@echo "... config_manager_test_autogen_timestamp_deps"
-	@echo "... fullscreen_detector_test_autogen"
-	@echo "... fullscreen_detector_test_autogen_timestamp_deps"
 	@echo "... gui_tests_autogen"
 	@echo "... gui_tests_autogen_timestamp_deps"
-	@echo "... health-reminder_autogen"
-	@echo "... health-reminder_autogen_timestamp_deps"
-	@echo "... health_reminder_app_autogen"
-	@echo "... health_reminder_app_autogen_timestamp_deps"
-	@echo "... health_reminder_brightness_autogen"
-	@echo "... health_reminder_brightness_autogen_timestamp_deps"
-	@echo "... health_reminder_commands_autogen"
-	@echo "... health_reminder_commands_autogen_timestamp_deps"
-	@echo "... health_reminder_config_autogen"
-	@echo "... health_reminder_config_autogen_timestamp_deps"
-	@echo "... health_reminder_dashboard_autogen"
-	@echo "... health_reminder_dashboard_autogen_timestamp_deps"
-	@echo "... health_reminder_fullscreen_autogen"
-	@echo "... health_reminder_fullscreen_autogen_timestamp_deps"
-	@echo "... health_reminder_health_autogen"
-	@echo "... health_reminder_health_autogen_timestamp_deps"
-	@echo "... health_reminder_idle_autogen"
-	@echo "... health_reminder_idle_autogen_timestamp_deps"
-	@echo "... health_reminder_notifications_autogen"
-	@echo "... health_reminder_notifications_autogen_timestamp_deps"
-	@echo "... health_reminder_scheduler_autogen"
-	@echo "... health_reminder_scheduler_autogen_timestamp_deps"
-	@echo "... health_reminder_stats_autogen"
-	@echo "... health_reminder_stats_autogen_timestamp_deps"
-	@echo "... health_reminder_strict_autogen"
-	@echo "... health_reminder_strict_autogen_timestamp_deps"
-	@echo "... health_reminder_tray_autogen"
-	@echo "... health_reminder_tray_autogen_timestamp_deps"
 	@echo "... health_score_test_autogen"
 	@echo "... health_score_test_autogen_timestamp_deps"
 	@echo "... idle_detector_test_autogen"
 	@echo "... idle_detector_test_autogen_timestamp_deps"
 	@echo "... reminder_scheduler_test_autogen"
 	@echo "... reminder_scheduler_test_autogen_timestamp_deps"
+	@echo "... sandhika_app_autogen"
+	@echo "... sandhika_app_autogen_timestamp_deps"
+	@echo "... sandhika_autogen"
+	@echo "... sandhika_autogen_timestamp_deps"
+	@echo "... sandhika_brightness_autogen"
+	@echo "... sandhika_brightness_autogen_timestamp_deps"
+	@echo "... sandhika_commands_autogen"
+	@echo "... sandhika_commands_autogen_timestamp_deps"
+	@echo "... sandhika_config_autogen"
+	@echo "... sandhika_config_autogen_timestamp_deps"
+	@echo "... sandhika_dashboard_autogen"
+	@echo "... sandhika_dashboard_autogen_timestamp_deps"
+	@echo "... sandhika_health_autogen"
+	@echo "... sandhika_health_autogen_timestamp_deps"
+	@echo "... sandhika_idle_autogen"
+	@echo "... sandhika_idle_autogen_timestamp_deps"
+	@echo "... sandhika_notifications_autogen"
+	@echo "... sandhika_notifications_autogen_timestamp_deps"
+	@echo "... sandhika_scheduler_autogen"
+	@echo "... sandhika_scheduler_autogen_timestamp_deps"
+	@echo "... sandhika_stats_autogen"
+	@echo "... sandhika_stats_autogen_timestamp_deps"
+	@echo "... sandhika_strict_autogen"
+	@echo "... sandhika_strict_autogen_timestamp_deps"
+	@echo "... sandhika_suppression_autogen"
+	@echo "... sandhika_suppression_autogen_timestamp_deps"
+	@echo "... sandhika_tray_autogen"
+	@echo "... sandhika_tray_autogen_timestamp_deps"
 	@echo "... stats_manager_test_autogen"
 	@echo "... stats_manager_test_autogen_timestamp_deps"
+	@echo "... suppression_manager_test_autogen"
+	@echo "... suppression_manager_test_autogen_timestamp_deps"
 	@echo "... yaml-cpp-parse_autogen"
 	@echo "... yaml-cpp-parse_autogen_timestamp_deps"
 	@echo "... yaml-cpp-read_autogen"
@@ -2676,26 +2676,26 @@ help:
 	@echo "... yaml-cpp_autogen_timestamp_deps"
 	@echo "... command_executor_test"
 	@echo "... config_manager_test"
-	@echo "... fullscreen_detector_test"
 	@echo "... gui_tests"
-	@echo "... health-reminder"
-	@echo "... health_reminder_app"
-	@echo "... health_reminder_brightness"
-	@echo "... health_reminder_commands"
-	@echo "... health_reminder_config"
-	@echo "... health_reminder_dashboard"
-	@echo "... health_reminder_fullscreen"
-	@echo "... health_reminder_health"
-	@echo "... health_reminder_idle"
-	@echo "... health_reminder_notifications"
-	@echo "... health_reminder_scheduler"
-	@echo "... health_reminder_stats"
-	@echo "... health_reminder_strict"
-	@echo "... health_reminder_tray"
 	@echo "... health_score_test"
 	@echo "... idle_detector_test"
 	@echo "... reminder_scheduler_test"
+	@echo "... sandhika"
+	@echo "... sandhika_app"
+	@echo "... sandhika_brightness"
+	@echo "... sandhika_commands"
+	@echo "... sandhika_config"
+	@echo "... sandhika_dashboard"
+	@echo "... sandhika_health"
+	@echo "... sandhika_idle"
+	@echo "... sandhika_notifications"
+	@echo "... sandhika_scheduler"
+	@echo "... sandhika_stats"
+	@echo "... sandhika_strict"
+	@echo "... sandhika_suppression"
+	@echo "... sandhika_tray"
 	@echo "... stats_manager_test"
+	@echo "... suppression_manager_test"
 	@echo "... yaml-cpp"
 	@echo "... yaml-cpp-parse"
 	@echo "... yaml-cpp-read"
@@ -2706,54 +2706,9 @@ help:
 	@echo "... config_manager_test_autogen/mocs_compilation.o"
 	@echo "... config_manager_test_autogen/mocs_compilation.i"
 	@echo "... config_manager_test_autogen/mocs_compilation.s"
-	@echo "... fullscreen_detector_test_autogen/mocs_compilation.o"
-	@echo "... fullscreen_detector_test_autogen/mocs_compilation.i"
-	@echo "... fullscreen_detector_test_autogen/mocs_compilation.s"
 	@echo "... gui_tests_autogen/mocs_compilation.o"
 	@echo "... gui_tests_autogen/mocs_compilation.i"
 	@echo "... gui_tests_autogen/mocs_compilation.s"
-	@echo "... health-reminder_autogen/mocs_compilation.o"
-	@echo "... health-reminder_autogen/mocs_compilation.i"
-	@echo "... health-reminder_autogen/mocs_compilation.s"
-	@echo "... health_reminder_app_autogen/mocs_compilation.o"
-	@echo "... health_reminder_app_autogen/mocs_compilation.i"
-	@echo "... health_reminder_app_autogen/mocs_compilation.s"
-	@echo "... health_reminder_brightness_autogen/mocs_compilation.o"
-	@echo "... health_reminder_brightness_autogen/mocs_compilation.i"
-	@echo "... health_reminder_brightness_autogen/mocs_compilation.s"
-	@echo "... health_reminder_commands_autogen/mocs_compilation.o"
-	@echo "... health_reminder_commands_autogen/mocs_compilation.i"
-	@echo "... health_reminder_commands_autogen/mocs_compilation.s"
-	@echo "... health_reminder_config_autogen/mocs_compilation.o"
-	@echo "... health_reminder_config_autogen/mocs_compilation.i"
-	@echo "... health_reminder_config_autogen/mocs_compilation.s"
-	@echo "... health_reminder_dashboard_autogen/mocs_compilation.o"
-	@echo "... health_reminder_dashboard_autogen/mocs_compilation.i"
-	@echo "... health_reminder_dashboard_autogen/mocs_compilation.s"
-	@echo "... health_reminder_fullscreen_autogen/mocs_compilation.o"
-	@echo "... health_reminder_fullscreen_autogen/mocs_compilation.i"
-	@echo "... health_reminder_fullscreen_autogen/mocs_compilation.s"
-	@echo "... health_reminder_health_autogen/mocs_compilation.o"
-	@echo "... health_reminder_health_autogen/mocs_compilation.i"
-	@echo "... health_reminder_health_autogen/mocs_compilation.s"
-	@echo "... health_reminder_idle_autogen/mocs_compilation.o"
-	@echo "... health_reminder_idle_autogen/mocs_compilation.i"
-	@echo "... health_reminder_idle_autogen/mocs_compilation.s"
-	@echo "... health_reminder_notifications_autogen/mocs_compilation.o"
-	@echo "... health_reminder_notifications_autogen/mocs_compilation.i"
-	@echo "... health_reminder_notifications_autogen/mocs_compilation.s"
-	@echo "... health_reminder_scheduler_autogen/mocs_compilation.o"
-	@echo "... health_reminder_scheduler_autogen/mocs_compilation.i"
-	@echo "... health_reminder_scheduler_autogen/mocs_compilation.s"
-	@echo "... health_reminder_stats_autogen/mocs_compilation.o"
-	@echo "... health_reminder_stats_autogen/mocs_compilation.i"
-	@echo "... health_reminder_stats_autogen/mocs_compilation.s"
-	@echo "... health_reminder_strict_autogen/mocs_compilation.o"
-	@echo "... health_reminder_strict_autogen/mocs_compilation.i"
-	@echo "... health_reminder_strict_autogen/mocs_compilation.s"
-	@echo "... health_reminder_tray_autogen/mocs_compilation.o"
-	@echo "... health_reminder_tray_autogen/mocs_compilation.i"
-	@echo "... health_reminder_tray_autogen/mocs_compilation.s"
 	@echo "... health_score_test_autogen/mocs_compilation.o"
 	@echo "... health_score_test_autogen/mocs_compilation.i"
 	@echo "... health_score_test_autogen/mocs_compilation.s"
@@ -2763,6 +2718,48 @@ help:
 	@echo "... reminder_scheduler_test_autogen/mocs_compilation.o"
 	@echo "... reminder_scheduler_test_autogen/mocs_compilation.i"
 	@echo "... reminder_scheduler_test_autogen/mocs_compilation.s"
+	@echo "... sandhika_app_autogen/mocs_compilation.o"
+	@echo "... sandhika_app_autogen/mocs_compilation.i"
+	@echo "... sandhika_app_autogen/mocs_compilation.s"
+	@echo "... sandhika_autogen/mocs_compilation.o"
+	@echo "... sandhika_autogen/mocs_compilation.i"
+	@echo "... sandhika_autogen/mocs_compilation.s"
+	@echo "... sandhika_brightness_autogen/mocs_compilation.o"
+	@echo "... sandhika_brightness_autogen/mocs_compilation.i"
+	@echo "... sandhika_brightness_autogen/mocs_compilation.s"
+	@echo "... sandhika_commands_autogen/mocs_compilation.o"
+	@echo "... sandhika_commands_autogen/mocs_compilation.i"
+	@echo "... sandhika_commands_autogen/mocs_compilation.s"
+	@echo "... sandhika_config_autogen/mocs_compilation.o"
+	@echo "... sandhika_config_autogen/mocs_compilation.i"
+	@echo "... sandhika_config_autogen/mocs_compilation.s"
+	@echo "... sandhika_dashboard_autogen/mocs_compilation.o"
+	@echo "... sandhika_dashboard_autogen/mocs_compilation.i"
+	@echo "... sandhika_dashboard_autogen/mocs_compilation.s"
+	@echo "... sandhika_health_autogen/mocs_compilation.o"
+	@echo "... sandhika_health_autogen/mocs_compilation.i"
+	@echo "... sandhika_health_autogen/mocs_compilation.s"
+	@echo "... sandhika_idle_autogen/mocs_compilation.o"
+	@echo "... sandhika_idle_autogen/mocs_compilation.i"
+	@echo "... sandhika_idle_autogen/mocs_compilation.s"
+	@echo "... sandhika_notifications_autogen/mocs_compilation.o"
+	@echo "... sandhika_notifications_autogen/mocs_compilation.i"
+	@echo "... sandhika_notifications_autogen/mocs_compilation.s"
+	@echo "... sandhika_scheduler_autogen/mocs_compilation.o"
+	@echo "... sandhika_scheduler_autogen/mocs_compilation.i"
+	@echo "... sandhika_scheduler_autogen/mocs_compilation.s"
+	@echo "... sandhika_stats_autogen/mocs_compilation.o"
+	@echo "... sandhika_stats_autogen/mocs_compilation.i"
+	@echo "... sandhika_stats_autogen/mocs_compilation.s"
+	@echo "... sandhika_strict_autogen/mocs_compilation.o"
+	@echo "... sandhika_strict_autogen/mocs_compilation.i"
+	@echo "... sandhika_strict_autogen/mocs_compilation.s"
+	@echo "... sandhika_suppression_autogen/mocs_compilation.o"
+	@echo "... sandhika_suppression_autogen/mocs_compilation.i"
+	@echo "... sandhika_suppression_autogen/mocs_compilation.s"
+	@echo "... sandhika_tray_autogen/mocs_compilation.o"
+	@echo "... sandhika_tray_autogen/mocs_compilation.i"
+	@echo "... sandhika_tray_autogen/mocs_compilation.s"
 	@echo "... src/app/application_controller.o"
 	@echo "... src/app/application_controller.i"
 	@echo "... src/app/application_controller.s"
@@ -2778,9 +2775,6 @@ help:
 	@echo "... src/dashboard/dashboard_window.o"
 	@echo "... src/dashboard/dashboard_window.i"
 	@echo "... src/dashboard/dashboard_window.s"
-	@echo "... src/fullscreen/fullscreen_detector.o"
-	@echo "... src/fullscreen/fullscreen_detector.i"
-	@echo "... src/fullscreen/fullscreen_detector.s"
 	@echo "... src/health/health_score_calculator.o"
 	@echo "... src/health/health_score_calculator.i"
 	@echo "... src/health/health_score_calculator.s"
@@ -2805,21 +2799,24 @@ help:
 	@echo "... src/strict/strict_break_window.o"
 	@echo "... src/strict/strict_break_window.i"
 	@echo "... src/strict/strict_break_window.s"
+	@echo "... src/suppression/suppression_manager.o"
+	@echo "... src/suppression/suppression_manager.i"
+	@echo "... src/suppression/suppression_manager.s"
 	@echo "... src/tray/system_tray_manager.o"
 	@echo "... src/tray/system_tray_manager.i"
 	@echo "... src/tray/system_tray_manager.s"
 	@echo "... stats_manager_test_autogen/mocs_compilation.o"
 	@echo "... stats_manager_test_autogen/mocs_compilation.i"
 	@echo "... stats_manager_test_autogen/mocs_compilation.s"
+	@echo "... suppression_manager_test_autogen/mocs_compilation.o"
+	@echo "... suppression_manager_test_autogen/mocs_compilation.i"
+	@echo "... suppression_manager_test_autogen/mocs_compilation.s"
 	@echo "... tests/command_executor_test.o"
 	@echo "... tests/command_executor_test.i"
 	@echo "... tests/command_executor_test.s"
 	@echo "... tests/config_manager_test.o"
 	@echo "... tests/config_manager_test.i"
 	@echo "... tests/config_manager_test.s"
-	@echo "... tests/fullscreen_detector_test.o"
-	@echo "... tests/fullscreen_detector_test.i"
-	@echo "... tests/fullscreen_detector_test.s"
 	@echo "... tests/gui_tests.o"
 	@echo "... tests/gui_tests.i"
 	@echo "... tests/gui_tests.s"
@@ -2835,6 +2832,9 @@ help:
 	@echo "... tests/stats_manager_test.o"
 	@echo "... tests/stats_manager_test.i"
 	@echo "... tests/stats_manager_test.s"
+	@echo "... tests/suppression_manager_test.o"
+	@echo "... tests/suppression_manager_test.i"
+	@echo "... tests/suppression_manager_test.s"
 .PHONY : help
 
 

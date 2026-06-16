@@ -1,4 +1,4 @@
-#include "health_reminder/notifications/notification_window.h"
+#include "sandhika/notifications/notification_window.h"
 
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -7,7 +7,7 @@
 #include <QPropertyAnimation>
 #include <QGraphicsOpacityEffect>
 
-namespace health_reminder::notifications {
+namespace sandhika::notifications {
 
 NotificationWindow::NotificationWindow(const ActiveNotification& active,
                                        NotificationManager* manager,
@@ -137,4 +137,4 @@ void NotificationWindow::onSkip() {
     }
 }
 
-}  // namespace health_reminder::notifications
+}  // namespace sandhika::notifications

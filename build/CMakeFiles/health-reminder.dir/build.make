@@ -115,7 +115,7 @@ health-reminder: libhealth_reminder_strict.a
 health-reminder: libhealth_reminder_notifications.a
 health-reminder: libhealth_reminder_idle.a
 health-reminder: libhealth_reminder_health.a
-health-reminder: libhealth_reminder_fullscreen.a
+health-reminder: libhealth_reminder_suppression.a
 health-reminder: libhealth_reminder_commands.a
 health-reminder: libhealth_reminder_brightness.a
 health-reminder: libhealth_reminder_stats.a

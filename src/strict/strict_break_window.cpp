@@ -1,4 +1,4 @@
-#include "health_reminder/strict/strict_break_window.h"
+#include "sandhika/strict/strict_break_window.h"
 #include "strict_break_dialog.h"
 
 #include <QApplication>
@@ -8,7 +8,7 @@
 #include <QScreen>
 #include <QTimer>
 
-namespace health_reminder::strict {
+namespace sandhika::strict {
 
 StrictBreakDialog::StrictBreakDialog(QWidget* parent)
     : QDialog(parent, Qt::Window | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint | Qt::MaximizeUsingFullscreenGeometryHint) {
@@ -217,4 +217,4 @@ void StrictBreakWindow::finish(bool skipped) {
     }
 }
 
-}  // namespace health_reminder::strict
+}  // namespace sandhika::strict

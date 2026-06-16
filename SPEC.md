@@ -1,10 +1,10 @@
-# Health Reminder Specification
+# Sandhika Specification
 
-This document is the canonical specification for Health Reminder, a production Linux desktop application that helps users take eye breaks, drink water, and maintain healthy long-session computer habits.
+This document is the canonical specification for Sandhika, a production Linux desktop application that helps users take eye breaks, drink water, and maintain healthy long-session computer habits.
 
 ## Product Goals
 
-- Run as a single long-lived desktop daemon named `health-reminder`.
+- Run as a single long-lived desktop daemon named `sandhika`.
 - Provide reliable health reminders without disrupting games, videos, presentations, or idle time.
 - Offer normal notifications for lightweight reminders and a strict fullscreen break mode when configured.
 - Store useful local statistics without telemetry or external services.
@@ -20,10 +20,10 @@ This document is the canonical specification for Health Reminder, a production L
 
 ## Architecture
 
-`health-reminder` is a single daemon-style desktop process. It owns all modules through `ApplicationController`; modules communicate through explicit interfaces and callbacks.
+`sandhika` is a single daemon-style desktop process. It owns all modules through `ApplicationController`; modules communicate through explicit interfaces and callbacks.
 
 ```text
-health-reminder
+sandhika
 ├── ConfigManager
 ├── ReminderScheduler
 ├── IdleDetector
@@ -60,7 +60,7 @@ health-reminder
 ```text
 config/                         Example configuration files
 icons/                          Application and notification icons
-include/health_reminder/        Public module headers
+include/sandhika/        Public module headers
 resources/                      Qt resources and static UI assets
 scripts/                        Packaging/helper scripts
 src/                            Module implementations and main executable
@@ -73,7 +73,7 @@ tests/                          Unit and integration tests
 Default config path:
 
 ```text
-~/.config/health-reminder/config.yaml
+~/.config/sandhika/config.yaml
 ```
 
 Durations use positive integer values followed by `s`, `m`, or `h`. Times use strict 24-hour `HH:MM` format.
@@ -226,7 +226,7 @@ Rules:
 Stats path:
 
 ```text
-~/.local/share/health-reminder/stats/
+~/.local/share/sandhika/stats/
 ```
 
 Store one YAML file per day. Keep only the last 30 days.

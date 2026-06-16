@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_brightness.a CMakeFiles/sandhika_brightness.dir/sandhika_brightness_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_brightness.dir/src/brightness/brightness_controller.cpp.o
+/usr/bin/ranlib libsandhika_brightness.a

@@ -108,7 +108,7 @@ command_executor_test_EXTERNAL_OBJECTS =
 command_executor_test: CMakeFiles/command_executor_test.dir/command_executor_test_autogen/mocs_compilation.cpp.o
 command_executor_test: CMakeFiles/command_executor_test.dir/tests/command_executor_test.cpp.o
 command_executor_test: CMakeFiles/command_executor_test.dir/build.make
-command_executor_test: libhealth_reminder_commands.a
+command_executor_test: libsandhika_commands.a
 command_executor_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 command_executor_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
 command_executor_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2

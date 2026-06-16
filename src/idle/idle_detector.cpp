@@ -1,11 +1,11 @@
-#include "health_reminder/idle/idle_detector.h"
+#include "sandhika/idle/idle_detector.h"
 
 #include <array>
 #include <cstdio>
 #include <cstdlib>
 #include <string>
 
-namespace health_reminder::idle {
+namespace sandhika::idle {
 namespace {
 
 [[nodiscard]] std::optional<std::string> run_command(const char* command) {
@@ -153,4 +153,4 @@ std::chrono::milliseconds IdleDetector::queryIdleDurationLocked() {
     return manual_provider_.queryIdleDuration().value_or(std::chrono::milliseconds(0));
 }
 
-}  // namespace health_reminder::idle
+}  // namespace sandhika::idle

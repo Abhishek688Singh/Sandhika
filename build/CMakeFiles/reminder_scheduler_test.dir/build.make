@@ -108,7 +108,7 @@ reminder_scheduler_test_EXTERNAL_OBJECTS =
 reminder_scheduler_test: CMakeFiles/reminder_scheduler_test.dir/reminder_scheduler_test_autogen/mocs_compilation.cpp.o
 reminder_scheduler_test: CMakeFiles/reminder_scheduler_test.dir/tests/reminder_scheduler_test.cpp.o
 reminder_scheduler_test: CMakeFiles/reminder_scheduler_test.dir/build.make
-reminder_scheduler_test: libhealth_reminder_scheduler.a
+reminder_scheduler_test: libsandhika_scheduler.a
 reminder_scheduler_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 reminder_scheduler_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
 reminder_scheduler_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2

@@ -6,10 +6,13 @@ CMakeFiles/gui_tests.dir/gui_tests_autogen/mocs_compilation.cpp.o: gui_tests_aut
 
 CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gui_tests.cpp \
   /home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h \
+  /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
+  /home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
   /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
   /home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h \
+  /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -194,6 +197,7 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/semaphore \
+  /usr/include/c++/13/shared_mutex \
   /usr/include/c++/13/span \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -389,6 +393,7 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
@@ -440,6 +445,7 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
@@ -460,21 +466,26 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
@@ -496,8 +507,6 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
@@ -557,6 +566,8 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtconfigmacros.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringfwd.h:
@@ -601,11 +612,13 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h:
 
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h:
 
@@ -703,6 +716,8 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h:
@@ -710,8 +725,6 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -793,6 +806,20 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
 
 /usr/include/c++/13/bits/stl_map.h:
@@ -840,10 +867,6 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/bits/this_thread_sleep.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/c++/13/bits/semaphore_base.h:
 
@@ -939,19 +962,9 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/bits/fs_ops.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
 
-/usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/c++/13/clocale:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -962,14 +975,6 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 /usr/include/c++/13/bits/istream.tcc:
 
 /usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/uniform_int_dist.h:
-
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/x86_64-linux-gnu/sys/syscall.h:
-
-/usr/include/c++/13/clocale:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -993,14 +998,6 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/13/bits/node_handle.h:
@@ -1023,9 +1020,23 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/c++/13/semaphore:
 
-/usr/include/c++/13/bits/stringfwd.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/c++/13/bits/iterator_concepts.h:
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/13/bits/stream_iterator.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -1041,27 +1052,45 @@ CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o: /home/abhishek/game/hrm/tests/gu
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h:
+
 /usr/include/c++/13/cstdio:
 
-/usr/include/c++/13/bits/basic_string.tcc:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/13/bits/enable_special_members.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/c++/13/bits/stream_iterator.h:
-
-gui_tests_autogen/mocs_compilation.cpp:
+/usr/include/c++/13/algorithm:
 
 /usr/include/c++/13/bits/ranges_algobase.h:
 
 /home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+gui_tests_autogen/mocs_compilation.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/home/abhishek/game/hrm/include/health_reminder/config/config_manager.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/13/bits/chrono.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h:
+
+/home/abhishek/game/hrm/tests/gui_tests.cpp:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/c++/13/bits/ranges_util.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h:
 
@@ -1069,7 +1098,15 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
 /usr/include/syscall.h:
+
+/usr/include/c++/13/array:
+
+/usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/c++/13/bits/allocated_ptr.h:
 
@@ -1079,29 +1116,17 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h:
 
-/usr/include/wchar.h:
+/usr/include/c++/13/bits/shared_ptr.h:
 
-/usr/include/c++/13/bits/shared_ptr_base.h:
+/home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h:
 
-/usr/include/c++/13/bits/basic_ios.h:
+/usr/include/c++/13/ext/concurrence.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qaction.h:
-
-/home/abhishek/game/hrm/tests/gui_tests.cpp:
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /usr/include/c++/13/bits/atomic_timed_wait.h:
 
 /usr/include/c++/13/tr1/exp_integral.tcc:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
-
-/home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
@@ -1117,27 +1142,23 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/codecvt.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qeventloop.h:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h:
 
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+/usr/include/c++/13/bits/locale_facets.h:
 
-/usr/include/c++/13/algorithm:
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h:
 
-/usr/include/c++/13/array:
+/home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/13/bits/exception_defines.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer:
+/usr/include/math.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/c++/13/bits/ranges_util.h:
-
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
@@ -1157,11 +1178,13 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/libintl.h:
 
-/usr/include/c++/13/bits/chrono.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
 /usr/include/c++/13/bits/chrono_io.h:
+
+/usr/include/c++/13/bits/this_thread_sleep.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/wchar.h:
 
 /usr/include/alloca.h:
 
@@ -1172,6 +1195,8 @@ gui_tests_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/char_traits.h:
 
 /usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
@@ -1184,8 +1209,6 @@ gui_tests_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/cassert:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
@@ -1217,11 +1240,23 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/hashtable.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h:
+
+/home/abhishek/game/hrm/include/health_reminder/config/config_types.h:
+
 /usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h:
 
 /usr/include/errno.h:
+
+/usr/include/c++/13/bits/iterator_concepts.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
 
 /usr/include/c++/13/bits/unique_lock.h:
 
@@ -1285,9 +1320,7 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/new:
 
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -1307,15 +1340,17 @@ gui_tests_autogen/mocs_compilation.cpp:
 
 /usr/include/unistd.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h:
+
 /usr/include/c++/13/functional:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h:
 
 /usr/include/c++/13/bits/std_thread.h:
 
-/usr/include/c++/13/tr1/bessel_function.tcc:
-
 /usr/include/limits.h:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
 
 /usr/include/c++/13/initializer_list:
 
@@ -1360,6 +1395,8 @@ gui_tests_autogen/mocs_compilation.cpp:
 /usr/include/semaphore.h:
 
 /usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/include/c++/13/shared_mutex:
 
 /usr/include/c++/13/span:
 
@@ -1470,7 +1507,3 @@ gui_tests_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_app.a CMakeFiles/sandhika_app.dir/sandhika_app_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_app.dir/src/app/application_controller.cpp.o
+/usr/bin/ranlib libsandhika_app.a

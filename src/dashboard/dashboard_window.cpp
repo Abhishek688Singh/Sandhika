@@ -1,4 +1,4 @@
-#include "health_reminder/dashboard/dashboard_window.h"
+#include "sandhika/dashboard/dashboard_window.h"
 
 #include <QVBoxLayout>
 #include <QLabel>
@@ -11,7 +11,7 @@
 #include <QtCharts/QPieSeries>
 #include <QDateTime>
 
-namespace health_reminder::dashboard {
+namespace sandhika::dashboard {
 
 class DashboardWindow::OverviewTab : public QWidget {
 public:
@@ -22,14 +22,20 @@ public:
         score_label->setAlignment(Qt::AlignCenter);
         layout->addWidget(score_label);
         
+        media_mode_label = new QLabel("Media Mode: --", this);
+        media_mode_label->setStyleSheet("font-size: 20px; font-weight: bold; color: #f9e2af;");
+        media_mode_label->setAlignment(Qt::AlignCenter);
+        layout->addWidget(media_mode_label);
+
         details_label = new QLabel("Active Screen Time: --\nEye Breaks: --\nWater: --", this);
         details_label->setStyleSheet("font-size: 18px; color: #cdd6f4;");
         details_label->setAlignment(Qt::AlignCenter);
         layout->addWidget(details_label);
     }
 
-    void update(const stats::DailyStats& stats, int score) {
+    void update(const stats::DailyStats& stats, int score, bool media_mode) {
         score_label->setText(QString("Health Score: %1").arg(score));
+        media_mode_label->setText(QString("Media Mode: %1").arg(media_mode ? "ON" : "OFF"));
         details_label->setText(QString("Active Screen Time: %1m\nEye Breaks: %2/%3\nWater: %4/%5")
             .arg(stats.screen_time.active_minutes)
             .arg(stats.eye_break.completed).arg(stats.eye_break.shown)
@@ -38,6 +44,7 @@ public:
 
 private:
     QLabel* score_label;
+    QLabel* media_mode_label;
     QLabel* details_label;
 };
 
@@ -168,9 +175,9 @@ private:
     QChartView* chart_view;
 };
 
-DashboardWindow::DashboardWindow(stats::StatsManager* stats_manager, QWidget* parent)
-    : QWidget(parent), stats_manager_(stats_manager) {
-    setWindowTitle("Health Reminder Dashboard");
+DashboardWindow::DashboardWindow(stats::StatsManager* stats_manager, suppression::SuppressionManager* suppression_manager, QWidget* parent)
+    : QWidget(parent), stats_manager_(stats_manager), suppression_manager_(suppression_manager) {
+    setWindowTitle("Sandhika Dashboard");
     resize(800, 600);
     applyDarkTheme();
     setupUi();
@@ -208,10 +215,10 @@ void DashboardWindow::refreshData() {
     int score = stats::StatsManager::calculateHealthScore(today);
     auto last_30 = stats_manager_->getLastDays(30);
 
-    overview_tab_->update(today, score);
+    overview_tab_->update(today, score, suppression_manager_->isMediaModeEnabled());
     statistics_tab_->update(last_30);
     trends_tab_->update(last_30);
     health_score_tab_->update(score);
 }
 
-}  // namespace health_reminder::dashboard
+}  // namespace sandhika::dashboard

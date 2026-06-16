@@ -1,4 +1,4 @@
-#include "health_reminder/config/config_manager.h"
+#include "sandhika/config/config_manager.h"
 
 #include <yaml-cpp/yaml.h>
 
@@ -11,7 +11,7 @@
 #include <unordered_map>
 #include <fstream>
 
-namespace health_reminder::config {
+namespace sandhika::config {
 namespace {
 
 std::string trim(std::string value) {
@@ -225,18 +225,11 @@ template <typename T>
     return config;
 }
 
-[[nodiscard]] FullscreenConfig parse_fullscreen(const YAML::Node& root) {
-    FullscreenConfig config;
-    const YAML::Node fs = root["fullscreen"];
-    if (!fs) {
-        return config;
-    }
-    const YAML::Node apps = fs["suppress_apps"];
-    if (apps && apps.IsSequence()) {
-        config.suppress_apps.clear();
-        for (std::size_t i = 0; i < apps.size(); ++i) {
-            config.suppress_apps.push_back(parse_scalar_string(apps[i], "fullscreen.suppress_apps"));
-        }
+[[nodiscard]] MediaModeConfig parse_media_mode(const YAML::Node& root) {
+    MediaModeConfig config;
+    const YAML::Node mm = root["media_mode"];
+    if (mm && mm["enabled"]) {
+        config.enabled = parse_scalar_as<bool>(mm["enabled"], "media_mode.enabled");
     }
     return config;
 }
@@ -332,7 +325,7 @@ std::filesystem::path ConfigManager::defaultConfigPath() {
         throw ConfigError("HOME environment variable is not set");
     }
 
-    return std::filesystem::path(home) / ".config" / "health-reminder" / "config.yaml";
+    return std::filesystem::path(home) / ".config" / "sandhika" / "config.yaml";
 }
 
 void ConfigManager::reload() {
@@ -393,7 +386,7 @@ void ConfigManager::reload() {
     QuietHoursConfig quiet_hours;
     WeekendConfig weekend;
     BatteryConfig battery;
-    FullscreenConfig fullscreen;
+    MediaModeConfig media_mode;
     try {
         eye_break = parse_eye_break(root);
         water = parse_water(root);
@@ -401,7 +394,7 @@ void ConfigManager::reload() {
         quiet_hours = parse_quiet_hours(root);
         weekend = parse_weekend(root);
         battery = parse_battery(root);
-        fullscreen = parse_fullscreen(root);
+        media_mode = parse_media_mode(root);
     } catch (const YAML::Exception& ex) {
         throw ConfigError("Invalid YAML value in config file '" + absolute_path.string() + "': " + ex.what());
     }
@@ -413,7 +406,7 @@ void ConfigManager::reload() {
     quiet_hours_ = quiet_hours;
     weekend_config_ = weekend;
     battery_config_ = battery;
-    fullscreen_config_ = fullscreen;
+    media_mode_config_ = media_mode;
 }
 
 EyeBreakConfig ConfigManager::getEyeBreakConfig() const {
@@ -446,9 +439,31 @@ BatteryConfig ConfigManager::getBatteryConfig() const {
     return battery_config_;
 }
 
-FullscreenConfig ConfigManager::getFullscreenConfig() const {
+MediaModeConfig ConfigManager::getMediaModeConfig() const {
     std::shared_lock lock(mutex_);
-    return fullscreen_config_;
+    return media_mode_config_;
 }
 
-}  // namespace health_reminder::config
+void ConfigManager::setMediaModeEnabled(bool enabled) {
+    {
+        std::unique_lock lock(mutex_);
+        media_mode_config_.enabled = enabled;
+    }
+    try {
+        std::filesystem::path absolute_path = std::filesystem::absolute(config_path_);
+        YAML::Node root;
+        if (std::filesystem::exists(absolute_path)) {
+            root = YAML::LoadFile(absolute_path.string());
+        }
+        if (!root["media_mode"]) {
+            root["media_mode"] = YAML::Node(YAML::NodeType::Map);
+        }
+        root["media_mode"]["enabled"] = enabled;
+        std::ofstream out(absolute_path);
+        if (out) {
+            out << root;
+        }
+    } catch (...) {}
+}
+
+}  // namespace sandhika::config

@@ -9,12 +9,12 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
   /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
   /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
-  /home/abhishek/game/hrm/include/health_reminder/fullscreen/fullscreen_detector.h \
   /home/abhishek/game/hrm/include/health_reminder/idle/idle_detector.h \
   /home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/scheduler/reminder_scheduler.h \
   /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h \
+  /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/tray/system_tray_manager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -393,6 +393,7 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
@@ -442,6 +443,7 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
@@ -460,21 +462,30 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMenu \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSystemTrayIcon \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmenu.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
   /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsystemtrayicon.h \
@@ -503,13 +514,13 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
   /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
   /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
-  /home/abhishek/game/hrm/include/health_reminder/fullscreen/fullscreen_detector.h \
   /home/abhishek/game/hrm/include/health_reminder/idle/idle_detector.h \
   /home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/notifications/notification_window.h \
   /home/abhishek/game/hrm/include/health_reminder/scheduler/reminder_scheduler.h \
   /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h \
+  /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
   /home/abhishek/game/hrm/include/health_reminder/tray/system_tray_manager.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1026,10 +1037,6 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h:
-
-/usr/include/x86_64-linux-gnu/sys/time.h:
-
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -1046,7 +1053,11 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h:
 
@@ -1094,9 +1105,9 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qtconfigmacros.h:
 
@@ -1139,6 +1150,10 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h:
 
@@ -1358,6 +1373,8 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 
 /usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h:
 
 /usr/include/c++/13/bits/stl_map.h:
@@ -1386,8 +1403,6 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 
 /usr/include/c++/13/cstddef:
 
-/home/abhishek/game/hrm/include/health_reminder/fullscreen/fullscreen_detector.h:
-
 /usr/include/c++/13/cstdint:
 
 /usr/include/c++/13/cstdlib:
@@ -1407,8 +1422,6 @@ CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o: /home/a
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/c++/13/bits/semaphore_base.h:
 
@@ -1568,17 +1581,17 @@ health_reminder_app_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/charconv.h:
 
-/usr/include/c++/13/bits/fs_path.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h:
+/usr/include/c++/13/bits/fs_path.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h:
 
 /usr/include/c++/13/cstdio:
 
@@ -1636,6 +1649,14 @@ health_reminder_app_autogen/mocs_compilation.cpp:
 
 /home/abhishek/game/hrm/include/health_reminder/strict/strict_break_window.h:
 
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h:
+
+/usr/include/c++/13/ext/concurrence.h:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qdialog.h:
 
 /usr/include/c++/13/bits/functexcept.h:
@@ -1676,12 +1697,6 @@ health_reminder_app_autogen/NKZFLXCZPH/moc_application_controller.cpp:
 
 /usr/include/math.h:
 
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/bit:
-
-/home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h:
@@ -1691,6 +1706,12 @@ health_reminder_app_autogen/NKZFLXCZPH/moc_application_controller.cpp:
 /usr/include/c++/13/bits/chrono.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
+
+/home/abhishek/game/hrm/include/health_reminder/notifications/notification_manager.h:
 
 /usr/include/c++/13/bits/list.tcc:
 
@@ -1884,10 +1905,6 @@ health_reminder_app_autogen/NKZFLXCZPH/moc_application_controller.cpp:
 
 /usr/include/c++/13/new:
 
-/usr/include/c++/13/ext/concurrence.h:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
@@ -1953,6 +1970,8 @@ health_reminder_app_autogen/NKZFLXCZPH/moc_application_controller.cpp:
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/c++/13/pstl/glue_numeric_defs.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h:
 
 /usr/include/semaphore.h:
 

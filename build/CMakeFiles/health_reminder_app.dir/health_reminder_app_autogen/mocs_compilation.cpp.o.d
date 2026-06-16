@@ -248,7 +248,6 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
  /usr/include/c++/13/bits/stl_multimap.h /usr/include/c++/13/mutex \
  /usr/include/c++/13/thread \
  /home/abhishek/game/hrm/include/health_reminder/idle/idle_detector.h \
- /home/abhishek/game/hrm/include/health_reminder/fullscreen/fullscreen_detector.h \
  /home/abhishek/game/hrm/include/health_reminder/brightness/brightness_controller.h \
  /home/abhishek/game/hrm/include/health_reminder/commands/command_executor.h \
  /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
@@ -409,6 +408,14 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
  /home/abhishek/game/hrm/include/health_reminder/tray/system_tray_manager.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QSystemTrayIcon \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsystemtrayicon.h \
@@ -420,4 +427,8 @@ CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h

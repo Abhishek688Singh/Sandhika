@@ -18,6 +18,6 @@ add_test([=[health_score_test]=] "/home/abhishek/game/hrm/build/health_score_tes
 set_tests_properties([=[health_score_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/abhishek/game/hrm/CMakeLists.txt;95;add_test;/home/abhishek/game/hrm/CMakeLists.txt;0;")
 add_test([=[gui_tests]=] "/home/abhishek/game/hrm/build/gui_tests")
 set_tests_properties([=[gui_tests]=] PROPERTIES  ENVIRONMENT "QT_QPA_PLATFORM=offscreen" _BACKTRACE_TRIPLES "/home/abhishek/game/hrm/CMakeLists.txt;96;add_test;/home/abhishek/game/hrm/CMakeLists.txt;0;")
-add_test([=[fullscreen_detector_test]=] "/home/abhishek/game/hrm/build/fullscreen_detector_test")
-set_tests_properties([=[fullscreen_detector_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/abhishek/game/hrm/CMakeLists.txt;97;add_test;/home/abhishek/game/hrm/CMakeLists.txt;0;")
+add_test([=[suppression_manager_test]=] "/home/abhishek/game/hrm/build/suppression_manager_test")
+set_tests_properties([=[suppression_manager_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/home/abhishek/game/hrm/CMakeLists.txt;97;add_test;/home/abhishek/game/hrm/CMakeLists.txt;0;")
 subdirs("_deps/yaml-cpp-build")

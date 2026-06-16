@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_strict.a CMakeFiles/sandhika_strict.dir/sandhika_strict_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_strict.dir/src/strict/strict_break_window.cpp.o
+/usr/bin/ranlib libsandhika_strict.a

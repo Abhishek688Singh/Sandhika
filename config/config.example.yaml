@@ -1,42 +1,222 @@
+# ==========================================================
+
+# Sandhika Configuration
+
+# File:
+
+# ~/.config/sandhika/config.yaml
+
+#
+
+# Duration formats:
+
+# 20s  -> 20 seconds
+
+# 5m   -> 5 minutes
+
+# 1h   -> 1 hour
+
+#
+
+# Time format:
+
+# HH:MM (24-hour)
+
+#
+
+# Examples:
+
+# 09:00
+
+# 13:30
+
+# 22:45
+
+# ==========================================================
+
+# ==========================================================
+
+# Eye Break Reminder
+
+# ==========================================================
+
 eye_break:
-  enabled: true
-  interval: 20m
-  duration: 20s
-  strict_mode: false
-  skip_unlock: 60s
-  sound: true
+
+enabled: true
+
+# Reminder frequency
+
+interval: 20m
+
+# Break duration
+
+duration: 20s
+
+# Fullscreen enforced break
+
+strict_mode: false
+
+# Skip button unlock time
+
+skip_unlock: 60s
+
+# Play sound
+
+sound: true
+
+# Notification icon
+
+icon: eye
+
+# ==========================================================
+
+# Water Reminder
+
+# ==========================================================
 
 water:
+
   enabled: true
+
   interval: 1h
+
   sound: true
 
+  icon: water
+
+# ==========================================================
+
+# Custom Reminders
+
+#
+
+# Allowed schedules:
+
+#
+
+# 1.
+
+# interval: 30m
+
+#
+
+# 2.
+
+# at: "13:00"
+
+#
+
+# 3.
+
+# weekday: Sunday
+
+# at: "18:00"
+
+#
+
+# 4.
+
+# day: 1
+
+# at: "10:00"
+
+#
+
+# NOTE:
+
+# Use ONLY ONE schedule type:
+
+#
+
+# interval
+
+# OR
+
+# at
+
+# OR
+
+# weekday + at
+
+# OR
+
+# day + at
+
+# ==========================================================
+
 custom:
-  - name: "Check Posture"
-    interval: 30m
-    message: "Sit straight"
-    sound: true
-    icon: posture
-    command: "playerctl pause"
 
-  - name: "Lunch"
-    at: "13:00"
-    message: "Take lunch"
+- name: "Check Posture"
 
-  - name: "Weekly Review"
-    weekday: Sunday
-    at: "18:00"
-    message: "Review goals"
+  interval: 30m
 
-  - name: "Pay Electricity Bill"
-    day: 1
-    at: "10:00"
-    message: "Pay bill"
+  message: "Sit straight"
+
+  sound: true
+
+  icon: posture
+
+- name: "Take Medicine"
+
+  interval: 4h
+
+  message: "Take your medicine"
+
+  sound: true
+
+  icon: medicine
+
+- name: "Lunch"
+
+  at: "13:00"
+
+  message: "Take lunch"
+
+  sound: true
+
+  icon: lunch
+
+- name: "Weekly Review"
+
+  weekday: Sunday
+
+  at: "18:00"
+
+  message: "Review goals"
+
+- name: "Pay Electricity Bill"
+
+  day: 1
+
+  at: "10:00"
+
+  message: "Pay bill"
+
+  command: "~/scripts/pay_bill.sh"
+
+# ==========================================================
+
+# Quiet Hours
+
+#
+
+# No reminders in this period.
+
+# ==========================================================
 
 quiet_hours:
+
   enabled: true
+
   start: "23:00"
+
   end: "07:00"
+
+# ==========================================================
+
+# Weekend Rules
+
+# ==========================================================
 
 weekend:
   eye_break:
@@ -44,5 +224,202 @@ weekend:
   water:
     enabled: true
 
+# ==========================================================
+
+# Battery Rules
+
+# ==========================================================
+
 battery:
-  low_threshold: 15
+
+# Disable heavy effects below this percentage
+
+low_threshold: 15
+
+# ==========================================================
+
+# Media Mode
+
+#
+
+# Useful for:
+
+#
+
+# Movies
+
+# YouTube
+
+# Gaming
+
+# Presentations
+
+#
+
+# Suppresses:
+
+#
+
+# Eye Break
+
+# Strict Break
+
+#
+
+# Water reminders continue.
+
+# ==========================================================
+
+media_mode:
+
+  enabled: false
+
+# ==========================================================
+
+# Dashboard
+
+# ==========================================================
+
+dashboard:
+
+  enabled: true
+
+show_health_score: true
+
+show_streaks: true
+
+show_graphs: true
+
+# ==========================================================
+
+# System Tray
+
+# ==========================================================
+
+tray:
+
+  enabled: true
+
+show_countdown: true
+
+show_next_reminder: true
+
+# ==========================================================
+
+# Statistics
+
+#
+
+# Stored at:
+
+#
+
+# ~/.local/share/sandhika/stats/
+
+#
+
+# Example:
+
+#
+
+# 2026-06-16.yaml
+
+# ==========================================================
+
+stats:
+
+  enabled: true
+
+retention_days: 30
+
+# ==========================================================
+
+# Health Score
+
+#
+
+# Total:
+
+#
+
+# 0 - 100
+
+#
+
+# Weight distribution:
+
+#
+
+# Eye Break: 40
+
+# Water: 25
+
+# Streak: 20
+
+# Screen Time: 15
+
+# ==========================================================
+
+health_score:
+
+  enabled: true
+
+eye_break_weight: 40
+
+water_weight: 25
+
+streak_weight: 20
+
+screen_time_weight: 15
+
+# ==========================================================
+
+# Profiles
+
+#
+
+# Quick presets.
+
+# ==========================================================
+
+profiles:
+  coding:
+    eye_break: 20m
+    water: 1h
+    strict_mode: false
+
+  gaming:
+    eye_break: 30m
+    water: 1h
+    strict_mode: false
+    media_mode: true
+
+  reading:
+    eye_break: 40m
+    water: 2h
+    strict_mode: false
+
+# ==========================================================
+
+# Focus Mode
+
+#
+
+# Temporarily suppress distractions.
+
+#
+
+# Example:
+
+#
+
+# sandhika focus 2h
+
+# ==========================================================
+
+focus_mode:
+
+  enabled: false
+
+  allow:
+    - water

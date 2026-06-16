@@ -1,4 +1,4 @@
-#include "health_reminder/config/config_manager.h"
+#include "sandhika/config/config_manager.h"
 
 #include <atomic>
 #include <chrono>
@@ -10,9 +10,9 @@
 #include <thread>
 #include <vector>
 
-using health_reminder::config::ConfigError;
-using health_reminder::config::ConfigManager;
-using health_reminder::config::ReminderScheduleType;
+using sandhika::config::ConfigError;
+using sandhika::config::ConfigManager;
+using sandhika::config::ReminderScheduleType;
 
 namespace {
 
@@ -67,7 +67,7 @@ private:
         static std::atomic<unsigned int> counter {0};
         const auto now = std::chrono::steady_clock::now().time_since_epoch().count();
         return std::filesystem::temp_directory_path() /
-               ("health-reminder-config-test-" + std::to_string(now) + "-" +
+               ("sandhika-config-test-" + std::to_string(now) + "-" +
                 std::to_string(counter.fetch_add(1, std::memory_order_relaxed)) + ".yaml");
     }
 
@@ -139,10 +139,8 @@ weekend:
 battery:
   low_threshold: 15
 
-fullscreen:
-  suppress_apps:
-    - firefox
-    - code
+media_mode:
+  enabled: true
 )YAML";
 
     TempFile file(yaml);
@@ -177,10 +175,8 @@ fullscreen:
     const auto battery = manager.getBatteryConfig();
     assert_true(battery.low_threshold == 15, "battery.low_threshold mismatch");
 
-    const auto fullscreen = manager.getFullscreenConfig();
-    assert_true(fullscreen.suppress_apps.size() == 2, "fullscreen.suppress_apps count mismatch");
-    assert_true(fullscreen.suppress_apps[0] == "firefox", "fullscreen.suppress_apps[0] mismatch");
-    assert_true(fullscreen.suppress_apps[1] == "code", "fullscreen.suppress_apps[1] mismatch");
+    const auto media_mode = manager.getMediaModeConfig();
+    assert_true(media_mode.enabled == true, "media_mode.enabled mismatch");
 }
 
 void test_rejects_invalid_duration() {
@@ -226,7 +222,7 @@ void test_rejects_malformed_yaml() {
 }
 
 void test_handles_missing_file() {
-    const auto missing_path = std::filesystem::temp_directory_path() / "health-reminder-config-test-missing.yaml";
+    const auto missing_path = std::filesystem::temp_directory_path() / "sandhika-config-test-missing.yaml";
     std::error_code ec;
     std::filesystem::remove(missing_path, ec);
     ConfigManager manager(missing_path);

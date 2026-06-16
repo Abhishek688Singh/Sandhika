@@ -173,7 +173,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=health-reminder
+CMAKE_PROJECT_NAME:STATIC=sandhika
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -465,6 +465,15 @@ health-reminder_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 health-reminder_SOURCE_DIR:STATIC=/home/abhishek/game/hrm
+
+//Value Computed by CMake
+sandhika_BINARY_DIR:STATIC=/home/abhishek/game/hrm/build
+
+//Value Computed by CMake
+sandhika_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+sandhika_SOURCE_DIR:STATIC=/home/abhishek/game/hrm
 
 
 ########################

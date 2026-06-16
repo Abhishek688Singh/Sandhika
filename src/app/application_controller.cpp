@@ -1,22 +1,22 @@
-#include "health_reminder/app/application_controller.h"
-#include "health_reminder/notifications/notification_window.h"
+#include "sandhika/app/application_controller.h"
+#include "sandhika/notifications/notification_window.h"
 
 #include <QApplication>
 #include <QDebug>
 
-namespace health_reminder::app {
+namespace sandhika::app {
 
 ApplicationController::ApplicationController()
     : config_(std::make_unique<config::ConfigManager>(config::ConfigManager::defaultConfigPath())),
       scheduler_(std::make_unique<scheduler::ReminderScheduler>()),
       idle_detector_(std::make_unique<idle::IdleDetector>()),
-      fullscreen_detector_(std::make_unique<fullscreen::FullscreenDetector>()),
       brightness_controller_(std::make_shared<brightness::BrightnessController>()),
       command_executor_(std::make_unique<commands::CommandExecutor>()),
       notifications_(std::make_unique<notifications::NotificationManager>()),
       strict_window_(std::make_unique<strict::StrictBreakWindow>(brightness_controller_)),
       stats_(std::make_unique<stats::StatsManager>(stats::StatsManager::defaultStatsDirectory())),
-      dashboard_(std::make_unique<dashboard::DashboardWindow>(stats_.get())),
+      suppression_manager_(std::make_unique<suppression::SuppressionManager>(config_.get())),
+      dashboard_(std::make_unique<dashboard::DashboardWindow>(stats_.get(), suppression_manager_.get())),
       tray_(std::make_unique<tray::SystemTrayManager>()),
       update_timer_(new QTimer(this)) {
       
@@ -31,7 +31,6 @@ void ApplicationController::startup() {
     synchronizeReminders();
     scheduler_->start();
     idle_detector_->start();
-    fullscreen_detector_->start();
     
     update_timer_->start(60000); // 1 minute
     handleReminders(); // Update tray
@@ -40,7 +39,6 @@ void ApplicationController::startup() {
 void ApplicationController::shutdown() {
     scheduler_->stop();
     idle_detector_->stop();
-    fullscreen_detector_->stop();
     update_timer_->stop();
     strict_window_->close();
 }
@@ -66,8 +64,13 @@ void ApplicationController::reloadConfig() {
 }
 
 void ApplicationController::setMediaMode(bool active) {
-    media_mode_ = active;
+    suppression_manager_->setMediaMode(active);
     tray_->showMessage("Media Mode", active ? "Media mode enabled. Reminders suppressed." : "Media mode disabled.");
+    dashboard_->refreshData();
+}
+
+void ApplicationController::toggleMediaMode() {
+    setMediaMode(!suppression_manager_->isMediaModeEnabled());
 }
 
 void ApplicationController::showDashboard() {
@@ -107,6 +110,7 @@ void ApplicationController::setupConnections() {
     tray_->setPause1hCallback([this]() { pause(std::chrono::hours(1)); });
     tray_->setResumeCallback([this]() { resume(); });
     tray_->setOpenDashboardCallback([this]() { showDashboard(); });
+    tray_->setToggleMediaModeCallback([this]() { toggleMediaMode(); });
     tray_->setReloadConfigCallback([this]() { reloadConfig(); });
     tray_->setQuitCallback([]() { qApp->quit(); });
 
@@ -158,33 +162,13 @@ void ApplicationController::synchronizeReminders() {
 }
 
 void ApplicationController::onReminderTriggered(const scheduler::ReminderEvent& event) {
-    if (media_mode_) {
+    if (suppression_manager_->shouldSuppress(event.id)) {
         (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
         return;
     }
     if (idle_detector_->isIdle()) {
         (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
         return;
-    }
-    
-    auto fs_snap = fullscreen_detector_->snapshot();
-    if (fs_snap.fullscreen) {
-        auto conf = config_->getFullscreenConfig();
-        bool suppress = false;
-        std::string lower_class = fs_snap.window_class;
-        std::transform(lower_class.begin(), lower_class.end(), lower_class.begin(), ::tolower);
-        
-        for (const auto& app : conf.suppress_apps) {
-            if (lower_class.find(app) != std::string::npos) {
-                suppress = true;
-                break;
-            }
-        }
-        
-        if (suppress) {
-            (void)scheduler_->snoozeReminder(event.id, std::chrono::minutes(5));
-            return;
-        }
     }
 
     if (event.id == "eye_break") {
@@ -265,4 +249,4 @@ void ApplicationController::handleReminders() {
     stats_->addActiveScreenTime(std::chrono::minutes(1));
 }
 
-}  // namespace health_reminder::app
+}  // namespace sandhika::app

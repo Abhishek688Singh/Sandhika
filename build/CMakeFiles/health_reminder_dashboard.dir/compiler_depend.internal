@@ -5,7 +5,10 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
  /home/abhishek/game/hrm/build/health_reminder_dashboard_autogen/mocs_compilation.cpp
  /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h
  /home/abhishek/game/hrm/build/health_reminder_dashboard_autogen/K5EP5KAPPJ/moc_dashboard_window.cpp
+ /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h
+ /home/abhishek/game/hrm/include/health_reminder/config/config_types.h
  /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h
+ /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -182,6 +185,7 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
  /usr/include/c++/13/pstl/glue_numeric_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
  /usr/include/c++/13/ratio
+ /usr/include/c++/13/shared_mutex
  /usr/include/c++/13/span
  /usr/include/c++/13/sstream
  /usr/include/c++/13/stdexcept
@@ -366,6 +370,7 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h
@@ -414,6 +419,7 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h
@@ -431,19 +437,28 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextcursor.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextformat.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h
@@ -464,8 +479,11 @@ CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_
 
 CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o
  /home/abhishek/game/hrm/src/dashboard/dashboard_window.cpp
+ /home/abhishek/game/hrm/include/health_reminder/config/config_manager.h
+ /home/abhishek/game/hrm/include/health_reminder/config/config_types.h
  /home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h
  /home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h
+ /home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -642,6 +660,7 @@ CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o
  /usr/include/c++/13/pstl/glue_numeric_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
  /usr/include/c++/13/ratio
+ /usr/include/c++/13/shared_mutex
  /usr/include/c++/13/span
  /usr/include/c++/13/sstream
  /usr/include/c++/13/stdexcept

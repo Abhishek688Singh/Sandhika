@@ -1,9 +1,9 @@
-#include "health_reminder/notifications/notification_manager.h"
+#include "sandhika/notifications/notification_manager.h"
 
 #include <algorithm>
 #include <stdexcept>
 
-namespace health_reminder::notifications {
+namespace sandhika::notifications {
 
 void NotificationManager::setActionCallback(ActionCallback callback) {
     std::lock_guard lock(mutex_);
@@ -74,4 +74,4 @@ bool NotificationManager::skipAllowedLocked(const ActiveNotification& notificati
     return std::chrono::steady_clock::now() - notification.shown_at >= notification.request.skip_unlock;
 }
 
-}  // namespace health_reminder::notifications
+}  // namespace sandhika::notifications

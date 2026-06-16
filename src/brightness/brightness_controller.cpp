@@ -1,10 +1,10 @@
-#include "health_reminder/brightness/brightness_controller.h"
+#include "sandhika/brightness/brightness_controller.h"
 
 #include <array>
 #include <cstdio>
 #include <stdexcept>
 
-namespace health_reminder::brightness {
+namespace sandhika::brightness {
 namespace {
 
 CommandResult default_run_command(const std::string& command) {
@@ -105,4 +105,4 @@ CommandResult BrightnessController::run(const std::string& command) const {
     return default_run_command(command);
 }
 
-}  // namespace health_reminder::brightness
+}  // namespace sandhika::brightness

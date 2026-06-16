@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Health Reminder
-Comment=Health Reminder Desktop Application
-Exec=health-reminder start
-Icon=health-reminder
-Type=Application
-Categories=Utility;Health;
-Terminal=false

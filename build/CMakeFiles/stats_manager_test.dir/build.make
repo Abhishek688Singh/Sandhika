@@ -108,7 +108,7 @@ stats_manager_test_EXTERNAL_OBJECTS =
 stats_manager_test: CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o
 stats_manager_test: CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o
 stats_manager_test: CMakeFiles/stats_manager_test.dir/build.make
-stats_manager_test: libhealth_reminder_stats.a
+stats_manager_test: libsandhika_stats.a
 stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
 stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2

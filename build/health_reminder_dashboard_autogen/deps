@@ -3,8 +3,11 @@ health_reminder_dashboard_autogen/timestamp: \
 	/home/abhishek/game/hrm/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/abhishek/game/hrm/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/abhishek/game/hrm/build/health_reminder_dashboard_autogen/moc_predefs.h \
+	/home/abhishek/game/hrm/include/health_reminder/config/config_manager.h \
+	/home/abhishek/game/hrm/include/health_reminder/config/config_types.h \
 	/home/abhishek/game/hrm/include/health_reminder/dashboard/dashboard_window.h \
 	/home/abhishek/game/hrm/include/health_reminder/stats/stats_manager.h \
+	/home/abhishek/game/hrm/include/health_reminder/suppression/suppression_manager.h \
 	/home/abhishek/game/hrm/src/dashboard/dashboard_window.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -173,6 +176,7 @@ health_reminder_dashboard_autogen/timestamp: \
 	/usr/include/c++/13/pstl/glue_memory_defs.h \
 	/usr/include/c++/13/pstl/glue_numeric_defs.h \
 	/usr/include/c++/13/ratio \
+	/usr/include/c++/13/shared_mutex \
 	/usr/include/c++/13/stdexcept \
 	/usr/include/c++/13/streambuf \
 	/usr/include/c++/13/string \
@@ -303,6 +307,7 @@ health_reminder_dashboard_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+	/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
@@ -341,6 +346,7 @@ health_reminder_dashboard_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
@@ -389,6 +395,7 @@ health_reminder_dashboard_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
@@ -406,19 +413,24 @@ health_reminder_dashboard_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qkeysequence.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpalette.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QTabWidget \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QWidget \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
+	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \

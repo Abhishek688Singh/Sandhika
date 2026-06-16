@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsandhika_commands.a CMakeFiles/sandhika_commands.dir/sandhika_commands_autogen/mocs_compilation.cpp.o CMakeFiles/sandhika_commands.dir/src/commands/command_executor.cpp.o
+/usr/bin/ranlib libsandhika_commands.a

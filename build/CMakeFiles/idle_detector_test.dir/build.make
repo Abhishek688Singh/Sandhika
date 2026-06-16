@@ -108,7 +108,7 @@ idle_detector_test_EXTERNAL_OBJECTS =
 idle_detector_test: CMakeFiles/idle_detector_test.dir/idle_detector_test_autogen/mocs_compilation.cpp.o
 idle_detector_test: CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.o
 idle_detector_test: CMakeFiles/idle_detector_test.dir/build.make
-idle_detector_test: libhealth_reminder_idle.a
+idle_detector_test: libsandhika_idle.a
 idle_detector_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
 idle_detector_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
 idle_detector_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2

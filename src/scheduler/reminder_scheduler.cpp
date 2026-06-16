@@ -1,4 +1,4 @@
-#include "health_reminder/scheduler/reminder_scheduler.h"
+#include "sandhika/scheduler/reminder_scheduler.h"
 
 #include <algorithm>
 #include <ctime>
@@ -6,7 +6,7 @@
 #include <utility>
 #include <vector>
 
-namespace health_reminder::scheduler {
+namespace sandhika::scheduler {
 namespace {
 
 [[nodiscard]] bool is_valid_time(TimeOfDay time) {
@@ -508,4 +508,4 @@ void ReminderScheduler::run(std::stop_token stop_token) {
     }
 }
 
-}  // namespace health_reminder::scheduler
+}  // namespace sandhika::scheduler
