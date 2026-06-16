@@ -7846,6 +7846,11 @@ _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o: _deps/yaml-cpp-src/s
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/yaml-cpp_autogen/mocs_compilation.cpp.o: _deps/yaml-cpp-build/yaml-cpp_autogen/mocs_compilation.cpp \
+  /usr/include/stdc-predef.h
+
+
+_deps/yaml-cpp-build/yaml-cpp_autogen/mocs_compilation.cpp:
 
 _deps/yaml-cpp-src/src/simplekey.cpp:
 

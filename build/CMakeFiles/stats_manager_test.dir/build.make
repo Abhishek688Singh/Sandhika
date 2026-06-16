@@ -69,10 +69,24 @@ include CMakeFiles/stats_manager_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stats_manager_test.dir/flags.make
 
+CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o: CMakeFiles/stats_manager_test.dir/flags.make
+CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o: stats_manager_test_autogen/mocs_compilation.cpp
+CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o: CMakeFiles/stats_manager_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o -MF CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o -c /home/abhishek/game/hrm/build/stats_manager_test_autogen/mocs_compilation.cpp
+
+CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abhishek/game/hrm/build/stats_manager_test_autogen/mocs_compilation.cpp > CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abhishek/game/hrm/build/stats_manager_test_autogen/mocs_compilation.cpp -o CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o: CMakeFiles/stats_manager_test.dir/flags.make
 CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o: /home/abhishek/game/hrm/tests/stats_manager_test.cpp
 CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o: CMakeFiles/stats_manager_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o -MF CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o.d -o CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o -c /home/abhishek/game/hrm/tests/stats_manager_test.cpp
 
 CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.i: cmake_force
@@ -85,17 +99,29 @@ CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.s: cmake_force
 
 # Object files for target stats_manager_test
 stats_manager_test_OBJECTS = \
+"CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o"
 
 # External object files for target stats_manager_test
 stats_manager_test_EXTERNAL_OBJECTS =
 
+stats_manager_test: CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o
 stats_manager_test: CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o
 stats_manager_test: CMakeFiles/stats_manager_test.dir/build.make
 stats_manager_test: libhealth_reminder_stats.a
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Svg.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libGLX.so
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
+stats_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 stats_manager_test: _deps/yaml-cpp-build/libyaml-cpp.a
 stats_manager_test: CMakeFiles/stats_manager_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stats_manager_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable stats_manager_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stats_manager_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

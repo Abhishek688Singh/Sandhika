@@ -215,12 +215,13 @@ void test_rejects_malformed_yaml() {
                         "Expected malformed YAML to throw ConfigError");
 }
 
-void test_rejects_missing_file() {
+void test_handles_missing_file() {
     const auto missing_path = std::filesystem::temp_directory_path() / "health-reminder-config-test-missing.yaml";
     std::error_code ec;
     std::filesystem::remove(missing_path, ec);
-    expect_config_error([&missing_path] { const ConfigManager manager(missing_path); },
-                        "Expected missing config file to throw ConfigError");
+    ConfigManager manager(missing_path);
+    const auto eye = manager.getEyeBreakConfig();
+    assert_true(eye.enabled, "Expected default config to be loaded");
 }
 
 void test_rejects_invalid_booleans() {
@@ -338,7 +339,7 @@ int main() {
         test_rejects_invalid_custom_schedule();
         test_rejects_invalid_battery_threshold();
         test_rejects_malformed_yaml();
-        test_rejects_missing_file();
+        test_handles_missing_file();
         test_rejects_invalid_booleans();
         test_rejects_invalid_times();
         test_rejects_invalid_weekday();

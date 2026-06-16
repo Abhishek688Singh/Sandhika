@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/abhishek/game/hrm/build/stats_manager_test_autogen/mocs_compilation.cpp" "CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o.d"
   "/home/abhishek/game/hrm/tests/stats_manager_test.cpp" "CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o" "gcc" "CMakeFiles/stats_manager_test.dir/tests/stats_manager_test.cpp.o.d"
   )
 

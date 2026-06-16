@@ -167,6 +167,149 @@ health_reminder_stats/fast:
 .PHONY : health_reminder_stats/fast
 
 #=============================================================================
+# Target rules for targets named health_reminder_brightness
+
+# Build rule for target.
+health_reminder_brightness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_brightness
+.PHONY : health_reminder_brightness
+
+# fast build rule for target.
+health_reminder_brightness/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/build
+.PHONY : health_reminder_brightness/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_commands
+
+# Build rule for target.
+health_reminder_commands: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_commands
+.PHONY : health_reminder_commands
+
+# fast build rule for target.
+health_reminder_commands/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/build
+.PHONY : health_reminder_commands/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_fullscreen
+
+# Build rule for target.
+health_reminder_fullscreen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_fullscreen
+.PHONY : health_reminder_fullscreen
+
+# fast build rule for target.
+health_reminder_fullscreen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/build
+.PHONY : health_reminder_fullscreen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_health
+
+# Build rule for target.
+health_reminder_health: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_health
+.PHONY : health_reminder_health
+
+# fast build rule for target.
+health_reminder_health/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/build
+.PHONY : health_reminder_health/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_idle
+
+# Build rule for target.
+health_reminder_idle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_idle
+.PHONY : health_reminder_idle
+
+# fast build rule for target.
+health_reminder_idle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/build
+.PHONY : health_reminder_idle/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_notifications
+
+# Build rule for target.
+health_reminder_notifications: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_notifications
+.PHONY : health_reminder_notifications
+
+# fast build rule for target.
+health_reminder_notifications/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/build
+.PHONY : health_reminder_notifications/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_strict
+
+# Build rule for target.
+health_reminder_strict: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_strict
+.PHONY : health_reminder_strict
+
+# fast build rule for target.
+health_reminder_strict/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/build
+.PHONY : health_reminder_strict/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_tray
+
+# Build rule for target.
+health_reminder_tray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_tray
+.PHONY : health_reminder_tray
+
+# fast build rule for target.
+health_reminder_tray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/build
+.PHONY : health_reminder_tray/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_dashboard
+
+# Build rule for target.
+health_reminder_dashboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_dashboard
+.PHONY : health_reminder_dashboard
+
+# fast build rule for target.
+health_reminder_dashboard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/build
+.PHONY : health_reminder_dashboard/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_app
+
+# Build rule for target.
+health_reminder_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_app
+.PHONY : health_reminder_app
+
+# fast build rule for target.
+health_reminder_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/build
+.PHONY : health_reminder_app/fast
+
+#=============================================================================
+# Target rules for targets named health-reminder
+
+# Build rule for target.
+health-reminder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health-reminder
+.PHONY : health-reminder
+
+# fast build rule for target.
+health-reminder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/build
+.PHONY : health-reminder/fast
+
+#=============================================================================
 # Target rules for targets named config_manager_test
 
 # Build rule for target.
@@ -204,6 +347,604 @@ stats_manager_test: cmake_check_build_system
 stats_manager_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/build
 .PHONY : stats_manager_test/fast
+
+#=============================================================================
+# Target rules for targets named command_executor_test
+
+# Build rule for target.
+command_executor_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_executor_test
+.PHONY : command_executor_test
+
+# fast build rule for target.
+command_executor_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/build
+.PHONY : command_executor_test/fast
+
+#=============================================================================
+# Target rules for targets named idle_detector_test
+
+# Build rule for target.
+idle_detector_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 idle_detector_test
+.PHONY : idle_detector_test
+
+# fast build rule for target.
+idle_detector_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/build
+.PHONY : idle_detector_test/fast
+
+#=============================================================================
+# Target rules for targets named health_score_test
+
+# Build rule for target.
+health_score_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_score_test
+.PHONY : health_score_test
+
+# fast build rule for target.
+health_score_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/build
+.PHONY : health_score_test/fast
+
+#=============================================================================
+# Target rules for targets named gui_tests
+
+# Build rule for target.
+gui_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui_tests
+.PHONY : gui_tests
+
+# fast build rule for target.
+gui_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/build
+.PHONY : gui_tests/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_config_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_config_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_config_autogen_timestamp_deps
+.PHONY : health_reminder_config_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_config_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_config_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_config_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_config_autogen
+
+# Build rule for target.
+health_reminder_config_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_config_autogen
+.PHONY : health_reminder_config_autogen
+
+# fast build rule for target.
+health_reminder_config_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config_autogen.dir/build.make CMakeFiles/health_reminder_config_autogen.dir/build
+.PHONY : health_reminder_config_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_scheduler_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_scheduler_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_scheduler_autogen_timestamp_deps
+.PHONY : health_reminder_scheduler_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_scheduler_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_scheduler_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_scheduler_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_scheduler_autogen
+
+# Build rule for target.
+health_reminder_scheduler_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_scheduler_autogen
+.PHONY : health_reminder_scheduler_autogen
+
+# fast build rule for target.
+health_reminder_scheduler_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler_autogen.dir/build.make CMakeFiles/health_reminder_scheduler_autogen.dir/build
+.PHONY : health_reminder_scheduler_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_stats_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_stats_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_stats_autogen_timestamp_deps
+.PHONY : health_reminder_stats_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_stats_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_stats_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_stats_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_stats_autogen
+
+# Build rule for target.
+health_reminder_stats_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_stats_autogen
+.PHONY : health_reminder_stats_autogen
+
+# fast build rule for target.
+health_reminder_stats_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats_autogen.dir/build.make CMakeFiles/health_reminder_stats_autogen.dir/build
+.PHONY : health_reminder_stats_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_brightness_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_brightness_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_brightness_autogen_timestamp_deps
+.PHONY : health_reminder_brightness_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_brightness_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_brightness_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_brightness_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_brightness_autogen
+
+# Build rule for target.
+health_reminder_brightness_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_brightness_autogen
+.PHONY : health_reminder_brightness_autogen
+
+# fast build rule for target.
+health_reminder_brightness_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness_autogen.dir/build.make CMakeFiles/health_reminder_brightness_autogen.dir/build
+.PHONY : health_reminder_brightness_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_commands_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_commands_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_commands_autogen_timestamp_deps
+.PHONY : health_reminder_commands_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_commands_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_commands_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_commands_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_commands_autogen
+
+# Build rule for target.
+health_reminder_commands_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_commands_autogen
+.PHONY : health_reminder_commands_autogen
+
+# fast build rule for target.
+health_reminder_commands_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands_autogen.dir/build.make CMakeFiles/health_reminder_commands_autogen.dir/build
+.PHONY : health_reminder_commands_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_fullscreen_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_fullscreen_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_fullscreen_autogen_timestamp_deps
+.PHONY : health_reminder_fullscreen_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_fullscreen_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_fullscreen_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_fullscreen_autogen
+
+# Build rule for target.
+health_reminder_fullscreen_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_fullscreen_autogen
+.PHONY : health_reminder_fullscreen_autogen
+
+# fast build rule for target.
+health_reminder_fullscreen_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen_autogen.dir/build.make CMakeFiles/health_reminder_fullscreen_autogen.dir/build
+.PHONY : health_reminder_fullscreen_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_health_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_health_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_health_autogen_timestamp_deps
+.PHONY : health_reminder_health_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_health_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_health_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_health_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_health_autogen
+
+# Build rule for target.
+health_reminder_health_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_health_autogen
+.PHONY : health_reminder_health_autogen
+
+# fast build rule for target.
+health_reminder_health_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health_autogen.dir/build.make CMakeFiles/health_reminder_health_autogen.dir/build
+.PHONY : health_reminder_health_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_idle_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_idle_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_idle_autogen_timestamp_deps
+.PHONY : health_reminder_idle_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_idle_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_idle_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_idle_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_idle_autogen
+
+# Build rule for target.
+health_reminder_idle_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_idle_autogen
+.PHONY : health_reminder_idle_autogen
+
+# fast build rule for target.
+health_reminder_idle_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle_autogen.dir/build.make CMakeFiles/health_reminder_idle_autogen.dir/build
+.PHONY : health_reminder_idle_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_notifications_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_notifications_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_notifications_autogen_timestamp_deps
+.PHONY : health_reminder_notifications_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_notifications_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_notifications_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_notifications_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_notifications_autogen
+
+# Build rule for target.
+health_reminder_notifications_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_notifications_autogen
+.PHONY : health_reminder_notifications_autogen
+
+# fast build rule for target.
+health_reminder_notifications_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications_autogen.dir/build.make CMakeFiles/health_reminder_notifications_autogen.dir/build
+.PHONY : health_reminder_notifications_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_strict_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_strict_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_strict_autogen_timestamp_deps
+.PHONY : health_reminder_strict_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_strict_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_strict_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_strict_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_strict_autogen
+
+# Build rule for target.
+health_reminder_strict_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_strict_autogen
+.PHONY : health_reminder_strict_autogen
+
+# fast build rule for target.
+health_reminder_strict_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict_autogen.dir/build.make CMakeFiles/health_reminder_strict_autogen.dir/build
+.PHONY : health_reminder_strict_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_tray_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_tray_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_tray_autogen_timestamp_deps
+.PHONY : health_reminder_tray_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_tray_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_tray_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_tray_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_tray_autogen
+
+# Build rule for target.
+health_reminder_tray_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_tray_autogen
+.PHONY : health_reminder_tray_autogen
+
+# fast build rule for target.
+health_reminder_tray_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray_autogen.dir/build.make CMakeFiles/health_reminder_tray_autogen.dir/build
+.PHONY : health_reminder_tray_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_dashboard_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_dashboard_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_dashboard_autogen_timestamp_deps
+.PHONY : health_reminder_dashboard_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_dashboard_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_dashboard_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_dashboard_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_dashboard_autogen
+
+# Build rule for target.
+health_reminder_dashboard_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_dashboard_autogen
+.PHONY : health_reminder_dashboard_autogen
+
+# fast build rule for target.
+health_reminder_dashboard_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard_autogen.dir/build.make CMakeFiles/health_reminder_dashboard_autogen.dir/build
+.PHONY : health_reminder_dashboard_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_app_autogen_timestamp_deps
+
+# Build rule for target.
+health_reminder_app_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_app_autogen_timestamp_deps
+.PHONY : health_reminder_app_autogen_timestamp_deps
+
+# fast build rule for target.
+health_reminder_app_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build.make CMakeFiles/health_reminder_app_autogen_timestamp_deps.dir/build
+.PHONY : health_reminder_app_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_reminder_app_autogen
+
+# Build rule for target.
+health_reminder_app_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_reminder_app_autogen
+.PHONY : health_reminder_app_autogen
+
+# fast build rule for target.
+health_reminder_app_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app_autogen.dir/build.make CMakeFiles/health_reminder_app_autogen.dir/build
+.PHONY : health_reminder_app_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health-reminder_autogen_timestamp_deps
+
+# Build rule for target.
+health-reminder_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health-reminder_autogen_timestamp_deps
+.PHONY : health-reminder_autogen_timestamp_deps
+
+# fast build rule for target.
+health-reminder_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build.make CMakeFiles/health-reminder_autogen_timestamp_deps.dir/build
+.PHONY : health-reminder_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health-reminder_autogen
+
+# Build rule for target.
+health-reminder_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health-reminder_autogen
+.PHONY : health-reminder_autogen
+
+# fast build rule for target.
+health-reminder_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder_autogen.dir/build.make CMakeFiles/health-reminder_autogen.dir/build
+.PHONY : health-reminder_autogen/fast
+
+#=============================================================================
+# Target rules for targets named config_manager_test_autogen_timestamp_deps
+
+# Build rule for target.
+config_manager_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 config_manager_test_autogen_timestamp_deps
+.PHONY : config_manager_test_autogen_timestamp_deps
+
+# fast build rule for target.
+config_manager_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/config_manager_test_autogen_timestamp_deps.dir/build
+.PHONY : config_manager_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named config_manager_test_autogen
+
+# Build rule for target.
+config_manager_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 config_manager_test_autogen
+.PHONY : config_manager_test_autogen
+
+# fast build rule for target.
+config_manager_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test_autogen.dir/build.make CMakeFiles/config_manager_test_autogen.dir/build
+.PHONY : config_manager_test_autogen/fast
+
+#=============================================================================
+# Target rules for targets named reminder_scheduler_test_autogen_timestamp_deps
+
+# Build rule for target.
+reminder_scheduler_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reminder_scheduler_test_autogen_timestamp_deps
+.PHONY : reminder_scheduler_test_autogen_timestamp_deps
+
+# fast build rule for target.
+reminder_scheduler_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/build.make CMakeFiles/reminder_scheduler_test_autogen_timestamp_deps.dir/build
+.PHONY : reminder_scheduler_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named reminder_scheduler_test_autogen
+
+# Build rule for target.
+reminder_scheduler_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reminder_scheduler_test_autogen
+.PHONY : reminder_scheduler_test_autogen
+
+# fast build rule for target.
+reminder_scheduler_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test_autogen.dir/build.make CMakeFiles/reminder_scheduler_test_autogen.dir/build
+.PHONY : reminder_scheduler_test_autogen/fast
+
+#=============================================================================
+# Target rules for targets named stats_manager_test_autogen_timestamp_deps
+
+# Build rule for target.
+stats_manager_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stats_manager_test_autogen_timestamp_deps
+.PHONY : stats_manager_test_autogen_timestamp_deps
+
+# fast build rule for target.
+stats_manager_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/build.make CMakeFiles/stats_manager_test_autogen_timestamp_deps.dir/build
+.PHONY : stats_manager_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named stats_manager_test_autogen
+
+# Build rule for target.
+stats_manager_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stats_manager_test_autogen
+.PHONY : stats_manager_test_autogen
+
+# fast build rule for target.
+stats_manager_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test_autogen.dir/build.make CMakeFiles/stats_manager_test_autogen.dir/build
+.PHONY : stats_manager_test_autogen/fast
+
+#=============================================================================
+# Target rules for targets named command_executor_test_autogen_timestamp_deps
+
+# Build rule for target.
+command_executor_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_executor_test_autogen_timestamp_deps
+.PHONY : command_executor_test_autogen_timestamp_deps
+
+# fast build rule for target.
+command_executor_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/build.make CMakeFiles/command_executor_test_autogen_timestamp_deps.dir/build
+.PHONY : command_executor_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named command_executor_test_autogen
+
+# Build rule for target.
+command_executor_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 command_executor_test_autogen
+.PHONY : command_executor_test_autogen
+
+# fast build rule for target.
+command_executor_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test_autogen.dir/build.make CMakeFiles/command_executor_test_autogen.dir/build
+.PHONY : command_executor_test_autogen/fast
+
+#=============================================================================
+# Target rules for targets named idle_detector_test_autogen_timestamp_deps
+
+# Build rule for target.
+idle_detector_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 idle_detector_test_autogen_timestamp_deps
+.PHONY : idle_detector_test_autogen_timestamp_deps
+
+# fast build rule for target.
+idle_detector_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/build.make CMakeFiles/idle_detector_test_autogen_timestamp_deps.dir/build
+.PHONY : idle_detector_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named idle_detector_test_autogen
+
+# Build rule for target.
+idle_detector_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 idle_detector_test_autogen
+.PHONY : idle_detector_test_autogen
+
+# fast build rule for target.
+idle_detector_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test_autogen.dir/build.make CMakeFiles/idle_detector_test_autogen.dir/build
+.PHONY : idle_detector_test_autogen/fast
+
+#=============================================================================
+# Target rules for targets named health_score_test_autogen_timestamp_deps
+
+# Build rule for target.
+health_score_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_score_test_autogen_timestamp_deps
+.PHONY : health_score_test_autogen_timestamp_deps
+
+# fast build rule for target.
+health_score_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test_autogen_timestamp_deps.dir/build.make CMakeFiles/health_score_test_autogen_timestamp_deps.dir/build
+.PHONY : health_score_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named health_score_test_autogen
+
+# Build rule for target.
+health_score_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 health_score_test_autogen
+.PHONY : health_score_test_autogen
+
+# fast build rule for target.
+health_score_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test_autogen.dir/build.make CMakeFiles/health_score_test_autogen.dir/build
+.PHONY : health_score_test_autogen/fast
+
+#=============================================================================
+# Target rules for targets named gui_tests_autogen_timestamp_deps
+
+# Build rule for target.
+gui_tests_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui_tests_autogen_timestamp_deps
+.PHONY : gui_tests_autogen_timestamp_deps
+
+# fast build rule for target.
+gui_tests_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests_autogen_timestamp_deps.dir/build.make CMakeFiles/gui_tests_autogen_timestamp_deps.dir/build
+.PHONY : gui_tests_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named gui_tests_autogen
+
+# Build rule for target.
+gui_tests_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui_tests_autogen
+.PHONY : gui_tests_autogen
+
+# fast build rule for target.
+gui_tests_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests_autogen.dir/build.make CMakeFiles/gui_tests_autogen.dir/build
+.PHONY : gui_tests_autogen/fast
 
 #=============================================================================
 # Target rules for targets named Experimental
@@ -583,6 +1324,32 @@ yaml-cpp/fast:
 .PHONY : yaml-cpp/fast
 
 #=============================================================================
+# Target rules for targets named yaml-cpp_autogen_timestamp_deps
+
+# Build rule for target.
+yaml-cpp_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp_autogen_timestamp_deps
+.PHONY : yaml-cpp_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp_autogen
+
+# Build rule for target.
+yaml-cpp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp_autogen
+.PHONY : yaml-cpp_autogen
+
+# fast build rule for target.
+yaml-cpp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/build
+.PHONY : yaml-cpp_autogen/fast
+
+#=============================================================================
 # Target rules for targets named yaml-cpp-sandbox
 
 # Build rule for target.
@@ -621,6 +1388,636 @@ yaml-cpp-read/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build
 .PHONY : yaml-cpp-read/fast
 
+#=============================================================================
+# Target rules for targets named yaml-cpp-sandbox_autogen_timestamp_deps
+
+# Build rule for target.
+yaml-cpp-sandbox_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp-sandbox_autogen_timestamp_deps
+.PHONY : yaml-cpp-sandbox_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp-sandbox_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp-sandbox_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp-sandbox_autogen
+
+# Build rule for target.
+yaml-cpp-sandbox_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp-sandbox_autogen
+.PHONY : yaml-cpp-sandbox_autogen
+
+# fast build rule for target.
+yaml-cpp-sandbox_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/build
+.PHONY : yaml-cpp-sandbox_autogen/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp-parse_autogen_timestamp_deps
+
+# Build rule for target.
+yaml-cpp-parse_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp-parse_autogen_timestamp_deps
+.PHONY : yaml-cpp-parse_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp-parse_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp-parse_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp-parse_autogen
+
+# Build rule for target.
+yaml-cpp-parse_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp-parse_autogen
+.PHONY : yaml-cpp-parse_autogen
+
+# fast build rule for target.
+yaml-cpp-parse_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/build
+.PHONY : yaml-cpp-parse_autogen/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp-read_autogen_timestamp_deps
+
+# Build rule for target.
+yaml-cpp-read_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp-read_autogen_timestamp_deps
+.PHONY : yaml-cpp-read_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp-read_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp-read_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp-read_autogen
+
+# Build rule for target.
+yaml-cpp-read_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 yaml-cpp-read_autogen
+.PHONY : yaml-cpp-read_autogen
+
+# fast build rule for target.
+yaml-cpp-read_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/build
+.PHONY : yaml-cpp-read_autogen/fast
+
+command_executor_test_autogen/mocs_compilation.o: command_executor_test_autogen/mocs_compilation.cpp.o
+.PHONY : command_executor_test_autogen/mocs_compilation.o
+
+# target to build an object file
+command_executor_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/command_executor_test_autogen/mocs_compilation.cpp.o
+.PHONY : command_executor_test_autogen/mocs_compilation.cpp.o
+
+command_executor_test_autogen/mocs_compilation.i: command_executor_test_autogen/mocs_compilation.cpp.i
+.PHONY : command_executor_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+command_executor_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/command_executor_test_autogen/mocs_compilation.cpp.i
+.PHONY : command_executor_test_autogen/mocs_compilation.cpp.i
+
+command_executor_test_autogen/mocs_compilation.s: command_executor_test_autogen/mocs_compilation.cpp.s
+.PHONY : command_executor_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+command_executor_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/command_executor_test_autogen/mocs_compilation.cpp.s
+.PHONY : command_executor_test_autogen/mocs_compilation.cpp.s
+
+config_manager_test_autogen/mocs_compilation.o: config_manager_test_autogen/mocs_compilation.cpp.o
+.PHONY : config_manager_test_autogen/mocs_compilation.o
+
+# target to build an object file
+config_manager_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o
+.PHONY : config_manager_test_autogen/mocs_compilation.cpp.o
+
+config_manager_test_autogen/mocs_compilation.i: config_manager_test_autogen/mocs_compilation.cpp.i
+.PHONY : config_manager_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+config_manager_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.i
+.PHONY : config_manager_test_autogen/mocs_compilation.cpp.i
+
+config_manager_test_autogen/mocs_compilation.s: config_manager_test_autogen/mocs_compilation.cpp.s
+.PHONY : config_manager_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+config_manager_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.s
+.PHONY : config_manager_test_autogen/mocs_compilation.cpp.s
+
+gui_tests_autogen/mocs_compilation.o: gui_tests_autogen/mocs_compilation.cpp.o
+.PHONY : gui_tests_autogen/mocs_compilation.o
+
+# target to build an object file
+gui_tests_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/gui_tests_autogen/mocs_compilation.cpp.o
+.PHONY : gui_tests_autogen/mocs_compilation.cpp.o
+
+gui_tests_autogen/mocs_compilation.i: gui_tests_autogen/mocs_compilation.cpp.i
+.PHONY : gui_tests_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+gui_tests_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/gui_tests_autogen/mocs_compilation.cpp.i
+.PHONY : gui_tests_autogen/mocs_compilation.cpp.i
+
+gui_tests_autogen/mocs_compilation.s: gui_tests_autogen/mocs_compilation.cpp.s
+.PHONY : gui_tests_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+gui_tests_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/gui_tests_autogen/mocs_compilation.cpp.s
+.PHONY : gui_tests_autogen/mocs_compilation.cpp.s
+
+health-reminder_autogen/mocs_compilation.o: health-reminder_autogen/mocs_compilation.cpp.o
+.PHONY : health-reminder_autogen/mocs_compilation.o
+
+# target to build an object file
+health-reminder_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/health-reminder_autogen/mocs_compilation.cpp.o
+.PHONY : health-reminder_autogen/mocs_compilation.cpp.o
+
+health-reminder_autogen/mocs_compilation.i: health-reminder_autogen/mocs_compilation.cpp.i
+.PHONY : health-reminder_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health-reminder_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/health-reminder_autogen/mocs_compilation.cpp.i
+.PHONY : health-reminder_autogen/mocs_compilation.cpp.i
+
+health-reminder_autogen/mocs_compilation.s: health-reminder_autogen/mocs_compilation.cpp.s
+.PHONY : health-reminder_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health-reminder_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/health-reminder_autogen/mocs_compilation.cpp.s
+.PHONY : health-reminder_autogen/mocs_compilation.cpp.s
+
+health_reminder_app_autogen/mocs_compilation.o: health_reminder_app_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_app_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_app_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_app_autogen/mocs_compilation.cpp.o
+
+health_reminder_app_autogen/mocs_compilation.i: health_reminder_app_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_app_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_app_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_app_autogen/mocs_compilation.cpp.i
+
+health_reminder_app_autogen/mocs_compilation.s: health_reminder_app_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_app_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_app_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/health_reminder_app_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_app_autogen/mocs_compilation.cpp.s
+
+health_reminder_brightness_autogen/mocs_compilation.o: health_reminder_brightness_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_brightness_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_brightness_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_brightness_autogen/mocs_compilation.cpp.o
+
+health_reminder_brightness_autogen/mocs_compilation.i: health_reminder_brightness_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_brightness_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_brightness_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_brightness_autogen/mocs_compilation.cpp.i
+
+health_reminder_brightness_autogen/mocs_compilation.s: health_reminder_brightness_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_brightness_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_brightness_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/health_reminder_brightness_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_brightness_autogen/mocs_compilation.cpp.s
+
+health_reminder_commands_autogen/mocs_compilation.o: health_reminder_commands_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_commands_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_commands_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_commands_autogen/mocs_compilation.cpp.o
+
+health_reminder_commands_autogen/mocs_compilation.i: health_reminder_commands_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_commands_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_commands_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_commands_autogen/mocs_compilation.cpp.i
+
+health_reminder_commands_autogen/mocs_compilation.s: health_reminder_commands_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_commands_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_commands_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_commands_autogen/mocs_compilation.cpp.s
+
+health_reminder_config_autogen/mocs_compilation.o: health_reminder_config_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_config_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_config_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_config_autogen/mocs_compilation.cpp.o
+
+health_reminder_config_autogen/mocs_compilation.i: health_reminder_config_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_config_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_config_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_config_autogen/mocs_compilation.cpp.i
+
+health_reminder_config_autogen/mocs_compilation.s: health_reminder_config_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_config_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_config_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_config_autogen/mocs_compilation.cpp.s
+
+health_reminder_dashboard_autogen/mocs_compilation.o: health_reminder_dashboard_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_dashboard_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_dashboard_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_dashboard_autogen/mocs_compilation.cpp.o
+
+health_reminder_dashboard_autogen/mocs_compilation.i: health_reminder_dashboard_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_dashboard_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_dashboard_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_dashboard_autogen/mocs_compilation.cpp.i
+
+health_reminder_dashboard_autogen/mocs_compilation.s: health_reminder_dashboard_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_dashboard_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_dashboard_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_dashboard_autogen/mocs_compilation.cpp.s
+
+health_reminder_fullscreen_autogen/mocs_compilation.o: health_reminder_fullscreen_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_fullscreen_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.cpp.o
+
+health_reminder_fullscreen_autogen/mocs_compilation.i: health_reminder_fullscreen_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_fullscreen_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.cpp.i
+
+health_reminder_fullscreen_autogen/mocs_compilation.s: health_reminder_fullscreen_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_fullscreen_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_fullscreen_autogen/mocs_compilation.cpp.s
+
+health_reminder_health_autogen/mocs_compilation.o: health_reminder_health_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_health_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_health_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_health_autogen/mocs_compilation.cpp.o
+
+health_reminder_health_autogen/mocs_compilation.i: health_reminder_health_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_health_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_health_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_health_autogen/mocs_compilation.cpp.i
+
+health_reminder_health_autogen/mocs_compilation.s: health_reminder_health_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_health_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_health_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_health_autogen/mocs_compilation.cpp.s
+
+health_reminder_idle_autogen/mocs_compilation.o: health_reminder_idle_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_idle_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_idle_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_idle_autogen/mocs_compilation.cpp.o
+
+health_reminder_idle_autogen/mocs_compilation.i: health_reminder_idle_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_idle_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_idle_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_idle_autogen/mocs_compilation.cpp.i
+
+health_reminder_idle_autogen/mocs_compilation.s: health_reminder_idle_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_idle_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_idle_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/health_reminder_idle_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_idle_autogen/mocs_compilation.cpp.s
+
+health_reminder_notifications_autogen/mocs_compilation.o: health_reminder_notifications_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_notifications_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_notifications_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/health_reminder_notifications_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_notifications_autogen/mocs_compilation.cpp.o
+
+health_reminder_notifications_autogen/mocs_compilation.i: health_reminder_notifications_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_notifications_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_notifications_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/health_reminder_notifications_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_notifications_autogen/mocs_compilation.cpp.i
+
+health_reminder_notifications_autogen/mocs_compilation.s: health_reminder_notifications_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_notifications_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_notifications_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/health_reminder_notifications_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_notifications_autogen/mocs_compilation.cpp.s
+
+health_reminder_scheduler_autogen/mocs_compilation.o: health_reminder_scheduler_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_scheduler_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_scheduler_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_scheduler_autogen/mocs_compilation.cpp.o
+
+health_reminder_scheduler_autogen/mocs_compilation.i: health_reminder_scheduler_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_scheduler_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_scheduler_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_scheduler_autogen/mocs_compilation.cpp.i
+
+health_reminder_scheduler_autogen/mocs_compilation.s: health_reminder_scheduler_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_scheduler_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_scheduler_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_scheduler.dir/build.make CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_scheduler_autogen/mocs_compilation.cpp.s
+
+health_reminder_stats_autogen/mocs_compilation.o: health_reminder_stats_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_stats_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_stats_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_stats_autogen/mocs_compilation.cpp.o
+
+health_reminder_stats_autogen/mocs_compilation.i: health_reminder_stats_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_stats_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_stats_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_stats_autogen/mocs_compilation.cpp.i
+
+health_reminder_stats_autogen/mocs_compilation.s: health_reminder_stats_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_stats_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_stats_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_stats_autogen/mocs_compilation.cpp.s
+
+health_reminder_strict_autogen/mocs_compilation.o: health_reminder_strict_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_strict_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_strict_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_strict_autogen/mocs_compilation.cpp.o
+
+health_reminder_strict_autogen/mocs_compilation.i: health_reminder_strict_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_strict_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_strict_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_strict_autogen/mocs_compilation.cpp.i
+
+health_reminder_strict_autogen/mocs_compilation.s: health_reminder_strict_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_strict_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_strict_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/health_reminder_strict_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_strict_autogen/mocs_compilation.cpp.s
+
+health_reminder_tray_autogen/mocs_compilation.o: health_reminder_tray_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_tray_autogen/mocs_compilation.o
+
+# target to build an object file
+health_reminder_tray_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/health_reminder_tray_autogen/mocs_compilation.cpp.o
+.PHONY : health_reminder_tray_autogen/mocs_compilation.cpp.o
+
+health_reminder_tray_autogen/mocs_compilation.i: health_reminder_tray_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_tray_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_reminder_tray_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/health_reminder_tray_autogen/mocs_compilation.cpp.i
+.PHONY : health_reminder_tray_autogen/mocs_compilation.cpp.i
+
+health_reminder_tray_autogen/mocs_compilation.s: health_reminder_tray_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_tray_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_reminder_tray_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/health_reminder_tray_autogen/mocs_compilation.cpp.s
+.PHONY : health_reminder_tray_autogen/mocs_compilation.cpp.s
+
+health_score_test_autogen/mocs_compilation.o: health_score_test_autogen/mocs_compilation.cpp.o
+.PHONY : health_score_test_autogen/mocs_compilation.o
+
+# target to build an object file
+health_score_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/health_score_test_autogen/mocs_compilation.cpp.o
+.PHONY : health_score_test_autogen/mocs_compilation.cpp.o
+
+health_score_test_autogen/mocs_compilation.i: health_score_test_autogen/mocs_compilation.cpp.i
+.PHONY : health_score_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+health_score_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/health_score_test_autogen/mocs_compilation.cpp.i
+.PHONY : health_score_test_autogen/mocs_compilation.cpp.i
+
+health_score_test_autogen/mocs_compilation.s: health_score_test_autogen/mocs_compilation.cpp.s
+.PHONY : health_score_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+health_score_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/health_score_test_autogen/mocs_compilation.cpp.s
+.PHONY : health_score_test_autogen/mocs_compilation.cpp.s
+
+idle_detector_test_autogen/mocs_compilation.o: idle_detector_test_autogen/mocs_compilation.cpp.o
+.PHONY : idle_detector_test_autogen/mocs_compilation.o
+
+# target to build an object file
+idle_detector_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/idle_detector_test_autogen/mocs_compilation.cpp.o
+.PHONY : idle_detector_test_autogen/mocs_compilation.cpp.o
+
+idle_detector_test_autogen/mocs_compilation.i: idle_detector_test_autogen/mocs_compilation.cpp.i
+.PHONY : idle_detector_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+idle_detector_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/idle_detector_test_autogen/mocs_compilation.cpp.i
+.PHONY : idle_detector_test_autogen/mocs_compilation.cpp.i
+
+idle_detector_test_autogen/mocs_compilation.s: idle_detector_test_autogen/mocs_compilation.cpp.s
+.PHONY : idle_detector_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+idle_detector_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/idle_detector_test_autogen/mocs_compilation.cpp.s
+.PHONY : idle_detector_test_autogen/mocs_compilation.cpp.s
+
+reminder_scheduler_test_autogen/mocs_compilation.o: reminder_scheduler_test_autogen/mocs_compilation.cpp.o
+.PHONY : reminder_scheduler_test_autogen/mocs_compilation.o
+
+# target to build an object file
+reminder_scheduler_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test.dir/build.make CMakeFiles/reminder_scheduler_test.dir/reminder_scheduler_test_autogen/mocs_compilation.cpp.o
+.PHONY : reminder_scheduler_test_autogen/mocs_compilation.cpp.o
+
+reminder_scheduler_test_autogen/mocs_compilation.i: reminder_scheduler_test_autogen/mocs_compilation.cpp.i
+.PHONY : reminder_scheduler_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+reminder_scheduler_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test.dir/build.make CMakeFiles/reminder_scheduler_test.dir/reminder_scheduler_test_autogen/mocs_compilation.cpp.i
+.PHONY : reminder_scheduler_test_autogen/mocs_compilation.cpp.i
+
+reminder_scheduler_test_autogen/mocs_compilation.s: reminder_scheduler_test_autogen/mocs_compilation.cpp.s
+.PHONY : reminder_scheduler_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+reminder_scheduler_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reminder_scheduler_test.dir/build.make CMakeFiles/reminder_scheduler_test.dir/reminder_scheduler_test_autogen/mocs_compilation.cpp.s
+.PHONY : reminder_scheduler_test_autogen/mocs_compilation.cpp.s
+
+src/app/application_controller.o: src/app/application_controller.cpp.o
+.PHONY : src/app/application_controller.o
+
+# target to build an object file
+src/app/application_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.o
+.PHONY : src/app/application_controller.cpp.o
+
+src/app/application_controller.i: src/app/application_controller.cpp.i
+.PHONY : src/app/application_controller.i
+
+# target to preprocess a source file
+src/app/application_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.i
+.PHONY : src/app/application_controller.cpp.i
+
+src/app/application_controller.s: src/app/application_controller.cpp.s
+.PHONY : src/app/application_controller.s
+
+# target to generate assembly for a file
+src/app/application_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_app.dir/build.make CMakeFiles/health_reminder_app.dir/src/app/application_controller.cpp.s
+.PHONY : src/app/application_controller.cpp.s
+
+src/brightness/brightness_controller.o: src/brightness/brightness_controller.cpp.o
+.PHONY : src/brightness/brightness_controller.o
+
+# target to build an object file
+src/brightness/brightness_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.o
+.PHONY : src/brightness/brightness_controller.cpp.o
+
+src/brightness/brightness_controller.i: src/brightness/brightness_controller.cpp.i
+.PHONY : src/brightness/brightness_controller.i
+
+# target to preprocess a source file
+src/brightness/brightness_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.i
+.PHONY : src/brightness/brightness_controller.cpp.i
+
+src/brightness/brightness_controller.s: src/brightness/brightness_controller.cpp.s
+.PHONY : src/brightness/brightness_controller.s
+
+# target to generate assembly for a file
+src/brightness/brightness_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_brightness.dir/build.make CMakeFiles/health_reminder_brightness.dir/src/brightness/brightness_controller.cpp.s
+.PHONY : src/brightness/brightness_controller.cpp.s
+
+src/commands/command_executor.o: src/commands/command_executor.cpp.o
+.PHONY : src/commands/command_executor.o
+
+# target to build an object file
+src/commands/command_executor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.o
+.PHONY : src/commands/command_executor.cpp.o
+
+src/commands/command_executor.i: src/commands/command_executor.cpp.i
+.PHONY : src/commands/command_executor.i
+
+# target to preprocess a source file
+src/commands/command_executor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.i
+.PHONY : src/commands/command_executor.cpp.i
+
+src/commands/command_executor.s: src/commands/command_executor.cpp.s
+.PHONY : src/commands/command_executor.s
+
+# target to generate assembly for a file
+src/commands/command_executor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_commands.dir/build.make CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.s
+.PHONY : src/commands/command_executor.cpp.s
+
 src/config/config_manager.o: src/config/config_manager.cpp.o
 .PHONY : src/config/config_manager.o
 
@@ -644,6 +2041,174 @@ src/config/config_manager.s: src/config/config_manager.cpp.s
 src/config/config_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_config.dir/build.make CMakeFiles/health_reminder_config.dir/src/config/config_manager.cpp.s
 .PHONY : src/config/config_manager.cpp.s
+
+src/dashboard/dashboard_window.o: src/dashboard/dashboard_window.cpp.o
+.PHONY : src/dashboard/dashboard_window.o
+
+# target to build an object file
+src/dashboard/dashboard_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o
+.PHONY : src/dashboard/dashboard_window.cpp.o
+
+src/dashboard/dashboard_window.i: src/dashboard/dashboard_window.cpp.i
+.PHONY : src/dashboard/dashboard_window.i
+
+# target to preprocess a source file
+src/dashboard/dashboard_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.i
+.PHONY : src/dashboard/dashboard_window.cpp.i
+
+src/dashboard/dashboard_window.s: src/dashboard/dashboard_window.cpp.s
+.PHONY : src/dashboard/dashboard_window.s
+
+# target to generate assembly for a file
+src/dashboard/dashboard_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_dashboard.dir/build.make CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.s
+.PHONY : src/dashboard/dashboard_window.cpp.s
+
+src/fullscreen/fullscreen_detector.o: src/fullscreen/fullscreen_detector.cpp.o
+.PHONY : src/fullscreen/fullscreen_detector.o
+
+# target to build an object file
+src/fullscreen/fullscreen_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.o
+.PHONY : src/fullscreen/fullscreen_detector.cpp.o
+
+src/fullscreen/fullscreen_detector.i: src/fullscreen/fullscreen_detector.cpp.i
+.PHONY : src/fullscreen/fullscreen_detector.i
+
+# target to preprocess a source file
+src/fullscreen/fullscreen_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.i
+.PHONY : src/fullscreen/fullscreen_detector.cpp.i
+
+src/fullscreen/fullscreen_detector.s: src/fullscreen/fullscreen_detector.cpp.s
+.PHONY : src/fullscreen/fullscreen_detector.s
+
+# target to generate assembly for a file
+src/fullscreen/fullscreen_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_fullscreen.dir/build.make CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.s
+.PHONY : src/fullscreen/fullscreen_detector.cpp.s
+
+src/health/health_score_calculator.o: src/health/health_score_calculator.cpp.o
+.PHONY : src/health/health_score_calculator.o
+
+# target to build an object file
+src/health/health_score_calculator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.o
+.PHONY : src/health/health_score_calculator.cpp.o
+
+src/health/health_score_calculator.i: src/health/health_score_calculator.cpp.i
+.PHONY : src/health/health_score_calculator.i
+
+# target to preprocess a source file
+src/health/health_score_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.i
+.PHONY : src/health/health_score_calculator.cpp.i
+
+src/health/health_score_calculator.s: src/health/health_score_calculator.cpp.s
+.PHONY : src/health/health_score_calculator.s
+
+# target to generate assembly for a file
+src/health/health_score_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_health.dir/build.make CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.s
+.PHONY : src/health/health_score_calculator.cpp.s
+
+src/idle/idle_detector.o: src/idle/idle_detector.cpp.o
+.PHONY : src/idle/idle_detector.o
+
+# target to build an object file
+src/idle/idle_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.o
+.PHONY : src/idle/idle_detector.cpp.o
+
+src/idle/idle_detector.i: src/idle/idle_detector.cpp.i
+.PHONY : src/idle/idle_detector.i
+
+# target to preprocess a source file
+src/idle/idle_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.i
+.PHONY : src/idle/idle_detector.cpp.i
+
+src/idle/idle_detector.s: src/idle/idle_detector.cpp.s
+.PHONY : src/idle/idle_detector.s
+
+# target to generate assembly for a file
+src/idle/idle_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_idle.dir/build.make CMakeFiles/health_reminder_idle.dir/src/idle/idle_detector.cpp.s
+.PHONY : src/idle/idle_detector.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health-reminder.dir/build.make CMakeFiles/health-reminder.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/notifications/notification_manager.o: src/notifications/notification_manager.cpp.o
+.PHONY : src/notifications/notification_manager.o
+
+# target to build an object file
+src/notifications/notification_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_manager.cpp.o
+.PHONY : src/notifications/notification_manager.cpp.o
+
+src/notifications/notification_manager.i: src/notifications/notification_manager.cpp.i
+.PHONY : src/notifications/notification_manager.i
+
+# target to preprocess a source file
+src/notifications/notification_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_manager.cpp.i
+.PHONY : src/notifications/notification_manager.cpp.i
+
+src/notifications/notification_manager.s: src/notifications/notification_manager.cpp.s
+.PHONY : src/notifications/notification_manager.s
+
+# target to generate assembly for a file
+src/notifications/notification_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_manager.cpp.s
+.PHONY : src/notifications/notification_manager.cpp.s
+
+src/notifications/notification_window.o: src/notifications/notification_window.cpp.o
+.PHONY : src/notifications/notification_window.o
+
+# target to build an object file
+src/notifications/notification_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_window.cpp.o
+.PHONY : src/notifications/notification_window.cpp.o
+
+src/notifications/notification_window.i: src/notifications/notification_window.cpp.i
+.PHONY : src/notifications/notification_window.i
+
+# target to preprocess a source file
+src/notifications/notification_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_window.cpp.i
+.PHONY : src/notifications/notification_window.cpp.i
+
+src/notifications/notification_window.s: src/notifications/notification_window.cpp.s
+.PHONY : src/notifications/notification_window.s
+
+# target to generate assembly for a file
+src/notifications/notification_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_notifications.dir/build.make CMakeFiles/health_reminder_notifications.dir/src/notifications/notification_window.cpp.s
+.PHONY : src/notifications/notification_window.cpp.s
 
 src/scheduler/reminder_scheduler.o: src/scheduler/reminder_scheduler.cpp.o
 .PHONY : src/scheduler/reminder_scheduler.o
@@ -693,6 +2258,102 @@ src/stats/stats_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_stats.dir/build.make CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.s
 .PHONY : src/stats/stats_manager.cpp.s
 
+src/strict/strict_break_window.o: src/strict/strict_break_window.cpp.o
+.PHONY : src/strict/strict_break_window.o
+
+# target to build an object file
+src/strict/strict_break_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.o
+.PHONY : src/strict/strict_break_window.cpp.o
+
+src/strict/strict_break_window.i: src/strict/strict_break_window.cpp.i
+.PHONY : src/strict/strict_break_window.i
+
+# target to preprocess a source file
+src/strict/strict_break_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.i
+.PHONY : src/strict/strict_break_window.cpp.i
+
+src/strict/strict_break_window.s: src/strict/strict_break_window.cpp.s
+.PHONY : src/strict/strict_break_window.s
+
+# target to generate assembly for a file
+src/strict/strict_break_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_strict.dir/build.make CMakeFiles/health_reminder_strict.dir/src/strict/strict_break_window.cpp.s
+.PHONY : src/strict/strict_break_window.cpp.s
+
+src/tray/system_tray_manager.o: src/tray/system_tray_manager.cpp.o
+.PHONY : src/tray/system_tray_manager.o
+
+# target to build an object file
+src/tray/system_tray_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/src/tray/system_tray_manager.cpp.o
+.PHONY : src/tray/system_tray_manager.cpp.o
+
+src/tray/system_tray_manager.i: src/tray/system_tray_manager.cpp.i
+.PHONY : src/tray/system_tray_manager.i
+
+# target to preprocess a source file
+src/tray/system_tray_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/src/tray/system_tray_manager.cpp.i
+.PHONY : src/tray/system_tray_manager.cpp.i
+
+src/tray/system_tray_manager.s: src/tray/system_tray_manager.cpp.s
+.PHONY : src/tray/system_tray_manager.s
+
+# target to generate assembly for a file
+src/tray/system_tray_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_reminder_tray.dir/build.make CMakeFiles/health_reminder_tray.dir/src/tray/system_tray_manager.cpp.s
+.PHONY : src/tray/system_tray_manager.cpp.s
+
+stats_manager_test_autogen/mocs_compilation.o: stats_manager_test_autogen/mocs_compilation.cpp.o
+.PHONY : stats_manager_test_autogen/mocs_compilation.o
+
+# target to build an object file
+stats_manager_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.o
+.PHONY : stats_manager_test_autogen/mocs_compilation.cpp.o
+
+stats_manager_test_autogen/mocs_compilation.i: stats_manager_test_autogen/mocs_compilation.cpp.i
+.PHONY : stats_manager_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+stats_manager_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.i
+.PHONY : stats_manager_test_autogen/mocs_compilation.cpp.i
+
+stats_manager_test_autogen/mocs_compilation.s: stats_manager_test_autogen/mocs_compilation.cpp.s
+.PHONY : stats_manager_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+stats_manager_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats_manager_test.dir/build.make CMakeFiles/stats_manager_test.dir/stats_manager_test_autogen/mocs_compilation.cpp.s
+.PHONY : stats_manager_test_autogen/mocs_compilation.cpp.s
+
+tests/command_executor_test.o: tests/command_executor_test.cpp.o
+.PHONY : tests/command_executor_test.o
+
+# target to build an object file
+tests/command_executor_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/tests/command_executor_test.cpp.o
+.PHONY : tests/command_executor_test.cpp.o
+
+tests/command_executor_test.i: tests/command_executor_test.cpp.i
+.PHONY : tests/command_executor_test.i
+
+# target to preprocess a source file
+tests/command_executor_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/tests/command_executor_test.cpp.i
+.PHONY : tests/command_executor_test.cpp.i
+
+tests/command_executor_test.s: tests/command_executor_test.cpp.s
+.PHONY : tests/command_executor_test.s
+
+# target to generate assembly for a file
+tests/command_executor_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/command_executor_test.dir/build.make CMakeFiles/command_executor_test.dir/tests/command_executor_test.cpp.s
+.PHONY : tests/command_executor_test.cpp.s
+
 tests/config_manager_test.o: tests/config_manager_test.cpp.o
 .PHONY : tests/config_manager_test.o
 
@@ -716,6 +2377,78 @@ tests/config_manager_test.s: tests/config_manager_test.cpp.s
 tests/config_manager_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/config_manager_test.dir/build.make CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.s
 .PHONY : tests/config_manager_test.cpp.s
+
+tests/gui_tests.o: tests/gui_tests.cpp.o
+.PHONY : tests/gui_tests.o
+
+# target to build an object file
+tests/gui_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.o
+.PHONY : tests/gui_tests.cpp.o
+
+tests/gui_tests.i: tests/gui_tests.cpp.i
+.PHONY : tests/gui_tests.i
+
+# target to preprocess a source file
+tests/gui_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.i
+.PHONY : tests/gui_tests.cpp.i
+
+tests/gui_tests.s: tests/gui_tests.cpp.s
+.PHONY : tests/gui_tests.s
+
+# target to generate assembly for a file
+tests/gui_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gui_tests.dir/build.make CMakeFiles/gui_tests.dir/tests/gui_tests.cpp.s
+.PHONY : tests/gui_tests.cpp.s
+
+tests/health_score_test.o: tests/health_score_test.cpp.o
+.PHONY : tests/health_score_test.o
+
+# target to build an object file
+tests/health_score_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/tests/health_score_test.cpp.o
+.PHONY : tests/health_score_test.cpp.o
+
+tests/health_score_test.i: tests/health_score_test.cpp.i
+.PHONY : tests/health_score_test.i
+
+# target to preprocess a source file
+tests/health_score_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/tests/health_score_test.cpp.i
+.PHONY : tests/health_score_test.cpp.i
+
+tests/health_score_test.s: tests/health_score_test.cpp.s
+.PHONY : tests/health_score_test.s
+
+# target to generate assembly for a file
+tests/health_score_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/health_score_test.dir/build.make CMakeFiles/health_score_test.dir/tests/health_score_test.cpp.s
+.PHONY : tests/health_score_test.cpp.s
+
+tests/idle_detector_test.o: tests/idle_detector_test.cpp.o
+.PHONY : tests/idle_detector_test.o
+
+# target to build an object file
+tests/idle_detector_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.o
+.PHONY : tests/idle_detector_test.cpp.o
+
+tests/idle_detector_test.i: tests/idle_detector_test.cpp.i
+.PHONY : tests/idle_detector_test.i
+
+# target to preprocess a source file
+tests/idle_detector_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.i
+.PHONY : tests/idle_detector_test.cpp.i
+
+tests/idle_detector_test.s: tests/idle_detector_test.cpp.s
+.PHONY : tests/idle_detector_test.s
+
+# target to generate assembly for a file
+tests/idle_detector_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/idle_detector_test.dir/build.make CMakeFiles/idle_detector_test.dir/tests/idle_detector_test.cpp.s
+.PHONY : tests/idle_detector_test.cpp.s
 
 tests/reminder_scheduler_test.o: tests/reminder_scheduler_test.cpp.o
 .PHONY : tests/reminder_scheduler_test.o
@@ -802,28 +2535,204 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... command_executor_test_autogen"
+	@echo "... command_executor_test_autogen_timestamp_deps"
+	@echo "... config_manager_test_autogen"
+	@echo "... config_manager_test_autogen_timestamp_deps"
+	@echo "... gui_tests_autogen"
+	@echo "... gui_tests_autogen_timestamp_deps"
+	@echo "... health-reminder_autogen"
+	@echo "... health-reminder_autogen_timestamp_deps"
+	@echo "... health_reminder_app_autogen"
+	@echo "... health_reminder_app_autogen_timestamp_deps"
+	@echo "... health_reminder_brightness_autogen"
+	@echo "... health_reminder_brightness_autogen_timestamp_deps"
+	@echo "... health_reminder_commands_autogen"
+	@echo "... health_reminder_commands_autogen_timestamp_deps"
+	@echo "... health_reminder_config_autogen"
+	@echo "... health_reminder_config_autogen_timestamp_deps"
+	@echo "... health_reminder_dashboard_autogen"
+	@echo "... health_reminder_dashboard_autogen_timestamp_deps"
+	@echo "... health_reminder_fullscreen_autogen"
+	@echo "... health_reminder_fullscreen_autogen_timestamp_deps"
+	@echo "... health_reminder_health_autogen"
+	@echo "... health_reminder_health_autogen_timestamp_deps"
+	@echo "... health_reminder_idle_autogen"
+	@echo "... health_reminder_idle_autogen_timestamp_deps"
+	@echo "... health_reminder_notifications_autogen"
+	@echo "... health_reminder_notifications_autogen_timestamp_deps"
+	@echo "... health_reminder_scheduler_autogen"
+	@echo "... health_reminder_scheduler_autogen_timestamp_deps"
+	@echo "... health_reminder_stats_autogen"
+	@echo "... health_reminder_stats_autogen_timestamp_deps"
+	@echo "... health_reminder_strict_autogen"
+	@echo "... health_reminder_strict_autogen_timestamp_deps"
+	@echo "... health_reminder_tray_autogen"
+	@echo "... health_reminder_tray_autogen_timestamp_deps"
+	@echo "... health_score_test_autogen"
+	@echo "... health_score_test_autogen_timestamp_deps"
+	@echo "... idle_detector_test_autogen"
+	@echo "... idle_detector_test_autogen_timestamp_deps"
+	@echo "... reminder_scheduler_test_autogen"
+	@echo "... reminder_scheduler_test_autogen_timestamp_deps"
+	@echo "... stats_manager_test_autogen"
+	@echo "... stats_manager_test_autogen_timestamp_deps"
+	@echo "... yaml-cpp-parse_autogen"
+	@echo "... yaml-cpp-parse_autogen_timestamp_deps"
+	@echo "... yaml-cpp-read_autogen"
+	@echo "... yaml-cpp-read_autogen_timestamp_deps"
+	@echo "... yaml-cpp-sandbox_autogen"
+	@echo "... yaml-cpp-sandbox_autogen_timestamp_deps"
+	@echo "... yaml-cpp_autogen"
+	@echo "... yaml-cpp_autogen_timestamp_deps"
+	@echo "... command_executor_test"
 	@echo "... config_manager_test"
+	@echo "... gui_tests"
+	@echo "... health-reminder"
+	@echo "... health_reminder_app"
+	@echo "... health_reminder_brightness"
+	@echo "... health_reminder_commands"
 	@echo "... health_reminder_config"
+	@echo "... health_reminder_dashboard"
+	@echo "... health_reminder_fullscreen"
+	@echo "... health_reminder_health"
+	@echo "... health_reminder_idle"
+	@echo "... health_reminder_notifications"
 	@echo "... health_reminder_scheduler"
 	@echo "... health_reminder_stats"
+	@echo "... health_reminder_strict"
+	@echo "... health_reminder_tray"
+	@echo "... health_score_test"
+	@echo "... idle_detector_test"
 	@echo "... reminder_scheduler_test"
 	@echo "... stats_manager_test"
 	@echo "... yaml-cpp"
 	@echo "... yaml-cpp-parse"
 	@echo "... yaml-cpp-read"
 	@echo "... yaml-cpp-sandbox"
+	@echo "... command_executor_test_autogen/mocs_compilation.o"
+	@echo "... command_executor_test_autogen/mocs_compilation.i"
+	@echo "... command_executor_test_autogen/mocs_compilation.s"
+	@echo "... config_manager_test_autogen/mocs_compilation.o"
+	@echo "... config_manager_test_autogen/mocs_compilation.i"
+	@echo "... config_manager_test_autogen/mocs_compilation.s"
+	@echo "... gui_tests_autogen/mocs_compilation.o"
+	@echo "... gui_tests_autogen/mocs_compilation.i"
+	@echo "... gui_tests_autogen/mocs_compilation.s"
+	@echo "... health-reminder_autogen/mocs_compilation.o"
+	@echo "... health-reminder_autogen/mocs_compilation.i"
+	@echo "... health-reminder_autogen/mocs_compilation.s"
+	@echo "... health_reminder_app_autogen/mocs_compilation.o"
+	@echo "... health_reminder_app_autogen/mocs_compilation.i"
+	@echo "... health_reminder_app_autogen/mocs_compilation.s"
+	@echo "... health_reminder_brightness_autogen/mocs_compilation.o"
+	@echo "... health_reminder_brightness_autogen/mocs_compilation.i"
+	@echo "... health_reminder_brightness_autogen/mocs_compilation.s"
+	@echo "... health_reminder_commands_autogen/mocs_compilation.o"
+	@echo "... health_reminder_commands_autogen/mocs_compilation.i"
+	@echo "... health_reminder_commands_autogen/mocs_compilation.s"
+	@echo "... health_reminder_config_autogen/mocs_compilation.o"
+	@echo "... health_reminder_config_autogen/mocs_compilation.i"
+	@echo "... health_reminder_config_autogen/mocs_compilation.s"
+	@echo "... health_reminder_dashboard_autogen/mocs_compilation.o"
+	@echo "... health_reminder_dashboard_autogen/mocs_compilation.i"
+	@echo "... health_reminder_dashboard_autogen/mocs_compilation.s"
+	@echo "... health_reminder_fullscreen_autogen/mocs_compilation.o"
+	@echo "... health_reminder_fullscreen_autogen/mocs_compilation.i"
+	@echo "... health_reminder_fullscreen_autogen/mocs_compilation.s"
+	@echo "... health_reminder_health_autogen/mocs_compilation.o"
+	@echo "... health_reminder_health_autogen/mocs_compilation.i"
+	@echo "... health_reminder_health_autogen/mocs_compilation.s"
+	@echo "... health_reminder_idle_autogen/mocs_compilation.o"
+	@echo "... health_reminder_idle_autogen/mocs_compilation.i"
+	@echo "... health_reminder_idle_autogen/mocs_compilation.s"
+	@echo "... health_reminder_notifications_autogen/mocs_compilation.o"
+	@echo "... health_reminder_notifications_autogen/mocs_compilation.i"
+	@echo "... health_reminder_notifications_autogen/mocs_compilation.s"
+	@echo "... health_reminder_scheduler_autogen/mocs_compilation.o"
+	@echo "... health_reminder_scheduler_autogen/mocs_compilation.i"
+	@echo "... health_reminder_scheduler_autogen/mocs_compilation.s"
+	@echo "... health_reminder_stats_autogen/mocs_compilation.o"
+	@echo "... health_reminder_stats_autogen/mocs_compilation.i"
+	@echo "... health_reminder_stats_autogen/mocs_compilation.s"
+	@echo "... health_reminder_strict_autogen/mocs_compilation.o"
+	@echo "... health_reminder_strict_autogen/mocs_compilation.i"
+	@echo "... health_reminder_strict_autogen/mocs_compilation.s"
+	@echo "... health_reminder_tray_autogen/mocs_compilation.o"
+	@echo "... health_reminder_tray_autogen/mocs_compilation.i"
+	@echo "... health_reminder_tray_autogen/mocs_compilation.s"
+	@echo "... health_score_test_autogen/mocs_compilation.o"
+	@echo "... health_score_test_autogen/mocs_compilation.i"
+	@echo "... health_score_test_autogen/mocs_compilation.s"
+	@echo "... idle_detector_test_autogen/mocs_compilation.o"
+	@echo "... idle_detector_test_autogen/mocs_compilation.i"
+	@echo "... idle_detector_test_autogen/mocs_compilation.s"
+	@echo "... reminder_scheduler_test_autogen/mocs_compilation.o"
+	@echo "... reminder_scheduler_test_autogen/mocs_compilation.i"
+	@echo "... reminder_scheduler_test_autogen/mocs_compilation.s"
+	@echo "... src/app/application_controller.o"
+	@echo "... src/app/application_controller.i"
+	@echo "... src/app/application_controller.s"
+	@echo "... src/brightness/brightness_controller.o"
+	@echo "... src/brightness/brightness_controller.i"
+	@echo "... src/brightness/brightness_controller.s"
+	@echo "... src/commands/command_executor.o"
+	@echo "... src/commands/command_executor.i"
+	@echo "... src/commands/command_executor.s"
 	@echo "... src/config/config_manager.o"
 	@echo "... src/config/config_manager.i"
 	@echo "... src/config/config_manager.s"
+	@echo "... src/dashboard/dashboard_window.o"
+	@echo "... src/dashboard/dashboard_window.i"
+	@echo "... src/dashboard/dashboard_window.s"
+	@echo "... src/fullscreen/fullscreen_detector.o"
+	@echo "... src/fullscreen/fullscreen_detector.i"
+	@echo "... src/fullscreen/fullscreen_detector.s"
+	@echo "... src/health/health_score_calculator.o"
+	@echo "... src/health/health_score_calculator.i"
+	@echo "... src/health/health_score_calculator.s"
+	@echo "... src/idle/idle_detector.o"
+	@echo "... src/idle/idle_detector.i"
+	@echo "... src/idle/idle_detector.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/notifications/notification_manager.o"
+	@echo "... src/notifications/notification_manager.i"
+	@echo "... src/notifications/notification_manager.s"
+	@echo "... src/notifications/notification_window.o"
+	@echo "... src/notifications/notification_window.i"
+	@echo "... src/notifications/notification_window.s"
 	@echo "... src/scheduler/reminder_scheduler.o"
 	@echo "... src/scheduler/reminder_scheduler.i"
 	@echo "... src/scheduler/reminder_scheduler.s"
 	@echo "... src/stats/stats_manager.o"
 	@echo "... src/stats/stats_manager.i"
 	@echo "... src/stats/stats_manager.s"
+	@echo "... src/strict/strict_break_window.o"
+	@echo "... src/strict/strict_break_window.i"
+	@echo "... src/strict/strict_break_window.s"
+	@echo "... src/tray/system_tray_manager.o"
+	@echo "... src/tray/system_tray_manager.i"
+	@echo "... src/tray/system_tray_manager.s"
+	@echo "... stats_manager_test_autogen/mocs_compilation.o"
+	@echo "... stats_manager_test_autogen/mocs_compilation.i"
+	@echo "... stats_manager_test_autogen/mocs_compilation.s"
+	@echo "... tests/command_executor_test.o"
+	@echo "... tests/command_executor_test.i"
+	@echo "... tests/command_executor_test.s"
 	@echo "... tests/config_manager_test.o"
 	@echo "... tests/config_manager_test.i"
 	@echo "... tests/config_manager_test.s"
+	@echo "... tests/gui_tests.o"
+	@echo "... tests/gui_tests.i"
+	@echo "... tests/gui_tests.s"
+	@echo "... tests/health_score_test.o"
+	@echo "... tests/health_score_test.i"
+	@echo "... tests/health_score_test.s"
+	@echo "... tests/idle_detector_test.o"
+	@echo "... tests/idle_detector_test.i"
+	@echo "... tests/idle_detector_test.s"
 	@echo "... tests/reminder_scheduler_test.o"
 	@echo "... tests/reminder_scheduler_test.i"
 	@echo "... tests/reminder_scheduler_test.s"

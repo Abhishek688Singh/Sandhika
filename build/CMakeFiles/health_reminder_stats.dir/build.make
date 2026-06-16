@@ -69,10 +69,24 @@ include CMakeFiles/health_reminder_stats.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/health_reminder_stats.dir/flags.make
 
+CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o: CMakeFiles/health_reminder_stats.dir/flags.make
+CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o: health_reminder_stats_autogen/mocs_compilation.cpp
+CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o: CMakeFiles/health_reminder_stats.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o -MF CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o -c /home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp
+
+CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp > CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abhishek/game/hrm/build/health_reminder_stats_autogen/mocs_compilation.cpp -o CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o: CMakeFiles/health_reminder_stats.dir/flags.make
 CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o: /home/abhishek/game/hrm/src/stats/stats_manager.cpp
 CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o: CMakeFiles/health_reminder_stats.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o -MF CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o.d -o CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o -c /home/abhishek/game/hrm/src/stats/stats_manager.cpp
 
 CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.i: cmake_force
@@ -85,15 +99,17 @@ CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.s: cmake_force
 
 # Object files for target health_reminder_stats
 health_reminder_stats_OBJECTS = \
+"CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o"
 
 # External object files for target health_reminder_stats
 health_reminder_stats_EXTERNAL_OBJECTS =
 
+libhealth_reminder_stats.a: CMakeFiles/health_reminder_stats.dir/health_reminder_stats_autogen/mocs_compilation.cpp.o
 libhealth_reminder_stats.a: CMakeFiles/health_reminder_stats.dir/src/stats/stats_manager.cpp.o
 libhealth_reminder_stats.a: CMakeFiles/health_reminder_stats.dir/build.make
 libhealth_reminder_stats.a: CMakeFiles/health_reminder_stats.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libhealth_reminder_stats.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libhealth_reminder_stats.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/health_reminder_stats.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/health_reminder_stats.dir/link.txt --verbose=$(VERBOSE)
 

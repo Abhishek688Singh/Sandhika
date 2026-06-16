@@ -2,6 +2,7 @@
 
 #include "health_reminder/brightness/brightness_controller.h"
 
+#include <QObject>
 #include <chrono>
 #include <condition_variable>
 #include <functional>
@@ -11,19 +12,23 @@
 
 namespace health_reminder::strict {
 
+class StrictBreakDialog;
+
 struct StrictBreakState {
     bool active {false};
     bool skip_enabled {false};
     std::chrono::seconds remaining {0};
 };
 
-class StrictBreakWindow {
+class StrictBreakWindow : public QObject {
+    Q_OBJECT
+
 public:
     using FinishedCallback = std::function<void()>;
     using SkippedCallback = std::function<void()>;
 
     explicit StrictBreakWindow(std::shared_ptr<brightness::BrightnessController> brightness_controller);
-    ~StrictBreakWindow();
+    ~StrictBreakWindow() override;
 
     StrictBreakWindow(const StrictBreakWindow&) = delete;
     StrictBreakWindow& operator=(const StrictBreakWindow&) = delete;
@@ -39,6 +44,7 @@ public:
 private:
     void run(std::stop_token stop_token, std::chrono::seconds duration, std::chrono::seconds skip_unlock);
     void finish(bool skipped);
+    void updateUI(int remaining, bool skip_enabled);
 
     std::shared_ptr<brightness::BrightnessController> brightness_controller_;
     mutable std::mutex mutex_;
@@ -47,6 +53,7 @@ private:
     FinishedCallback finished_callback_;
     SkippedCallback skipped_callback_;
     StrictBreakState state_;
+    StrictBreakDialog* dialog_ {nullptr};
 };
 
 }  // namespace health_reminder::strict

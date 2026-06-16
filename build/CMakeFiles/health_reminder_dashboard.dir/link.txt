@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_reminder_dashboard.a CMakeFiles/health_reminder_dashboard.dir/health_reminder_dashboard_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_dashboard.dir/src/dashboard/dashboard_window.cpp.o
+/usr/bin/ranlib libhealth_reminder_dashboard.a

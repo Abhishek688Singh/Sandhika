@@ -1,2 +1,2 @@
-/usr/bin/ar qc libhealth_reminder_scheduler.a CMakeFiles/health_reminder_scheduler.dir/src/scheduler/reminder_scheduler.cpp.o
+/usr/bin/ar qc libhealth_reminder_scheduler.a CMakeFiles/health_reminder_scheduler.dir/health_reminder_scheduler_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_scheduler.dir/src/scheduler/reminder_scheduler.cpp.o
 /usr/bin/ranlib libhealth_reminder_scheduler.a

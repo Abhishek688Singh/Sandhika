@@ -358,6 +358,11 @@ _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o: _deps/yaml-
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o: _deps/yaml-cpp-build/util/yaml-cpp-parse_autogen/mocs_compilation.cpp \
+  /usr/include/stdc-predef.h
+
+
+_deps/yaml-cpp-build/util/yaml-cpp-parse_autogen/mocs_compilation.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 

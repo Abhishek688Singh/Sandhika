@@ -74,7 +74,12 @@ namespace {
     std::tm local = local_time(from);
     auto candidate = make_local_time_point(local.tm_year + 1900, local.tm_mon + 1, local.tm_mday, at);
     if (candidate <= from) {
-        candidate += std::chrono::hours(24);
+        local.tm_mday += 1;
+        local.tm_hour = at.hour;
+        local.tm_min = at.minute;
+        local.tm_sec = 0;
+        local.tm_isdst = -1;
+        candidate = std::chrono::system_clock::from_time_t(std::mktime(&local));
     }
     return candidate;
 }
@@ -88,10 +93,15 @@ namespace {
     const int target_weekday = weekday_to_tm(weekday);
     int days_ahead = (target_weekday - current_weekday + 7) % 7;
 
-    auto candidate = make_local_time_point(local.tm_year + 1900, local.tm_mon + 1, local.tm_mday, at) +
-                     std::chrono::hours(24 * days_ahead);
-    if (candidate <= from) {
-        candidate += std::chrono::hours(24 * 7);
+    auto candidate = make_local_time_point(local.tm_year + 1900, local.tm_mon + 1, local.tm_mday, at);
+    if (days_ahead > 0 || candidate <= from) {
+        if (days_ahead == 0) days_ahead = 7;
+        local.tm_mday += days_ahead;
+        local.tm_hour = at.hour;
+        local.tm_min = at.minute;
+        local.tm_sec = 0;
+        local.tm_isdst = -1;
+        candidate = std::chrono::system_clock::from_time_t(std::mktime(&local));
     }
     return candidate;
 }
@@ -105,11 +115,10 @@ namespace {
     int month = local.tm_mon + 1;
 
     for (int attempts = 0; attempts < 24; ++attempts) {
-        if (day <= days_in_month(year, month)) {
-            auto candidate = make_local_time_point(year, month, day, at);
-            if (candidate > from) {
-                return candidate;
-            }
+        const int target_day = std::min(day, days_in_month(year, month));
+        auto candidate = make_local_time_point(year, month, target_day, at);
+        if (candidate > from) {
+            return candidate;
         }
 
         ++month;

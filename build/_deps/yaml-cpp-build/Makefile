@@ -533,6 +533,34 @@ yaml-cpp/fast:
 	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build
 .PHONY : yaml-cpp/fast
 
+# Convenience name for target.
+_deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/rule
+.PHONY : _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+yaml-cpp_autogen_timestamp_deps: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/rule
+.PHONY : yaml-cpp_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp_autogen_timestamp_deps/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp_autogen_timestamp_deps/fast
+
+# Convenience name for target.
+_deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/rule
+.PHONY : _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/rule
+
+# Convenience name for target.
+yaml-cpp_autogen: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/rule
+.PHONY : yaml-cpp_autogen
+
+# fast build rule for target.
+yaml-cpp_autogen/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/build
+.PHONY : yaml-cpp_autogen/fast
+
 src/binary.o: src/binary.cpp.o
 .PHONY : src/binary.o
 
@@ -1301,6 +1329,30 @@ src/tag.cpp.s:
 	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.s
 .PHONY : src/tag.cpp.s
 
+yaml-cpp_autogen/mocs_compilation.o: yaml-cpp_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp_autogen/mocs_compilation.o
+
+# target to build an object file
+yaml-cpp_autogen/mocs_compilation.cpp.o:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/yaml-cpp_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp_autogen/mocs_compilation.cpp.o
+
+yaml-cpp_autogen/mocs_compilation.i: yaml-cpp_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+yaml-cpp_autogen/mocs_compilation.cpp.i:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/yaml-cpp_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp_autogen/mocs_compilation.cpp.i
+
+yaml-cpp_autogen/mocs_compilation.s: yaml-cpp_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+yaml-cpp_autogen/mocs_compilation.cpp.s:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/yaml-cpp_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1338,6 +1390,8 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... yaml-cpp_autogen"
+	@echo "... yaml-cpp_autogen_timestamp_deps"
 	@echo "... yaml-cpp"
 	@echo "... src/binary.o"
 	@echo "... src/binary.i"
@@ -1435,6 +1489,9 @@ help:
 	@echo "... src/tag.o"
 	@echo "... src/tag.i"
 	@echo "... src/tag.s"
+	@echo "... yaml-cpp_autogen/mocs_compilation.o"
+	@echo "... yaml-cpp_autogen/mocs_compilation.i"
+	@echo "... yaml-cpp_autogen/mocs_compilation.s"
 .PHONY : help
 
 

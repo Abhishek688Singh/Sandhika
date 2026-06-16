@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DYAML_CPP_STATIC_DEFINE
 
-CXX_INCLUDES = -I/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/include
+CXX_INCLUDES = -I/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/include -isystem /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util/yaml-cpp-sandbox_autogen/include
 
 CXX_FLAGS = -std=c++20
 

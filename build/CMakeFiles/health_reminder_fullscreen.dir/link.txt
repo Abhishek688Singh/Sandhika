@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_reminder_fullscreen.a CMakeFiles/health_reminder_fullscreen.dir/health_reminder_fullscreen_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_fullscreen.dir/src/fullscreen/fullscreen_detector.cpp.o
+/usr/bin/ranlib libhealth_reminder_fullscreen.a

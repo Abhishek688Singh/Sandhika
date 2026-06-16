@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/yaml-cpp-read.dir/read.cpp.o" -o read  ../libyaml-cpp.a 
+/usr/bin/c++ "CMakeFiles/yaml-cpp-read.dir/yaml-cpp-read_autogen/mocs_compilation.cpp.o" "CMakeFiles/yaml-cpp-read.dir/read.cpp.o" -o read  ../libyaml-cpp.a 

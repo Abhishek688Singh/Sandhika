@@ -14,6 +14,21 @@
 namespace health_reminder::commands {
 namespace {
 
+struct FdHelper {
+    int fd {-1};
+    ~FdHelper() {
+        if (fd >= 0) {
+            close(fd);
+        }
+    }
+    void reset() {
+        if (fd >= 0) {
+            close(fd);
+            fd = -1;
+        }
+    }
+};
+
 void set_nonblocking(int fd) {
     const int flags = fcntl(fd, F_GETFL, 0);
     if (flags >= 0) {
@@ -22,6 +37,7 @@ void set_nonblocking(int fd) {
 }
 
 void append_available(int fd, std::string& output) {
+    if (fd < 0) return;
     std::array<char, 4096> buffer {};
     for (;;) {
         const ssize_t count = read(fd, buffer.data(), buffer.size());
@@ -57,30 +73,31 @@ CommandExecutionResult CommandExecutor::execute(const std::string& command, std:
         throw std::runtime_error("Failed to create command pipes");
     }
 
+    FdHelper out_read{stdout_pipe[0]};
+    FdHelper out_write{stdout_pipe[1]};
+    FdHelper err_read{stderr_pipe[0]};
+    FdHelper err_write{stderr_pipe[1]};
+
     const pid_t pid = fork();
     if (pid < 0) {
-        close(stdout_pipe[0]);
-        close(stdout_pipe[1]);
-        close(stderr_pipe[0]);
-        close(stderr_pipe[1]);
         throw std::runtime_error("Failed to fork command process");
     }
 
     if (pid == 0) {
-        close(stdout_pipe[0]);
-        close(stderr_pipe[0]);
-        dup2(stdout_pipe[1], STDOUT_FILENO);
-        dup2(stderr_pipe[1], STDERR_FILENO);
-        close(stdout_pipe[1]);
-        close(stderr_pipe[1]);
+        out_read.reset();
+        err_read.reset();
+        dup2(out_write.fd, STDOUT_FILENO);
+        dup2(err_write.fd, STDERR_FILENO);
+        out_write.reset();
+        err_write.reset();
         execl("/bin/sh", "sh", "-lc", command.c_str(), static_cast<char*>(nullptr));
         _exit(127);
     }
 
-    close(stdout_pipe[1]);
-    close(stderr_pipe[1]);
-    set_nonblocking(stdout_pipe[0]);
-    set_nonblocking(stderr_pipe[0]);
+    out_write.reset();
+    err_write.reset();
+    set_nonblocking(out_read.fd);
+    set_nonblocking(err_read.fd);
 
     CommandExecutionResult result;
     const auto deadline = std::chrono::steady_clock::now() + timeout;
@@ -88,8 +105,8 @@ CommandExecutionResult CommandExecutor::execute(const std::string& command, std:
     bool child_done = false;
 
     while (!child_done) {
-        append_available(stdout_pipe[0], result.stdout_text);
-        append_available(stderr_pipe[0], result.stderr_text);
+        append_available(out_read.fd, result.stdout_text);
+        append_available(err_read.fd, result.stderr_text);
 
         const pid_t wait_result = waitpid(pid, &status, WNOHANG);
         if (wait_result == pid) {
@@ -111,17 +128,15 @@ CommandExecutionResult CommandExecutor::execute(const std::string& command, std:
 
         fd_set read_fds;
         FD_ZERO(&read_fds);
-        FD_SET(stdout_pipe[0], &read_fds);
-        FD_SET(stderr_pipe[0], &read_fds);
+        FD_SET(out_read.fd, &read_fds);
+        FD_SET(err_read.fd, &read_fds);
         timeval wait_time {.tv_sec = 0, .tv_usec = 50000};
-        const int max_fd = std::max(stdout_pipe[0], stderr_pipe[0]) + 1;
+        const int max_fd = std::max(out_read.fd, err_read.fd) + 1;
         (void)select(max_fd, &read_fds, nullptr, nullptr, &wait_time);
     }
 
-    append_available(stdout_pipe[0], result.stdout_text);
-    append_available(stderr_pipe[0], result.stderr_text);
-    close(stdout_pipe[0]);
-    close(stderr_pipe[0]);
+    append_available(out_read.fd, result.stdout_text);
+    append_available(err_read.fd, result.stderr_text);
 
     if (result.timed_out) {
         result.exit_code = -1;

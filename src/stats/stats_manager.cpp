@@ -242,7 +242,15 @@ int StatsManager::calculateHealthScore(const DailyStats& stats) {
 }
 
 std::chrono::year_month_day StatsManager::currentDate() {
-    return std::chrono::year_month_day {std::chrono::floor<std::chrono::days>(std::chrono::system_clock::now())};
+    const auto now = std::chrono::system_clock::now();
+    const std::time_t raw = std::chrono::system_clock::to_time_t(now);
+    std::tm local {};
+    localtime_r(&raw, &local);
+    return std::chrono::year_month_day {
+        std::chrono::year {local.tm_year + 1900},
+        std::chrono::month {static_cast<unsigned int>(local.tm_mon + 1)},
+        std::chrono::day {static_cast<unsigned int>(local.tm_mday)}
+    };
 }
 
 std::string StatsManager::formatDate(std::chrono::year_month_day date) {
@@ -354,13 +362,21 @@ void StatsManager::saveDay(const DailyStats& stats) const {
         throw StatsError("Failed to serialize stats file '" + path.string() + "'");
     }
 
-    std::ofstream file(path, std::ios::trunc);
-    if (!file) {
-        throw StatsError("Failed to open stats file for writing: " + path.string());
+    const auto tmp_path = path.string() + ".tmp";
+    {
+        std::ofstream file(tmp_path, std::ios::trunc);
+        if (!file) {
+            throw StatsError("Failed to open temporary stats file for writing: " + tmp_path);
+        }
+        file << out.c_str() << '\n';
+        if (!file.good()) {
+            throw StatsError("Failed to write temporary stats file: " + tmp_path);
+        }
     }
-    file << out.c_str() << '\n';
-    if (!file.good()) {
-        throw StatsError("Failed to write stats file: " + path.string());
+    std::error_code ec;
+    std::filesystem::rename(tmp_path, path, ec);
+    if (ec) {
+        throw StatsError("Failed to rename temporary stats file to: " + path.string());
     }
 }
 

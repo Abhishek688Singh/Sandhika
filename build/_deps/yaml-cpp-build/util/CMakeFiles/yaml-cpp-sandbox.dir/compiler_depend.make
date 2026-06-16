@@ -353,6 +353,9 @@ _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o: _deps/y
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/yaml-cpp-sandbox_autogen/mocs_compilation.cpp.o: _deps/yaml-cpp-build/util/yaml-cpp-sandbox_autogen/mocs_compilation.cpp \
+  /usr/include/stdc-predef.h
+
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -497,6 +500,8 @@ _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o: _deps/y
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 _deps/yaml-cpp-src/include/yaml-cpp/fptostring.h:
+
+_deps/yaml-cpp-build/util/yaml-cpp-sandbox_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/stl_multiset.h:
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/abhishek/game/hrm/build/config_manager_test_autogen/mocs_compilation.cpp" "CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o.d"
   "/home/abhishek/game/hrm/tests/config_manager_test.cpp" "CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o" "gcc" "CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o.d"
   )
 

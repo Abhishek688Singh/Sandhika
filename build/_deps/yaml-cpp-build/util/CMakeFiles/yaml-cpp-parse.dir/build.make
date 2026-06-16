@@ -69,10 +69,24 @@ include _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/progress.make
 # Include the compile flags for this target's objects.
 include _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/flags.make
 
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/flags.make
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o: _deps/yaml-cpp-build/util/yaml-cpp-parse_autogen/mocs_compilation.cpp
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o"
+	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o -MF CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o -c /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util/yaml-cpp-parse_autogen/mocs_compilation.cpp
+
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.i"
+	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util/yaml-cpp-parse_autogen/mocs_compilation.cpp > CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.i
+
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.s"
+	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util/yaml-cpp-parse_autogen/mocs_compilation.cpp -o CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.s
+
 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/flags.make
 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o: _deps/yaml-cpp-src/util/parse.cpp
 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o"
 	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o -MF CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o.d -o CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o -c /home/abhishek/game/hrm/build/_deps/yaml-cpp-src/util/parse.cpp
 
 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.i: cmake_force
@@ -85,16 +99,18 @@ _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.s: cmake_force
 
 # Object files for target yaml-cpp-parse
 yaml__cpp__parse_OBJECTS = \
+"CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o"
 
 # External object files for target yaml-cpp-parse
 yaml__cpp__parse_EXTERNAL_OBJECTS =
 
+_deps/yaml-cpp-build/util/parse: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o
 _deps/yaml-cpp-build/util/parse: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o
 _deps/yaml-cpp-build/util/parse: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/build.make
 _deps/yaml-cpp-build/util/parse: _deps/yaml-cpp-build/libyaml-cpp.a
 _deps/yaml-cpp-build/util/parse: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable parse"
 	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yaml-cpp-parse.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_reminder_commands.a CMakeFiles/health_reminder_commands.dir/health_reminder_commands_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_commands.dir/src/commands/command_executor.cpp.o
+/usr/bin/ranlib libhealth_reminder_commands.a

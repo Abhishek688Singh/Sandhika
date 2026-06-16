@@ -69,10 +69,24 @@ include CMakeFiles/config_manager_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/config_manager_test.dir/flags.make
 
+CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o: CMakeFiles/config_manager_test.dir/flags.make
+CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o: config_manager_test_autogen/mocs_compilation.cpp
+CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o: CMakeFiles/config_manager_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o -MF CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o -c /home/abhishek/game/hrm/build/config_manager_test_autogen/mocs_compilation.cpp
+
+CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abhishek/game/hrm/build/config_manager_test_autogen/mocs_compilation.cpp > CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abhishek/game/hrm/build/config_manager_test_autogen/mocs_compilation.cpp -o CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o: CMakeFiles/config_manager_test.dir/flags.make
 CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o: /home/abhishek/game/hrm/tests/config_manager_test.cpp
 CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o: CMakeFiles/config_manager_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o -MF CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o.d -o CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o -c /home/abhishek/game/hrm/tests/config_manager_test.cpp
 
 CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.i: cmake_force
@@ -85,17 +99,29 @@ CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.s: cmake_force
 
 # Object files for target config_manager_test
 config_manager_test_OBJECTS = \
+"CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o"
 
 # External object files for target config_manager_test
 config_manager_test_EXTERNAL_OBJECTS =
 
+config_manager_test: CMakeFiles/config_manager_test.dir/config_manager_test_autogen/mocs_compilation.cpp.o
 config_manager_test: CMakeFiles/config_manager_test.dir/tests/config_manager_test.cpp.o
 config_manager_test: CMakeFiles/config_manager_test.dir/build.make
 config_manager_test: libhealth_reminder_config.a
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Charts.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGLWidgets.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Svg.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libGLX.so
+config_manager_test: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
+config_manager_test: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 config_manager_test: _deps/yaml-cpp-build/libyaml-cpp.a
 config_manager_test: CMakeFiles/config_manager_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable config_manager_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable config_manager_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config_manager_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

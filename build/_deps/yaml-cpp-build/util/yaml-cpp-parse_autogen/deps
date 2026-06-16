@@ -1,0 +1,4 @@
+yaml-cpp-parse_autogen/timestamp: \
+	/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/util/CMakeLists.txt \
+	/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/util/parse.cpp \
+	/usr/bin/cmake

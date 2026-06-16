@@ -9,6 +9,7 @@
 #include <stdexcept>
 #include <string_view>
 #include <unordered_map>
+#include <fstream>
 
 namespace health_reminder::config {
 namespace {
@@ -323,10 +324,44 @@ void ConfigManager::reload() {
     try {
         absolute_path = std::filesystem::absolute(config_path_);
         if (!std::filesystem::exists(absolute_path)) {
-            throw ConfigError("Config file not found: " + absolute_path.string());
+            std::error_code ec;
+            std::filesystem::create_directories(absolute_path.parent_path(), ec);
+            
+            bool copied = false;
+            if (std::filesystem::exists("config/config.example.yaml", ec)) {
+                copied = std::filesystem::copy_file("config/config.example.yaml", absolute_path, std::filesystem::copy_options::skip_existing, ec);
+            }
+            
+            if (!copied) {
+                std::ofstream out(absolute_path);
+                if (out) {
+                    out << "eye_break:\n  enabled: true\n  interval: 20m\n  duration: 20s\n  strict_mode: false\n  skip_unlock: 60s\n  sound: true\n"
+                        << "\nwater:\n  enabled: true\n  interval: 1h\n  sound: true\n"
+                        << "\nquiet_hours:\n  enabled: false\n  start: \"23:00\"\n  end: \"07:00\"\n";
+                }
+            }
+            
+            if (!std::filesystem::exists(absolute_path, ec)) {
+                std::unique_lock lock(mutex_);
+                eye_break_config_ = EyeBreakConfig();
+                water_config_ = WaterConfig();
+                custom_reminders_.clear();
+                quiet_hours_ = QuietHoursConfig();
+                weekend_config_ = WeekendConfig();
+                battery_config_ = BatteryConfig();
+                return;
+            }
         }
-    } catch (const std::filesystem::filesystem_error& ex) {
-        throw ConfigError("Filesystem error while reading config '" + config_path_.string() + "': " + ex.what());
+    } catch (const std::exception& ex) {
+        // If anything fails during the fallback process, just load defaults
+        std::unique_lock lock(mutex_);
+        eye_break_config_ = EyeBreakConfig();
+        water_config_ = WaterConfig();
+        custom_reminders_.clear();
+        quiet_hours_ = QuietHoursConfig();
+        weekend_config_ = WeekendConfig();
+        battery_config_ = BatteryConfig();
+        return;
     }
 
     YAML::Node root;

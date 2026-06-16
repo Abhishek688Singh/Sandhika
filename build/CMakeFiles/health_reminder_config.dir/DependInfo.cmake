@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/abhishek/game/hrm/build/health_reminder_config_autogen/mocs_compilation.cpp" "CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/health_reminder_config.dir/health_reminder_config_autogen/mocs_compilation.cpp.o.d"
   "/home/abhishek/game/hrm/src/config/config_manager.cpp" "CMakeFiles/health_reminder_config.dir/src/config/config_manager.cpp.o" "gcc" "CMakeFiles/health_reminder_config.dir/src/config/config_manager.cpp.o.d"
   )
 

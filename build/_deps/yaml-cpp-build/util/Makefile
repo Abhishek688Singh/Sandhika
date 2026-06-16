@@ -169,6 +169,90 @@ yaml-cpp-read/fast:
 	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build
 .PHONY : yaml-cpp-read/fast
 
+# Convenience name for target.
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/rule
+.PHONY : _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+yaml-cpp-sandbox_autogen_timestamp_deps: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/rule
+.PHONY : yaml-cpp-sandbox_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp-sandbox_autogen_timestamp_deps/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp-sandbox_autogen_timestamp_deps/fast
+
+# Convenience name for target.
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/rule
+.PHONY : _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/rule
+
+# Convenience name for target.
+yaml-cpp-sandbox_autogen: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/rule
+.PHONY : yaml-cpp-sandbox_autogen
+
+# fast build rule for target.
+yaml-cpp-sandbox_autogen/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox_autogen.dir/build
+.PHONY : yaml-cpp-sandbox_autogen/fast
+
+# Convenience name for target.
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/rule
+.PHONY : _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+yaml-cpp-parse_autogen_timestamp_deps: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/rule
+.PHONY : yaml-cpp-parse_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp-parse_autogen_timestamp_deps/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp-parse_autogen_timestamp_deps/fast
+
+# Convenience name for target.
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/rule
+.PHONY : _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/rule
+
+# Convenience name for target.
+yaml-cpp-parse_autogen: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/rule
+.PHONY : yaml-cpp-parse_autogen
+
+# fast build rule for target.
+yaml-cpp-parse_autogen/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse_autogen.dir/build
+.PHONY : yaml-cpp-parse_autogen/fast
+
+# Convenience name for target.
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/rule
+.PHONY : _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+yaml-cpp-read_autogen_timestamp_deps: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/rule
+.PHONY : yaml-cpp-read_autogen_timestamp_deps
+
+# fast build rule for target.
+yaml-cpp-read_autogen_timestamp_deps/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen_timestamp_deps.dir/build
+.PHONY : yaml-cpp-read_autogen_timestamp_deps/fast
+
+# Convenience name for target.
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/rule:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/rule
+.PHONY : _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/rule
+
+# Convenience name for target.
+yaml-cpp-read_autogen: _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/rule
+.PHONY : yaml-cpp-read_autogen
+
+# fast build rule for target.
+yaml-cpp-read_autogen/fast:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read_autogen.dir/build
+.PHONY : yaml-cpp-read_autogen/fast
+
 parse.o: parse.cpp.o
 .PHONY : parse.o
 
@@ -241,6 +325,78 @@ sandbox.cpp.s:
 	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.s
 .PHONY : sandbox.cpp.s
 
+yaml-cpp-parse_autogen/mocs_compilation.o: yaml-cpp-parse_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp-parse_autogen/mocs_compilation.o
+
+# target to build an object file
+yaml-cpp-parse_autogen/mocs_compilation.cpp.o:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp-parse_autogen/mocs_compilation.cpp.o
+
+yaml-cpp-parse_autogen/mocs_compilation.i: yaml-cpp-parse_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp-parse_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+yaml-cpp-parse_autogen/mocs_compilation.cpp.i:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp-parse_autogen/mocs_compilation.cpp.i
+
+yaml-cpp-parse_autogen/mocs_compilation.s: yaml-cpp-parse_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp-parse_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+yaml-cpp-parse_autogen/mocs_compilation.cpp.s:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-parse.dir/yaml-cpp-parse_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp-parse_autogen/mocs_compilation.cpp.s
+
+yaml-cpp-read_autogen/mocs_compilation.o: yaml-cpp-read_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp-read_autogen/mocs_compilation.o
+
+# target to build an object file
+yaml-cpp-read_autogen/mocs_compilation.cpp.o:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/yaml-cpp-read_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp-read_autogen/mocs_compilation.cpp.o
+
+yaml-cpp-read_autogen/mocs_compilation.i: yaml-cpp-read_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp-read_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+yaml-cpp-read_autogen/mocs_compilation.cpp.i:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/yaml-cpp-read_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp-read_autogen/mocs_compilation.cpp.i
+
+yaml-cpp-read_autogen/mocs_compilation.s: yaml-cpp-read_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp-read_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+yaml-cpp-read_autogen/mocs_compilation.cpp.s:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-read.dir/yaml-cpp-read_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp-read_autogen/mocs_compilation.cpp.s
+
+yaml-cpp-sandbox_autogen/mocs_compilation.o: yaml-cpp-sandbox_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp-sandbox_autogen/mocs_compilation.o
+
+# target to build an object file
+yaml-cpp-sandbox_autogen/mocs_compilation.cpp.o:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/yaml-cpp-sandbox_autogen/mocs_compilation.cpp.o
+.PHONY : yaml-cpp-sandbox_autogen/mocs_compilation.cpp.o
+
+yaml-cpp-sandbox_autogen/mocs_compilation.i: yaml-cpp-sandbox_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp-sandbox_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+yaml-cpp-sandbox_autogen/mocs_compilation.cpp.i:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/yaml-cpp-sandbox_autogen/mocs_compilation.cpp.i
+.PHONY : yaml-cpp-sandbox_autogen/mocs_compilation.cpp.i
+
+yaml-cpp-sandbox_autogen/mocs_compilation.s: yaml-cpp-sandbox_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp-sandbox_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+yaml-cpp-sandbox_autogen/mocs_compilation.cpp.s:
+	cd /home/abhishek/game/hrm/build && $(MAKE) $(MAKESILENT) -f _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/yaml-cpp-sandbox_autogen/mocs_compilation.cpp.s
+.PHONY : yaml-cpp-sandbox_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,6 +406,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... yaml-cpp-parse_autogen"
+	@echo "... yaml-cpp-parse_autogen_timestamp_deps"
+	@echo "... yaml-cpp-read_autogen"
+	@echo "... yaml-cpp-read_autogen_timestamp_deps"
+	@echo "... yaml-cpp-sandbox_autogen"
+	@echo "... yaml-cpp-sandbox_autogen_timestamp_deps"
 	@echo "... yaml-cpp-parse"
 	@echo "... yaml-cpp-read"
 	@echo "... yaml-cpp-sandbox"
@@ -262,6 +424,15 @@ help:
 	@echo "... sandbox.o"
 	@echo "... sandbox.i"
 	@echo "... sandbox.s"
+	@echo "... yaml-cpp-parse_autogen/mocs_compilation.o"
+	@echo "... yaml-cpp-parse_autogen/mocs_compilation.i"
+	@echo "... yaml-cpp-parse_autogen/mocs_compilation.s"
+	@echo "... yaml-cpp-read_autogen/mocs_compilation.o"
+	@echo "... yaml-cpp-read_autogen/mocs_compilation.i"
+	@echo "... yaml-cpp-read_autogen/mocs_compilation.s"
+	@echo "... yaml-cpp-sandbox_autogen/mocs_compilation.o"
+	@echo "... yaml-cpp-sandbox_autogen/mocs_compilation.i"
+	@echo "... yaml-cpp-sandbox_autogen/mocs_compilation.s"
 .PHONY : help
 
 

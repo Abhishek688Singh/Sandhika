@@ -354,3 +354,7 @@ _deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.o
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
+_deps/yaml-cpp-build/util/CMakeFiles/yaml-cpp-sandbox.dir/yaml-cpp-sandbox_autogen/mocs_compilation.cpp.o
+ /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/util/yaml-cpp-sandbox_autogen/mocs_compilation.cpp
+ /usr/include/stdc-predef.h
+

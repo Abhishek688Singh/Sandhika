@@ -1,0 +1,4 @@
+yaml-cpp-read_autogen/timestamp: \
+	/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/util/CMakeLists.txt \
+	/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/util/read.cpp \
+	/usr/bin/cmake

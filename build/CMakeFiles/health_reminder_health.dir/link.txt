@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhealth_reminder_health.a CMakeFiles/health_reminder_health.dir/health_reminder_health_autogen/mocs_compilation.cpp.o CMakeFiles/health_reminder_health.dir/src/health/health_score_calculator.cpp.o
+/usr/bin/ranlib libhealth_reminder_health.a
