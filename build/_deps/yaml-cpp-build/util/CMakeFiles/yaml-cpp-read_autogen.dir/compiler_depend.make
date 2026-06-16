@@ -3,6 +3,9 @@
 
 _deps/yaml-cpp-build/util/yaml-cpp-read_autogen/timestamp: _deps/yaml-cpp-src/util/CMakeLists.txt \
   _deps/yaml-cpp-src/util/read.cpp \
+  /usr/bin/cmake \
+  _deps/yaml-cpp-src/util/CMakeLists.txt \
+  _deps/yaml-cpp-src/util/read.cpp \
   /usr/bin/cmake
 
 

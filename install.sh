@@ -25,6 +25,7 @@ systemctl --user restart sandhika.service
 echo "Setting up config and data directories..."
 mkdir -p ~/.config/sandhika
 mkdir -p ~/.local/share/sandhika/stats
-cp config/config.example.yaml ~/.config/sandhika/config.yaml
-
+if [ ! -f ~/.config/sandhika/config.yaml ]; then
+    cp config/config.example.yaml ~/.config/sandhika/config.yaml
+fi
 echo "Done!"

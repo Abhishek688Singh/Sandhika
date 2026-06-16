@@ -72,7 +72,7 @@ health_score_test_autogen/timestamp: /usr/lib/qt6/libexec/moc
 health_score_test_autogen/timestamp: /usr/lib/qt6/libexec/uic
 health_score_test_autogen/timestamp: CMakeFiles/health_score_test_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target health_score_test"
-	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/health_score_test_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/health_score_test_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/abhishek/game/hrm/build/health_score_test_autogen/timestamp
 
 health_score_test_autogen: CMakeFiles/health_score_test_autogen

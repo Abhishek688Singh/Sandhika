@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_N
 
 CXX_INCLUDES = -I/home/abhishek/game/hrm/build/sandhika_autogen/include -I/home/abhishek/game/hrm/include -I/home/abhishek/game/hrm/build/_deps/yaml-cpp-src/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCharts -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGLWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtSvg -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork
 
-CXX_FLAGS = -std=c++20 -fPIC
+CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -fPIC
 

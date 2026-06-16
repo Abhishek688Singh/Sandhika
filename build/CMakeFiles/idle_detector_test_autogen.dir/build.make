@@ -72,7 +72,7 @@ idle_detector_test_autogen/timestamp: /usr/lib/qt6/libexec/moc
 idle_detector_test_autogen/timestamp: /usr/lib/qt6/libexec/uic
 idle_detector_test_autogen/timestamp: CMakeFiles/idle_detector_test_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target idle_detector_test"
-	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/idle_detector_test_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/idle_detector_test_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/abhishek/game/hrm/build/idle_detector_test_autogen/timestamp
 
 idle_detector_test_autogen: CMakeFiles/idle_detector_test_autogen

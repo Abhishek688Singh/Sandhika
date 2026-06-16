@@ -142,13 +142,86 @@ battery:
 
 ### Custom Actions
 
-Custom reminders may define a command:
+Custom reminders can execute shell commands automatically when the reminder is triggered.
+
+This is useful for:
+
+* Pausing music or videos
+* Opening websites
+* Running backup scripts
+* Launching applications
+* Locking the screen
+* Sending notifications to other devices
+* Starting focus sessions
+
+Examples:
 
 ```yaml
+# Pause currently playing media
 command: "playerctl pause"
-command: "~/scripts/backup.sh"
+
+# Resume media
+command: "playerctl play"
+
+# Open a website
 command: "xdg-open https://example.com"
+
+# Open Google Calendar
+command: "xdg-open https://calendar.google.com"
+
+# Run a custom shell script
+command: "~/scripts/backup.sh"
+
+# Start a Pomodoro timer
+command: "~/scripts/start_pomodoro.sh"
+
+# Launch an application
+command: "code"
+
+# Open Obsidian notes
+command: "obsidian"
+
+# Lock the screen
+command: "loginctl lock-session"
+
+# Suspend the system
+command: "systemctl suspend"
+
+# Send desktop notification
+command: "notify-send 'Reminder' 'Take a short walk'"
+
+# Turn off media mode
+command: "sandhika media off"
 ```
+
+Example reminder:
+
+```yaml
+- name: "Take Medicine"
+  interval: 4h
+  message: "Take your medicine"
+  sound: true
+  icon: medicine
+  command: "notify-send 'Medicine Time' 'Take your medicine now'"
+```
+
+Another example:
+
+```yaml
+- name: "Stretch"
+  interval: 45m
+  message: "Stand up and stretch"
+  command: "~/scripts/stretch.sh"
+```
+
+**Notes**
+
+* Commands are executed using the user's shell.
+* Environment variables such as `$HOME` are supported.
+* `~` expands to the user's home directory.
+* Long-running commands should preferably be executed through scripts.
+* Commands are executed asynchronously, so they do not block Sandhika.
+* If a command fails, the reminder will still be shown normally.
 
 Commands run asynchronously, capture stdout/stderr, and enforce timeouts.
 

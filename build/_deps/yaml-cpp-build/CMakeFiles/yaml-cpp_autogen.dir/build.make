@@ -72,7 +72,7 @@ _deps/yaml-cpp-build/yaml-cpp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 _deps/yaml-cpp-build/yaml-cpp_autogen/timestamp: /usr/lib/qt6/libexec/uic
 _deps/yaml-cpp-build/yaml-cpp_autogen/timestamp: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target yaml-cpp"
-	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build && /usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/AutogenInfo.json ""
+	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build && /usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen.dir/AutogenInfo.json Release
 	cd /home/abhishek/game/hrm/build/_deps/yaml-cpp-build && /usr/bin/cmake -E touch /home/abhishek/game/hrm/build/_deps/yaml-cpp-build/yaml-cpp_autogen/timestamp
 
 yaml-cpp_autogen: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp_autogen

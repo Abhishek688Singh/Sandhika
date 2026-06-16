@@ -3,6 +3,9 @@
 
 _deps/yaml-cpp-build/util/yaml-cpp-sandbox_autogen/timestamp: _deps/yaml-cpp-src/util/CMakeLists.txt \
   _deps/yaml-cpp-src/util/sandbox.cpp \
+  /usr/bin/cmake \
+  _deps/yaml-cpp-src/util/CMakeLists.txt \
+  _deps/yaml-cpp-src/util/sandbox.cpp \
   /usr/bin/cmake
 
 

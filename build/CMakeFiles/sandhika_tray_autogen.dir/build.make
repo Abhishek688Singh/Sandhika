@@ -72,7 +72,7 @@ sandhika_tray_autogen/timestamp: /usr/lib/qt6/libexec/moc
 sandhika_tray_autogen/timestamp: /usr/lib/qt6/libexec/uic
 sandhika_tray_autogen/timestamp: CMakeFiles/sandhika_tray_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target sandhika_tray"
-	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/sandhika_tray_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/sandhika_tray_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/abhishek/game/hrm/build/sandhika_tray_autogen/timestamp
 
 sandhika_tray_autogen: CMakeFiles/sandhika_tray_autogen

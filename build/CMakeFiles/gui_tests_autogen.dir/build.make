@@ -72,7 +72,7 @@ gui_tests_autogen/timestamp: /usr/lib/qt6/libexec/moc
 gui_tests_autogen/timestamp: /usr/lib/qt6/libexec/uic
 gui_tests_autogen/timestamp: CMakeFiles/gui_tests_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gui_tests"
-	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/gui_tests_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/gui_tests_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/abhishek/game/hrm/build/gui_tests_autogen/timestamp
 
 gui_tests_autogen: CMakeFiles/gui_tests_autogen

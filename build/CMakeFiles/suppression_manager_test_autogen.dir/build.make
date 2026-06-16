@@ -72,7 +72,7 @@ suppression_manager_test_autogen/timestamp: /usr/lib/qt6/libexec/moc
 suppression_manager_test_autogen/timestamp: /usr/lib/qt6/libexec/uic
 suppression_manager_test_autogen/timestamp: CMakeFiles/suppression_manager_test_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/abhishek/game/hrm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target suppression_manager_test"
-	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/suppression_manager_test_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/abhishek/game/hrm/build/CMakeFiles/suppression_manager_test_autogen.dir/AutogenInfo.json Release
 	/usr/bin/cmake -E touch /home/abhishek/game/hrm/build/suppression_manager_test_autogen/timestamp
 
 suppression_manager_test_autogen: CMakeFiles/suppression_manager_test_autogen
