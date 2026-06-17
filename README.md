@@ -121,7 +121,7 @@ Examples:
 
 ## Installation
 
-### Option 1: Download AppImage (Recommended)
+### Option 1: Download AppImage 
 
 Download the latest release from **GitHub Releases**.
 
@@ -141,7 +141,7 @@ No installation or dependencies are required.
 
 ---
 
-### Option 2: Install from Source
+### Option 2: Install from Source (Recommended)
 
 Clone the repository:
 
