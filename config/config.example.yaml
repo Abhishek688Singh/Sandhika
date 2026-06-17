@@ -42,31 +42,31 @@
 
 eye_break:
 
-enabled: true
+  enabled: true
 
 # Reminder frequency
 
-interval: 20m
+  interval: 20m
 
 # Break duration
 
-duration: 20s
+  duration: 20s
 
 # Fullscreen enforced break
 
-strict_mode: false
+  strict_mode: false
 
 # Skip button unlock time
 
-skip_unlock: 60s
+  skip_unlock: 60s
 
 # Play sound
 
-sound: true
+  sound: true
 
 # Notification icon
 
-icon: eye
+  icon: eye
 
 # ==========================================================
 
@@ -284,11 +284,11 @@ dashboard:
 
   enabled: true
 
-show_health_score: true
+  show_health_score: true
 
-show_streaks: true
+  show_streaks: true
 
-show_graphs: true
+  show_graphs: true
 
 # ==========================================================
 
@@ -300,9 +300,9 @@ tray:
 
   enabled: true
 
-show_countdown: true
+  show_countdown: true
 
-show_next_reminder: true
+  show_next_reminder: true
 
 # ==========================================================
 
@@ -330,7 +330,7 @@ stats:
 
   enabled: true
 
-retention_days: 30
+  retention_days: 30
 
 # ==========================================================
 
@@ -364,13 +364,15 @@ health_score:
 
   enabled: true
 
-eye_break_weight: 40
+  eye_break_weight: 40
 
-water_weight: 25
+  water_weight: 25
 
-streak_weight: 20
+  streak_weight: 20
 
-screen_time_weight: 15
+  screen_time_weight: 15
+
+################################## To be implemented in next release ########################################
 
 # ==========================================================
 
